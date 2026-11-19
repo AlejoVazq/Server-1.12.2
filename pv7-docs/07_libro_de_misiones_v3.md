@@ -77,6 +77,19 @@ El progreso de los jugadores se mantiene: ninguna de las misiones que cambiaron 
 - Libro: se quitó el capítulo "Better With Mods" (14 misiones), se renumeraron los capítulos 15-27 a 14-26 y se sacaron las menciones al Molino, el Kiln y las recetas difíciles. Quedan **118 misiones en 26 capítulos**. El progreso de las misiones 1400 y 1401 se perdió con el capítulo.
 - Los jugadores tienen que quitar esos dos JAR de su cliente.
 
+## Textos ampliados (2026-11-19, libro v8)
+- Se reescribieron las descripciones de unas 80 misiones para que expliquen **cómo** se consigue cada cosa, no solo qué hay que hacer. Están en la tabla `TEXTOS` de `herramientas/generar_misiones.py`, que reemplaza la descripción corta de cada misión al generar el libro.
+- Se borraron las líneas de referencia interna: `Logro "…"`, `ID: …`, "Usá solo guías de la versión 1.12.2", "Logro del mod: …", el aviso técnico de Harshen y la mención de PV7Core.
+- Astral Sorcery: los 9 textos salen del diario del propio mod (`en_US.lang`). Cada misión tiene su ícono propio (antes todas usaban polvo de piedra luminosa).
+- Datos sacados del código y verificados:
+  - **Cavern:** el marco es de **piedra musgosa o ladrillo de piedra musgoso** (antes decía "ladrillo de piedra", y está mal). Las llaves de cada portal son esmeralda, aguamarina, Miner's Thought Orb, cualquier brote, hielo compacto y diamante. A **Cavenia** se entra con clic derecho y un **Cavenic Orb** estando en cualquier caverna; el orbe lo sueltan los monstruos cavénicos 1 de cada 8 veces. El Miner's Thought Orb sale en los cofres de las torres-mazmorra (1-2 por cofre). La randomita suelta un objeto al azar. Los Magical Books los sueltan los jefes Crazy de Cavenia (el Crazy Zombie tiene 2000 de vida).
+  - **Betweenlands:** el Mummy Bait se arma con un frasco de aspecto Armaniis, una Shimmerstone, un corazón animado de Tar Beast y una bola de lodo. Se tira al suelo en los biomas Sludge Plains o Marsh. La savia sale del Sap Tree Log. Hay recetas confirmadas de la antorcha de azufre, los dos hornos de azufre, la mesa de weedwood y las espadas.
+  - **Elemental Dimensions:**
+    - El Dirt Zombie Boss aparece solo cerca de la medianoche en la dimensión Tierra.
+    - Las semillas de los otros jefes se tiran: la de agua al agua en la dimensión Agua; las de aire y fuego al suelo, en su dimensión. Las de aire y fuego explotan antes de que salga el jefe.
+  - **SpookyCraft:** el Scarecrow aparece de noche en las llanuras (Plains). Si de noche llevás una calabaza o una cabeza de mob puesta, aparecen monstruos espeluznantes alrededor; la opción `pumpkinHats` viene activada.
+- Siguen cortas (menos de 200 caracteres) 15 misiones que ya tienen la receta completa y no necesitan más.
+
 ## Lo que sigue pendiente
 1. **PV7Core** (clanes, puntos y ranking): en pausa hasta definir para qué se quiere.
 2. **Probar JourneyMap 6.0.10 con un jugador conectado.**

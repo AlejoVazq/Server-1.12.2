@@ -99,7 +99,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Tu primer mapa",
-          "desc:8": "Abrí JourneyMap (§eJ§r), creá un waypoint en tu base (§eB§r) y ponele nombre.\n\n§7El mapa también marca dónde moriste.§r",
+          "desc:8": "Apretá §eJ§r para abrir JourneyMap. Con §eB§r creás un §ewaypoint§r (un punto guardado) en donde estás parado: ponele un nombre como \"Casa\" y un color.\n\nLos waypoints se ven en el mapa y como un marcador en el mundo, así nunca te perdés. Hacé uno en cada lugar importante: tu base, una aldea, una cueva con minerales, un portal.\n\n§7Cuando morís, el mapa marca solo el lugar con un waypoint de muerte: ahí está tu tumba.§r",
           "icon:10": {
             "id:8": "minecraft:map",
             "Count:3": 1,
@@ -403,7 +403,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Comer bien y no perder todo",
-          "desc:8": "Conseguí §ecualquier comida cocinada§r (carnes, pescado, papa asada, pan o venado del Camping Mod). La comida cruda no envenena acá.\n\n§6Si morís:§r tu equipo queda en una §etumba§r (Tombstone); volvé a buscarla. En la §eHunting Dimension§r no podés reaparecer; en §eCavenia§r no perdés inventario ni experiencia.",
+          "desc:8": "Conseguí §ecualquier comida cocinada§r (carnes, pescado, papa asada, pan o venado del Camping Mod). \n\n§6Si morís:§r tu equipo queda en una §etumba§r (Tombstone); volvé a buscarla. En la §eHunting Dimension§r no podés reaparecer; en §eCavenia§r no perdés inventario ni experiencia.",
           "icon:10": {
             "id:8": "minecraft:cooked_beef",
             "Count:3": 1,
@@ -607,7 +607,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Equipo de verdad (Spartan Shields)",
-          "desc:8": "Las herramientas y armaduras de diamante vanilla §cno§r tienen receta; las de mods sí.\n\n§6Escudo de madera:§r 6 tablones + 1 palo en diagonal. Para mejorarlo: escudo al centro + 4 del material (piedra labrada, hierro, oro, obsidiana o diamante).",
+          "desc:8": "Un escudo bloquea golpes y flechas con clic derecho. Los de Spartan Shields aguantan más que el de Minecraft.\n\n§6Escudo de madera:§r 6 tablones + 1 palo en diagonal. Para mejorarlo: escudo al centro + 4 del material (piedra labrada, hierro, oro, obsidiana o diamante).",
           "icon:10": {
             "id:8": "spartanshields:shield_basic_wood",
             "Count:3": 1,
@@ -953,7 +953,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Tu primera semana de exploración",
-          "desc:8": "Buscá con la brújula un bioma que no conozcas (Savanna, Mesa, Ice Spikes…), llegá y marcalo en JourneyMap. Anotá cuevas, aldeas y estructuras cerca de tu base.\n\n§7Las aldeas no generan golems de hierro. Los biomas de Tropicraft y Betweenlands están en sus dimensiones.§r",
+          "desc:8": "Abrí la §eNature's Compass§r (clic derecho), elegí un bioma que no conozcas (Savanna, Mesa, Ice Spikes, Mushroom Island…) y seguí la flecha. Cuando llegues, hacé un waypoint en JourneyMap y marcá la casilla.\n\nEn el camino anotá en el mapa lo que veas: §ecuevas§r con minerales, §ealdeas§r para comerciar, §etemplos y estructuras§r con cofres. Muchas estructuras de mods también tienen botín.\n\n§7Los biomas de Tropicraft y Betweenlands no están en el Overworld: viven en sus propias dimensiones (cap. 6 y 7).§r",
           "icon:10": {
             "id:8": "minecraft:filled_map",
             "Count:3": 1,
@@ -1044,7 +1044,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Reclamá tu terreno",
-          "desc:8": "Con FTBUtilities reclamá al menos un chunk (mapa de reclamos, botón de FTB en el inventario). Usá §e/sethome§r y §e/home§r para volver a tu base.\n\n§7Los límites por jugador los fija el administrador.§r",
+          "desc:8": "Para que nadie rompa tu base sin querer, §ereclamá los chunks§r donde está:\n · Abrí el inventario y tocá el botón de §eFTB Utilities§r (arriba a la izquierda) → §eClaimed Chunks§r.\n · En el mapa, hacé §eclic izquierdo§r sobre los cuadrados para reclamarlos (clic derecho los libera).\n\nAdemás: §e/sethome§r guarda tu casa y §e/home§r te lleva de vuelta desde cualquier lado. Útil cuando te perdés o se hace de noche.\n\n§7La cantidad de chunks que podés reclamar la fija el administrador.§r",
           "icon:10": {
             "id:8": "minecraft:iron_door",
             "Count:3": 1,
@@ -1422,7 +1422,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Elegí tu próxima rama",
-          "desc:8": "Tenés base, almacén y territorio. Desde acá todo está abierto: dimensiones (cap. 6-10), magia y tecnología (cap. 11-14) y combate (cap. 15-20). Elegí.",
+          "desc:8": "Ya tenés base, almacén y territorio. Desde acá el libro se abre y podés seguir por donde quieras:\n · §6Dimensiones§r (cap. 6 a 10): pantanos, trópicos, cinco mundos elementales, caza y cavernas.\n · §6Magia y tecnología§r (cap. 11 a 14): estrellas, dragones, almas y alquimia.\n · §6Combate§r (cap. 15 a 20): monstruos de la noche, depredadores, hombres lobo y jefes.\n\n§eConsejo:§r si es tu primera vez con mods, empezá por §eCavern§r (cap. 10) o §eTropicraft§r (cap. 7): son los más fáciles.",
           "icon:10": {
             "id:8": "minecraft:nether_star",
             "Count:3": 1,
@@ -1504,7 +1504,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "El talismán del pantano",
-          "desc:8": "En los pantanos del Overworld hay §eAltares Druídicos§r custodiados por §eDruidas Oscuros§r. Derrotalos: sueltan §ePiezas del Talismán del Pantano§r. Uní las 4 piezas en el Dark Druid Altar.\n\nCada Druida Oscuro tiene 50 % de chance de soltar una pieza, y siempre es una que todavía no tenés en el inventario. Tenés que matarlo vos.\n\nSe completa sola al conseguir el talismán (logro \"Give Me That\").",
+          "desc:8": "La Betweenlands se abre con el §eTalismán del Pantano§r. Cómo conseguirlo:\n 1. Buscá en los §epantanos del Overworld§r un §eDark Druid Altar§r: un altar de piedra rodeado de pilares.\n 2. Cerca aparecen §eDruidas Oscuros§r. Matalos vos: cada uno tiene 50 % de chance de soltar una §ePieza del Talismán§r, y siempre es una que todavía no tenés.\n 3. Cuando juntes las §e4 piezas§r, ponelas en el altar: se unen en el talismán.\n\n§eConsejo:§r los druidas se teletransportan y te tiran hacia ellos. Llevá comida y una espada de hierro.",
           "icon:10": {
             "id:8": "thebetweenlands:swamp_talisman",
             "Count:3": 1,
@@ -1566,7 +1566,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "El árbol portal",
-          "desc:8": "Usá el talismán sobre un brote para hacer crecer un §eÁrbol Portal§r y cruzá a la Betweenlands (dimensión 20).\n\nLogro \"Dank World\".",
+          "desc:8": "Con el talismán en la mano, hacé §eclic derecho sobre un brote§r plantado en el Overworld: crece un §eÁrbol Portal§r gigante. Entrá por el hueco del tronco y cruzás a la Betweenlands.\n\nEl talismán queda §evinculado§r a ese portal (lo dice al pasar el mouse por encima). El mismo árbol sirve para volver.\n\n§cAntes de cruzar:§r llevá comida, bloques y un pico. Del otro lado la vida es más difícil.",
           "icon:10": {
             "id:8": "thebetweenlands:swamp_talisman",
             "Count:3": 1,
@@ -1628,7 +1628,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Sobrevivir al pantano",
-          "desc:8": "Acá las §cantorchas comunes no sirven§r, las herramientas del Overworld rinden menos y se corroen, y la comida se pudre. Juntá §eBalls of Sap§r (savia): curan la podredumbre.\n\nLogro \"A Cure\".",
+          "desc:8": "La Betweenlands castiga a los recién llegados:\n · Las §cantorchas comunes no prenden§r. Hacé §eSulfur Torches§r: azufre arriba y un palo de weedwood abajo (da 4). El azufre se mina en las paredes de piedra del pantano.\n · Las herramientas del Overworld §crinden menos§r y se §ecorroen§r con el uso.\n · Tenés una barra de §edescomposición§r (decay): si baja, perdés vida máxima. La bajan las §eBalls of Sap§r (savia), que salen de romper troncos de §eSap Tree Log§r (los árboles de savia).\n\nJuntá savia para completar la misión y llevá siempre algunas encima.",
           "icon:10": {
             "id:8": "minecraft:torch",
             "Count:3": 1,
@@ -1684,7 +1684,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Madera del pantano",
-          "desc:8": "Juntá madera local y fabricá una §eWeedwood Crafting Table§r: desde acá se fabrica casi todo.\n\nLogro \"All Over Again\".",
+          "desc:8": "Talá árboles de §eweedwood§r (los troncos oscuros del pantano). Cada tronco da tablones de weedwood, y con tablones hacés palos de weedwood.\n\n§6Weedwood Crafting Table:§r 4 tablones de weedwood en cuadrado.\n\nDesde esta mesa se fabrica casi todo el equipo de la dimensión. Empezá con un §epico de weedwood§r para poder minar piedra.",
           "icon:10": {
             "id:8": "thebetweenlands:weedwood_planks",
             "Count:3": 1,
@@ -1740,7 +1740,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Metales del pantano",
-          "desc:8": "Bajá a las cuevas y conseguí un lingote de §eSyrmorite§r u §eOctine§r.\n\nLogro \"New Shinies\".",
+          "desc:8": "En las cuevas de la Betweenlands hay dos metales nuevos:\n · §eSyrmorite§r: el hierro del pantano. Para armaduras, baldes y escudos.\n · §eOctine§r: un metal caliente que hasta prende fuego al musgo. Para herramientas mejores.\n\nSe funden en el §eSulfur Furnace§r: 8 bloques de betweenstone en anillo (como el horno común). Usa azufre como combustible.\n\nConseguí un lingote de cualquiera de los dos.",
           "icon:10": {
             "id:8": "minecraft:iron_ingot",
             "Count:3": 1,
@@ -1796,7 +1796,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "El horno doble de azufre",
-          "desc:8": "Fabricá un §eDual Sulfur Furnace§r: funde dos cosas a la vez con azufre.\n\nLogro \"Efficiency\".",
+          "desc:8": "§6Dual Sulfur Furnace:§r un Sulfur Furnace al centro y 8 betweenstone alrededor.\n\nFunde dos cosas a la vez. Si le ponés §eLimestone Flux§r, a veces da lingotes extra.",
           "icon:10": {
             "id:8": "minecraft:furnace",
             "Count:3": 1,
@@ -1852,7 +1852,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Armas del pantano",
-          "desc:8": "Conseguí una espada de la Betweenlands. Las armas del Overworld pegan menos acá.\n\nLogro \"Serious Business\".",
+          "desc:8": "Las armas del Overworld pegan menos acá: hacé una propia del pantano. Todas son 2 del material arriba y un palo de weedwood abajo:\n · §eWeedwood Sword§r: tablones de weedwood. La primera.\n · §eBone Sword§r: §eSlimy Bones§r, que salen de la §eSlimy Bone Ore§r.\n · §eOctine Sword§r: lingotes de octine.\n · §eValonite Sword§r: valonite, de las cuevas más profundas. La mejor.",
           "icon:10": {
             "id:8": "minecraft:iron_sword",
             "Count:3": 1,
@@ -1908,7 +1908,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Luchador sin miedo",
-          "desc:8": "Derrotá a una Swamp Hag, un Wight, una Tar Beast, un Sludge y una Peat Mummy.\n\nLogro \"Fearless Fighter\".",
+          "desc:8": "Derrotá al menos una vez a cada uno de estos monstruos del pantano:\n · §eSwamp Hag§r · §eWight§r · §eTar Beast§r · §eSludge§r · §ePeat Mummy§r\n\nLa Peat Mummy sale de la turba cuando caminás cerca; la Tar Beast vive en los pozos de alquitrán.\n\nSe completa sola cuando hayas matado a los cinco.",
           "icon:10": {
             "id:8": "minecraft:skull",
             "Count:3": 1,
@@ -1970,7 +1970,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Jefe: Dreadful Peat Mummy",
-          "desc:8": "Un jefe con barra de vida que surge de la turba. Llevá equipo de la Betweenlands y amigos.\n\nID: thebetweenlands:dreadful_mummy",
+          "desc:8": "La §eDreadful Peat Mummy§r no aparece sola: se invoca con un §eMummy Bait§r (cebo de momia).\n\n§6Mummy Bait:§r se arma en la mesa con un frasco de aspecto §eArmaniis§r, una §eShimmerstone§r, un §ecorazón animado de Tar Beast§r y una §ebola de lodo§r (de los Sludges). Mirá la receta con §eR§r en JEI.\n\n§eTirá el cebo al suelo§r (tecla §eQ§r) en un bioma §eSludge Plains§r o §eMarsh§r: la momia sale de la tierra. Tiene barra de jefe y pega fuerte: llevá armadura de syrmorite, comida y amigos.",
           "icon:10": {
             "id:8": "minecraft:skull",
             "Count:3": 1,
@@ -2037,7 +2037,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Jefe: Spirit Tree",
-          "desc:8": "El gran árbol espíritu defiende su claro. Hay que derrotar su §eCara Grande§r.\n\nID: thebetweenlands:spirit_tree_face_large",
+          "desc:8": "El §eSpirit Tree§r es un árbol enorme que vive en un claro del pantano (el mapa lo nombra \"Spirit Tree\" cuando llegás). Al acercarte despierta: en el tronco aparecen §ecaras§r que te atacan.\n\nHay que vencer a la §eCara Grande§r (Large Spirit Tree Face). Las §ecaras chicas§r la ayudan: sacalas del medio primero.\n\n§eConsejo:§r no te quedes quieto y vayan en grupo.",
           "icon:10": {
             "id:8": "thebetweenlands:weedwood_planks",
             "Count:3": 1,
@@ -2104,7 +2104,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "La fortaleza Wight",
-          "desc:8": "Encontrá una §eWight Fortress§r. Adentro espera el jefe final del pantano.\n\nLogro \"Enter The Stronghold\".",
+          "desc:8": "Las §eWight Fortresses§r son castillos grandes de piedra oscura en la superficie del pantano. Están llenas de Wights, trampas y cofres.\n\nBuscá una, hacé un waypoint en la entrada y marcá el lugar para tu grupo. Arriba de todo espera el jefe final de la dimensión.\n\nSe completa sola al encontrarla.",
           "icon:10": {
             "id:8": "minecraft:stonebrick",
             "Count:3": 1,
@@ -2167,7 +2167,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Jefe final: Primordial Malevolence",
-          "desc:8": "El jefe de la Wight Fortress. Tiene torretas, barreras y teletransportes: vayan preparados.\n\nID: thebetweenlands:fortress_boss",
+          "desc:8": "El jefe de la cima de la Wight Fortress. Pelea desde el centro de la sala con §etorretas§r, §ebarreras§r que lo vuelven invulnerable y §eteletransportes§r.\n\n§eCómo ganarle:§r rompé las torretas primero, esquivá los proyectiles y pegale cuando la barrera baja. Vayan en grupo, con armadura de syrmorite o mejor y mucha comida.\n\nEs uno de los tres jefes de la §eTrilogía§r del cap. 25.",
           "icon:10": {
             "id:8": "minecraft:nether_star",
             "Count:3": 1,
@@ -2357,7 +2357,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Viaje a los trópicos",
-          "desc:8": "Sentate en la silla de playa §eal atardecer§r y tomá la Piña Colada: con su efecto te lleva a los trópicos (dimensión -127). El código del mod comprueba las tres cosas: silla, atardecer y efecto.",
+          "desc:8": "Con todo listo:\n 1. Colocá la §esilla de playa§r cerca del mar.\n 2. Esperá al §eatardecer§r (cuando el sol empieza a bajar).\n 3. Sentate en la silla y tomá la §ePiña Colada§r.\n\nEl efecto de la bebida te lleva a los trópicos. Se necesitan las tres cosas juntas: silla, atardecer y efecto. Si no pasa nada, revisá la hora.\n\nPara volver, más adelante hacés un portal (misión \"Varita del portal\").",
           "icon:10": {
             "id:8": "tropicraft:chair",
             "Count:3": 1,
@@ -2431,7 +2431,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Vida en las islas",
-          "desc:8": "Explorá: aldeas §eKoa§r, cabezas §eEIH§r, volcanes, tiburones martillo y tortugas. Conseguí §eazurita§r y §ezircón§r.",
+          "desc:8": "Los trópicos son islas con playas, selvas y volcanes. Para explorar:\n · §eAldeas Koa§r: casas en la playa con aldeanos para comerciar.\n · §eCabezas EIH§r: estatuas de piedra gigantes.\n · §eVolcanes§r: lava y minerales adentro.\n · En el agua: tiburones martillo, tortugas y peces de colores.\n\nConseguí §eazurita§r y §ezircón§r: son minerales de la dimensión y se minan en la piedra de las islas. Los dos sirven para la varita del portal.",
           "icon:10": {
             "id:8": "tropicraft:azurite",
             "Count:3": 1,
@@ -2590,7 +2590,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Polvo elemental",
-          "desc:8": "Mineá §eElemental Dust Ore§r y juntá 8 de polvo. Con él y un bloque de oro + esmeralda se hace el §eAltar Center§r.",
+          "desc:8": "El §eElemental Dust Ore§r es un mineral del Overworld que suelta §epolvo elemental§r. Juntá 8.\n\n§6Altar Center:§r una esmeralda arriba al medio, polvo elemental a los costados de un §ebloque de oro§r y una fila de polvo abajo. Es la pieza central de los altares del mod.\n\nEste capítulo se juega en orden: Tierra → Agua → Aire → Espíritu → Fuego. Cada dimensión te da lo que necesitás para la siguiente.",
           "icon:10": {
             "id:8": "elementaldimensions:elementaldust",
             "Count:3": 1,
@@ -2658,7 +2658,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "La Runa de Tierra",
-          "desc:8": "Los §eGuardias§r de las mazmorras-portal sueltan la §eRuna de Tierra§r (según su tabla de botín). Esas mazmorras son raras: usá la brújula y explorá mucho.",
+          "desc:8": "Los §eGuardias§r (Guards) cuidan las §emazmorras-portal§r del Overworld: construcciones de piedra con un Portal Dialer adentro. Al morir pueden soltar la §eRuna de Tierra§r.\n\nEsas mazmorras son raras. Explorá lejos, usá el mapa para no repetir zonas y hacé un waypoint cuando encuentres una: la vas a necesitar para entrar a la dimensión.",
           "icon:10": {
             "id:8": "elementaldimensions:earthrune",
             "Count:3": 1,
@@ -2806,7 +2806,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Jefe: Dirt Zombie Boss",
-          "desc:8": "Suelta la §eparte 3 de la Runa de Agua§r y el Digging Focus. Los Dirt Zombies comunes sueltan la parte 1.",
+          "desc:8": "El §eDirt Zombie Boss§r aparece solo en la §edimensión Tierra§r, §ecerca de la medianoche§r, al lado de los jugadores, si no hay otro vivo. Esperalo de noche con equipo listo.\n\nSuelta la §eparte 3 de la Runa de Agua§r y el §eDigging Focus§r. Los Dirt Zombies comunes sueltan la parte 1.",
           "icon:10": {
             "id:8": "elementaldimensions:focusdigging",
             "Count:3": 1,
@@ -2964,7 +2964,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Jefe: Water Creep Boss",
-          "desc:8": "Suelta la §eparte 3 de la Runa de Aire§r y el Damage Focus. Los Water Creeps sueltan la parte 1. Su semilla de invocación es 4 semillas de trigo alrededor de un diamante.",
+          "desc:8": "El §eWater Creep Boss§r se invoca con una §eWater Boss Seed§r: 4 semillas de trigo alrededor de un §ediamante§r.\n\nAndá a la §edimensión Agua§r y §etirá la semilla al agua§r (tecla §eQ§r). Unos segundos después, el jefe sale arriba.\n\nSuelta la §eparte 3 de la Runa de Aire§r y el §eDamage Focus§r. Los Water Creeps comunes sueltan la parte 1.",
           "icon:10": {
             "id:8": "elementaldimensions:focusdamage",
             "Count:3": 1,
@@ -3031,7 +3031,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Dimensión Aire",
-          "desc:8": "Armá la §eRuna de Aire§r y entrá al Aire (102).",
+          "desc:8": "Juntá las 3 partes de la §eRuna de Aire§r y unilas en la mesa de trabajo:\n · §eParte 1:§r la sueltan los §eWater Creeps§r de la dimensión Agua.\n · §eParte 2:§r está en un cofre de la mazmorra de la dimensión Agua.\n · §eParte 3:§r la suelta el §eWater Creep Boss§r.\n\nCon la runa en la mano, usá el Portal Dialer de la mazmorra-portal del Overworld (igual que con la Runa de Tierra) y entrá al Aire (dimensión 102).",
           "icon:10": {
             "id:8": "elementaldimensions:airrune",
             "Count:3": 1,
@@ -3122,7 +3122,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Jefe: Ghost Boss",
-          "desc:8": "Suelta la §eparte 3 de la Runa de Espíritu§r y el Teleport Focus. Los Ghosts sueltan la parte 1. Semilla de invocación: trigo alrededor de una esmeralda.",
+          "desc:8": "El §eGhost Boss§r se invoca con una §eAir Boss Seed§r: 4 semillas de trigo alrededor de una §eesmeralda§r.\n\nEn la §edimensión Aire§r, §etirá la semilla al suelo§r (tecla §eQ§r). Hay una §cexplosión§r y aparece el jefe: alejate un poco.\n\nSuelta la §eparte 3 de la Runa de Espíritu§r y el §eTeleport Focus§r. Los Ghosts comunes sueltan la parte 1.",
           "icon:10": {
             "id:8": "elementaldimensions:focusteleport",
             "Count:3": 1,
@@ -3189,7 +3189,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Dimensión Espíritu",
-          "desc:8": "Armá la §eRuna de Espíritu§r y entrá al Espíritu (103). Los Spirits sueltan partes 1 y 3 de la Runa de Fuego.",
+          "desc:8": "Juntá las 3 partes de la §eRuna de Espíritu§r:\n · §eParte 1:§r la sueltan los §eGhosts§r de la dimensión Aire.\n · §eParte 2:§r cofre de la mazmorra de la dimensión Aire.\n · §eParte 3:§r la suelta el §eGhost Boss§r.\n\nUnilas, usá el Portal Dialer del Overworld y entrá al Espíritu (103). Ahí los §eSpirits§r sueltan las partes 1 y 3 de la Runa de Fuego.",
           "icon:10": {
             "id:8": "elementaldimensions:spiritrune",
             "Count:3": 1,
@@ -3280,7 +3280,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Dimensión Fuego",
-          "desc:8": "Armá la §eRuna de Fuego§r y entrá al Fuego (104).",
+          "desc:8": "La última runa. Juntá las 3 partes de la §eRuna de Fuego§r:\n · §ePartes 1 y 3:§r las sueltan los §eSpirits§r de la dimensión Espíritu.\n · §eParte 2:§r cofre de la mazmorra de la dimensión Espíritu.\n\nUnilas, usá el Portal Dialer del Overworld y entrá al Fuego (104).\n\n§cCuidado:§r es una dimensión de lava. Llevá pociones de resistencia al fuego.",
           "icon:10": {
             "id:8": "elementaldimensions:firerune",
             "Count:3": 1,
@@ -3371,7 +3371,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Jefe final: Fire Boss",
-          "desc:8": "El último jefe. Suelta la §eElemental Wand§r. Su semilla usa una §eestrella del Nether§r (wither).\n\n§7No tiene barra de jefe.§r",
+          "desc:8": "El último jefe del capítulo. Se invoca con una §eFire Boss Seed§r: 4 semillas de trigo alrededor de una §eestrella del Nether§r (la suelta el Wither, cap. 20).\n\nEn la §edimensión Fuego§r, §etirá la semilla al suelo§r (tecla §eQ§r) y alejate: hay una explosión antes de que aparezca.\n\nSuelta la §eElemental Wand§r. §7No tiene barra de jefe: fijate su vida con Hwyla.§r\n\nEs uno de los tres jefes de la §eTrilogía§r del cap. 25.",
           "icon:10": {
             "id:8": "elementaldimensions:elementalwand",
             "Count:3": 1,
@@ -3648,7 +3648,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "El portal a la Caverna",
-          "desc:8": "Armá un marco tipo portal del Nether con §epiedra musgosa o ladrillo de piedra§r y activalo con una §eesmeralda§r.\n\nLogro \"Cavern\" (entrar a la dimensión).",
+          "desc:8": "§6Portal a la Caverna:§r armá un marco con la forma del portal del Nether (rectángulo hueco de 4 de ancho por 5 de alto como mínimo) usando §epiedra musgosa§r o §eladrillo de piedra musgoso§r. Después hacé §eclic derecho adentro del marco con una esmeralda§r.\n\nCon el mismo marco y otro objeto se abren las otras cavernas:\n · Aguamarina → Aqua Cavern · Miner's Thought Orb → Ruins Cavern\n · Un brote → Caveland · Hielo compacto → Ice Cavern · Diamante → Huge Cavern\n\nLa Caverna es una dimensión toda subterránea, sin superficie. Hay §emuchos más minerales§r que en el Overworld.",
           "icon:10": {
             "id:8": "minecraft:emerald",
             "Count:3": 1,
@@ -3710,7 +3710,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Cazador cavénico",
-          "desc:8": "Derrotá a uno de cada monstruo cavénico.\n\nLogro \"Cavenic Hunter\".",
+          "desc:8": "En las cavernas aparecen versiones §ecavénicas§r de los monstruos: más vida, más daño y más alcance. Matá al menos uno de cada uno:\n · Cavenic Skeleton · Cavenic Creeper · Cavenic Zombie\n · Cavenic Spider · Cavenic Witch · Cavenic Bear\n\nA veces sueltan un §eCavenic Orb§r, la llave de §eCavenia§r. Guardalo.",
           "icon:10": {
             "id:8": "minecraft:bone",
             "Count:3": 1,
@@ -3772,7 +3772,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Aguamarina y Aqua Cavern",
-          "desc:8": "Conseguí §eaguamarina§r y entrá a la Aqua Cavern.\n\nLogros \"Aquamarine\" y \"Aqua Cavern\".",
+          "desc:8": "La §eaguamarina§r es un mineral celeste que se mina en la Caverna. Con ella hacés pico, hacha y pala de aguamarina.\n\nPara la §eAqua Cavern§r: armá otro marco de piedra musgosa y hacé clic derecho adentro con una aguamarina. Es una caverna inundada: llevá pociones de respiración o un casco con Respiración.",
           "icon:10": {
             "id:8": "cavern:aquamarine_pickaxe",
             "Count:3": 1,
@@ -3839,7 +3839,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Ruins Cavern",
-          "desc:8": "Mineá randomita, conseguí un §eMiner's Thought Orb§r y entrá a la Ruins Cavern.\n\nLogro \"Ruins Cavern\".",
+          "desc:8": "La §eRandomite Ore§r es un mineral raro de la Caverna: al romperlo §esuelta un objeto al azar§r de todo el juego. A veces es basura, a veces un tesoro.\n\nLa llave de la Ruins Cavern es el §eMiner's Thought Orb§r. Sale en los §ecofres de las torres-mazmorra§r de la Caverna (1 o 2 por cofre) y, con suerte, de la randomita.\n\nCon el orbe, hacé clic derecho adentro de un marco de piedra musgosa: se abre el portal a las ruinas.",
           "icon:10": {
             "id:8": "minecraft:mossy_cobblestone",
             "Count:3": 1,
@@ -3901,7 +3901,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Caveland",
-          "desc:8": "Juntá un brote en la caverna y entrá a Caveland.\n\nLogro \"Caveland\".",
+          "desc:8": "La §eCaveland§r es una caverna con árboles y pasto, como un bosque bajo tierra.\n\nLa llave es §ecualquier brote§r (de roble, abedul, de mods…). Hacé clic derecho con el brote adentro de un marco de piedra musgosa.\n\nAhí crecen árboles \"pervertidos\" con madera propia y se cosecha la §eacresia§r con tijeras.",
           "icon:10": {
             "id:8": "cavern:perverted_sapling",
             "Count:3": 1,
@@ -3963,7 +3963,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Ice Cavern",
-          "desc:8": "Conseguí hielo compacto y entrá a la Ice Cavern.\n\nLogro \"Ice Cavern\".",
+          "desc:8": "La §eIce Cavern§r es una caverna helada con hielo resbaladizo.\n\nLa llave es un bloque de §ehielo compacto§r (packed ice). Se consigue con un pico con §eToque de Seda§r en un bioma Ice Spikes, o comerciando con aldeanos. Hacé clic derecho con él adentro de un marco de piedra musgosa.\n\nCon el hielo de ahí se cargan herramientas y armas de hielo.",
           "icon:10": {
             "id:8": "minecraft:packed_ice",
             "Count:3": 1,
@@ -4025,7 +4025,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Huge Cavern",
-          "desc:8": "Con un diamante como llave, entrá a la Huge Cavern.\n\nLogro \"Huge Cavern\".",
+          "desc:8": "La §eHuge Cavern§r es una caverna gigante con techos altísimos y muchos minerales.\n\nLa llave es un §ediamante§r: hacé clic derecho con él adentro de un marco de piedra musgosa. Si todavía no tenés diamantes, buscalos en la Caverna: aparecen mucho más que en el Overworld.",
           "icon:10": {
             "id:8": "minecraft:diamond",
             "Count:3": 1,
@@ -4087,7 +4087,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Cavenia, zona de práctica",
-          "desc:8": "Entrá a §eCavenia§r. En este servidor ahí §ano perdés inventario ni experiencia§r al morir: ideal para practicar combate.\n\nLogro \"Cavenia\".",
+          "desc:8": "§eCavenia§r es una caverna de combate. Para entrar, hacé §eclic derecho con un Cavenic Orb§r estando en §ecualquier caverna§r: te lleva directo y el orbe se gasta. El orbe lo sueltan a veces (1 de cada 8) los monstruos cavénicos.\n\nEn este servidor, ahí §ano perdés inventario ni experiencia§r al morir, y si reaparecés sin orbe te dan uno para salir.\n\nLos jefes de Cavenia son los §eCrazy§r (Crazy Zombie, Skeleton, Creeper y Spider): tienen barra de jefe y muchísima vida (el Crazy Zombie, §c2000§r). Vayan en grupo.",
           "icon:10": {
             "id:8": "cavern:cavenic_bow",
             "Count:3": 1,
@@ -4149,7 +4149,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Magia de la caverna",
-          "desc:8": "Conseguí un §eMagical Book§r: hechizos de teletransporte, invocación, fuego y más.\n\nLogro \"Study Magic\".",
+          "desc:8": "Los §eMagical Books§r de Cavern son libros de hechizos: fuego, explosión, rayos, curación, teletransporte, invocación, vuelo y más.\n\n§eCómo se consiguen:§r los sueltan los jefes §eCrazy§r de Cavenia (Crazy Zombie, Skeleton, Creeper y Spider). Salen como libro \"???\": usalo para descubrir qué hechizo tiene.\n\nLa magia gasta tus puntos de maná. Cuantos más hechizos usás, más subís de rango como mago.",
           "icon:10": {
             "id:8": "cavern:magical_book",
             "Count:3": 1,
@@ -4211,9 +4211,9 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Cristal de roca",
-          "desc:8": "Conseguí un §eRock Crystal§r.\n\n§7Usá solo guías de la versión 1.12.2 (no del rework moderno).§r\nLogro del mod: rock_crystals",
+          "desc:8": "Los §eRock Crystals§r son la base de toda la magia de Astral Sorcery. Para encontrar el primero:\n 1. Buscá §eaguamarina§r: brilla en la §earena§r de ríos y playas, cerca de la superficie.\n 2. Buscá un §eSantuario Antiguo§r de mármol: los grandes están en la cima de colinas y montañas; los chicos, bajo la arena del desierto. Adentro flota un §eCollector Crystal§r.\n 3. Poné una §emesa de trabajo al lado del cristal§r: el cristal la ilumina y destraba la receta de la §eResonating Wand§r.\n 4. §eDe noche§r, con la varita en la mano, aparecen §echispas blancas§r en el suelo. Justo debajo, §emuy profundo§r (cerca de la bedrock), hay un Rock Crystal Ore.\n 5. Cavá recto hacia abajo y minalo con un §epico de diamante§r. Las máquinas no lo pueden minar.\n\n§eConsejo:§r el §eAstral Tome§r (el diario del mod) explica todo y se va completando a medida que avanzás.",
           "icon:10": {
-            "id:8": "minecraft:glowstone_dust",
+            "id:8": "astralsorcery:itemrockcrystalsimple",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -4267,9 +4267,9 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Constelación brillante",
-          "desc:8": "Descubrí una constelación brillante con el Looking Glass.\n\n§7Usá solo guías de la versión 1.12.2 (no del rework moderno).§r\nLogro del mod: find_constellation",
+          "desc:8": "Las constelaciones se descubren mirando el cielo:\n 1. En los cofres de los santuarios hay §eConstellation Papers§r: cada uno muestra el dibujo de una constelación.\n 2. Fabricá el §eLooking Glass§r en la §eLuminous Crafting Table§r (se hace con mármol).\n 3. §eDe noche y con el cielo despejado§r, usá el Looking Glass. Buscá un grupo de estrellas que coincida con uno de tus papeles.\n 4. Mantené §eShift§r para fijar la vista y unilas con §eclic izquierdo§r, trazando líneas entre las estrellas.\n\nEl §emármol§r aparece en vetas bajo tierra. La Luminous Crafting Table tiene que estar al aire libre: §ecuanto más alta, más luz junta§r.",
           "icon:10": {
-            "id:8": "minecraft:glowstone_dust",
+            "id:8": "astralsorcery:itemhandtelescope",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -4329,9 +4329,9 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Sintonizarte",
-          "desc:8": "Sintonizate con una constelación brillante.\n\n§7Usá solo guías de la versión 1.12.2 (no del rework moderno).§r\nLogro del mod: attune_self",
+          "desc:8": "Sintonizarte con una constelación te da poderes.\n 1. Fabricá un §eAttunement Altar§r y varios §eSpectral Relays§r (recetas en el Astral Tome).\n 2. §eDe noche§r, con el Constellation Paper en la mano, se ven en el suelo los lugares donde van los relays: forman la figura de la constelación alrededor del altar.\n 3. Cuando está bien armado, el altar y los relays brillan en azul. §ePará arriba del altar§r, en el rayo de luz.\n\nSolo podés estar sintonizado con §euna constelación brillante§r. Cambiarla después borra el progreso: elegí con calma.",
           "icon:10": {
-            "id:8": "minecraft:glowstone_dust",
+            "id:8": "astralsorcery:blockattunementaltar",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -4391,11 +4391,11 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Altar de luz estelar",
-          "desc:8": "Mejorá la Luminous Crafting Table a Starlight Crafting Altar.\n\n§7Usá solo guías de la versión 1.12.2 (no del rework moderno).§r\nLogro del mod: craft_t2_altar",
+          "desc:8": "La §eLuminous Crafting Table§r se mejora a §eStarlight Crafting Altar§r: guarda más luz estelar y destraba recetas nuevas.\n\n 1. Poné en la mesa la receta de mejora (está en el Astral Tome) y hacé clic derecho con la Resonating Wand.\n 2. El altar nuevo necesita una §eestructura de mármol§r alrededor para juntar luz. Si falta algo o está mal, el indicador de luz se pone §crojo§r.\n 3. Para fabricar: §ede noche§r, con el cielo a la vista, poné los materiales y hacé clic derecho con la varita.\n\nLa forma exacta de la estructura se ve en el Astral Tome.",
           "icon:10": {
-            "id:8": "minecraft:glowstone_dust",
+            "id:8": "astralsorcery:blockaltar",
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 1,
             "OreDict:8": ""
           },
           "isMain:1": 0,
@@ -4453,9 +4453,9 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Cristal sintonizado",
-          "desc:8": "Sintonizá un cristal con una constelación.\n\n§7Usá solo guías de la versión 1.12.2 (no del rework moderno).§r\nLogro del mod: attune_crystal",
+          "desc:8": "Los Rock Crystals también se pueden sintonizar, y así canalizan el poder de una constelación.\n\nCon el §eAttunement Altar§r armado para una constelación, §ede noche§r, tirá un Rock Crystal (§eQ§r) en el rayo de luz del altar. Sale como un cristal sintonizado.\n\nCon esos cristales se hacen §erituales§r: estructuras que aplican el efecto de la constelación en una zona.",
           "icon:10": {
-            "id:8": "minecraft:glowstone_dust",
+            "id:8": "astralsorcery:blockattunementrelay",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -4515,9 +4515,9 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Constelación tenue",
-          "desc:8": "Descubrí una constelación tenue con el Telescope.\n\n§7Usá solo guías de la versión 1.12.2 (no del rework moderno).§r\nLogro del mod: find_weak_constellation",
+          "desc:8": "El §eTelescope§r se fabrica en el Starlight Crafting Altar. Deja ver estrellas más lejanas que el Looking Glass.\n\n 1. Colocalo al aire libre y usalo §ede noche con el cielo despejado§r.\n 2. Con las flechas de los costados girás la vista para mirar otras partes del cielo.\n 3. Buscá una §econstelación tenue§r (más chica y oscura) y trazala con clic izquierdo, igual que con el Looking Glass.\n\nSi dibujás fuera del marco o girás, se borran las líneas. Estar sintonizado ayuda a ver las tenues.",
           "icon:10": {
-            "id:8": "minecraft:glowstone_dust",
+            "id:8": "astralsorcery:blockmachine",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -4577,11 +4577,11 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Altar celestial",
-          "desc:8": "Fabricá un Celestial Altar.\n\n§7Usá solo guías de la versión 1.12.2 (no del rework moderno).§r\nLogro del mod: craft_t3_altar",
+          "desc:8": "El §eCelestial Altar§r es el tercer nivel del altar.\n\n 1. Necesitás §eStardust§r (polvo estelar): sale de moler §eStarmetal§r en el §eGrindstone§r.\n 2. La mejora también lleva aguamarina, mármol y un Rock Crystal (receta en el Astral Tome).\n 3. La estructura de alrededor es §emás grande§r y lleva §eSooty Marble§r (mármol con carbón) a la vista del cielo.\n\nIgual que antes: de noche, con el cielo despejado y la Resonating Wand.",
           "icon:10": {
-            "id:8": "minecraft:glowstone_dust",
+            "id:8": "astralsorcery:blockaltar",
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 2,
             "OreDict:8": ""
           },
           "isMain:1": 0,
@@ -4640,11 +4640,11 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Altar iridiscente",
-          "desc:8": "Fabricá un Iridescent Altar.\n\n§7Usá solo guías de la versión 1.12.2 (no del rework moderno).§r\nLogro del mod: craft_t4_altar",
+          "desc:8": "El §eIridescent Altar§r es el altar más alto de Astral Sorcery. Destraba las recetas más poderosas del mod.\n\nSe fabrica en el Celestial Altar y necesita materiales de constelaciones y una estructura todavía más grande. La receta y la forma están en el §eAstral Tome§r, en la última sección que se destraba.\n\nEs una misión de largo plazo: tomátela con calma.",
           "icon:10": {
-            "id:8": "minecraft:glowstone_dust",
+            "id:8": "astralsorcery:blockaltar",
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 3,
             "OreDict:8": ""
           },
           "isMain:1": 0,
@@ -4702,9 +4702,9 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Luz interior",
-          "desc:8": "Llevá tu luz estelar personal a nivel 20.\n\n§7Usá solo guías de la versión 1.12.2 (no del rework moderno).§r\nLogro del mod: perk_level_medium",
+          "desc:8": "Después de sintonizarte, tu cuerpo junta §eluz estelar personal§r y sube de nivel. Cada nivel da puntos para el §eárbol de perks§r (en el Astral Tome): más vida, daño, velocidad, minería, etc.\n\nLa experiencia de luz estelar se gana haciendo lo que tu constelación premia (por ejemplo, pelear o minar). Llegá a §enivel 20§r.\n\nElegí bien los perks: cambiarlos después cuesta.",
           "icon:10": {
-            "id:8": "minecraft:glowstone_dust",
+            "id:8": "astralsorcery:itemjournal",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -4832,7 +4832,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Núcleo dracónico",
-          "desc:8": "Fabricá un §eDraconic Core§r (receta en JEI).",
+          "desc:8": "El §eDraconic Core§r es la pieza base de todo el mod.\n\n§6Receta:§r §e4 lingotes de draconio§r, §e4 de oro§r y un §ediamante§r al centro. Mirá la forma exacta con §eR§r en JEI.\n\nVas a necesitar muchos: conviene juntar bastante draconio.",
           "icon:10": {
             "id:8": "draconicevolution:draconic_core",
             "Count:3": 1,
@@ -4906,7 +4906,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Fusion Crafting",
-          "desc:8": "Fabricá el §eFusion Crafting Core§r y sus inyectores: así se hacen las recetas grandes del mod.",
+          "desc:8": "El §eFusion Crafting§r es como una mesa de trabajo gigante para las recetas grandes de Draconic Evolution:\n 1. Colocá el §eFusion Crafting Core§r.\n 2. Poné los §einyectores§r alrededor, en línea con el núcleo y §emirando hacia él§r.\n 3. Poné el objeto central en el núcleo y los ingredientes en los inyectores.\n 4. Los inyectores necesitan §eenergía (RF)§r. El §eGenerator§r de Draconic Evolution quema combustible y la produce.\n\nCuando todo está listo, abrí el núcleo y arrancá la fusión. Las recetas de JEI muestran qué va en cada lugar.",
           "icon:10": {
             "id:8": "draconicevolution:fusion_crafting_core",
             "Count:3": 1,
@@ -4981,7 +4981,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Núcleo Wyvern",
-          "desc:8": "Fabricá un §eWyvern Core§r. Necesita recursos del End: se desbloquea con la §eexpedición grupal§r del cap. 20.",
+          "desc:8": "El §eWyvern Core§r es el segundo nivel de núcleo y la base del equipo Wyvern.\n\nSe arma con §eFusion Crafting§r: lleva §eDraconic Cores§r y una §eestrella del Nether§r (la suelta el Wither). Mirá la receta completa con §eR§r en JEI.\n\nEsta misión se abre después de la §eexpedición grupal al End§r (cap. 20).",
           "icon:10": {
             "id:8": "draconicevolution:wyvern_core",
             "Count:3": 1,
@@ -5055,7 +5055,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Equipo Wyvern",
-          "desc:8": "Conseguí cualquier pieza de equipo Wyvern.",
+          "desc:8": "Con Wyvern Cores y draconio se fabrica el equipo §eWyvern§r en el Fusion Crafting: pico, espada, hacha, pala, arco y armadura.\n\nLas herramientas Wyvern §eminan en área§r y se cargan con energía (RF). La armadura tiene un §eescudo de energía§r que absorbe golpes.\n\nConseguí cualquier pieza.",
           "icon:10": {
             "id:8": "draconicevolution:wyvern_pick",
             "Count:3": 1,
@@ -5265,7 +5265,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Jefe legendario: Chaos Guardian",
-          "desc:8": "Vive en las §eChaos Islands§r del End. En este servidor tiene §c2000 de vida§r y su isla §cexplota§r al romper el cristal del caos.",
+          "desc:8": "El §eChaos Guardian§r es el jefe más fuerte del servidor. Vive en las §eChaos Islands§r, islas flotantes lejos del centro del End.\n\nLo protegen §ecristales del caos§r que lo curan y le dan escudo. En este servidor tiene §c2000 de vida§r, y su isla §cexplota§r cuando rompés el cristal del caos.\n\nSuelta §eChaos Shards§r, necesarios para el equipo más alto. Vayan en grupo, con equipo Wyvern o mejor.",
           "icon:10": {
             "id:8": "draconicevolution:chaos_shard",
             "Count:3": 1,
@@ -5332,7 +5332,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Núcleo despertado",
-          "desc:8": "Con draconio despertado y fragmentos del caos, fabricá un §eAwakened Core§r.",
+          "desc:8": "El §eAwakened Core§r es el tercer nivel de núcleo.\n\nNecesitás §edraconio despertado§r (Awakened Draconium): se hace en Fusion Crafting con draconio y el §ecorazón de dragón§r, que suelta el Ender Dragon. Después, en otra fusión, armás el núcleo con draconio despertado y fragmentos del caos.\n\nMirá las dos recetas con §eR§r en JEI.",
           "icon:10": {
             "id:8": "draconicevolution:awakened_core",
             "Count:3": 1,
@@ -5406,7 +5406,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Un universo de almas",
-          "desc:8": "Harshen Universe agrega almas, sangre, accesorios (anillos, pendientes) y la dimensión §ePontus§r.\n\n§7Aviso técnico: el error del archivo de accesorios solo afecta al ajuste de daño del §ePunchy Ring§r, que queda con su valor de fábrica. Los demás accesorios funcionan.§r",
+          "desc:8": "Harshen Universe agrega:\n · §eAlmas y sangre§r: se juntan de los monstruos y alimentan rituales.\n · §eAccesorios§r: anillos y pendientes con efectos (más vida, velocidad, golpes más fuertes).\n · §eEl castillo de Kazzendre§r: hay uno solo en todo el Overworld.\n · §ePontus§r: una dimensión propia (dimensión 5).\n\nSeguí estas misiones en orden: cada una te da lo que necesitás para la siguiente.",
           "icon:10": {
             "id:8": "harshenuniverse:harshen_soul_fragment",
             "Count:3": 1,
@@ -5676,7 +5676,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Condensador",
-          "desc:8": "§6Condenser:§r ladrillos alrededor de un balde, con arcilla endurecida blanca abajo al centro. Destila hierbas para hacer §eelixires§r.",
+          "desc:8": "§6Condenser:§r ladrillos alrededor de un balde, con arcilla endurecida blanca abajo al centro.\n\nEs el alambique de Rustic: destila §ehierbas§r para hacer §eelixires§r, que son como pociones pero más fuertes y largas.\n\nLas hierbas crecen solas en el mundo: §ealoe vera§r (desierto), §echamomile§r, §eginseng§r, §ehorsetail§r, §ecohosh§r, §ewind thistle§r, §emarsh mallow§r, §eblood orchid§r y otras. Cosechalas y replantalas en tu base.",
           "icon:10": {
             "id:8": "rustic:condenser",
             "Count:3": 1,
@@ -5744,7 +5744,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Retorta",
-          "desc:8": "§6Retort:§r 2 ladrillos, 1 hierro y 1 balde. Va al lado del condensador.",
+          "desc:8": "§6Retort:§r 2 ladrillos, 1 hierro y 1 balde.\n\nLa retorta va §epegada al condensador§r y forma parte del alambique.",
           "icon:10": {
             "id:8": "rustic:retort",
             "Count:3": 1,
@@ -5812,7 +5812,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Tu primer elixir",
-          "desc:8": "Destilá un §eelixir§r con hierbas de Rustic (aloe, chamomile, ginseng, etc.). Se hacen en el condensador, no en el soporte de pociones.",
+          "desc:8": "Para destilar un elixir:\n 1. Abrí el condensador (con la retorta al lado).\n 2. Poné las §ehierbas§r en los espacios de ingredientes.\n 3. Poné una §ebotella de vidrio§r y §ecombustible§r (carbón o madera).\n 4. Esperá: sale el elixir.\n\nCada combinación de hierbas da un efecto distinto: probá y mirá en JEI. Los elixires §eno§r se hacen en el soporte de pociones.",
           "icon:10": {
             "id:8": "rustic:elixir",
             "Count:3": 1,
@@ -5886,7 +5886,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Tina de prensado",
-          "desc:8": "§6Crushing Tub:§r tablones, hierro y losas. Pisá uvas, manzanas u olivas para hacer jugo.",
+          "desc:8": "§6Crushing Tub:§r tablones, hierro y losas (receta en JEI).\n\nPoné fruta adentro (uvas, manzanas, olivas…) con clic derecho y §esaltá encima§r para pisarla. Se llena de jugo: sacalo con una botella de vidrio o un balde.\n\nLas uvas y las olivas crecen en Rustic: las uvas en enredaderas, las olivas en árboles.",
           "icon:10": {
             "id:8": "rustic:crushing_tub",
             "Count:3": 1,
@@ -5954,7 +5954,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Barril de fermentación",
-          "desc:8": "§6Brewing Barrel:§r tablones, hierro y losas. Fermenta jugos en vino, sidra o hidromiel.",
+          "desc:8": "§6Brewing Barrel:§r tablones, hierro y losas (receta en JEI).\n\nPoné jugo en el barril y esperá varios días del juego: fermenta y se vuelve §evino§r (uvas), §esidra§r (manzanas), §ehidromiel§r (miel) y otras bebidas. Las bebidas dan efectos buenos, pero tomar mucho emborracha.",
           "icon:10": {
             "id:8": "rustic:brewing_barrel",
             "Count:3": 1,
@@ -6022,7 +6022,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Colmenar",
-          "desc:8": "§6Apiary:§r troncos arriba y abajo, tablones a los costados. Da miel y cera de abeja.",
+          "desc:8": "§6Apiary:§r troncos arriba y abajo, tablones a los costados.\n\nLas §eabejas§r salen de las §ecolmenas silvestres§r que cuelgan de los árboles. Poné abejas en el colmenar y dejá §eflores cerca§r: con el tiempo producen panales. De los panales salen §emiel§r y §ecera de abeja§r.\n\nLa miel sirve para comida e hidromiel; la cera, para velas.",
           "icon:10": {
             "id:8": "rustic:apiary",
             "Count:3": 1,
@@ -6177,7 +6177,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "El espantapájaros",
-          "desc:8": "SpookyCraft agrega animales esqueléticos y un §eScarecrow§r. Derrotalo.\n\nID: spookycraft:scarecrow",
+          "desc:8": "El §eScarecrow§r (espantapájaros) es un monstruo de SpookyCraft. Aparece §ede noche§r en los biomas de §ellanura§r (Plains), como cualquier otro monstruo.\n\n§eTruco:§r si de noche usás una §ecalabaza§r o una §ecabeza de mob§r en la cabeza, a veces aparecen monstruos espeluznantes a tu alrededor, entre ellos el Scarecrow y animales esqueléticos (vacas, cerdos, lobos, llamas…). Andá preparado.",
           "icon:10": {
             "id:8": "minecraft:pumpkin",
             "Count:3": 1,
@@ -6244,7 +6244,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "El Rey Zombi",
-          "desc:8": "Re-Zombies agrega zombis con oficio: mineros, caballeros, piratas… Derrotá al §eZombie King§r: al morir tiene §e20 % de chance§r de soltar una pieza de su armadura (5 % cada una: casco, peto, pantalón o botas).\n\nID: rezombiesv15ver1122jar:zombieking",
+          "desc:8": "Re-Zombies agrega zombis con oficio: mineros, caballeros, piratas y más. Cada uno pelea distinto.\n\nEl jefe es el §eZombie King§r: mucha más vida y armadura propia. Aparece entre los zombis.\n\nAl morir tiene §e20 % de chance§r de soltar una pieza de su armadura de rey (5 % cada una: casco, peto, pantalón o botas). Vale la pena cazarlo varias veces.",
           "icon:10": {
             "id:8": "rezombiesv15ver1122jar:kingarmourhelmet",
             "Count:3": 1,
@@ -6311,7 +6311,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Creepers elementales",
-          "desc:8": "Hay 24 tipos de creepers elementales. Derrotá a uno de fuego, uno de hielo y uno eléctrico.",
+          "desc:8": "Elemental Creepers agrega §e24 tipos de creepers§r que aparecen de noche como los normales. Cada uno explota distinto:\n · §eFire Creeper§r: deja todo en llamas.\n · §eIce Creeper§r: congela el suelo y el agua.\n · §eLightning Creeper§r (eléctrico): tira rayos.\n\nSe reconocen por el color. Derrotá a uno de cada uno de estos tres. §eConsejo:§r con arco es más seguro.",
           "icon:10": {
             "id:8": "minecraft:gunpowder",
             "Count:3": 1,
@@ -6398,7 +6398,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Monstruos mortales",
-          "desc:8": "Deadly Monsters trae criaturas muy peligrosas. Derrotá a §ecualquiera§r de: Woman, Wideman, Climber, Mutant Steve o Topielec.\n\n§7El Zombie Chicken no suelta botín (falta su tabla).§r",
+          "desc:8": "Deadly Monsters trae los monstruos más peligrosos del servidor. Salen de noche y en lugares oscuros:\n · §eWoman§r · §eWideman§r · §eClimber§r · §eMutant Steve§r · §eTopielec§r\n\nPegan mucho más fuerte que un zombi y aguantan más golpes.\n\nDerrotá a §ecualquiera§r. Llevá como mínimo armadura de hierro y escudo.\n\n§7El Zombie Chicken de este mod no suelta nada al morir.§r",
           "icon:10": {
             "id:8": "dmonsters:souleye",
             "Count:3": 1,
@@ -6505,7 +6505,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Coleccionista de trofeos",
-          "desc:8": "Conseguí un trofeo: §eWoman's Heart§r, §eWideman's Spine§r o §eSoul Eye§r.",
+          "desc:8": "Algunos monstruos de Deadly Monsters sueltan §etrofeos§r al morir:\n · §eWoman's Heart§r: el corazón de la Woman.\n · §eWideman's Spine§r: la columna del Wideman.\n · §eSoul Eye§r: un ojo de alma.\n\nConseguí cualquiera de los tres. Si no te sale, seguí cazando: no siempre los sueltan.",
           "icon:10": {
             "id:8": "dmonsters:womanheart",
             "Count:3": 1,
@@ -6613,7 +6613,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Plata",
-          "desc:8": "Conseguí un §elingote de plata§r (mineral de plata de Howling Moon).",
+          "desc:8": "La §eplata§r de Howling Moon aparece como §emineral de plata§r bajo tierra.Minalo con pico de hierro o mejor y fundilo en el horno.\n\nLa plata es la mejor arma contra los §ehombres lobo§r: les hace mucho más daño.",
           "icon:10": {
             "id:8": "howlingmoon:ingot_silver",
             "Count:3": 1,
@@ -6681,7 +6681,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Espada de plata",
-          "desc:8": "§6Silver Sword:§r 2 lingotes de plata y un palo, en vertical. Efectiva contra hombres lobo.",
+          "desc:8": "§6Silver Sword:§r 2 lingotes de plata y un palo, en vertical (como una espada común).\n\nLes hace §edaño extra a los hombres lobo§r. Con una espada común también se puede, pero tarda mucho más.",
           "icon:10": {
             "id:8": "howlingmoon:silver_sword",
             "Count:3": 1,
@@ -6749,7 +6749,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Noche de luna llena",
-          "desc:8": "Derrotá a un §ehombre lobo§r.\n\nID: howlingmoon:entitywerewolf",
+          "desc:8": "Los §ehombres lobo§r salen §ede noche§r. Son rápidos y aguantan mucho, pero la plata les hace daño extra.\n\nLlevá la §eespada de plata§r y armadura. §cOjo:§r si te muerden te pueden §einfectar§r, y con el tiempo te convertís vos también. La cura está en la misión \"La cura\".",
           "icon:10": {
             "id:8": "howlingmoon:moonstone",
             "Count:3": 1,
@@ -6945,7 +6945,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Tu primer infernal",
-          "desc:8": "Derrotá a un monstruo con nombre de color (élite, ultra o infernal) y marcá la casilla.\n§7(Esta misión confía en tu palabra.)§r",
+          "desc:8": "Los monstruos con modificadores tienen el §enombre de color§r arriba de la cabeza, y al lado sus poderes. Antes de pelear, leelos: algunos explotan, roban vida, te envenenan o te tiran lejos.\n\nDerrotá a uno (élite, ultra o infernal) y marcá la casilla. Los infernales sueltan buen botín: objetos encantados y más experiencia.\n\n§7Esta misión confía en tu palabra.§r",
           "icon:10": {
             "id:8": "minecraft:golden_sword",
             "Count:3": 1,
@@ -7216,7 +7216,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Expediciones en grupo",
-          "desc:8": "Los jefes grandes se enfrentan mejor en equipo. Tu progreso del libro sigue siendo individual: cada uno completa sus misiones.\n\n§7Los puntos de clan y el ranking llegarán con PV7Core.§r",
+          "desc:8": "Los jefes grandes se enfrentan mejor en equipo. Este capítulo junta los combates pensados para hacer en grupo.\n\nTu progreso del libro sigue siendo §eindividual§r: cada uno completa sus misiones, aunque peleen juntos.\n\n§eConsejo:§r antes de una expedición, pónganse de acuerdo en el horario, lleven comida, pociones y armadura de repuesto.",
           "icon:10": {
             "id:8": "minecraft:shield",
             "Count:3": 1,
@@ -7252,7 +7252,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "El Wither",
-          "desc:8": "Invocá y derrotá al §eWither§r. Suelta la estrella del Nether (la pide la semilla del Fire Boss).",
+          "desc:8": "§6Invocar al Wither:§r 4 bloques de §earena de almas§r en forma de T y 3 §ecalaveras de Wither Skeleton§r arriba. Las calaveras las sueltan, a veces, los esqueletos negros de las §efortalezas del Nether§r.\n\n§cHacelo lejos de las bases:§r al aparecer explota y rompe bloques. Conviene pelearlo bajo tierra o en el Nether.\n\nSuelta la §eestrella del Nether§r: la pide la semilla del Fire Boss.",
           "icon:10": {
             "id:8": "minecraft:nether_star",
             "Count:3": 1,
@@ -7393,7 +7393,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Guardián del templo",
-          "desc:8": "Derrotá a un §eElder Guardian§r de un monumento oceánico.",
+          "desc:8": "Los §emonumentos oceánicos§r son templos bajo el mar en los océanos profundos. Adentro hay §e3 Elder Guardians§r.\n\nTe dan §efatiga de minería§r (no podés romper bloques rápido) y disparan láseres. Llevá §epociones de respiración§r, un casco con Respiración y botas con Agilidad Acuática.\n\nDerrotá a uno. Sueltan una §eesponja mojada§r y prismarina.",
           "icon:10": {
             "id:8": "minecraft:prismarine_shard",
             "Count:3": 1,
@@ -7460,7 +7460,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Equipo dracónico",
-          "desc:8": "Conseguí cualquier pieza de equipo §eDraconic§r.",
+          "desc:8": "El equipo §eDraconic§r es el nivel más alto: más área de minado, más escudo y más daño que el Wyvern.\n\nSe fabrica con §eFusion Crafting§r usando §eAwakened Cores§r, §edraconio despertado§r y la pieza Wyvern equivalente. Mirá cada receta con §eR§r en JEI.\n\nConseguí cualquier pieza.",
           "icon:10": {
             "id:8": "draconicevolution:draconic_chest",
             "Count:3": 1,
@@ -7670,7 +7670,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Núcleo caótico",
-          "desc:8": "Fabricá un §eChaotic Core§r.",
+          "desc:8": "El §eChaotic Core§r es el núcleo más poderoso de Draconic Evolution.\n\nSe arma con §eFusion Crafting§r usando §eAwakened Cores§r y §eChaos Shards§r (los suelta el Chaos Guardian). Mirá la receta con §eR§r en JEI.",
           "icon:10": {
             "id:8": "draconicevolution:chaotic_core",
             "Count:3": 1,
@@ -7744,7 +7744,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Almacén de energía",
-          "desc:8": "Fabricá un §eEnergy Storage Core§r para guardar energía en grande.",
+          "desc:8": "El §eEnergy Storage Core§r es una batería gigante de Draconic Evolution. Tiene varios niveles: cada uno guarda muchísimo más.\n\nEs una estructura: el núcleo al centro, §eestabilizadores§r alrededor y bloques de draconio o redstone según el nivel. Para sacar y meter energía se usan los §eEnergy Pylons§r.\n\nLa forma de cada nivel la muestra el núcleo en su propio menú.",
           "icon:10": {
             "id:8": "draconicevolution:energy_storage_core",
             "Count:3": 1,
@@ -7818,7 +7818,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Viajero de mundos",
-          "desc:8": "Visitá §e12 dimensiones§r: Nether, End, Betweenlands, Trópicos, las 5 elementales, Hunting Dimension, Cavern y Pontus. Cada tarea se completa sola al llegar.",
+          "desc:8": "Visitá §e12 dimensiones§r. Cada tarea se completa sola al llegar:\n · §eNether§r (portal de obsidiana) · §eEnd§r (expedición grupal, cap. 20)\n · §eBetweenlands§r (cap. 6) · §eTrópicos§r (cap. 7)\n · §eTierra, Agua, Aire, Espíritu y Fuego§r (cap. 8)\n · §eHunting Dimension§r (cap. 9) · §eCavern§r (cap. 10) · §ePontus§r (cap. 13)\n\nCada capítulo explica cómo llegar a su dimensión.",
           "icon:10": {
             "id:8": "minecraft:ender_eye",
             "Count:3": 1,
@@ -8079,7 +8079,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Todas las cavernas",
-          "desc:8": "Entrá a las 7 dimensiones de Cavern.",
+          "desc:8": "Entrá a las 7 dimensiones de Cavern. Cada una tiene su llave (clic derecho adentro de un marco de piedra musgosa):\n · §eCavern§r: esmeralda · §eAqua Cavern§r: aguamarina\n · §eRuins Cavern§r: Miner's Thought Orb · §eCaveland§r: un brote\n · §eIce Cavern§r: hielo compacto · §eHuge Cavern§r: diamante\n · §eCavenia§r: clic derecho con un Cavenic Orb estando en cualquier caverna",
           "icon:10": {
             "id:8": "cavern:cave_block",
             "Count:3": 1,
@@ -8171,7 +8171,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Todos los anillos",
-          "desc:8": "Conseguí todos los anillos de la Betweenlands.\n\nLogro \"None To Rule Them All\".",
+          "desc:8": "La Betweenlands tiene §e4 anillos mágicos§r . Se encuentran como botín explorando el pantano:\n · §eRing of Power§r · §eRing of Ascent§r\n · §eRing of Recruitment§r · §eRing of Summoning§r\n\nPasá el mouse por encima de cada uno para ver qué hace. Conseguí los cuatro.",
           "icon:10": {
             "id:8": "minecraft:gold_nugget",
             "Count:3": 1,
@@ -8233,7 +8233,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Maestro de los hongos",
-          "desc:8": "Juntá todos los hongos de la Betweenlands.\n\nLogro \"Mushroom Master\".",
+          "desc:8": "Juntá los hongos de la Betweenlands:\n · §eBlack Hat Mushroom§r · §eBulb-Capped Mushroom§r\n · §eFlat Head Mushroom§r · §eYellow Dotted Fungus§r\n\nCrecen en zonas oscuras y húmedas del pantano. Hacé un waypoint donde encuentres cada uno.",
           "icon:10": {
             "id:8": "minecraft:brown_mushroom",
             "Count:3": 1,
@@ -8295,7 +8295,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Libro de herboristería completo",
-          "desc:8": "Completá el Herblore Book.\n\nLogro \"Fully Booked\".",
+          "desc:8": "El §eHerblore Book§r es el libro de herboristería de la Betweenlands. Se completa §edescubriendo los aspectos§r de cada planta:\n 1. Cosechá plantas del pantano con la §eSickle§r (hoz).\n 2. Probalas en un §eGecko enjaulado§r para descubrir qué aspectos tienen.\n 3. Cada descubrimiento se anota en el libro.\n\nCon los aspectos se hacen elixires e infusiones. Es una misión larga: completá el libro entero.",
           "icon:10": {
             "id:8": "minecraft:book",
             "Count:3": 1,
@@ -8357,7 +8357,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Herramientas compuestas",
-          "desc:8": "Fabricá una herramienta compuesta con magia de Cavern.\n\nLogro \"Fantastic Tools\".",
+          "desc:8": "Las §eherramientas compuestas§r son pico, hacha y pala que mezclan varios materiales. Se hacen con el hechizo de §eCompositing§r de un Magical Book de Cavern.\n\nConseguí un libro con ese hechizo (lo sueltan los jefes Crazy de Cavenia), juntá los materiales y lanzalo. Fabricá cualquiera de las tres.",
           "icon:10": {
             "id:8": "cavern:composite_pickaxe",
             "Count:3": 1,
@@ -8493,7 +8493,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Tu primer constructor",
-          "desc:8": "Colocá la choza del §eBuilder§r: es quien construye todo lo demás.",
+          "desc:8": "En MineColonies los §eciudadanos§r hacen el trabajo, pero alguien tiene que construir las casas: el §eBuilder§r.\n\n 1. Colocá la §echoza del Builder§r (Builder's Hut) cerca del Town Hall.\n 2. Abrila y pedí que se construya: se le asigna un ciudadano.\n 3. El constructor te pide §emateriales§r: ponelos en el cofre de su choza.\n\nDespués, cada edificio nuevo se coloca con su bloque y el Builder lo levanta solo.",
           "icon:10": {
             "id:8": "minecolonies:blockhutbuilder",
             "Count:3": 1,
@@ -8660,7 +8660,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Trilogía de jefes finales",
-          "desc:8": "Derrotá a Primordial Malevolence, al Fire Boss y al Chaos Guardian.",
+          "desc:8": "Los tres jefes finales del servidor:\n · §ePrimordial Malevolence§r: la cima de la Wight Fortress (Betweenlands, cap. 6).\n · §eFire Boss§r: la dimensión Fuego (Elemental Dimensions, cap. 8).\n · §eChaos Guardian§r: las Chaos Islands del End (Draconic Evolution, cap. 12).\n\nDerrotá a los tres. Cada uno se completa por separado, en el orden que quieras.",
           "icon:10": {
             "id:8": "minecraft:diamond_sword",
             "Count:3": 1,
@@ -8747,7 +8747,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Wither en serie",
-          "desc:8": "Derrotá al Wither 3 veces.",
+          "desc:8": "Derrotá al §eWither 3 veces§r.\n\nCada invocación lleva 4 de arena de almas y 3 calaveras de Wither Skeleton. Con un grupo y buen equipo, una arena preparada bajo tierra lo hace mucho más fácil.\n\nLas estrellas del Nether sobrantes sirven para Draconic Evolution y para un §efaro§r.",
           "icon:10": {
             "id:8": "minecraft:nether_star",
             "Count:3": 1,
@@ -8815,7 +8815,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Leyenda de ArreMods",
-          "desc:8": "Recorriste todas las dimensiones y venciste a los jefes finales. Tu nombre queda en la historia del servidor.",
+          "desc:8": "Recorriste todas las dimensiones y venciste a los jefes finales.\n\nTu nombre queda en la historia del servidor: esta misión te da el título §6Leyenda de ArreMods§r.\n\nGracias por jugar.",
           "icon:10": {
             "id:8": "minecraft:dragon_egg",
             "Count:3": 1,
@@ -8897,7 +8897,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Cap. 1 · Bienvenido a ArreMods",
-          "desc:8": "El libro, las reglas y qué cambia en este mundo.",
+          "desc:8": "§6Tu guía de ArreMods.§r Cada capítulo es un mod o un tema del servidor.\n\n§eCómo se usa:§r no hay un orden obligatorio. Las misiones grises se desbloquean al completar otras; las que tienen marco grande son las principales de cada capítulo.\n\n§eHerramientas que vas a usar todo el tiempo:§r\n · §6JEI§r (a la derecha del inventario): §eR§r sobre un objeto = cómo se fabrica, §eU§r = para qué sirve.\n · §6Hwyla§r: mirá un bloque y te dice qué es y de qué mod viene.\n · §6JourneyMap§r: §eJ§r abre el mapa, §eB§r crea un waypoint.\n\nEmpezá leyendo las reglas en la primera misión.",
           "icon:10": {
             "id:8": "questbook:itemquestbook",
             "Count:3": 1,
@@ -8939,7 +8939,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Cap. 2 · Los primeros días",
-          "desc:8": "Madera, refugio, descanso, fuego y comida.",
+          "desc:8": "§6Sobrevivir la primera noche.§r Madera, un refugio, un lugar donde dormir, fuego y comida.\n\n§eMods de este capítulo:§r\n · §6The Camping Mod§r: tiendas, sacos de dormir, fogatas para cocinar y mochilas.\n · §6Campfire§r: fogata que da luz y calor, pero se apaga sola a los ~6 minutos.\n · §6Corail Tombstone§r: si morís, tus cosas quedan en una tumba donde caíste.\n\n§cOjo con la noche:§r salen criaturas de otros mods (zombis con oficio, creepers elementales, monstruos mortales) y al dormir hay un 5 % de chance de pesadilla. Dormí con equipo puesto y la vida llena.",
           "icon:10": {
             "id:8": "campfire:campfire",
             "Count:3": 1,
@@ -8988,7 +8988,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Cap. 3 · Preparación del aventurero",
-          "desc:8": "Escudos, martillos y arcos.",
+          "desc:8": "§6Equiparte antes de salir a explorar.§r\n\n§eMods de este capítulo:§r\n · §6Spartan Shields§r: escudos de madera, piedra, hierro, oro, obsidiana y diamante. Cada material aguanta más golpes.\n · §6Hammer Time§r: martillos que rompen 3×3 bloques de una vez. Ideales para minar y abrir túneles.\n · §6Disenchanter§r: mesa que saca los encantamientos de un objeto y los pasa a un libro.\n · §6Switch-Bow§r: arco con carcaj para cambiar de tipo de flecha sin abrir el inventario.\n\nNada de este capítulo bloquea el resto: es para llegar mejor preparado.",
           "icon:10": {
             "id:8": "spartanshields:shield_basic_wood",
             "Count:3": 1,
@@ -9030,7 +9030,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Cap. 4 · Explorador",
-          "desc:8": "Orientarte, buscar biomas y moverte rápido.",
+          "desc:8": "§6Orientarte y moverte rápido.§r El mundo es grande y hay biomas y estructuras de muchos mods.\n\n§eMods de este capítulo:§r\n · §6Nature's Compass§r: elegís un bioma de la lista y la aguja te lleva hasta el más cercano.\n · §6JourneyMap§r: mapa, minimapa y waypoints. También marca dónde moriste.\n · §6Rope Bridge§r: dispara un puente de cuerda y madera para cruzar barrancos y ríos.\n · §6NetherPortalFix§r: cada portal del Nether vuelve al portal desde el que entraste.\n\n§7Los biomas de Tropicraft y Betweenlands no están en el mundo normal: tienen su propia dimensión.§r",
           "icon:10": {
             "id:8": "naturescompass:naturescompass",
             "Count:3": 1,
@@ -9072,7 +9072,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Cap. 5 · Tu primer asentamiento",
-          "desc:8": "Territorio, mochilas, almacén y cultivos.",
+          "desc:8": "§6Tu primera base.§r Reclamá el terreno, ordená tus cosas y empezá a cultivar.\n\n§eMods de este capítulo:§r\n · §6FTB Utilities§r: reclamo de chunks (nadie puede romper tu base) y §e/sethome§r / §e/home§r.\n · §6Backpacks§r, §6Iron Backpacks§r y las bolsas del §6Camping Mod§r: más espacio para llevar.\n · §6Storage Drawers§r: cajones que guardan muchísimo de un solo objeto; con el controlador se unen todos.\n · §6Chest Transporter§r: levanta un cofre lleno para mudarlo.\n · §6Water Strainer§r: filtra agua y junta palos, arcilla, arena y grava.\n\nAl terminar este capítulo, elegís tu rama: dimensiones, magia y tecnología, o combate.",
           "icon:10": {
             "id:8": "storagedrawers:basicdrawers",
             "Count:3": 1,
@@ -9128,7 +9128,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Cap. 6 · The Betweenlands",
-          "desc:8": "Un pantano oscuro con reglas propias y tres jefes. Dimensión 20.",
+          "desc:8": "§6The Betweenlands§r · dimensión 20\n\nUn pantano oscuro, enorme y con reglas propias. Es uno de los mods más grandes del servidor.\n\n§eCómo se entra:§r matá §eDruidas Oscuros§r en los altares druídicos de los pantanos del Overworld para juntar las 4 piezas del talismán. Con el talismán hacés crecer un árbol portal.\n\n§cReglas del pantano:§r las antorchas comunes no funcionan, las herramientas del Overworld rinden menos y se corroen, y la comida se pudre. Todo se fabrica de nuevo con materiales locales.\n\n§eJefes:§r Dreadful Peat Mummy, Spirit Tree y Primordial Malevolence (jefe final de la Wight Fortress).",
           "icon:10": {
             "id:8": "thebetweenlands:swamp_talisman",
             "Count:3": 1,
@@ -9233,7 +9233,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Cap. 7 · Tropicraft",
-          "desc:8": "Islas, cócteles y volcanes. Dimensión -127.",
+          "desc:8": "§6Tropicraft§r · dimensión -127\n\nIslas tropicales con playas, volcanes, aldeas Koa, tiburones, tortugas y cócteles.\n\n§eDos formas de llegar:§r\n · Sentate en una §esilla de playa§r al atardecer después de tomar una §ePiña Colada§r.\n · Armá un portal con la §evarita§r: un anillo 5×5 de arenisca con un cuadrado 3×3 de agua adentro. Este portal sirve para ir y volver.\n\nLos cócteles se preparan en la §eDrink Mixer§r. Las §eazuritas§r y los §ezircones§r de las islas sirven para la varita.",
           "icon:10": {
             "id:8": "tropicraft:chair",
             "Count:3": 1,
@@ -9289,7 +9289,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Cap. 8 · Elemental Dimensions",
-          "desc:8": "Cinco dimensiones en línea: Tierra → Agua → Aire → Espíritu → Fuego (100-104).",
+          "desc:8": "§6Elemental Dimensions§r · dimensiones 100 a 104\n\nCinco dimensiones en cadena: §eTierra → Agua → Aire → Espíritu → Fuego§r. Cada una tiene su jefe.\n\n§eCómo funciona:§r cada dimensión se abre con una §eruna§r. La de Tierra la sueltan los Guardias de las mazmorras-portal del Overworld. Las demás runas tienen 3 partes: las partes 1 y 3 las sueltan los monstruos y jefes de cada dimensión, y la parte 2 está en un cofre de la mazmorra de la dimensión anterior.\n\n§eEl viaje:§r poné la runa en el §ePortal Dialer§r de la mazmorra y parate frente a él.\n\n§eJefe final:§r el Fire Boss, que suelta la Elemental Wand.",
           "icon:10": {
             "id:8": "elementaldimensions:earthrune",
             "Count:3": 1,
@@ -9387,7 +9387,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Cap. 9 · Hunting Dimension",
-          "desc:8": "Una dimensión de caza con mobs más fuertes. Dimensión 28885.",
+          "desc:8": "§6Hunting Dimension§r · dimensión 28885\n\nUna dimensión para cazar: mobs más fuertes que dan más experiencia.\n\n§eEl portal:§r misma forma que el del Nether, hecho con §eHunting Dimension Frames§r (8 troncos alrededor de una flecha). Se activa con espada, arco o mechero, y se cruza §eagachado§r.\n\n§cReglas del servidor ahí adentro:§r los mobs tienen +30 % de vida y ataque y +4 de armadura, y §cno podés reaparecer en la dimensión§r si morís.\n\nCon el §eCreeping Moss§r podés cambiar el bioma de un chunk de la dimensión.",
           "icon:10": {
             "id:8": "huntingdim:frame",
             "Count:3": 1,
@@ -9429,7 +9429,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Cap. 10 · Cavern",
-          "desc:8": "Siete dimensiones subterráneas (-50 a -56).",
+          "desc:8": "§6Cavern§r · dimensiones -50 a -56\n\nSiete mundos subterráneos, cada uno con sus minerales y peligros:\n · §eCavern§r (-50): la principal, con aguamarina y randomita.\n · §eRuins Cavern§r (-51) · §eAqua Cavern§r (-52) · §eCaveland§r (-53)\n · §eIce Cavern§r (-54) · §eCavenia§r (-55) · §eHuge Cavern§r (-56)\n\n§eCómo se entra:§r marco tipo portal del Nether de piedra musgosa o ladrillo de piedra, activado con una esmeralda. Cada caverna nueva pide su propia llave (aguamarina, hielo compacto, diamante, etc.).\n\n§aCavenia es zona de práctica:§r ahí no perdés inventario ni experiencia al morir.",
           "icon:10": {
             "id:8": "cavern:cave_block",
             "Count:3": 1,
@@ -9513,7 +9513,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Cap. 11 · Astral Sorcery",
-          "desc:8": "Magia de las estrellas (mecánicas clásicas de 1.12.2).",
+          "desc:8": "§6Astral Sorcery§r · magia de las estrellas\n\nMagia que se alimenta de la luz de las estrellas: hace falta cielo abierto y noches despejadas.\n\n§eCómo empezar:§r conseguí un §eRock Crystal§r y el §eAstral Tome§r, el libro del mod (la receta está en JEI). El libro se va completando a medida que avanzás.\n\n§eProgresión:§r Luminous Crafting Table → Starlight Crafting Altar → Celestial Altar → Iridescent Altar. En el camino te sintonizás con una constelación y desbloqueás habilidades propias.\n\n§7Usá guías de la versión 1.12.2: el mod cambió mucho en versiones nuevas.§r",
           "icon:10": {
             "id:8": "minecraft:glowstone_dust",
             "Count:3": 1,
@@ -9597,7 +9597,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Cap. 12 · Draconic Evolution",
-          "desc:8": "Tecnología dracónica. Requiere ir al End y vencer al dragón.",
+          "desc:8": "§6Draconic Evolution§r · tecnología dracónica\n\nHerramientas, armaduras y máquinas cada vez más poderosas, hechas con §edraconio§r y energía.\n\n§eDónde está el draconio:§r en el Overworld muy profundo (capas 2 a 8), en el Nether y en el End.\n\n§eProgresión:§r Draconic Core → Fusion Crafting (las recetas grandes del mod) → Wyvern → Awakened → Chaotic.\n\n§cNecesita el End:§r a partir del Wyvern Core hacen falta recursos del End, que se abre con la §eexpedición grupal§r del cap. 20.\n\n§cJefe:§r el Chaos Guardian, en las Chaos Islands del End, con 2000 de vida.",
           "icon:10": {
             "id:8": "draconicevolution:draconic_core",
             "Count:3": 1,
@@ -9667,7 +9667,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Cap. 13 · Harshen Universe",
-          "desc:8": "Almas, sangre y la dimensión Pontus (5).",
+          "desc:8": "§6Harshen Universe§r · dimensión Pontus (5)\n\nAlmas, sangre, rituales y accesorios (anillos, collares, pendientes).\n\n§eLa clave del mod:§r el castillo de §eKazzendre§r en el Overworld. Hay uno solo por mundo. Después de vencerlo, en la sala del tesoro está el §eSoul Harsher Pickaxe§r, el único pico que mina el Harshen Soul Ore.\n\n§eRituales:§r Lightning Ritual, Blood Ritual y Heretic Ritual. Con el Lightning Ritual se arma el spawner de la puerta a Pontus.\n\nLas flores de alma del Overworld dan Harshen Crystals.",
           "icon:10": {
             "id:8": "harshenuniverse:harshen_soul_fragment",
             "Count:3": 1,
@@ -9716,7 +9716,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Cap. 14 · Rustic",
-          "desc:8": "Alquimia, vino, miel y decoración medieval.",
+          "desc:8": "§6Rustic§r · alquimia, vino y vida de campo\n\nUn mod tranquilo para la base:\n · §eAlquimia:§r el Condensador y la Retorta destilan hierbas (aloe, manzanilla, ginseng y más) en §eelixires§r.\n · §eBebidas:§r la tina de prensado saca jugo de uvas, manzanas u olivas, y el barril los fermenta en vino, sidra o hidromiel.\n · §eMiel y cera:§r el colmenar.\n · §eCultivos:§r tomate y chile (crecen sobre estacas) y uvas.\n\nTambién trae muebles y decoración: sillas, mesas, velas y candelabros.",
           "icon:10": {
             "id:8": "rustic:elixir",
             "Count:3": 1,
@@ -9779,7 +9779,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Cap. 15 · Criaturas de la noche",
-          "desc:8": "Pesadillas, esqueletos espeluznantes y zombis especiales.",
+          "desc:8": "§6Criaturas de la noche§r\n\nVarios mods hacen las noches mucho más peligrosas que en Minecraft normal:\n · §6Nightmares§r: al dormir hay 5 % de chance de pesadilla. Aparece una Hag, una Shadow Person o 8 Phantasmic Spiders.\n · §6SpookyCraft§r: animales esqueléticos y el Scarecrow.\n · §6Re-Zombies§r: zombis con oficio (mineros, caballeros, piratas…) y el Zombie King, que a veces suelta su armadura.\n · §6Elemental Creepers§r: 24 tipos de creepers que explotan con fuego, hielo, rayos y más.\n\n§eConsejo:§r iluminá bien la base y no salgas de noche sin escudo.",
           "icon:10": {
             "id:8": "minecraft:skull",
             "Count:3": 1,
@@ -9828,7 +9828,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Cap. 16 · Depredadores",
-          "desc:8": "Deadly Monsters: los monstruos más peligrosos.",
+          "desc:8": "§6Depredadores§r · Deadly Monsters\n\nLos monstruos más peligrosos del servidor: la Woman, el Wideman, el Climber, el Mutant Steve y el Topielec, entre otros. Pegan fuerte y aguantan mucho.\n\n§eTrofeos:§r algunos sueltan partes raras (Woman's Heart, Wideman's Spine, Soul Eye).\n\n§cNo vayas solo ni con equipo de hierro.§r",
           "icon:10": {
             "id:8": "dmonsters:souleye",
             "Count:3": 1,
@@ -9863,7 +9863,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Cap. 17 · Maldición lunar",
-          "desc:8": "Howling Moon: licantropía. Sin jefes.",
+          "desc:8": "§6Maldición lunar§r · Howling Moon\n\nHombres lobo. Si uno te muerde, te podés contagiar de §elicantropía§r y convertirte en lobo.\n\n§eLa plata:§r el mod agrega mineral de plata. La §eespada de plata§r es el arma contra los hombres lobo.\n\n§eLa cura:§r la §ePoción de Wolfsbane§r (poción rara + flor Wolfsbane). Cura la infección o la licantropía, y si estás sano te vuelve inmune.\n\n§7Este mod no tiene jefes.§r",
           "icon:10": {
             "id:8": "howlingmoon:moonstone",
             "Count:3": 1,
@@ -9912,7 +9912,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Cap. 18 · Enemigos infernales",
-          "desc:8": "Infernal Mobs: monstruos con poderes extra.",
+          "desc:8": "§6Enemigos infernales§r · Infernal Mobs\n\nCualquier monstruo puede aparecer con poderes extra. Se reconocen por el §enombre de color§r sobre la cabeza.\n\n§eRangos:§r Élite (1 de cada 15), Ultra (1 de cada 7 élites) e Infernal (1 de cada 7 ultras). Hay 27 poderes posibles: veneno, robo de vida, explosiones, invisibilidad y más.\n\n§aSueltan mejor botín§r, pero §cno dan recompensas si los matás en una granja de mobs§r.",
           "icon:10": {
             "id:8": "minecraft:blaze_powder",
             "Count:3": 1,
@@ -9947,7 +9947,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Cap. 19 · Guardianes y defensas",
-          "desc:8": "Totems defensores, tótems espirituales y SecurityCraft.",
+          "desc:8": "§6Guardianes y defensas§r\n\nTres mods para proteger la base:\n · §6Totem Defender§r: tótems de madera, hierro, oro o diamante que disparan a lo que elijas (monstruos, animales u otros jugadores).\n · §6Mob Totems§r: tótems tallados que, con ofrendas, evitan que aparezcan monstruos, prenden fuego o envenenan.\n · §6SecurityCraft§r: teclados con clave, bloques reforzados, minas, cámaras y más.\n\n§7Recordá las reglas: las trampas valen, pero no pueden romper ni llevarse cosas de otros.§r",
           "icon:10": {
             "id:8": "totemdefender:core",
             "Count:3": 1,
@@ -9989,7 +9989,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Cap. 20 · Grandes expediciones",
-          "desc:8": "Jefes vanilla y expediciones en grupo.",
+          "desc:8": "§6Grandes expediciones§r\n\nLos jefes de Minecraft, para enfrentar en grupo:\n · §eEl Wither§r: lo invocás vos. Suelta la estrella del Nether.\n · §eEl Elder Guardian§r: en los monumentos oceánicos.\n · §eEl Ender Dragon§r: §cexpedición grupal obligatoria§r. Nadie entra al End antes; se organiza entre todos.\n\nDespués del dragón, el End queda abierto: Chaos Guardian, draconio del End y más.",
           "icon:10": {
             "id:8": "minecraft:nether_star",
             "Count:3": 1,
@@ -10038,7 +10038,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Cap. 21 · El poder definitivo",
-          "desc:8": "La cima de Draconic Evolution.",
+          "desc:8": "§6El poder definitivo§r\n\nLa cima de Draconic Evolution: equipo dracónico, núcleos caóticos y el armamento más fuerte del servidor.\n\nSe abre con la Fusion Crafting del cap. 12. Necesita muchos recursos, energía y fragmentos del Chaos Guardian.",
           "icon:10": {
             "id:8": "draconicevolution:chaotic_core",
             "Count:3": 1,
@@ -10080,7 +10080,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Cap. 22 · Maestro de las dimensiones",
-          "desc:8": "Pisá todas las dimensiones del servidor.",
+          "desc:8": "§6Maestro de las dimensiones§r\n\nPisá todas las dimensiones del servidor: Nether, End, Betweenlands, Trópicos, las 5 elementales, Hunting Dimension, Cavern y Pontus, y además las 7 cavernas.\n\nEs un capítulo para coleccionistas: se va completando solo mientras jugás los demás.",
           "icon:10": {
             "id:8": "minecraft:ender_eye",
             "Count:3": 1,
@@ -10115,7 +10115,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Cap. 23 · Coleccionista",
-          "desc:8": "Logros difíciles de completar.",
+          "desc:8": "§6Coleccionista§r\n\nLogros difíciles de los mods grandes: anillos de la Betweenlands, el maestro de los hongos, el libro de herboristería completo y las herramientas compuestas de Cavern.\n\nNo apurarse: son metas largas.",
           "icon:10": {
             "id:8": "minecraft:chest",
             "Count:3": 1,
@@ -10164,7 +10164,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Cap. 24 · Arquitecto del mundo",
-          "desc:8": "Colonias y aldeanos.",
+          "desc:8": "§6Arquitecto del mundo§r\n\n · §6MineColonies§r: fundá una colonia con aldeanos que trabajan para vos. El constructor levanta los edificios, y cada edificio trae un oficio nuevo (granjero, minero, leñador y más). Arrancás con un SupplyCamp o un SupplyShip.\n · §6MCA (Minecraft Comes Alive)§r: los aldeanos hablan, trabajan, tienen familia y te podés casar.\n\nIdeal para jugar tranquilo entre expediciones.",
           "icon:10": {
             "id:8": "minecolonies:blockhuttownhall",
             "Count:3": 1,
@@ -10206,7 +10206,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Cap. 25 · Desafíos legendarios",
-          "desc:8": "Los combates más difíciles del servidor.",
+          "desc:8": "§6Desafíos legendarios§r\n\nLos combates más difíciles del servidor:\n · La trilogía de jefes finales: §ePrimordial Malevolence§r (Betweenlands), §eFire Boss§r (Elemental Dimensions) y §eChaos Guardian§r (Draconic Evolution).\n · El Wither tres veces.\n\n§cVayan en grupo y con el mejor equipo que tengan.§r",
           "icon:10": {
             "id:8": "minecraft:diamond_sword",
             "Count:3": 1,
@@ -10241,7 +10241,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Cap. 26 · La última expedición",
-          "desc:8": "Opcional. No bloquea nada.",
+          "desc:8": "§6La última expedición§r\n\nEl cierre del libro: recorriste todas las dimensiones y venciste a los jefes finales.\n\nEs opcional y no bloquea nada. Como premio te llevás el título de §6Leyenda de ArreMods§r.",
           "icon:10": {
             "id:8": "minecraft:dragon_egg",
             "Count:3": 1,

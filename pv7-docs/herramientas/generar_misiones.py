@@ -836,10 +836,443 @@ quest(2700, 0, 0, "Leyenda de ArreMods",
       prereq=[2300, 2600], main=True)
 
 
+# =============================================================================
+# Textos ampliados: reemplazan la descripción corta de cada misión.
+# Datos sacados del código y los archivos de cada mod (ver pv7-docs/07).
+# =============================================================================
+TEXTOS = {
+5: "Apretá §eJ§r para abrir JourneyMap. Con §eB§r creás un §ewaypoint§r (un punto guardado) en donde estás parado: "
+   "ponele un nombre como \"Casa\" y un color.\n\n"
+   "Los waypoints se ven en el mapa y como un marcador en el mundo, así nunca te perdés. "
+   "Hacé uno en cada lugar importante: tu base, una aldea, una cueva con minerales, un portal.\n\n"
+   "§7Cuando morís, el mapa marca solo el lugar con un waypoint de muerte: ahí está tu tumba.§r",
+31: "Abrí la §eNature's Compass§r (clic derecho), elegí un bioma que no conozcas (Savanna, Mesa, Ice Spikes, Mushroom Island…) "
+    "y seguí la flecha. Cuando llegues, hacé un waypoint en JourneyMap y marcá la casilla.\n\n"
+    "En el camino anotá en el mapa lo que veas: §ecuevas§r con minerales, §ealdeas§r para comerciar, "
+    "§etemplos y estructuras§r con cofres. Muchas estructuras de mods también tienen botín.\n\n"
+    "§7Los biomas de Tropicraft y Betweenlands no están en el Overworld: viven en sus propias dimensiones (cap. 6 y 7).§r",
+40: "Para que nadie rompa tu base sin querer, §ereclamá los chunks§r donde está:\n"
+    " · Abrí el inventario y tocá el botón de §eFTB Utilities§r (arriba a la izquierda) → §eClaimed Chunks§r.\n"
+    " · En el mapa, hacé §eclic izquierdo§r sobre los cuadrados para reclamarlos (clic derecho los libera).\n\n"
+    "Además: §e/sethome§r guarda tu casa y §e/home§r te lleva de vuelta desde cualquier lado. Útil cuando te perdés o se hace de noche.\n\n"
+    "§7La cantidad de chunks que podés reclamar la fija el administrador.§r",
+47: "Ya tenés base, almacén y territorio. Desde acá el libro se abre y podés seguir por donde quieras:\n"
+    " · §6Dimensiones§r (cap. 6 a 10): pantanos, trópicos, cinco mundos elementales, caza y cavernas.\n"
+    " · §6Magia y tecnología§r (cap. 11 a 14): estrellas, dragones, almas y alquimia.\n"
+    " · §6Combate§r (cap. 15 a 20): monstruos de la noche, depredadores, hombres lobo y jefes.\n\n"
+    "§eConsejo:§r si es tu primera vez con mods, empezá por §eCavern§r (cap. 10) o §eTropicraft§r (cap. 7): son los más fáciles.",
+
+# --- Cap. 6 · The Betweenlands ---
+600: "La Betweenlands se abre con el §eTalismán del Pantano§r. Cómo conseguirlo:\n"
+     " 1. Buscá en los §epantanos del Overworld§r un §eDark Druid Altar§r: un altar de piedra rodeado de pilares.\n"
+     " 2. Cerca aparecen §eDruidas Oscuros§r. Matalos vos: cada uno tiene 50 % de chance de soltar una §ePieza del Talismán§r, "
+     "y siempre es una que todavía no tenés.\n"
+     " 3. Cuando juntes las §e4 piezas§r, ponelas en el altar: se unen en el talismán.\n\n"
+     "§eConsejo:§r los druidas se teletransportan y te tiran hacia ellos. Llevá comida y una espada de hierro.",
+601: "Con el talismán en la mano, hacé §eclic derecho sobre un brote§r plantado en el Overworld: crece un §eÁrbol Portal§r gigante. "
+     "Entrá por el hueco del tronco y cruzás a la Betweenlands.\n\n"
+     "El talismán queda §evinculado§r a ese portal (lo dice al pasar el mouse por encima). El mismo árbol sirve para volver.\n\n"
+     "§cAntes de cruzar:§r llevá comida, bloques y un pico. Del otro lado la vida es más difícil.",
+602: "La Betweenlands castiga a los recién llegados:\n"
+     " · Las §cantorchas comunes no prenden§r. Hacé §eSulfur Torches§r: azufre arriba y un palo de weedwood abajo (da 4). "
+     "El azufre se mina en las paredes de piedra del pantano.\n"
+     " · Las herramientas del Overworld §crinden menos§r y se §ecorroen§r con el uso.\n"
+     " · Tenés una barra de §edescomposición§r (decay): si baja, perdés vida máxima. "
+     "La bajan las §eBalls of Sap§r (savia), que salen de romper troncos de §eSap Tree Log§r (los árboles de savia).\n\n"
+     "Juntá savia para completar la misión y llevá siempre algunas encima.",
+603: "Talá árboles de §eweedwood§r (los troncos oscuros del pantano). Cada tronco da tablones de weedwood, "
+     "y con tablones hacés palos de weedwood.\n\n"
+     "§6Weedwood Crafting Table:§r 4 tablones de weedwood en cuadrado.\n\n"
+     "Desde esta mesa se fabrica casi todo el equipo de la dimensión. "
+     "Empezá con un §epico de weedwood§r para poder minar piedra.",
+604: "En las cuevas de la Betweenlands hay dos metales nuevos:\n"
+     " · §eSyrmorite§r: el hierro del pantano. Para armaduras, baldes y escudos.\n"
+     " · §eOctine§r: un metal caliente que hasta prende fuego al musgo. Para herramientas mejores.\n\n"
+     "Se funden en el §eSulfur Furnace§r: 8 bloques de betweenstone en anillo (como el horno común). "
+     "Usa azufre como combustible.\n\n"
+     "Conseguí un lingote de cualquiera de los dos.",
+605: "§6Dual Sulfur Furnace:§r un Sulfur Furnace al centro y 8 betweenstone alrededor.\n\n"
+     "Funde dos cosas a la vez. Si le ponés §eLimestone Flux§r, a veces da lingotes extra.",
+606: "Las armas del Overworld pegan menos acá: hacé una propia del pantano. Todas son 2 del material arriba y un palo de weedwood abajo:\n"
+     " · §eWeedwood Sword§r: tablones de weedwood. La primera.\n"
+     " · §eBone Sword§r: §eSlimy Bones§r, que salen de la §eSlimy Bone Ore§r.\n"
+     " · §eOctine Sword§r: lingotes de octine.\n"
+     " · §eValonite Sword§r: valonite, de las cuevas más profundas. La mejor.",
+607: "Derrotá al menos una vez a cada uno de estos monstruos del pantano:\n"
+     " · §eSwamp Hag§r · §eWight§r · §eTar Beast§r · §eSludge§r · §ePeat Mummy§r\n\n"
+     "La Peat Mummy sale de la turba cuando caminás cerca; la Tar Beast vive en los pozos de alquitrán.\n\n"
+     "Se completa sola cuando hayas matado a los cinco.",
+608: "La §eDreadful Peat Mummy§r no aparece sola: se invoca con un §eMummy Bait§r (cebo de momia).\n\n"
+     "§6Mummy Bait:§r se arma en la mesa con un frasco de aspecto §eArmaniis§r, una §eShimmerstone§r, "
+     "un §ecorazón animado de Tar Beast§r y una §ebola de lodo§r (de los Sludges). Mirá la receta con §eR§r en JEI.\n\n"
+     "§eTirá el cebo al suelo§r (tecla §eQ§r) en un bioma §eSludge Plains§r o §eMarsh§r: la momia sale de la tierra. Tiene barra de jefe y pega fuerte: "
+     "llevá armadura de syrmorite, comida y amigos.",
+609: "El §eSpirit Tree§r es un árbol enorme que vive en un claro del pantano (el mapa lo nombra \"Spirit Tree\" cuando llegás). "
+     "Al acercarte despierta: en el tronco aparecen §ecaras§r que te atacan.\n\n"
+     "Hay que vencer a la §eCara Grande§r (Large Spirit Tree Face). Las §ecaras chicas§r la ayudan: sacalas del medio primero.\n\n"
+     "§eConsejo:§r no te quedes quieto y vayan en grupo.",
+610: "Las §eWight Fortresses§r son castillos grandes de piedra oscura en la superficie del pantano. "
+     "Están llenas de Wights, trampas y cofres.\n\n"
+     "Buscá una, hacé un waypoint en la entrada y marcá el lugar para tu grupo. "
+     "Arriba de todo espera el jefe final de la dimensión.\n\n"
+     "Se completa sola al encontrarla.",
+611: "El jefe de la cima de la Wight Fortress. Pelea desde el centro de la sala con §etorretas§r, §ebarreras§r "
+     "que lo vuelven invulnerable y §eteletransportes§r.\n\n"
+     "§eCómo ganarle:§r rompé las torretas primero, esquivá los proyectiles y pegale cuando la barrera baja. "
+     "Vayan en grupo, con armadura de syrmorite o mejor y mucha comida.\n\n"
+     "Es uno de los tres jefes de la §eTrilogía§r del cap. 25.",
+
+# --- Cap. 7 · Tropicraft ---
+702: "Con todo listo:\n"
+     " 1. Colocá la §esilla de playa§r cerca del mar.\n"
+     " 2. Esperá al §eatardecer§r (cuando el sol empieza a bajar).\n"
+     " 3. Sentate en la silla y tomá la §ePiña Colada§r.\n\n"
+     "El efecto de la bebida te lleva a los trópicos. Se necesitan las tres cosas juntas: silla, atardecer y efecto. "
+     "Si no pasa nada, revisá la hora.\n\n"
+     "Para volver, más adelante hacés un portal (misión \"Varita del portal\").",
+703: "Los trópicos son islas con playas, selvas y volcanes. Para explorar:\n"
+     " · §eAldeas Koa§r: casas en la playa con aldeanos para comerciar.\n"
+     " · §eCabezas EIH§r: estatuas de piedra gigantes.\n"
+     " · §eVolcanes§r: lava y minerales adentro.\n"
+     " · En el agua: tiburones martillo, tortugas y peces de colores.\n\n"
+     "Conseguí §eazurita§r y §ezircón§r: son minerales de la dimensión y se minan en la piedra de las islas. "
+     "Los dos sirven para la varita del portal.",
+
+# --- Cap. 8 · Elemental Dimensions ---
+801: "Los §eGuardias§r (Guards) cuidan las §emazmorras-portal§r del Overworld: construcciones de piedra con un Portal Dialer adentro. "
+     "Al morir pueden soltar la §eRuna de Tierra§r.\n\n"
+     "Esas mazmorras son raras. Explorá lejos, usá el mapa para no repetir zonas y hacé un waypoint cuando encuentres una: "
+     "la vas a necesitar para entrar a la dimensión.",
+806: "Juntá las 3 partes de la §eRuna de Aire§r y unilas en la mesa de trabajo:\n"
+     " · §eParte 1:§r la sueltan los §eWater Creeps§r de la dimensión Agua.\n"
+     " · §eParte 2:§r está en un cofre de la mazmorra de la dimensión Agua.\n"
+     " · §eParte 3:§r la suelta el §eWater Creep Boss§r.\n\n"
+     "Con la runa en la mano, usá el Portal Dialer de la mazmorra-portal del Overworld (igual que con la Runa de Tierra) "
+     "y entrá al Aire (dimensión 102).",
+808: "Juntá las 3 partes de la §eRuna de Espíritu§r:\n"
+     " · §eParte 1:§r la sueltan los §eGhosts§r de la dimensión Aire.\n"
+     " · §eParte 2:§r cofre de la mazmorra de la dimensión Aire.\n"
+     " · §eParte 3:§r la suelta el §eGhost Boss§r.\n\n"
+     "Unilas, usá el Portal Dialer del Overworld y entrá al Espíritu (103). "
+     "Ahí los §eSpirits§r sueltan las partes 1 y 3 de la Runa de Fuego.",
+809: "La última runa. Juntá las 3 partes de la §eRuna de Fuego§r:\n"
+     " · §ePartes 1 y 3:§r las sueltan los §eSpirits§r de la dimensión Espíritu.\n"
+     " · §eParte 2:§r cofre de la mazmorra de la dimensión Espíritu.\n\n"
+     "Unilas, usá el Portal Dialer del Overworld y entrá al Fuego (104).\n\n"
+     "§cCuidado:§r es una dimensión de lava. Llevá pociones de resistencia al fuego.",
+
+# --- Cap. 10 · Cavern ---
+1000: "§6Portal a la Caverna:§r armá un marco con la forma del portal del Nether (rectángulo hueco de 4 de ancho por 5 de alto como mínimo) "
+      "usando §epiedra musgosa§r o §eladrillo de piedra musgoso§r. Después hacé §eclic derecho adentro del marco con una esmeralda§r.\n\n"
+      "Con el mismo marco y otro objeto se abren las otras cavernas:\n"
+      " · Aguamarina → Aqua Cavern · Miner's Thought Orb → Ruins Cavern\n"
+      " · Un brote → Caveland · Hielo compacto → Ice Cavern · Diamante → Huge Cavern\n\n"
+      "La Caverna es una dimensión toda subterránea, sin superficie. Hay §emuchos más minerales§r que en el Overworld.",
+1001: "En las cavernas aparecen versiones §ecavénicas§r de los monstruos: más vida, más daño y más alcance. "
+      "Matá al menos uno de cada uno:\n"
+      " · Cavenic Skeleton · Cavenic Creeper · Cavenic Zombie\n"
+      " · Cavenic Spider · Cavenic Witch · Cavenic Bear\n\n"
+      "A veces sueltan un §eCavenic Orb§r, la llave de §eCavenia§r. Guardalo.",
+1002: "La §eaguamarina§r es un mineral celeste que se mina en la Caverna. Con ella hacés pico, hacha y pala de aguamarina.\n\n"
+      "Para la §eAqua Cavern§r: armá otro marco de piedra musgosa y hacé clic derecho adentro con una aguamarina. "
+      "Es una caverna inundada: llevá pociones de respiración o un casco con Respiración.",
+1003: "La §eRandomite Ore§r es un mineral raro de la Caverna: al romperlo §esuelta un objeto al azar§r de todo el juego. "
+      "A veces es basura, a veces un tesoro.\n\n"
+      "La llave de la Ruins Cavern es el §eMiner's Thought Orb§r. Sale en los §ecofres de las torres-mazmorra§r de la Caverna "
+      "(1 o 2 por cofre) y, con suerte, de la randomita.\n\n"
+      "Con el orbe, hacé clic derecho adentro de un marco de piedra musgosa: se abre el portal a las ruinas.",
+1004: "La §eCaveland§r es una caverna con árboles y pasto, como un bosque bajo tierra.\n\n"
+      "La llave es §ecualquier brote§r (de roble, abedul, de mods…). Hacé clic derecho con el brote adentro de un marco de piedra musgosa.\n\n"
+      "Ahí crecen árboles \"pervertidos\" con madera propia y se cosecha la §eacresia§r con tijeras.",
+1005: "La §eIce Cavern§r es una caverna helada con hielo resbaladizo.\n\n"
+      "La llave es un bloque de §ehielo compacto§r (packed ice). Se consigue con un pico con §eToque de Seda§r en un bioma Ice Spikes, "
+      "o comerciando con aldeanos. Hacé clic derecho con él adentro de un marco de piedra musgosa.\n\n"
+      "Con el hielo de ahí se cargan herramientas y armas de hielo.",
+1006: "La §eHuge Cavern§r es una caverna gigante con techos altísimos y muchos minerales.\n\n"
+      "La llave es un §ediamante§r: hacé clic derecho con él adentro de un marco de piedra musgosa. "
+      "Si todavía no tenés diamantes, buscalos en la Caverna: aparecen mucho más que en el Overworld.",
+1007: "§eCavenia§r es una caverna de combate. Para entrar, hacé §eclic derecho con un Cavenic Orb§r estando en §ecualquier caverna§r: "
+      "te lleva directo y el orbe se gasta. El orbe lo sueltan a veces (1 de cada 8) los monstruos cavénicos.\n\n"
+      "En este servidor, ahí §ano perdés inventario ni experiencia§r al morir, y si reaparecés sin orbe te dan uno para salir.\n\n"
+      "Los jefes de Cavenia son los §eCrazy§r (Crazy Zombie, Skeleton, Creeper y Spider): tienen barra de jefe y muchísima vida (el Crazy Zombie, §c2000§r). Vayan en grupo.",
+1008: "Los §eMagical Books§r de Cavern son libros de hechizos: fuego, explosión, rayos, curación, teletransporte, invocación, vuelo y más.\n\n"
+      "§eCómo se consiguen:§r los sueltan los jefes §eCrazy§r de Cavenia (Crazy Zombie, Skeleton, Creeper y Spider). "
+      "Salen como libro \"???\": usalo para descubrir qué hechizo tiene.\n\n"
+      "La magia gasta tus puntos de maná. Cuantos más hechizos usás, más subís de rango como mago.",
+
+# --- Cap. 11 · Astral Sorcery ---
+1100: "Los §eRock Crystals§r son la base de toda la magia de Astral Sorcery. Para encontrar el primero:\n"
+      " 1. Buscá §eaguamarina§r: brilla en la §earena§r de ríos y playas, cerca de la superficie.\n"
+      " 2. Buscá un §eSantuario Antiguo§r de mármol: los grandes están en la cima de colinas y montañas; los chicos, bajo la arena del desierto. "
+      "Adentro flota un §eCollector Crystal§r.\n"
+      " 3. Poné una §emesa de trabajo al lado del cristal§r: el cristal la ilumina y destraba la receta de la §eResonating Wand§r.\n"
+      " 4. §eDe noche§r, con la varita en la mano, aparecen §echispas blancas§r en el suelo. Justo debajo, §emuy profundo§r (cerca de la bedrock), "
+      "hay un Rock Crystal Ore.\n"
+      " 5. Cavá recto hacia abajo y minalo con un §epico de diamante§r. Las máquinas no lo pueden minar.\n\n"
+      "§eConsejo:§r el §eAstral Tome§r (el diario del mod) explica todo y se va completando a medida que avanzás.",
+1101: "Las constelaciones se descubren mirando el cielo:\n"
+      " 1. En los cofres de los santuarios hay §eConstellation Papers§r: cada uno muestra el dibujo de una constelación.\n"
+      " 2. Fabricá el §eLooking Glass§r en la §eLuminous Crafting Table§r (se hace con mármol).\n"
+      " 3. §eDe noche y con el cielo despejado§r, usá el Looking Glass. Buscá un grupo de estrellas que coincida con uno de tus papeles.\n"
+      " 4. Mantené §eShift§r para fijar la vista y unilas con §eclic izquierdo§r, trazando líneas entre las estrellas.\n\n"
+      "El §emármol§r aparece en vetas bajo tierra. La Luminous Crafting Table tiene que estar al aire libre: §ecuanto más alta, más luz junta§r.",
+1102: "Sintonizarte con una constelación te da poderes.\n"
+      " 1. Fabricá un §eAttunement Altar§r y varios §eSpectral Relays§r (recetas en el Astral Tome).\n"
+      " 2. §eDe noche§r, con el Constellation Paper en la mano, se ven en el suelo los lugares donde van los relays: "
+      "forman la figura de la constelación alrededor del altar.\n"
+      " 3. Cuando está bien armado, el altar y los relays brillan en azul. §ePará arriba del altar§r, en el rayo de luz.\n\n"
+      "Solo podés estar sintonizado con §euna constelación brillante§r. Cambiarla después borra el progreso: elegí con calma.",
+1103: "La §eLuminous Crafting Table§r se mejora a §eStarlight Crafting Altar§r: guarda más luz estelar y destraba recetas nuevas.\n\n"
+      " 1. Poné en la mesa la receta de mejora (está en el Astral Tome) y hacé clic derecho con la Resonating Wand.\n"
+      " 2. El altar nuevo necesita una §eestructura de mármol§r alrededor para juntar luz. Si falta algo o está mal, "
+      "el indicador de luz se pone §crojo§r.\n"
+      " 3. Para fabricar: §ede noche§r, con el cielo a la vista, poné los materiales y hacé clic derecho con la varita.\n\n"
+      "La forma exacta de la estructura se ve en el Astral Tome.",
+1104: "Los Rock Crystals también se pueden sintonizar, y así canalizan el poder de una constelación.\n\n"
+      "Con el §eAttunement Altar§r armado para una constelación, §ede noche§r, tirá un Rock Crystal (§eQ§r) en el rayo de luz del altar. "
+      "Sale como un cristal sintonizado.\n\n"
+      "Con esos cristales se hacen §erituales§r: estructuras que aplican el efecto de la constelación en una zona.",
+1105: "El §eTelescope§r se fabrica en el Starlight Crafting Altar. Deja ver estrellas más lejanas que el Looking Glass.\n\n"
+      " 1. Colocalo al aire libre y usalo §ede noche con el cielo despejado§r.\n"
+      " 2. Con las flechas de los costados girás la vista para mirar otras partes del cielo.\n"
+      " 3. Buscá una §econstelación tenue§r (más chica y oscura) y trazala con clic izquierdo, igual que con el Looking Glass.\n\n"
+      "Si dibujás fuera del marco o girás, se borran las líneas. Estar sintonizado ayuda a ver las tenues.",
+1106: "El §eCelestial Altar§r es el tercer nivel del altar.\n\n"
+      " 1. Necesitás §eStardust§r (polvo estelar): sale de moler §eStarmetal§r en el §eGrindstone§r.\n"
+      " 2. La mejora también lleva aguamarina, mármol y un Rock Crystal (receta en el Astral Tome).\n"
+      " 3. La estructura de alrededor es §emás grande§r y lleva §eSooty Marble§r (mármol con carbón) a la vista del cielo.\n\n"
+      "Igual que antes: de noche, con el cielo despejado y la Resonating Wand.",
+1107: "El §eIridescent Altar§r es el altar más alto de Astral Sorcery. Destraba las recetas más poderosas del mod.\n\n"
+      "Se fabrica en el Celestial Altar y necesita materiales de constelaciones y una estructura todavía más grande. "
+      "La receta y la forma están en el §eAstral Tome§r, en la última sección que se destraba.\n\n"
+      "Es una misión de largo plazo: tomátela con calma.",
+1108: "Después de sintonizarte, tu cuerpo junta §eluz estelar personal§r y sube de nivel. Cada nivel da puntos para el "
+      "§eárbol de perks§r (en el Astral Tome): más vida, daño, velocidad, minería, etc.\n\n"
+      "La experiencia de luz estelar se gana haciendo lo que tu constelación premia (por ejemplo, pelear o minar). "
+      "Llegá a §enivel 20§r.\n\n"
+      "Elegí bien los perks: cambiarlos después cuesta.",
+
+# --- Cap. 12 · Draconic Evolution ---
+1201: "El §eDraconic Core§r es la pieza base de todo el mod.\n\n"
+      "§6Receta:§r §e4 lingotes de draconio§r, §e4 de oro§r y un §ediamante§r al centro. Mirá la forma exacta con §eR§r en JEI.\n\n"
+      "Vas a necesitar muchos: conviene juntar bastante draconio.",
+1202: "El §eFusion Crafting§r es como una mesa de trabajo gigante para las recetas grandes de Draconic Evolution:\n"
+      " 1. Colocá el §eFusion Crafting Core§r.\n"
+      " 2. Poné los §einyectores§r alrededor, en línea con el núcleo y §emirando hacia él§r.\n"
+      " 3. Poné el objeto central en el núcleo y los ingredientes en los inyectores.\n"
+      " 4. Los inyectores necesitan §eenergía (RF)§r. El §eGenerator§r de Draconic Evolution quema combustible y la produce.\n\n"
+      "Cuando todo está listo, abrí el núcleo y arrancá la fusión. Las recetas de JEI muestran qué va en cada lugar.",
+1204: "El §eWyvern Core§r es el segundo nivel de núcleo y la base del equipo Wyvern.\n\n"
+      "Se arma con §eFusion Crafting§r: lleva §eDraconic Cores§r y una §eestrella del Nether§r (la suelta el Wither). "
+      "Mirá la receta completa con §eR§r en JEI.\n\n"
+      "Esta misión se abre después de la §eexpedición grupal al End§r (cap. 20).",
+1205: "Con Wyvern Cores y draconio se fabrica el equipo §eWyvern§r en el Fusion Crafting: pico, espada, hacha, pala, arco y armadura.\n\n"
+      "Las herramientas Wyvern §eminan en área§r y se cargan con energía (RF). La armadura tiene un §eescudo de energía§r que absorbe golpes.\n\n"
+      "Conseguí cualquier pieza.",
+1206: "El §eChaos Guardian§r es el jefe más fuerte del servidor. Vive en las §eChaos Islands§r, islas flotantes lejos del centro del End.\n\n"
+      "Lo protegen §ecristales del caos§r que lo curan y le dan escudo. En este servidor tiene §c2000 de vida§r, "
+      "y su isla §cexplota§r cuando rompés el cristal del caos.\n\n"
+      "Suelta §eChaos Shards§r, necesarios para el equipo más alto. Vayan en grupo, con equipo Wyvern o mejor.",
+1207: "El §eAwakened Core§r es el tercer nivel de núcleo.\n\n"
+      "Necesitás §edraconio despertado§r (Awakened Draconium): se hace en Fusion Crafting con draconio y el §ecorazón de dragón§r, "
+      "que suelta el Ender Dragon. Después, en otra fusión, armás el núcleo con draconio despertado y fragmentos del caos.\n\n"
+      "Mirá las dos recetas con §eR§r en JEI.",
+
+# --- Cap. 13 · Harshen Universe ---
+1300: "Harshen Universe agrega:\n"
+      " · §eAlmas y sangre§r: se juntan de los monstruos y alimentan rituales.\n"
+      " · §eAccesorios§r: anillos y pendientes con efectos (más vida, velocidad, golpes más fuertes).\n"
+      " · §eEl castillo de Kazzendre§r: hay uno solo en todo el Overworld.\n"
+      " · §ePontus§r: una dimensión propia (dimensión 5).\n\n"
+      "Seguí estas misiones en orden: cada una te da lo que necesitás para la siguiente.",
+
+# --- Cap. 14 · Rustic ---
+1500: "§6Condenser:§r ladrillos alrededor de un balde, con arcilla endurecida blanca abajo al centro.\n\n"
+      "Es el alambique de Rustic: destila §ehierbas§r para hacer §eelixires§r, que son como pociones pero más fuertes y largas.\n\n"
+      "Las hierbas crecen solas en el mundo: §ealoe vera§r (desierto), §echamomile§r, §eginseng§r, §ehorsetail§r, §ecohosh§r, "
+      "§ewind thistle§r, §emarsh mallow§r, §eblood orchid§r y otras. Cosechalas y replantalas en tu base.",
+1501: "§6Retort:§r 2 ladrillos, 1 hierro y 1 balde.\n\n"
+      "La retorta va §epegada al condensador§r y forma parte del alambique.",
+1502: "Para destilar un elixir:\n"
+      " 1. Abrí el condensador (con la retorta al lado).\n"
+      " 2. Poné las §ehierbas§r en los espacios de ingredientes.\n"
+      " 3. Poné una §ebotella de vidrio§r y §ecombustible§r (carbón o madera).\n"
+      " 4. Esperá: sale el elixir.\n\n"
+      "Cada combinación de hierbas da un efecto distinto: probá y mirá en JEI. Los elixires §eno§r se hacen en el soporte de pociones.",
+1503: "§6Crushing Tub:§r tablones, hierro y losas (receta en JEI).\n\n"
+      "Poné fruta adentro (uvas, manzanas, olivas…) con clic derecho y §esaltá encima§r para pisarla. "
+      "Se llena de jugo: sacalo con una botella de vidrio o un balde.\n\n"
+      "Las uvas y las olivas crecen en Rustic: las uvas en enredaderas, las olivas en árboles.",
+1504: "§6Brewing Barrel:§r tablones, hierro y losas (receta en JEI).\n\n"
+      "Poné jugo en el barril y esperá varios días del juego: fermenta y se vuelve §evino§r (uvas), §esidra§r (manzanas), "
+      "§ehidromiel§r (miel) y otras bebidas. Las bebidas dan efectos buenos, pero tomar mucho emborracha.",
+1505: "§6Apiary:§r troncos arriba y abajo, tablones a los costados.\n\n"
+      "Las §eabejas§r salen de las §ecolmenas silvestres§r que cuelgan de los árboles. Poné abejas en el colmenar y dejá §eflores cerca§r: "
+      "con el tiempo producen panales. De los panales salen §emiel§r y §ecera de abeja§r.\n\n"
+      "La miel sirve para comida e hidromiel; la cera, para velas.",
+
+# --- Cap. 15 · Criaturas de la noche ---
+1601: "El §eScarecrow§r (espantapájaros) es un monstruo de SpookyCraft. Aparece §ede noche§r en los biomas de §ellanura§r (Plains), "
+      "como cualquier otro monstruo.\n\n"
+      "§eTruco:§r si de noche usás una §ecalabaza§r o una §ecabeza de mob§r en la cabeza, a veces aparecen monstruos espeluznantes a tu alrededor, "
+      "entre ellos el Scarecrow y animales esqueléticos (vacas, cerdos, lobos, llamas…). Andá preparado.",
+1602: "Re-Zombies agrega zombis con oficio: mineros, caballeros, piratas y más. Cada uno pelea distinto.\n\n"
+      "El jefe es el §eZombie King§r: mucha más vida y armadura propia. Aparece entre los zombis.\n\n"
+      "Al morir tiene §e20 % de chance§r de soltar una pieza de su armadura de rey (5 % cada una: casco, peto, pantalón o botas). "
+      "Vale la pena cazarlo varias veces.",
+1603: "Elemental Creepers agrega §e24 tipos de creepers§r que aparecen de noche como los normales. Cada uno explota distinto:\n"
+      " · §eFire Creeper§r: deja todo en llamas.\n"
+      " · §eIce Creeper§r: congela el suelo y el agua.\n"
+      " · §eLightning Creeper§r (eléctrico): tira rayos.\n\n"
+      "Se reconocen por el color. Derrotá a uno de cada uno de estos tres. §eConsejo:§r con arco es más seguro.",
+
+# --- Cap. 16 · Depredadores ---
+1700: "Deadly Monsters trae los monstruos más peligrosos del servidor. Salen de noche y en lugares oscuros:\n"
+      " · §eWoman§r · §eWideman§r · §eClimber§r · §eMutant Steve§r · §eTopielec§r\n\n"
+      "Pegan mucho más fuerte que un zombi y aguantan más golpes.\n\n"
+      "Derrotá a §ecualquiera§r. Llevá como mínimo armadura de hierro y escudo.\n\n"
+      "§7El Zombie Chicken de este mod no suelta nada al morir.§r",
+1701: "Algunos monstruos de Deadly Monsters sueltan §etrofeos§r al morir:\n"
+      " · §eWoman's Heart§r: el corazón de la Woman.\n"
+      " · §eWideman's Spine§r: la columna del Wideman.\n"
+      " · §eSoul Eye§r: un ojo de alma.\n\n"
+      "Conseguí cualquiera de los tres. Si no te sale, seguí cazando: no siempre los sueltan.",
+
+# --- Cap. 17 · Howling Moon ---
+1800: "La §eplata§r de Howling Moon aparece como §emineral de plata§r bajo tierra."
+      "Minalo con pico de hierro o mejor y fundilo en el horno.\n\n"
+      "La plata es la mejor arma contra los §ehombres lobo§r: les hace mucho más daño.",
+1802: "Los §ehombres lobo§r salen §ede noche§r. Son rápidos y aguantan mucho, pero la plata les hace daño extra.\n\n"
+      "Llevá la §eespada de plata§r y armadura. §cOjo:§r si te muerden te pueden §einfectar§r, y con el tiempo te convertís vos también. "
+      "La cura está en la misión \"La cura\".",
+
+# --- Cap. 18 · Infernal Mobs ---
+1901: "Los monstruos con modificadores tienen el §enombre de color§r arriba de la cabeza, y al lado sus poderes. "
+      "Antes de pelear, leelos: algunos explotan, roban vida, te envenenan o te tiran lejos.\n\n"
+      "Derrotá a uno (élite, ultra o infernal) y marcá la casilla. Los infernales sueltan buen botín: objetos encantados y más experiencia.\n\n"
+      "§7Esta misión confía en tu palabra.§r",
+
+# --- Cap. 20 · Grandes expediciones ---
+2100: "Los jefes grandes se enfrentan mejor en equipo. Este capítulo junta los combates pensados para hacer en grupo.\n\n"
+      "Tu progreso del libro sigue siendo §eindividual§r: cada uno completa sus misiones, aunque peleen juntos.\n\n"
+      "§eConsejo:§r antes de una expedición, pónganse de acuerdo en el horario, lleven comida, pociones y armadura de repuesto.",
+2101: "§6Invocar al Wither:§r 4 bloques de §earena de almas§r en forma de T y 3 §ecalaveras de Wither Skeleton§r arriba. "
+      "Las calaveras las sueltan, a veces, los esqueletos negros de las §efortalezas del Nether§r.\n\n"
+      "§cHacelo lejos de las bases:§r al aparecer explota y rompe bloques. Conviene pelearlo bajo tierra o en el Nether.\n\n"
+      "Suelta la §eestrella del Nether§r: la pide la semilla del Fire Boss.",
+2103: "Los §emonumentos oceánicos§r son templos bajo el mar en los océanos profundos. Adentro hay §e3 Elder Guardians§r.\n\n"
+      "Te dan §efatiga de minería§r (no podés romper bloques rápido) y disparan láseres. "
+      "Llevá §epociones de respiración§r, un casco con Respiración y botas con Agilidad Acuática.\n\n"
+      "Derrotá a uno. Sueltan una §eesponja mojada§r y prismarina.",
+
+# --- Cap. 21 · Draconic Evolution final ---
+2200: "El equipo §eDraconic§r es el nivel más alto: más área de minado, más escudo y más daño que el Wyvern.\n\n"
+      "Se fabrica con §eFusion Crafting§r usando §eAwakened Cores§r, §edraconio despertado§r y la pieza Wyvern equivalente. "
+      "Mirá cada receta con §eR§r en JEI.\n\n"
+      "Conseguí cualquier pieza.",
+2201: "El §eChaotic Core§r es el núcleo más poderoso de Draconic Evolution.\n\n"
+      "Se arma con §eFusion Crafting§r usando §eAwakened Cores§r y §eChaos Shards§r (los suelta el Chaos Guardian). "
+      "Mirá la receta con §eR§r en JEI.",
+2202: "El §eEnergy Storage Core§r es una batería gigante de Draconic Evolution. Tiene varios niveles: cada uno guarda muchísimo más.\n\n"
+      "Es una estructura: el núcleo al centro, §eestabilizadores§r alrededor y bloques de draconio o redstone según el nivel. "
+      "Para sacar y meter energía se usan los §eEnergy Pylons§r.\n\n"
+      "La forma de cada nivel la muestra el núcleo en su propio menú.",
+
+# --- Cap. 22 · Maestro de las dimensiones ---
+2301: "Entrá a las 7 dimensiones de Cavern. Cada una tiene su llave (clic derecho adentro de un marco de piedra musgosa):\n"
+      " · §eCavern§r: esmeralda · §eAqua Cavern§r: aguamarina\n"
+      " · §eRuins Cavern§r: Miner's Thought Orb · §eCaveland§r: un brote\n"
+      " · §eIce Cavern§r: hielo compacto · §eHuge Cavern§r: diamante\n"
+      " · §eCavenia§r: clic derecho con un Cavenic Orb estando en cualquier caverna",
+
+# --- Cap. 23 · Coleccionista ---
+2400: "La Betweenlands tiene §e4 anillos mágicos§r . Se encuentran como botín explorando el pantano:\n"
+      " · §eRing of Power§r · §eRing of Ascent§r\n"
+      " · §eRing of Recruitment§r · §eRing of Summoning§r\n\n"
+      "Pasá el mouse por encima de cada uno para ver qué hace. Conseguí los cuatro.",
+2401: "Juntá los hongos de la Betweenlands:\n"
+      " · §eBlack Hat Mushroom§r · §eBulb-Capped Mushroom§r\n"
+      " · §eFlat Head Mushroom§r · §eYellow Dotted Fungus§r\n\n"
+      "Crecen en zonas oscuras y húmedas del pantano. Hacé un waypoint donde encuentres cada uno.",
+2402: "El §eHerblore Book§r es el libro de herboristería de la Betweenlands. Se completa §edescubriendo los aspectos§r de cada planta:\n"
+      " 1. Cosechá plantas del pantano con la §eSickle§r (hoz).\n"
+      " 2. Probalas en un §eGecko enjaulado§r para descubrir qué aspectos tienen.\n"
+      " 3. Cada descubrimiento se anota en el libro.\n\n"
+      "Con los aspectos se hacen elixires e infusiones. Es una misión larga: completá el libro entero.",
+2403: "Las §eherramientas compuestas§r son pico, hacha y pala que mezclan varios materiales. Se hacen con el hechizo de "
+      "§eCompositing§r de un Magical Book de Cavern.\n\n"
+      "Conseguí un libro con ese hechizo (lo sueltan los jefes Crazy de Cavenia), juntá los materiales y lanzalo. "
+      "Fabricá cualquiera de las tres.",
+
+# --- Cap. 24 · Arquitecto del mundo ---
+2501: "En MineColonies los §eciudadanos§r hacen el trabajo, pero alguien tiene que construir las casas: el §eBuilder§r.\n\n"
+      " 1. Colocá la §echoza del Builder§r (Builder's Hut) cerca del Town Hall.\n"
+      " 2. Abrila y pedí que se construya: se le asigna un ciudadano.\n"
+      " 3. El constructor te pide §emateriales§r: ponelos en el cofre de su choza.\n\n"
+      "Después, cada edificio nuevo se coloca con su bloque y el Builder lo levanta solo.",
+
+# --- Cap. 25 · Desafíos legendarios ---
+2600: "Los tres jefes finales del servidor:\n"
+      " · §ePrimordial Malevolence§r: la cima de la Wight Fortress (Betweenlands, cap. 6).\n"
+      " · §eFire Boss§r: la dimensión Fuego (Elemental Dimensions, cap. 8).\n"
+      " · §eChaos Guardian§r: las Chaos Islands del End (Draconic Evolution, cap. 12).\n\n"
+      "Derrotá a los tres. Cada uno se completa por separado, en el orden que quieras.",
+2601: "Derrotá al §eWither 3 veces§r.\n\n"
+      "Cada invocación lleva 4 de arena de almas y 3 calaveras de Wither Skeleton. "
+      "Con un grupo y buen equipo, una arena preparada bajo tierra lo hace mucho más fácil.\n\n"
+      "Las estrellas del Nether sobrantes sirven para Draconic Evolution y para un §efaro§r.",
+2700: "Recorriste todas las dimensiones y venciste a los jefes finales.\n\n"
+      "Tu nombre queda en la historia del servidor: esta misión te da el título §6Leyenda de ArreMods§r.\n\n"
+      "Gracias por jugar.",
+
+# --- Cap. 8 · Elemental Dimensions: cómo aparece cada jefe (código del mod) ---
+800: "El §eElemental Dust Ore§r es un mineral del Overworld que suelta §epolvo elemental§r. Juntá 8.\n\n"
+     "§6Altar Center:§r una esmeralda arriba al medio, polvo elemental a los costados de un §ebloque de oro§r y una fila de polvo abajo. "
+     "Es la pieza central de los altares del mod.\n\n"
+     "Este capítulo se juega en orden: Tierra → Agua → Aire → Espíritu → Fuego. Cada dimensión te da lo que necesitás para la siguiente.",
+803: "El §eDirt Zombie Boss§r aparece solo en la §edimensión Tierra§r, §ecerca de la medianoche§r, al lado de los jugadores, "
+     "si no hay otro vivo. Esperalo de noche con equipo listo.\n\n"
+     "Suelta la §eparte 3 de la Runa de Agua§r y el §eDigging Focus§r. Los Dirt Zombies comunes sueltan la parte 1.",
+805: "El §eWater Creep Boss§r se invoca con una §eWater Boss Seed§r: 4 semillas de trigo alrededor de un §ediamante§r.\n\n"
+     "Andá a la §edimensión Agua§r y §etirá la semilla al agua§r (tecla §eQ§r). Unos segundos después, el jefe sale arriba.\n\n"
+     "Suelta la §eparte 3 de la Runa de Aire§r y el §eDamage Focus§r. Los Water Creeps comunes sueltan la parte 1.",
+807: "El §eGhost Boss§r se invoca con una §eAir Boss Seed§r: 4 semillas de trigo alrededor de una §eesmeralda§r.\n\n"
+     "En la §edimensión Aire§r, §etirá la semilla al suelo§r (tecla §eQ§r). Hay una §cexplosión§r y aparece el jefe: alejate un poco.\n\n"
+     "Suelta la §eparte 3 de la Runa de Espíritu§r y el §eTeleport Focus§r. Los Ghosts comunes sueltan la parte 1.",
+810: "El último jefe del capítulo. Se invoca con una §eFire Boss Seed§r: 4 semillas de trigo alrededor de una §eestrella del Nether§r "
+     "(la suelta el Wither, cap. 20).\n\n"
+     "En la §edimensión Fuego§r, §etirá la semilla al suelo§r (tecla §eQ§r) y alejate: hay una explosión antes de que aparezca.\n\n"
+     "Suelta la §eElemental Wand§r. §7No tiene barra de jefe: fijate su vida con Hwyla.§r\n\n"
+     "Es uno de los tres jefes de la §eTrilogía§r del cap. 25.",
+1801: "§6Silver Sword:§r 2 lingotes de plata y un palo, en vertical (como una espada común).\n\n"
+      "Les hace §edaño extra a los hombres lobo§r. Con una espada común también se puede, pero tarda mucho más.",
+2300: "Visitá §e12 dimensiones§r. Cada tarea se completa sola al llegar:\n"
+      " · §eNether§r (portal de obsidiana) · §eEnd§r (expedición grupal, cap. 20)\n"
+      " · §eBetweenlands§r (cap. 6) · §eTrópicos§r (cap. 7)\n"
+      " · §eTierra, Agua, Aire, Espíritu y Fuego§r (cap. 8)\n"
+      " · §eHunting Dimension§r (cap. 9) · §eCavern§r (cap. 10) · §ePontus§r (cap. 13)\n\n"
+      "Cada capítulo explica cómo llegar a su dimensión.",
+}
+
+ICONOS = {
+    1100: ("astralsorcery:itemrockcrystalsimple", 0),
+    1101: ("astralsorcery:itemhandtelescope", 0),
+    1102: ("astralsorcery:blockattunementaltar", 0),
+    1103: ("astralsorcery:blockaltar", 1),
+    1104: ("astralsorcery:blockattunementrelay", 0),
+    1105: ("astralsorcery:blockmachine", 0),
+    1106: ("astralsorcery:blockaltar", 2),
+    1107: ("astralsorcery:blockaltar", 3),
+    1108: ("astralsorcery:itemjournal", 0),
+}
+
+
 def build():
     qdb = {}
     for n, (qid, line, x, y, q) in enumerate(QUESTS):
-        props = {"name:8": q["name"], "desc:8": q["desc"], "icon:10": q["icon"],
+        desc = TEXTOS.get(qid, q["desc"])
+        icon = item(ICONOS[qid][0], 1, ICONOS[qid][1]) if qid in ICONOS else q["icon"]
+        props = {"name:8": q["name"], "desc:8": desc, "icon:10": icon,
                  "isMain:1": 1 if q["main"] else 0, "taskLogic:8": q["task_logic"], "questLogic:8": "AND",
                  "visibility:8": "NORMAL", "repeatTime:3": -1, "autoClaim:1": 0, "isSilent:1": 0,
                  "lockedProgress:1": 0, "simultaneous:1": 0, "globalShare:1": 0, "isGlobal:1": 0}
