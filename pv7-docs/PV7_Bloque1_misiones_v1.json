@@ -1,0 +1,2178 @@
+{
+  "build:8": "3.5.329",
+  "format:8": "2.0.0",
+  "questDatabase:9": {
+    "0:10": {
+      "questID:3": 0,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Tu libro de aventuras",
+          "desc:8": "Este libro es tu guía. Cada capítulo explica un rincón del mundo y un mod.\n\nNo hay un orden obligatorio: elegí por dónde seguir. Tu progreso es solo tuyo; nadie más puede completar misiones por vos.\n\n§eCómo se usa:§r abrí una misión, leé, hacé lo que pide y tocá el botón para entregar o marcá la casilla. Si tiene premio, tocá §a\"Claim\"§r para recibirlo.\n\nSi perdés el libro, se fabrica con §ebook + stick§r (libro + palo).",
+          "icon:10": {
+            "id:8": "questbook:itemquestbook",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "isMain:1": 1,
+          "taskLogic:8": "AND",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:xp",
+          "amount:3": 1,
+          "isLevels:1": 1
+        }
+      }
+    },
+    "1:10": {
+      "questID:3": 1,
+      "preRequisites:11": [
+        0
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Reglas del servidor",
+          "desc:8": "§c[Texto pendiente: lo define el administrador]§r\n\nAcá van las reglas de convivencia: griefing, reclamo de chunks, PvP y qué se puede hacer en bases ajenas.",
+          "icon:10": {
+            "id:8": "minecraft:writable_book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "isMain:1": 0,
+          "taskLogic:8": "AND",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "2:10": {
+      "questID:3": 2,
+      "preRequisites:11": [
+        0
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Este mundo no es vanilla",
+          "desc:8": "Planeta Vegetta cambia las reglas con el modo difícil de §6Better With Mods§r.\n\nYa §cno se fabrican en la mesa§r: herramientas y armaduras de diamante, tintes de flores, azúcar, polvo de blaze, piedra y ladrillo musgosos. Los tintes, el azúcar y el polvo de blaze ahora salen del §eMolino§r de Better With Mods.\n\nTampoco se hace carbón vegetal en el horno: se hace en el horno de ladrillo de BWM (Kiln).\n\n§eConsejo:§r no memorices recetas de otras guías. Si una receta no aparece, mirala en JEI.\n\n§7Verificado en los archivos del servidor (2026-11-19).§r",
+          "icon:10": {
+            "id:8": "betterwithmods:material",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "isMain:1": 0,
+          "taskLogic:8": "AND",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "3:10": {
+      "questID:3": 3,
+      "preRequisites:11": [
+        0
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Tu primera consulta de recetas",
+          "desc:8": "Abrí el inventario, pasá el cursor sobre un ítem y presioná:\n§eR§r = cómo se fabrica\n§eU§r = para qué sirve\n\n(Son los atajos normales de JEI; si no te funcionan, revisá Controles.)\n\nSi instalaste §7Just Enough Resources§r y §7JEI Integration§r en tu cliente, también vas a ver dónde aparecen minerales y qué sueltan los monstruos.",
+          "icon:10": {
+            "id:8": "minecraft:crafting_table",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "isMain:1": 0,
+          "taskLogic:8": "AND",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "4:10": {
+      "questID:3": 4,
+      "preRequisites:11": [
+        3
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Ojo con lo que mirás (Hwyla)",
+          "desc:8": "Mirá un bloque o una criatura: arriba de la pantalla, Hwyla te dice qué es y de qué mod viene.\n\n§7Aviso: con Storage Drawers el panel no muestra el contenido de los cajones (falla conocida del plugin).§r",
+          "icon:10": {
+            "id:8": "minecraft:spider_eye",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "isMain:1": 0,
+          "taskLogic:8": "AND",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "5:10": {
+      "questID:3": 5,
+      "preRequisites:11": [
+        0
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Tu primer mapa",
+          "desc:8": "Abrí JourneyMap (tecla §eJ§r), creá un waypoint en tu punto de partida (tecla §eB§r) y ponele nombre. Así siempre sabés volver.\n\n§7Todos deben usar JourneyMap 5.5.3, la misma versión que el servidor.§r",
+          "icon:10": {
+            "id:8": "minecraft:map",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "isMain:1": 0,
+          "taskLogic:8": "AND",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:xp",
+          "amount:3": 2,
+          "isLevels:1": 1
+        }
+      }
+    },
+    "6:10": {
+      "questID:3": 10,
+      "preRequisites:11": [
+        0
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Manos a la obra",
+          "desc:8": "Todo aventurero empieza con madera. Juntá §e16 troncos§r (de cualquier árbol).\n\n§eConsejo:§r las antorchas necesitan carbón. En este servidor el carbón vegetal §cno§r sale del horno: buscá carbón mineral.",
+          "icon:10": {
+            "id:8": "minecraft:log",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "isMain:1": 1,
+          "taskLogic:8": "AND",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:log",
+              "Count:3": 16,
+              "Damage:2": 32767,
+              "OreDict:8": "logWood"
+            }
+          }
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:torch",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "7:10": {
+      "questID:3": 11,
+      "preRequisites:11": [
+        10
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Un techo sobre tu cabeza",
+          "desc:8": "Construí un refugio simple: cuatro paredes, techo, una puerta y luz adentro.\n\nIluminá bien el interior para que no aparezcan monstruos.\n\n§7MalisisDoors y FenceOverhaul pueden cambiar el aspecto de puertas y cercas.§r",
+          "icon:10": {
+            "id:8": "minecraft:wooden_door",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "isMain:1": 0,
+          "taskLogic:8": "AND",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "8:10": {
+      "questID:3": 12,
+      "preRequisites:11": [
+        10
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Hogar portátil (Camping Mod)",
+          "desc:8": "Una §etienda§r o un §esaco de dormir§r te dan dónde descansar en cualquier lado. Fabricá cualquiera de los dos.\n\n§6Primero, la Navaja suiza:§r 6 tintes rojos + 3 lingotes de hierro (tinte, hierro, tinte en cada fila). El tinte rojo sale del Molino de BWM.\n\n§6Saco de dormir:§r navaja arriba + 3 lanas abajo.\n§6Tienda:§r 5 lonas + 2 estacas.\n · Lona = cáñamo + navaja (el cáñamo crece en el mundo)\n · Estaca = palo de hierro + navaja\n · Palo de hierro = 2 lingotes de hierro en vertical\n\n§7Verificado en los archivos del servidor (2026-11-19).§r",
+          "icon:10": {
+            "id:8": "camping:sleeping_bag",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "isMain:1": 0,
+          "taskLogic:8": "OR",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "camping:tent",
+              "Count:3": 1,
+              "Damage:2": 32767,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "index:3": 1,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "camping:sleeping_bag",
+              "Count:3": 1,
+              "Damage:2": 32767,
+              "OreDict:8": ""
+            }
+          }
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:xp",
+          "amount:3": 3,
+          "isLevels:1": 1
+        }
+      }
+    },
+    "9:10": {
+      "questID:3": 13,
+      "preRequisites:11": [
+        10
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "La fogata",
+          "desc:8": "Cociná y calentate junto al fuego. Fabricá una fogata:\n\n§6Camp Fire:§r 1 tronco arriba, 3 troncos en el medio, 3 palos abajo.\n§7Se apaga sola después de unos 6 minutos.§r\n\nTambién valen las fogatas del Camping Mod (5 palos, o 4 de piedra labrada para la de cocinar).\n\n§7Verificado en los archivos del servidor (2026-11-19).§r",
+          "icon:10": {
+            "id:8": "campfire:campfire",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "isMain:1": 0,
+          "taskLogic:8": "OR",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "campfire:campfire",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "index:3": 1,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "camping:campfire_wood_off",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "2:10": {
+          "index:3": 2,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "camping:campfire_cook",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:xp",
+          "amount:3": 2,
+          "isLevels:1": 1
+        }
+      }
+    },
+    "10:10": {
+      "questID:3": 14,
+      "preRequisites:11": [
+        10
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Dormir con cuidado (Nightmares)",
+          "desc:8": "Cada vez que dormís hay un §c5 %§r de probabilidad de que te reciba una pesadilla.\n\nNo es un castigo, es un desafío: dormí con el equipo puesto y la vida llena.\n\n§7Verificado en los archivos del servidor (2026-11-19).§r",
+          "icon:10": {
+            "id:8": "minecraft:bed",
+            "Count:3": 1,
+            "Damage:2": 14,
+            "OreDict:8": ""
+          },
+          "isMain:1": 0,
+          "taskLogic:8": "AND",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "11:10": {
+      "questID:3": 15,
+      "preRequisites:11": [
+        14
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Si morís (Tombstone)",
+          "desc:8": "Cuando caés, tu equipo queda guardado en una §etumba§r. Volvé a buscarlo.\n\n§cOjo:§r en la §eHunting Dimension§r no podés reaparecer ahí. En §eCavenia§r (Cavern) no perdés ni el inventario ni la experiencia.\n\n§7Verificado en los archivos del servidor (2026-11-19).§r",
+          "icon:10": {
+            "id:8": "minecraft:skull",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "isMain:1": 0,
+          "taskLogic:8": "AND",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "12:10": {
+      "questID:3": 16,
+      "preRequisites:11": [
+        13
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Primera comida decente",
+          "desc:8": "Un aventurero con hambre no llega lejos. Conseguí §ecualquier comida cocinada§r: carne de vaca, cerdo, pollo, cordero, conejo, pescado, papa asada, pan o venado cocido del Camping Mod.\n\n§7La comida cruda no te envenena en este servidor.§r",
+          "icon:10": {
+            "id:8": "minecraft:cooked_beef",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "isMain:1": 0,
+          "taskLogic:8": "OR",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:cooked_beef",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "index:3": 1,
+          "taskID:8": "bq_standard:retrieval",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:cooked_porkchop",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "2:10": {
+          "index:3": 2,
+          "taskID:8": "bq_standard:retrieval",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:cooked_chicken",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "3:10": {
+          "index:3": 3,
+          "taskID:8": "bq_standard:retrieval",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:cooked_mutton",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "4:10": {
+          "index:3": 4,
+          "taskID:8": "bq_standard:retrieval",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:cooked_rabbit",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "5:10": {
+          "index:3": 5,
+          "taskID:8": "bq_standard:retrieval",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:cooked_fish",
+              "Count:3": 1,
+              "Damage:2": 32767,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "6:10": {
+          "index:3": 6,
+          "taskID:8": "bq_standard:retrieval",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:baked_potato",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "7:10": {
+          "index:3": 7,
+          "taskID:8": "bq_standard:retrieval",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "8:10": {
+          "index:3": 8,
+          "taskID:8": "bq_standard:retrieval",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "camping:venison_cooked",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:xp",
+          "amount:3": 2,
+          "isLevels:1": 1
+        }
+      }
+    },
+    "13:10": {
+      "questID:3": 20,
+      "preRequisites:11": [
+        0
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Lo que cambió en armas y armaduras",
+          "desc:8": "El diamante ya no se trabaja como antes: las herramientas y armaduras de diamante vanilla §cno§r tienen receta.\n\nLas de §emods§r (martillos, escudos) sí siguen usando diamante.\n\nPara ver la ruta de herramientas del servidor, leé el manual de Better With Mods o usá JEI.\n\n§7Verificado en los archivos del servidor (2026-11-19).§r",
+          "icon:10": {
+            "id:8": "minecraft:iron_sword",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "isMain:1": 1,
+          "taskLogic:8": "AND",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "14:10": {
+      "questID:3": 21,
+      "preRequisites:11": [
+        20
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Un escudo de verdad (Spartan Shields)",
+          "desc:8": "Los escudos tienen niveles según el material y permiten golpear con ellos.\n\n§6Escudo de madera:§r 6 tablones + 1 palo (en diagonal).\n§6Los demás:§r el escudo de madera en el centro + 4 del material alrededor (piedra labrada, hierro, oro, obsidiana o diamante).\n\n§7Verificado en los archivos del servidor (2026-11-19).§r",
+          "icon:10": {
+            "id:8": "spartanshields:shield_basic_wood",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "isMain:1": 0,
+          "taskLogic:8": "AND",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "spartanshields:shield_basic_wood",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:xp",
+          "amount:3": 3,
+          "isLevels:1": 1
+        }
+      }
+    },
+    "15:10": {
+      "questID:3": 22,
+      "preRequisites:11": [
+        20
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Arco de varias flechas (Switch-Bow) §7[avanzado]",
+          "desc:8": "Un arco, un carcaj y varios tipos de flecha: cambiás de munición sin guardar nada.\n\n§6Switch-Bow:§r 3 palos + 1 ojo de ender + 3 hilos.\n§6Carcaj:§r cuero, hilo y un cofre (miralo en JEI).\n\n§cOjo:§r el ojo de ender necesita polvo de blaze (Molino de BWM + varas del Nether). Esta misión es para más adelante; §ano bloquea nada§r.\n\n§7Verificado en los archivos del servidor (2026-11-19).§r",
+          "icon:10": {
+            "id:8": "switchbow:switchbow",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "isMain:1": 0,
+          "taskLogic:8": "AND",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "switchbow:switchbow",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:xp",
+          "amount:3": 5,
+          "isLevels:1": 1
+        }
+      }
+    },
+    "16:10": {
+      "questID:3": 23,
+      "preRequisites:11": [
+        20
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Minería en grande (Hammer Time)",
+          "desc:8": "Un martillo rompe un área de 3×3 de una vez. Fabricá uno de cualquier material.\n\n§6Receta:§r 5 del material arriba y a los costados + 2 palos en el centro.\n · Madera = §etroncos§r (no tablones)\n · Piedra = §epiedra lisa§r (no labrada)\n\n§7Gasta durabilidad más rápido que un pico, pero en este servidor tiene un multiplicador de durabilidad.§r\n\n§7Verificado en los archivos del servidor (2026-11-19).§r",
+          "icon:10": {
+            "id:8": "hammertime:itemhammerstone",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "isMain:1": 0,
+          "taskLogic:8": "OR",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "hammertime:itemhammerwood",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "index:3": 1,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "hammertime:itemhammerstone",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "2:10": {
+          "index:3": 2,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "hammertime:itemhammeriron",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "3:10": {
+          "index:3": 3,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "hammertime:itemhammergold",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "4:10": {
+          "index:3": 4,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "hammertime:itemhammerdiamond",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:xp",
+          "amount:3": 3,
+          "isLevels:1": 1
+        }
+      }
+    },
+    "17:10": {
+      "questID:3": 24,
+      "preRequisites:11": [
+        23
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Quitar para poner (Disenchanter)",
+          "desc:8": "La §eDisenchantment Table§r saca encantamientos de un objeto y los guarda en un libro.\n\n§6Receta:§r fila del medio: tinte amarillo, esmeralda, tinte amarillo. Fila de abajo: esmeralda, mesa de encantamientos, esmeralda.\n\n§cOjo:§r el encantamiento funciona distinto con Better With Mods. Probalo antes de gastar algo valioso.\n\n§7Verificado en los archivos del servidor (2026-11-19).§r",
+          "icon:10": {
+            "id:8": "disenchanter:disenchantmenttable",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "isMain:1": 0,
+          "taskLogic:8": "AND",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "18:10": {
+      "questID:3": 25,
+      "preRequisites:11": [
+        20
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Guardar lo importante",
+          "desc:8": "Un buen aventurero lleva espacio de sobra. En el §ecapítulo 5§r aprendés a ampliar el tuyo con mochilas y cajones.",
+          "icon:10": {
+            "id:8": "minecraft:chest",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "isMain:1": 0,
+          "taskLogic:8": "AND",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "19:10": {
+      "questID:3": 30,
+      "preRequisites:11": [
+        0
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Brújula de biomas (Nature's Compass)",
+          "desc:8": "La Nature's Compass te dice dónde está el bioma que le pidas, con distancia y coordenadas.\n\n§6Receta:§r 4 brotes en las esquinas, 4 troncos a los lados y una brújula en el centro.\n\n§eConsejo:§r usala antes de salir a buscar biomas de otros mods.\n\n§7Verificado en los archivos del servidor (2026-11-19).§r",
+          "icon:10": {
+            "id:8": "naturescompass:naturescompass",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "isMain:1": 1,
+          "taskLogic:8": "AND",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "naturescompass:naturescompass",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:xp",
+          "amount:3": 3,
+          "isLevels:1": 1
+        }
+      }
+    },
+    "20:10": {
+      "questID:3": 31,
+      "preRequisites:11": [
+        30
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Encontrá un bioma que no conozcas",
+          "desc:8": "Pedile a la brújula un bioma que nunca hayas visto y caminá hasta él. Marcalo en JourneyMap con un waypoint.\n\nIdeas: Savanna, Mesa, Mega Taiga, Ice Spikes.\n\n§7Los biomas de Tropicraft y Betweenlands están en sus propias dimensiones.§r",
+          "icon:10": {
+            "id:8": "minecraft:grass",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "isMain:1": 0,
+          "taskLogic:8": "AND",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:xp",
+          "amount:3": 2,
+          "isLevels:1": 1
+        }
+      }
+    },
+    "21:10": {
+      "questID:3": 32,
+      "preRequisites:11": [
+        30
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Cruzar el barranco (Rope Bridge)",
+          "desc:8": "El §eBridge Builder§r tira un puente de cuerda de un lado al otro.\n\n§6Se arma con 3 piezas en fila:§r gancho (5 hierro) + cañón (6 hierro + 3 cuerdas) + mango (hierro, mechero, cuerda, pólvora, tablones).\n§6Cuerda:§r 3 hilos + 3 enredaderas = 8 cuerdas.\n\nCada bloque de puente gasta 2 cuerdas, 2 hilos, 1 madera y 1 losa. Necesitás unos 13 lingotes de hierro en total.\n\n§7Verificado en los archivos del servidor (2026-11-19).§r",
+          "icon:10": {
+            "id:8": "ropebridge:bridge_builder",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "isMain:1": 0,
+          "taskLogic:8": "AND",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "22:10": {
+      "questID:3": 33,
+      "preRequisites:11": [
+        30
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Teletoro",
+          "desc:8": "Teletoro agrega portales y perlas de teletransporte.\n\n§6Teletory Portal Linker:§r 2 Teletory Pearls + 1 Ender Block (4 perlas de ender).\n\n§c[En prueba]§r todavía no se comprobó de dónde salen las Teletory Pearls ni qué permite el portal.",
+          "icon:10": {
+            "id:8": "teletoro:teletory_portal_linker",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "isMain:1": 0,
+          "taskLogic:8": "AND",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "23:10": {
+      "questID:3": 34,
+      "preRequisites:11": [
+        30
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "El mapa de tu primera semana",
+          "desc:8": "Explorá en espiral alrededor de tu base sin alejarte demasiado. Marcá cuevas, aldeas y estructuras en JourneyMap.\n\n§7En este servidor las aldeas no generan golems de hierro.§r",
+          "icon:10": {
+            "id:8": "minecraft:filled_map",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "isMain:1": 0,
+          "taskLogic:8": "AND",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:xp",
+          "amount:3": 2,
+          "isLevels:1": 1
+        }
+      }
+    },
+    "24:10": {
+      "questID:3": 40,
+      "preRequisites:11": [
+        0
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Reclamá tu terreno (FTBUtilities)",
+          "desc:8": "Con FTBUtilities podés reclamar chunks para que nadie toque tu base.\n\nAbrí el mapa de reclamos (desde el inventario, botón de FTB) y reclamá al menos un chunk.\n\n§7Los límites por jugador los fija el administrador.§r",
+          "icon:10": {
+            "id:8": "minecraft:iron_door",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "isMain:1": 1,
+          "taskLogic:8": "AND",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "25:10": {
+      "questID:3": 41,
+      "preRequisites:11": [
+        40
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Un lugar al que volver",
+          "desc:8": "Usá §e/sethome§r para guardar tu base y §e/home§r para volver.\n\n§7(Comando en prueba.)§r",
+          "icon:10": {
+            "id:8": "minecraft:compass",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "isMain:1": 0,
+          "taskLogic:8": "AND",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "26:10": {
+      "questID:3": 42,
+      "preRequisites:11": [
+        40
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Tu primera mochila",
+          "desc:8": "Las mochilas amplían tu inventario. Fabricá §ecualquiera§r:\n\n§6Backpacks:§r bolsillo = 5 cuero + 3 hilo; mochila = 7 cuero + 1 placa de presión de oro.\n§6Iron Backpacks:§r 4 lanas + 4 cueros + 1 cofre en el centro.\n§6Camping Mod:§r bolsa = 1 hilo + 5 cueros.\n\n§7Verificado en los archivos del servidor (2026-11-19).§r",
+          "icon:10": {
+            "id:8": "backpacks16840:backpack",
+            "Count:3": 1,
+            "Damage:2": 3,
+            "OreDict:8": ""
+          },
+          "isMain:1": 0,
+          "taskLogic:8": "OR",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "backpacks16840:backpack",
+              "Count:3": 1,
+              "Damage:2": 32767,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "index:3": 1,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "backpacks16840:backpack_pouch",
+              "Count:3": 1,
+              "Damage:2": 32767,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "2:10": {
+          "index:3": 2,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ironbackpacks:backpack",
+              "Count:3": 1,
+              "Damage:2": 32767,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "3:10": {
+          "index:3": 3,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "camping:bag",
+              "Count:3": 1,
+              "Damage:2": 32767,
+              "OreDict:8": ""
+            }
+          }
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:xp",
+          "amount:3": 3,
+          "isLevels:1": 1
+        }
+      }
+    },
+    "27:10": {
+      "questID:3": 43,
+      "preRequisites:11": [
+        40
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Cajones inteligentes (Storage Drawers)",
+          "desc:8": "Un cajón guarda un solo tipo de ítem en grandes cantidades.\n\n§6Cajón 1×1:§r 3 tablones arriba, un cofre en el centro, 3 tablones abajo.\n§6Controlador:§r piedra lisa, 2 comparadores, 1 cajón y 1 diamante. Con él, todos los cajones conectados funcionan como uno.\n\n§7Verificado en los archivos del servidor (2026-11-19).§r",
+          "icon:10": {
+            "id:8": "storagedrawers:basicdrawers",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "isMain:1": 0,
+          "taskLogic:8": "AND",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "storagedrawers:basicdrawers",
+              "Count:3": 1,
+              "Damage:2": 32767,
+              "OreDict:8": ""
+            }
+          }
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:xp",
+          "amount:3": 3,
+          "isLevels:1": 1
+        }
+      }
+    },
+    "28:10": {
+      "questID:3": 44,
+      "preRequisites:11": [
+        40
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Mover cofres enteros (Chest Transporter)",
+          "desc:8": "Levantá un cofre lleno y llevalo a otro lado.\n\n§6Transportador de madera:§r 6 palos. Las versiones de hierro, oro, diamante y obsidiana cambian el palo del centro por el material.\n\n§cOjo:§r mientras cargás un cofre te da hambre y te volvés más lento.\n\n§7Verificado en los archivos del servidor (2026-11-19).§r",
+          "icon:10": {
+            "id:8": "chesttransporter:chesttransporter",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "isMain:1": 0,
+          "taskLogic:8": "AND",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "29:10": {
+      "questID:3": 45,
+      "preRequisites:11": [
+        40
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Tu primer cultivo",
+          "desc:8": "Sembrá y cosechá algo propio: trigo, zanahoria, papa, remolacha o los cultivos de §eRustic§r (tomate o chile).\n\nRustic es la puerta a la alquimia (capítulo 15).\n\n§7Los árboles plantados tienen etapas extra de crecimiento.§r",
+          "icon:10": {
+            "id:8": "rustic:tomato",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "isMain:1": 0,
+          "taskLogic:8": "OR",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:wheat",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "index:3": 1,
+          "taskID:8": "bq_standard:retrieval",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:carrot",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "2:10": {
+          "index:3": 2,
+          "taskID:8": "bq_standard:retrieval",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:potato",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "3:10": {
+          "index:3": 3,
+          "taskID:8": "bq_standard:retrieval",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:beetroot",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "4:10": {
+          "index:3": 4,
+          "taskID:8": "bq_standard:retrieval",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "rustic:tomato",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "5:10": {
+          "index:3": 5,
+          "taskID:8": "bq_standard:retrieval",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "rustic:chili_pepper",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:xp",
+          "amount:3": 2,
+          "isLevels:1": 1
+        }
+      }
+    },
+    "30:10": {
+      "questID:3": 46,
+      "preRequisites:11": [
+        45
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Agua que trabaja (Water Strainer)",
+          "desc:8": "Un filtro en el agua junta recursos con el tiempo.\n\n§6Base:§r 2 barrotes de hierro arriba, tablones, una tolva y un cofre.\n§6Filtro:§r 8 palos alrededor de una red (hecha con hilo).\n\nDa palos, arcilla y piedra; el filtro denso da arena, tierra, grava y a veces pepitas de oro.\n\n§7Verificado en los archivos del servidor (2026-11-19).§r",
+          "icon:10": {
+            "id:8": "waterstrainer:strainer_base",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "isMain:1": 0,
+          "taskLogic:8": "AND",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "31:10": {
+      "questID:3": 47,
+      "preRequisites:11": [
+        40,
+        42,
+        43
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Elegí tu próxima rama",
+          "desc:8": "Ya sabés lo básico: tenés base, almacén y territorio. Ahora el mundo es tuyo: dimensiones, magia, tecnología. Elegí.\n\n§7Se desbloquea al terminar: reclamar terreno, tu primera mochila y tus primeros cajones.§r",
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "isMain:1": 1,
+          "taskLogic:8": "AND",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:xp",
+          "amount:3": 5,
+          "isLevels:1": 1
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:paper",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "tag:10": {
+                "display:10": {
+                  "Name:8": "§6Aventurero de Planeta Vegetta",
+                  "Lore:9": {
+                    "0:8": "Completaste el Bloque I",
+                    "1:8": "de la guía de aventuras."
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "questLines:9": {
+    "0:10": {
+      "lineID:3": 0,
+      "order:3": 0,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Cap. 1 · Bienvenido a Planeta Vegetta",
+          "desc:8": "Cómo usar el libro, las reglas y qué cambia en este mundo.",
+          "icon:10": {
+            "id:8": "questbook:itemquestbook",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "visibility:8": "NORMAL",
+          "bg_image:8": "",
+          "bg_size:3": 256
+        }
+      },
+      "quests:9": {
+        "0:10": {
+          "id:3": 0,
+          "x:3": 0,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "id:3": 1,
+          "x:3": 48,
+          "y:3": -36,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "id:3": 2,
+          "x:3": 48,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "id:3": 3,
+          "x:3": 48,
+          "y:3": 36,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "id:3": 4,
+          "x:3": 96,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "id:3": 5,
+          "x:3": 96,
+          "y:3": 36,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        }
+      }
+    },
+    "1:10": {
+      "lineID:3": 1,
+      "order:3": 1,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Cap. 2 · Los primeros días",
+          "desc:8": "Refugio, fuego, cama, comida y qué hacer si algo sale mal.",
+          "icon:10": {
+            "id:8": "campfire:campfire",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "visibility:8": "NORMAL",
+          "bg_image:8": "",
+          "bg_size:3": 256
+        }
+      },
+      "quests:9": {
+        "0:10": {
+          "id:3": 10,
+          "x:3": 0,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "id:3": 11,
+          "x:3": 48,
+          "y:3": -36,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "id:3": 12,
+          "x:3": 48,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "id:3": 13,
+          "x:3": 96,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "id:3": 14,
+          "x:3": 48,
+          "y:3": 36,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "id:3": 15,
+          "x:3": 96,
+          "y:3": 36,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "id:3": 16,
+          "x:3": 144,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        }
+      }
+    },
+    "2:10": {
+      "lineID:3": 2,
+      "order:3": 2,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Cap. 3 · Preparación del aventurero",
+          "desc:8": "Equipo para salir al mundo: escudos, arcos y martillos.",
+          "icon:10": {
+            "id:8": "spartanshields:shield_basic_wood",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "visibility:8": "NORMAL",
+          "bg_image:8": "",
+          "bg_size:3": 256
+        }
+      },
+      "quests:9": {
+        "0:10": {
+          "id:3": 20,
+          "x:3": 0,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "id:3": 21,
+          "x:3": 48,
+          "y:3": -36,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "id:3": 22,
+          "x:3": 96,
+          "y:3": -36,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "id:3": 23,
+          "x:3": 48,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "id:3": 24,
+          "x:3": 96,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "id:3": 25,
+          "x:3": 48,
+          "y:3": 36,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        }
+      }
+    },
+    "3:10": {
+      "lineID:3": 3,
+      "order:3": 3,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Cap. 4 · Explorador",
+          "desc:8": "Orientarte, buscar biomas y marcar el mundo.",
+          "icon:10": {
+            "id:8": "naturescompass:naturescompass",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "visibility:8": "NORMAL",
+          "bg_image:8": "",
+          "bg_size:3": 256
+        }
+      },
+      "quests:9": {
+        "0:10": {
+          "id:3": 30,
+          "x:3": 0,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "id:3": 31,
+          "x:3": 48,
+          "y:3": -36,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "id:3": 32,
+          "x:3": 48,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "id:3": 33,
+          "x:3": 96,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "id:3": 34,
+          "x:3": 48,
+          "y:3": 36,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        }
+      }
+    },
+    "4:10": {
+      "lineID:3": 4,
+      "order:3": 4,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Cap. 5 · Tu primer asentamiento",
+          "desc:8": "Base, almacén y territorio propio.",
+          "icon:10": {
+            "id:8": "storagedrawers:basicdrawers",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "visibility:8": "NORMAL",
+          "bg_image:8": "",
+          "bg_size:3": 256
+        }
+      },
+      "quests:9": {
+        "0:10": {
+          "id:3": 40,
+          "x:3": 0,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "id:3": 41,
+          "x:3": 48,
+          "y:3": -36,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "id:3": 42,
+          "x:3": 48,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "id:3": 43,
+          "x:3": 96,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "id:3": 44,
+          "x:3": 48,
+          "y:3": 36,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "id:3": 45,
+          "x:3": 96,
+          "y:3": 36,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "id:3": 46,
+          "x:3": 144,
+          "y:3": 36,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "7:10": {
+          "id:3": 47,
+          "x:3": 144,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        }
+      }
+    }
+  },
+  "questSettings:10": {
+    "betterquesting:10": {
+      "livesdef:3": 3,
+      "pack_name:8": "Planeta Vegetta VII",
+      "home_anchor_y:5": 0.0,
+      "livesmax:3": 10,
+      "home_anchor_x:5": 0.5,
+      "editmode:1": 0,
+      "hardcore:1": 0,
+      "home_image:8": "betterquesting:textures/gui/default_title.png",
+      "party_enable:1": 0,
+      "pack_version:3": 1,
+      "home_offset_x:3": -128,
+      "home_offset_y:3": 0
+    }
+  }
+}

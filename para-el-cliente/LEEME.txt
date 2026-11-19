@@ -1,0 +1,20 @@
+Standard Expansion 3.4.173 (complemento de Better Questing)
+------------------------------------------------------------
+El servidor ahora lo usa. Cada jugador tiene que tenerlo en su cliente, si no, no puede entrar.
+
+Como instalarlo (CurseForge):
+1. En CurseForge, clic derecho en la instancia "Modpack 1.12.2" > "Open Folder".
+2. Entra a la carpeta "mods".
+3. Copia ahi el archivo StandardExpansion-3.4.173.jar de esta carpeta.
+4. Abri el juego normalmente.
+
+Origen: CurseForge, archivo oficial 2863771 (StandardExpansion-3.4.173.jar, 449,7 KB).
+SHA-256: 405211aef15d442f857f92c4f755f051396283d6e6fc2de818f4f693091e89f9
+
+Mods que se quitaron del servidor (19-11-2026)
+----------------------------------------------
+Conviene borrarlos tambien de la carpeta "mods" del cliente:
+CreativeCore, CyclopsCore, EnergeticSheep, FenceOverhaul, Floocraft, Gargoyles,
+ItemPhysic, MCMultiPart, NotEnoughItems, bagelsmore, bookworm, creature_whisperer,
+drpcore, drpmedieval, fairylights, malisiscore, malisisdoors, moon-core, nice,
+paintingselgui, sonarcore, structpro, teletoro, thutcore, thuttech y zawa.

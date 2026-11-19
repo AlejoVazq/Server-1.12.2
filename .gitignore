@@ -1,0 +1,35 @@
+# Lista de permitidos: se ignora todo y se habilita solo lo propio del servidor.
+/*
+!/.gitignore
+!/README.md
+!/MODS.md
+!/iniciar.bat
+!/server.properties
+!/eula.txt
+!/config/
+!/pv7-docs/
+!/para-el-cliente/
+para-el-cliente/*.jar
+!/pv7core/
+!/world/
+
+# Datos personales de jugadores (nombres, UUID, inventarios, progreso)
+world/playerdata/
+world/stats/
+world/advancements/
+world/betterquesting/NameCache.json
+world/betterquesting/QuestProgress.json
+world/betterquesting/QuestingParties.json
+world/betterquesting/LifeDatabase.json
+world/extradata/
+world/session.lock
+world/**/*.dat_old
+world/**/*_back
+
+# Compilación de PV7Core
+pv7core/build/
+pv7core/.gradle/
+pv7core/run/
+world/data/ftb_lib/players/
+world/data/ftb_lib/teams/
+world/data/MinecraftComesAlive.dat
