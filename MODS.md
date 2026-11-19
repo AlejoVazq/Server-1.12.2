@@ -61,7 +61,7 @@ Los JAR no se suben al repo (son de otros autores). Esta lista sirve para repone
 | `howlingmoon-1.12.2-0.9.jar` | 0.8 MB | `5ac3fa31fab84c85046aafc47545059a0a095e6cbd063dc76482e07e237ae233` |
 | `jei_1.12.2-4.13.1.225.jar` | 0.6 MB | `5f99cbf59815b27a99a4411685aaed5913a581efb1f09d9d231106f175247794` |
 | `jeiintegration_1.12.2-1.5.1.36.jar` | 0.1 MB | `6d5b71ec4a89f86c0265f0057dccb95167a86badd74e68a784e80c99d16b6463` |
-| `journeymap-1.12.2-5.5.3.jar` | 1.8 MB | `e6071b72d42c864db417cb1d0edd57b3cd61a014bc30cca8dc444dac5d039534` |
+| `journeymap-forge-1.12.2-6.0.10.jar` | 6.1 MB | `ce49733a678a74e636f6ba56181e80fffd4a94aa9a53bd4ce4836d5ab29cb2b1` |
 | `mcjtylib-1.12-3.0.7.jar` | 0.5 MB | `97e9a7206e3084b1fb326fb88ba11822913b151a6fad18866488996031848235` |
 | `minecolonies-1.12.2-0.10.53-BETA-universal.jar` | 31.8 MB | `31c8ce2806ff97c8bd1178c1e751c77dbbaac22f1e4b94260c165a47200ea590` |
 | `mobtotems-1.12.1-0.3.0.jar` | 0.3 MB | `b3067df6b57be8f0f5f11e875443867e1f5e229eb9fb87bf65fa72c8f4f366da` |
@@ -115,6 +115,7 @@ Los JAR no se suben al repo (son de otros autores). Esta lista sirve para repone
 | `ArreMods-quitados/thutcore-1.12.2-5.19.9.jar` | 0.5 MB | `207db2e9da386dd2901329e6c791f2df34026f7558d52ab59e6da9b8305b77aa` |
 | `ArreMods-quitados/thuttech-1.12.2-6.1.5.jar` | 0.1 MB | `3764e10970da8e5b080db84dec0e59b48737ed37a1d2f069cac11f04349cc7e3` |
 | `ArreMods-quitados/zawa+-+1.4.0+(1.12.2).jar` | 12.3 MB | `4bb0f3affdc3dd59f6d1a009c24627adac7cfde8de417f7e1f98746a3b6cf7e1` |
+| `reemplazados/journeymap-1.12.2-5.5.3.jar` | 1.8 MB | `e6071b72d42c864db417cb1d0edd57b3cd61a014bc30cca8dc444dac5d039534` |
 
 ## Solo para el cliente (`para-el-cliente/`)
 

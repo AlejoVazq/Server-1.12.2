@@ -49,8 +49,33 @@ def t_hunt(entity, count=1):
             "ignoreNBT:1": 1, "targetNBT:10": {}, "damageType:8": ""}
 
 # ---- recompensas ------------------------------------------------------------
-def r_xp(levels):
-    return {"rewardID:8": "bq_standard:xp", "amount:3": levels, "isLevels:1": 1}
+def r_xp(dificultad):
+    """Marca la dificultad de la misión (1 a 50). quest() la convierte en el premio de su nivel."""
+    return {"_dificultad": dificultad}
+
+# Niveles de premio. La XP va en PUNTOS, no en niveles: 1400 puntos ≈ pasar del nivel 0 al 30.
+# Así una misión vale lo mismo para alguien con nivel 2 que para alguien con nivel 40.
+#   (dificultad máxima, puntos de XP, objetos)
+NIVELES_PREMIO = [
+    (2,  30,   lambda: [item("minecraft:bread", 4)]),
+    (4,  60,   lambda: [item("minecraft:iron_ingot", 2)]),
+    (6,  120,  lambda: [item("minecraft:iron_ingot", 4), item("minecraft:bread", 4)]),
+    (12, 250,  lambda: [item("minecraft:gold_ingot", 4), item("minecraft:ender_pearl", 2)]),
+    (20, 500,  lambda: [item("minecraft:diamond", 2), item("minecraft:golden_apple", 1)]),
+    (30, 900,  lambda: [item("minecraft:diamond", 4), item("minecraft:golden_apple", 2)]),
+    (99, 1400, lambda: [item("minecraft:diamond", 6), item("minecraft:golden_apple", 1, 1)]),
+]
+
+def premio(dificultad):
+    for tope, puntos, objetos in NIVELES_PREMIO:
+        if dificultad <= tope:
+            return [{"rewardID:8": "bq_standard:xp", "amount:3": puntos, "isLevels:1": 0}, r_items(objetos())]
+
+def expandir_premios(rewards):
+    out = []
+    for r in rewards:
+        out += premio(r["_dificultad"]) if "_dificultad" in r else [r]
+    return out
 
 def r_items(items):
     return {"rewardID:8": "bq_standard:item", "rewards:9": lst(items)}
@@ -69,7 +94,7 @@ def chapter(name, desc, icon):
 
 def quest(qid, x, y, name, desc, icon, tasks, rewards=(), prereq=(), logic="AND", main=False):
     QUESTS.append((qid, _line[0], x, y, dict(name=name, desc=desc, icon=icon, tasks=list(tasks),
-                   rewards=list(rewards), prereq=list(prereq), task_logic=logic, main=main)))
+                   rewards=expandir_premios(rewards), prereq=list(prereq), task_logic=logic, main=main)))
 
 def any_craft(items): return [t_craft([i]) for i in items]
 def any_get(items): return [t_get([i]) for i in items]
@@ -85,7 +110,19 @@ quest(0, 0, 0, "Tu libro de aventuras",
       "Este libro es tu guía. No hay orden obligatorio y tu progreso es solo tuyo.\n\n"
       "§eUso:§r abrí una misión, hacé lo que pide y entregala o marcá la casilla. Si tiene premio, tocá §a\"Claim\"§r.\n"
       "Si perdés el libro: §elibro + palo§r.\n\n"
-      "§6Reglas del servidor:§r §c[texto pendiente: lo define el administrador]§r",
+      "§6Reglas del servidor§r\n"
+      "§e1.§r Somos todos amigos: buena onda, y si algo molesta se habla.\n"
+      "§e2.§r §cNo se roba ni se rompe§r lo que es de otro jugador: casas, cofres, granjas, máquinas. "
+      "Las tumbas también son de su dueño. Si rompés algo sin querer, lo arreglás o lo devolvés.\n"
+      "§e3.§r §aLas trampas y las bromas valen.§r Si caés en una, te reís y listo; "
+      "eso sí, la trampa no puede romper ni llevarse cosas ajenas.\n"
+      "§e4.§r §cNadie va al End ni mata al dragón por su cuenta.§r Es la §eexpedición grupal§r "
+      "(cap. 21) y se organiza entre todos.\n"
+      "§e5.§r Pelear contra otro jugador solo si los dos están de acuerdo.\n"
+      "§e6.§r Nada de hacks, x-ray ni programas para sacar ventaja.\n"
+      "§e7.§r Si una granja o una máquina hace lagear el servidor, se apaga o se achica.\n"
+      "§e8.§r Reclamá los chunks de tu base en el mapa de FTB Utilities: así nadie la puede romper sin querer. "
+      "Si vas a construir cerca de otro, avisale antes.",
       item("questbook:itemquestbook"), [t_check()], [r_xp(1)], main=True)
 quest(2, 48, 0, "Este mundo no es vanilla",
       "El modo difícil de §6Better With Mods§r cambia recetas: §cno§r se fabrican herramientas ni armaduras de diamante vanilla, "
@@ -401,12 +438,9 @@ quest(1201, 48, 0, "Núcleo dracónico",
 quest(1202, 96, 0, "Fusion Crafting",
       "Fabricá el §eFusion Crafting Core§r y sus inyectores: así se hacen las recetas grandes del mod.",
       item(DE + "fusion_crafting_core"), [t_craft([item(DE + "fusion_crafting_core")])], [r_xp(6)], prereq=[1201])
-quest(1203, 96, -48, "El Ender Dragon",
-      "§cDependencia real:§r Draconic necesita el corazón y los recursos del End. Derrotá al Ender Dragon.",
-      item("minecraft:dragon_egg"), [t_hunt("minecraft:ender_dragon")], [r_xp(20)], prereq=[1200])
 quest(1204, 144, 0, "Núcleo Wyvern",
-      "Fabricá un §eWyvern Core§r.",
-      item(DE + "wyvern_core"), [t_craft([item(DE + "wyvern_core")])], [r_xp(8)], prereq=[1202, 1203])
+      "Fabricá un §eWyvern Core§r. Necesita recursos del End: se desbloquea con la §eexpedición grupal§r del cap. 21.",
+      item(DE + "wyvern_core"), [t_craft([item(DE + "wyvern_core")])], [r_xp(8)], prereq=[1202, 2102])
 quest(1205, 192, 0, "Equipo Wyvern",
       "Conseguí cualquier pieza de equipo Wyvern.",
       item(DE + "wyvern_pick"),
@@ -577,9 +611,12 @@ quest(2100, 0, 0, "Expediciones en grupo",
 quest(2101, 48, -24, "El Wither",
       "Invocá y derrotá al §eWither§r. Suelta la estrella del Nether (la pide la semilla del Fire Boss).",
       item("minecraft:nether_star"), [t_hunt("minecraft:wither")], [r_xp(25)], prereq=[2100])
-quest(2102, 48, 24, "El Ender Dragon",
-      "Encontrá un portal al End y derrotá al dragón.",
-      item("minecraft:dragon_egg"), [t_hunt("minecraft:ender_dragon")], [r_xp(20)], prereq=[2100])
+quest(2102, 48, 24, "Expedición grupal: el End",
+      "§cRegla del servidor:§r nadie entra al End ni mata al dragón por su cuenta. "
+      "La expedición se organiza entre todos: busquen juntos el portal, entren juntos y derroten al §eEnder Dragon§r en grupo.\n\n"
+      "Se completa para §ecada jugador que entre al End§r con la expedición. Después del dragón, el End queda abierto para todos "
+      "(Chaos Guardian, draconio del End, End Slag de BWM).",
+      item("minecraft:dragon_egg"), [t_dim(1, "The End")], [r_xp(20)], prereq=[2100])
 quest(2103, 96, 0, "Guardián del templo",
       "Derrotá a un §eElder Guardian§r de un monumento oceánico.",
       item("minecraft:prismarine_shard"), [t_hunt("minecraft:elder_guardian")], [r_xp(12)], prereq=[2100])

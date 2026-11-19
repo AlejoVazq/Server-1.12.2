@@ -8,7 +8,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Tu libro de aventuras",
-          "desc:8": "Este libro es tu guía. No hay orden obligatorio y tu progreso es solo tuyo.\n\n§eUso:§r abrí una misión, hacé lo que pide y entregala o marcá la casilla. Si tiene premio, tocá §a\"Claim\"§r.\nSi perdés el libro: §elibro + palo§r.\n\n§6Reglas del servidor:§r §c[texto pendiente: lo define el administrador]§r",
+          "desc:8": "Este libro es tu guía. No hay orden obligatorio y tu progreso es solo tuyo.\n\n§eUso:§r abrí una misión, hacé lo que pide y entregala o marcá la casilla. Si tiene premio, tocá §a\"Claim\"§r.\nSi perdés el libro: §elibro + palo§r.\n\n§6Reglas del servidor§r\n§e1.§r Somos todos amigos: buena onda, y si algo molesta se habla.\n§e2.§r §cNo se roba ni se rompe§r lo que es de otro jugador: casas, cofres, granjas, máquinas. Las tumbas también son de su dueño. Si rompés algo sin querer, lo arreglás o lo devolvés.\n§e3.§r §aLas trampas y las bromas valen.§r Si caés en una, te reís y listo; eso sí, la trampa no puede romper ni llevarse cosas ajenas.\n§e4.§r §cNadie va al End ni mata al dragón por su cuenta.§r Es la §eexpedición grupal§r (cap. 21) y se organiza entre todos.\n§e5.§r Pelear contra otro jugador solo si los dos están de acuerdo.\n§e6.§r Nada de hacks, x-ray ni programas para sacar ventaja.\n§e7.§r Si una granja o una máquina hace lagear el servidor, se apaga o se achica.\n§e8.§r Reclamá los chunks de tu base en el mapa de FTB Utilities: así nadie la puede romper sin querer. Si vas a construir cerca de otro, avisale antes.",
           "icon:10": {
             "id:8": "questbook:itemquestbook",
             "Count:3": 1,
@@ -38,8 +38,20 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 1,
-          "isLevels:1": 1
+          "amount:3": 30,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -117,8 +129,20 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 2,
-          "isLevels:1": 1
+          "amount:3": 30,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -252,8 +276,20 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 3,
-          "isLevels:1": 1
+          "amount:3": 60,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -342,8 +378,20 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 2,
-          "isLevels:1": 1
+          "amount:3": 30,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -534,8 +582,20 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 2,
-          "isLevels:1": 1
+          "amount:3": 30,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -590,8 +650,20 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 3,
-          "isLevels:1": 1
+          "amount:3": 60,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -714,8 +786,20 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 3,
-          "isLevels:1": 1
+          "amount:3": 60,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -770,8 +854,26 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 5,
-          "isLevels:1": 1
+          "amount:3": 120,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -826,8 +928,20 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 3,
-          "isLevels:1": 1
+          "amount:3": 60,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -869,8 +983,20 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 3,
-          "isLevels:1": 1
+          "amount:3": 60,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -1048,8 +1174,20 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 3,
-          "isLevels:1": 1
+          "amount:3": 60,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -1104,8 +1242,20 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 3,
-          "isLevels:1": 1
+          "amount:3": 60,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -1245,8 +1395,20 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 2,
-          "isLevels:1": 1
+          "amount:3": 30,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -1290,11 +1452,29 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 5,
-          "isLevels:1": 1
+          "amount:3": 120,
+          "isLevels:1": 0
         },
         "1:10": {
           "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "2:10": {
+          "index:3": 2,
           "rewardID:8": "bq_standard:item",
           "rewards:9": {
             "0:10": {
@@ -1355,8 +1535,26 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 5,
-          "isLevels:1": 1
+          "amount:3": 120,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -1399,8 +1597,26 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 5,
-          "isLevels:1": 1
+          "amount:3": 120,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -1443,8 +1659,20 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 3,
-          "isLevels:1": 1
+          "amount:3": 60,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -1487,8 +1715,20 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 3,
-          "isLevels:1": 1
+          "amount:3": 60,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -1531,8 +1771,20 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 4,
-          "isLevels:1": 1
+          "amount:3": 60,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -1575,8 +1827,20 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 4,
-          "isLevels:1": 1
+          "amount:3": 60,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -1619,8 +1883,20 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 4,
-          "isLevels:1": 1
+          "amount:3": 60,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -1663,8 +1939,26 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 6,
-          "isLevels:1": 1
+          "amount:3": 120,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -1712,8 +2006,26 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 15,
-          "isLevels:1": 1
+          "amount:3": 500,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:diamond",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:golden_apple",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -1761,8 +2073,26 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 15,
-          "isLevels:1": 1
+          "amount:3": 500,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:diamond",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:golden_apple",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -1805,8 +2135,26 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 5,
-          "isLevels:1": 1
+          "amount:3": 120,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -1855,8 +2203,26 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 30,
-          "isLevels:1": 1
+          "amount:3": 900,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:diamond",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:golden_apple",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -1911,8 +2277,20 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 3,
-          "isLevels:1": 1
+          "amount:3": 60,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -1954,8 +2332,20 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 2,
-          "isLevels:1": 1
+          "amount:3": 30,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -2010,8 +2400,26 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 8,
-          "isLevels:1": 1
+          "amount:3": 250,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:gold_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:ender_pearl",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -2083,8 +2491,20 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 4,
-          "isLevels:1": 1
+          "amount:3": 60,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -2139,8 +2559,26 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 5,
-          "isLevels:1": 1
+          "amount:3": 120,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -2195,8 +2633,20 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 3,
-          "isLevels:1": 1
+          "amount:3": 60,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -2251,8 +2701,26 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 5,
-          "isLevels:1": 1
+          "amount:3": 120,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -2307,8 +2775,26 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 5,
-          "isLevels:1": 1
+          "amount:3": 120,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -2356,8 +2842,26 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 10,
-          "isLevels:1": 1
+          "amount:3": 250,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:gold_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:ender_pearl",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -2429,8 +2933,26 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 5,
-          "isLevels:1": 1
+          "amount:3": 120,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -2478,8 +3000,26 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 12,
-          "isLevels:1": 1
+          "amount:3": 250,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:gold_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:ender_pearl",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -2551,8 +3091,26 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 5,
-          "isLevels:1": 1
+          "amount:3": 120,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -2600,8 +3158,26 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 14,
-          "isLevels:1": 1
+          "amount:3": 500,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:diamond",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:golden_apple",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -2673,8 +3249,26 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 5,
-          "isLevels:1": 1
+          "amount:3": 120,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -2746,8 +3340,26 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 6,
-          "isLevels:1": 1
+          "amount:3": 120,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -2795,8 +3407,26 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 25,
-          "isLevels:1": 1
+          "amount:3": 900,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:diamond",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:golden_apple",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -2851,8 +3481,20 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 3,
-          "isLevels:1": 1
+          "amount:3": 60,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -2907,8 +3549,26 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 6,
-          "isLevels:1": 1
+          "amount:3": 120,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -2963,8 +3623,20 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 4,
-          "isLevels:1": 1
+          "amount:3": 60,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -3007,8 +3679,26 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 5,
-          "isLevels:1": 1
+          "amount:3": 120,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -3051,8 +3741,26 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 8,
-          "isLevels:1": 1
+          "amount:3": 250,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:gold_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:ender_pearl",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -3100,8 +3808,26 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 5,
-          "isLevels:1": 1
+          "amount:3": 120,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -3144,8 +3870,26 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 5,
-          "isLevels:1": 1
+          "amount:3": 120,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -3188,8 +3932,26 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 5,
-          "isLevels:1": 1
+          "amount:3": 120,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -3232,8 +3994,26 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 5,
-          "isLevels:1": 1
+          "amount:3": 120,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -3276,8 +4056,26 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 6,
-          "isLevels:1": 1
+          "amount:3": 120,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -3320,8 +4118,26 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 5,
-          "isLevels:1": 1
+          "amount:3": 120,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -3364,8 +4180,26 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 5,
-          "isLevels:1": 1
+          "amount:3": 120,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -3408,8 +4242,20 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 4,
-          "isLevels:1": 1
+          "amount:3": 60,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -3452,8 +4298,26 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 5,
-          "isLevels:1": 1
+          "amount:3": 120,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -3496,8 +4360,26 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 6,
-          "isLevels:1": 1
+          "amount:3": 120,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -3540,8 +4422,26 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 7,
-          "isLevels:1": 1
+          "amount:3": 250,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:gold_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:ender_pearl",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -3584,8 +4484,26 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 8,
-          "isLevels:1": 1
+          "amount:3": 250,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:gold_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:ender_pearl",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -3628,8 +4546,26 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 9,
-          "isLevels:1": 1
+          "amount:3": 250,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:gold_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:ender_pearl",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -3672,8 +4608,26 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 10,
-          "isLevels:1": 1
+          "amount:3": 250,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:gold_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:ender_pearl",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -3717,8 +4671,26 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 11,
-          "isLevels:1": 1
+          "amount:3": 250,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:gold_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:ender_pearl",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -3761,8 +4733,26 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 12,
-          "isLevels:1": 1
+          "amount:3": 250,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:gold_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:ender_pearl",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -3817,8 +4807,20 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 4,
-          "isLevels:1": 1
+          "amount:3": 60,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -3873,8 +4875,26 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 5,
-          "isLevels:1": 1
+          "amount:3": 120,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
@@ -3929,70 +4949,39 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 6,
-          "isLevels:1": 1
+          "amount:3": 120,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
     "70:10": {
-      "questID:3": 1203,
-      "preRequisites:11": [
-        1200
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "name:8": "El Ender Dragon",
-          "desc:8": "§cDependencia real:§r Draconic necesita el corazón y los recursos del End. Derrotá al Ender Dragon.",
-          "icon:10": {
-            "id:8": "minecraft:dragon_egg",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "isMain:1": 0,
-          "taskLogic:8": "AND",
-          "questLogic:8": "AND",
-          "visibility:8": "NORMAL",
-          "repeatTime:3": -1,
-          "autoClaim:1": 0,
-          "isSilent:1": 0,
-          "lockedProgress:1": 0,
-          "simultaneous:1": 0,
-          "globalShare:1": 0,
-          "isGlobal:1": 0
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "index:3": 0,
-          "taskID:8": "bq_standard:hunt",
-          "target:8": "minecraft:ender_dragon",
-          "required:3": 1,
-          "subtypes:1": 0,
-          "ignoreNBT:1": 1,
-          "targetNBT:10": {},
-          "damageType:8": ""
-        }
-      },
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:xp",
-          "amount:3": 20,
-          "isLevels:1": 1
-        }
-      }
-    },
-    "71:10": {
       "questID:3": 1204,
       "preRequisites:11": [
         1202,
-        1203
+        2102
       ],
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Núcleo Wyvern",
-          "desc:8": "Fabricá un §eWyvern Core§r.",
+          "desc:8": "Fabricá un §eWyvern Core§r. Necesita recursos del End: se desbloquea con la §eexpedición grupal§r del cap. 21.",
           "icon:10": {
             "id:8": "draconicevolution:wyvern_core",
             "Count:3": 1,
@@ -4035,12 +5024,30 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 8,
-          "isLevels:1": 1
+          "amount:3": 250,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:gold_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:ender_pearl",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "72:10": {
+    "71:10": {
       "questID:3": 1205,
       "preRequisites:11": [
         1204
@@ -4227,12 +5234,30 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 10,
-          "isLevels:1": 1
+          "amount:3": 250,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:gold_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:ender_pearl",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "73:10": {
+    "72:10": {
       "questID:3": 1206,
       "preRequisites:11": [
         1205
@@ -4276,12 +5301,30 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 40,
-          "isLevels:1": 1
+          "amount:3": 1400,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:diamond",
+              "Count:3": 6,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:golden_apple",
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "74:10": {
+    "73:10": {
       "questID:3": 1207,
       "preRequisites:11": [
         1206
@@ -4332,12 +5375,30 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 15,
-          "isLevels:1": 1
+          "amount:3": 500,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:diamond",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:golden_apple",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "75:10": {
+    "74:10": {
       "questID:3": 1300,
       "preRequisites:11": [
         0
@@ -4375,12 +5436,24 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 2,
-          "isLevels:1": 1
+          "amount:3": 30,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "76:10": {
+    "75:10": {
       "questID:3": 1301,
       "preRequisites:11": [
         1300
@@ -4431,12 +5504,30 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 5,
-          "isLevels:1": 1
+          "amount:3": 120,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "77:10": {
+    "76:10": {
       "questID:3": 1302,
       "preRequisites:11": [
         1301
@@ -4487,12 +5578,30 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 8,
-          "isLevels:1": 1
+          "amount:3": 250,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:gold_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:ender_pearl",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "78:10": {
+    "77:10": {
       "questID:3": 1303,
       "preRequisites:11": [
         1302
@@ -4536,12 +5645,30 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 15,
-          "isLevels:1": 1
+          "amount:3": 500,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:diamond",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:golden_apple",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "79:10": {
+    "78:10": {
       "questID:3": 1400,
       "preRequisites:11": [
         0
@@ -4580,12 +5707,24 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 3,
-          "isLevels:1": 1
+          "amount:3": 60,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "80:10": {
+    "79:10": {
       "questID:3": 1401,
       "preRequisites:11": [
         1400
@@ -4624,12 +5763,24 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 3,
-          "isLevels:1": 1
+          "amount:3": 60,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "81:10": {
+    "80:10": {
       "questID:3": 1402,
       "preRequisites:11": [
         1401
@@ -4668,12 +5819,24 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 4,
-          "isLevels:1": 1
+          "amount:3": 60,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "82:10": {
+    "81:10": {
       "questID:3": 1403,
       "preRequisites:11": [
         1402
@@ -4712,12 +5875,24 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 4,
-          "isLevels:1": 1
+          "amount:3": 60,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "83:10": {
+    "82:10": {
       "questID:3": 1404,
       "preRequisites:11": [
         1403
@@ -4756,12 +5931,30 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 5,
-          "isLevels:1": 1
+          "amount:3": 120,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "84:10": {
+    "83:10": {
       "questID:3": 1405,
       "preRequisites:11": [
         1403
@@ -4800,12 +5993,30 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 5,
-          "isLevels:1": 1
+          "amount:3": 120,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "85:10": {
+    "84:10": {
       "questID:3": 1406,
       "preRequisites:11": [
         1405
@@ -4844,12 +6055,30 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 6,
-          "isLevels:1": 1
+          "amount:3": 120,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "86:10": {
+    "85:10": {
       "questID:3": 1407,
       "preRequisites:11": [
         1406
@@ -4888,12 +6117,30 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 6,
-          "isLevels:1": 1
+          "amount:3": 120,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "87:10": {
+    "86:10": {
       "questID:3": 1408,
       "preRequisites:11": [
         1402
@@ -4932,12 +6179,30 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 7,
-          "isLevels:1": 1
+          "amount:3": 250,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:gold_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:ender_pearl",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "88:10": {
+    "87:10": {
       "questID:3": 1409,
       "preRequisites:11": [
         1408
@@ -4976,12 +6241,30 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 7,
-          "isLevels:1": 1
+          "amount:3": 250,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:gold_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:ender_pearl",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "89:10": {
+    "88:10": {
       "questID:3": 1410,
       "preRequisites:11": [
         1407
@@ -5020,12 +6303,30 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 8,
-          "isLevels:1": 1
+          "amount:3": 250,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:gold_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:ender_pearl",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "90:10": {
+    "89:10": {
       "questID:3": 1411,
       "preRequisites:11": [
         1410
@@ -5064,12 +6365,30 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 8,
-          "isLevels:1": 1
+          "amount:3": 250,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:gold_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:ender_pearl",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "91:10": {
+    "90:10": {
       "questID:3": 1412,
       "preRequisites:11": [
         1411
@@ -5108,12 +6427,30 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 9,
-          "isLevels:1": 1
+          "amount:3": 250,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:gold_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:ender_pearl",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "92:10": {
+    "91:10": {
       "questID:3": 1413,
       "preRequisites:11": [
         1412
@@ -5152,12 +6489,30 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 9,
-          "isLevels:1": 1
+          "amount:3": 250,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:gold_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:ender_pearl",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "93:10": {
+    "92:10": {
       "questID:3": 1500,
       "preRequisites:11": [
         0
@@ -5208,12 +6563,24 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 4,
-          "isLevels:1": 1
+          "amount:3": 60,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "94:10": {
+    "93:10": {
       "questID:3": 1501,
       "preRequisites:11": [
         1500
@@ -5264,12 +6631,24 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 3,
-          "isLevels:1": 1
+          "amount:3": 60,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "95:10": {
+    "94:10": {
       "questID:3": 1502,
       "preRequisites:11": [
         1501
@@ -5320,12 +6699,30 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 6,
-          "isLevels:1": 1
+          "amount:3": 120,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "96:10": {
+    "95:10": {
       "questID:3": 1503,
       "preRequisites:11": [
         1500
@@ -5376,12 +6773,24 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 3,
-          "isLevels:1": 1
+          "amount:3": 60,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "97:10": {
+    "96:10": {
       "questID:3": 1504,
       "preRequisites:11": [
         1503
@@ -5432,12 +6841,24 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 4,
-          "isLevels:1": 1
+          "amount:3": 60,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "98:10": {
+    "97:10": {
       "questID:3": 1505,
       "preRequisites:11": [
         1500
@@ -5488,12 +6909,24 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 3,
-          "isLevels:1": 1
+          "amount:3": 60,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "99:10": {
+    "98:10": {
       "questID:3": 1600,
       "preRequisites:11": [
         0
@@ -5557,12 +6990,30 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 6,
-          "isLevels:1": 1
+          "amount:3": 120,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "100:10": {
+    "99:10": {
       "questID:3": 1601,
       "preRequisites:11": [
         1600
@@ -5606,12 +7057,30 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 5,
-          "isLevels:1": 1
+          "amount:3": 120,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "101:10": {
+    "100:10": {
       "questID:3": 1602,
       "preRequisites:11": [
         1600
@@ -5655,12 +7124,30 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 8,
-          "isLevels:1": 1
+          "amount:3": 250,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:gold_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:ender_pearl",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "102:10": {
+    "101:10": {
       "questID:3": 1603,
       "preRequisites:11": [
         1600
@@ -5724,12 +7211,30 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 8,
-          "isLevels:1": 1
+          "amount:3": 250,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:gold_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:ender_pearl",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "103:10": {
+    "102:10": {
       "questID:3": 1700,
       "preRequisites:11": [
         0
@@ -5813,12 +7318,30 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 8,
-          "isLevels:1": 1
+          "amount:3": 250,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:gold_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:ender_pearl",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "104:10": {
+    "103:10": {
       "questID:3": 1701,
       "preRequisites:11": [
         1700
@@ -5903,12 +7426,30 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 6,
-          "isLevels:1": 1
+          "amount:3": 120,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "105:10": {
+    "104:10": {
       "questID:3": 1800,
       "preRequisites:11": [
         0
@@ -5959,12 +7500,24 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 3,
-          "isLevels:1": 1
+          "amount:3": 60,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "106:10": {
+    "105:10": {
       "questID:3": 1801,
       "preRequisites:11": [
         1800
@@ -6015,12 +7568,24 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 4,
-          "isLevels:1": 1
+          "amount:3": 60,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "107:10": {
+    "106:10": {
       "questID:3": 1802,
       "preRequisites:11": [
         1801
@@ -6064,12 +7629,30 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 8,
-          "isLevels:1": 1
+          "amount:3": 250,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:gold_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:ender_pearl",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "108:10": {
+    "107:10": {
       "questID:3": 1803,
       "preRequisites:11": [
         1800
@@ -6120,12 +7703,30 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 5,
-          "isLevels:1": 1
+          "amount:3": 120,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "109:10": {
+    "108:10": {
       "questID:3": 1900,
       "preRequisites:11": [
         0
@@ -6163,12 +7764,24 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 2,
-          "isLevels:1": 1
+          "amount:3": 30,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "110:10": {
+    "109:10": {
       "questID:3": 1901,
       "preRequisites:11": [
         1900
@@ -6206,12 +7819,30 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 8,
-          "isLevels:1": 1
+          "amount:3": 250,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:gold_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:ender_pearl",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "111:10": {
+    "110:10": {
       "questID:3": 2000,
       "preRequisites:11": [
         0
@@ -6262,12 +7893,30 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 5,
-          "isLevels:1": 1
+          "amount:3": 120,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "112:10": {
+    "111:10": {
       "questID:3": 2001,
       "preRequisites:11": [
         2000
@@ -6318,12 +7967,24 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 4,
-          "isLevels:1": 1
+          "amount:3": 60,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "113:10": {
+    "112:10": {
       "questID:3": 2002,
       "preRequisites:11": [
         2000
@@ -6374,12 +8035,24 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 4,
-          "isLevels:1": 1
+          "amount:3": 60,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "114:10": {
+    "113:10": {
       "questID:3": 2100,
       "preRequisites:11": [
         0
@@ -6415,7 +8088,7 @@
       },
       "rewards:9": {}
     },
-    "115:10": {
+    "114:10": {
       "questID:3": 2101,
       "preRequisites:11": [
         2100
@@ -6459,20 +8132,38 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 25,
-          "isLevels:1": 1
+          "amount:3": 900,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:diamond",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:golden_apple",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "116:10": {
+    "115:10": {
       "questID:3": 2102,
       "preRequisites:11": [
         2100
       ],
       "properties:10": {
         "betterquesting:10": {
-          "name:8": "El Ender Dragon",
-          "desc:8": "Encontrá un portal al End y derrotá al dragón.",
+          "name:8": "Expedición grupal: el End",
+          "desc:8": "§cRegla del servidor:§r nadie entra al End ni mata al dragón por su cuenta. La expedición se organiza entre todos: busquen juntos el portal, entren juntos y derroten al §eEnder Dragon§r en grupo.\n\nSe completa para §ecada jugador que entre al End§r con la expedición. Después del dragón, el End queda abierto para todos (Chaos Guardian, draconio del End, End Slag de BWM).",
           "icon:10": {
             "id:8": "minecraft:dragon_egg",
             "Count:3": 1,
@@ -6495,25 +8186,50 @@
       "tasks:9": {
         "0:10": {
           "index:3": 0,
-          "taskID:8": "bq_standard:hunt",
-          "target:8": "minecraft:ender_dragon",
-          "required:3": 1,
-          "subtypes:1": 0,
-          "ignoreNBT:1": 1,
-          "targetNBT:10": {},
-          "damageType:8": ""
+          "taskID:8": "bq_standard:location",
+          "name:8": "The End",
+          "posX:3": 0,
+          "posY:3": 0,
+          "posZ:3": 0,
+          "dimension:3": 1,
+          "biome:8": "",
+          "structure:8": "",
+          "range:3": -1,
+          "visible:1": 0,
+          "hideInfo:1": 0,
+          "invert:1": 0,
+          "invertDistance:1": 0,
+          "taxiCabDist:1": 0
         }
       },
       "rewards:9": {
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 20,
-          "isLevels:1": 1
+          "amount:3": 500,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:diamond",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:golden_apple",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "117:10": {
+    "116:10": {
       "questID:3": 2103,
       "preRequisites:11": [
         2100
@@ -6557,12 +8273,30 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 12,
-          "isLevels:1": 1
+          "amount:3": 250,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:gold_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:ender_pearl",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "118:10": {
+    "117:10": {
       "questID:3": 2200,
       "preRequisites:11": [
         1207
@@ -6749,12 +8483,30 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 20,
-          "isLevels:1": 1
+          "amount:3": 500,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:diamond",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:golden_apple",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "119:10": {
+    "118:10": {
       "questID:3": 2201,
       "preRequisites:11": [
         2200
@@ -6805,12 +8557,30 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 30,
-          "isLevels:1": 1
+          "amount:3": 900,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:diamond",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:golden_apple",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "120:10": {
+    "119:10": {
       "questID:3": 2202,
       "preRequisites:11": [
         1202
@@ -6861,12 +8631,30 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 10,
-          "isLevels:1": 1
+          "amount:3": 250,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:gold_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:ender_pearl",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "121:10": {
+    "120:10": {
       "questID:3": 2300,
       "preRequisites:11": [
         0
@@ -7104,12 +8892,30 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 30,
-          "isLevels:1": 1
+          "amount:3": 900,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:diamond",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:golden_apple",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "122:10": {
+    "121:10": {
       "questID:3": 2301,
       "preRequisites:11": [
         2300
@@ -7178,12 +8984,30 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 15,
-          "isLevels:1": 1
+          "amount:3": 500,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:diamond",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:golden_apple",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "123:10": {
+    "122:10": {
       "questID:3": 2400,
       "preRequisites:11": [
         601
@@ -7222,12 +9046,30 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 15,
-          "isLevels:1": 1
+          "amount:3": 500,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:diamond",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:golden_apple",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "124:10": {
+    "123:10": {
       "questID:3": 2401,
       "preRequisites:11": [
         2400
@@ -7266,12 +9108,30 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 10,
-          "isLevels:1": 1
+          "amount:3": 250,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:gold_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:ender_pearl",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "125:10": {
+    "124:10": {
       "questID:3": 2402,
       "preRequisites:11": [
         2400
@@ -7310,12 +9170,30 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 15,
-          "isLevels:1": 1
+          "amount:3": 500,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:diamond",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:golden_apple",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "126:10": {
+    "125:10": {
       "questID:3": 2403,
       "preRequisites:11": [
         1008
@@ -7354,12 +9232,30 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 12,
-          "isLevels:1": 1
+          "amount:3": 250,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:gold_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:ender_pearl",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "127:10": {
+    "126:10": {
       "questID:3": 2500,
       "preRequisites:11": [
         0
@@ -7410,12 +9306,30 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 8,
-          "isLevels:1": 1
+          "amount:3": 250,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:gold_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:ender_pearl",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "128:10": {
+    "127:10": {
       "questID:3": 2501,
       "preRequisites:11": [
         2500
@@ -7466,12 +9380,30 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 6,
-          "isLevels:1": 1
+          "amount:3": 120,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "129:10": {
+    "128:10": {
       "questID:3": 2502,
       "preRequisites:11": [
         0
@@ -7539,12 +9471,30 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 6,
-          "isLevels:1": 1
+          "amount:3": 120,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "130:10": {
+    "129:10": {
       "questID:3": 2600,
       "preRequisites:11": [
         611,
@@ -7610,12 +9560,30 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 50,
-          "isLevels:1": 1
+          "amount:3": 1400,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:diamond",
+              "Count:3": 6,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:golden_apple",
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "131:10": {
+    "130:10": {
       "questID:3": 2601,
       "preRequisites:11": [
         2101
@@ -7659,12 +9627,30 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 30,
-          "isLevels:1": 1
+          "amount:3": 900,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:diamond",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:golden_apple",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
         }
       }
     },
-    "132:10": {
+    "131:10": {
       "questID:3": 2700,
       "preRequisites:11": [
         2300,
@@ -7703,11 +9689,29 @@
         "0:10": {
           "index:3": 0,
           "rewardID:8": "bq_standard:xp",
-          "amount:3": 50,
-          "isLevels:1": 1
+          "amount:3": 1400,
+          "isLevels:1": 0
         },
         "1:10": {
           "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:diamond",
+              "Count:3": 6,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:golden_apple",
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "2:10": {
+          "index:3": 2,
           "rewardID:8": "bq_standard:item",
           "rewards:9": {
             "0:10": {
@@ -8472,34 +10476,27 @@
           "sizeY:3": 24
         },
         "3:10": {
-          "id:3": 1203,
-          "x:3": 96,
-          "y:3": -48,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "4:10": {
           "id:3": 1204,
           "x:3": 144,
           "y:3": 0,
           "sizeX:3": 24,
           "sizeY:3": 24
         },
-        "5:10": {
+        "4:10": {
           "id:3": 1205,
           "x:3": 192,
           "y:3": 0,
           "sizeX:3": 24,
           "sizeY:3": 24
         },
-        "6:10": {
+        "5:10": {
           "id:3": 1206,
           "x:3": 240,
           "y:3": -48,
           "sizeX:3": 24,
           "sizeY:3": 24
         },
-        "7:10": {
+        "6:10": {
           "id:3": 1207,
           "x:3": 288,
           "y:3": 0,

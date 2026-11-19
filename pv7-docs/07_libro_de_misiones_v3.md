@@ -8,7 +8,7 @@
    MalisisDoors, Moon Core, Nice, Painting Selection GUI, SonarCore, StructPro, Teletoro, ThutCore, ThutTech y ZAWA.
    - Copias previas: `backups/arremods-antes-de-aligerar-20261119-032733.tar.gz` (servidor) y `backups/arremods-mundo-apagado-032815.tar.gz` (mundo).
    - Al arrancar, Forge avisa "missing id from the world" por los bloques y criaturas de esos mods que había en el mundo y los borra. Es normal.
-2. **El libro dejó de nombrar los mods quitados**: Teletoro (cap. 4), ZAWA (cap. 17) y ThutTech (cap. 25). Quedan **133 misiones** (antes 135).
+2. **El libro dejó de nombrar los mods quitados**: Teletoro (cap. 4), ZAWA (cap. 17) y ThutTech (cap. 25). Quedaban 133 misiones (antes 135). Ver más abajo: ahora son 132.
 3. **Se resolvieron los pendientes marcados "[en prueba]"**. Ya no queda ninguno en el libro. Datos leídos del código y de los archivos de cada JAR:
 
 | Cap. | Pendiente | Resultado verificado |
@@ -44,12 +44,27 @@
 
 El progreso de los jugadores se mantiene: ninguna de las misiones que cambiaron tenía progreso.
 
-## Lo que sigue pendiente
-1. **Texto de las reglas del servidor** (cap. 1, misión "Tu libro de aventuras"). Lo tiene que escribir el administrador.
-2. **Recompensas**: son niveles de XP y pocos ítems. Hay que ajustarlas después de probar el juego.
-3. **PV7Core** (clanes, puntos y ranking): queda para su propia sesión.
-4. **JourneyMap**: al entrar un jugador, el servidor da un error de red (`jm_dim_permission`), aunque cliente y servidor usan la misma versión (5.5.3). Es un fallo del mod y no impide jugar. Lo único que se pierde es que el servidor no puede mandar los permisos de mapa por dimensión, así que el cliente usa los de fábrica.
+## Cambios del 2026-11-19 (tarde)
+- **Reglas del servidor** escritas en la misión 0 (cap. 1). Las acordadas con el administrador: somos amigos, no se roba ni se rompe lo ajeno, las trampas valen y nadie va al End antes de la expedición grupal. Las agregó Claude: PvP solo de común acuerdo, sin hacks ni x-ray, granjas sin lag y reclamar los chunks con FTB Utilities (el reclamo de chunks ya está activo en `config/ftbutilities.cfg`).
+- **Expedición grupal al End:** la misión 2102 se completa para cada jugador que entra al End. Se quitó la misión 1203, que repetía lo del dragón. El Wyvern Core (1204) ahora pide la 2102. Quedan **132 misiones**.
+- **Recompensas nuevas:** el número de `r_xp(n)` del generador ahora es la dificultad de la misión. `quest()` lo cambia por un premio de **puntos** de XP más objetos, según la tabla `NIVELES_PREMIO`:
 
-## Para los jugadores
-- Tienen que tener `para-el-cliente/StandardExpansion-3.4.173.jar` en la carpeta `mods` del cliente.
-- Conviene que también borren de su cliente los 26 mods quitados. El cliente del administrador ya coincide con el servidor.
+| Dificultad | Puntos de XP | Objetos | Misiones |
+|---|---|---|---|
+| 1-2 | 30 | 4 panes | 8 |
+| 3-4 | 60 | 2 lingotes de hierro | 32 |
+| 5-6 | 120 | 4 de hierro + 4 panes | 39 |
+| 8-12 | 250 | 4 de oro + 2 perlas de ender | 29 |
+| 14-20 | 500 | 2 diamantes + 1 manzana dorada | 10 |
+| 25-30 | 900 | 4 diamantes + 2 manzanas doradas | 6 |
+| 40-50 | 1400 (≈ nivel 0 → 30) | 6 diamantes + 1 manzana de Notch | 3 |
+
+  Antes se daban **niveles**, que valen más cuanto más alto está el jugador. Con 50 niveles de golpe alcanzaba para encantar muchas veces. Para cambiar los premios, se edita la tabla y se regenera.
+- **JourneyMap 5.5.3 → 6.0.10** en el servidor. El error `jm_dim_permission` era un fallo de la 5.5.3: el servidor nunca registraba ese mensaje (verificado en `PacketHandler.init`). La 6.0.10 usa otro sistema de red y acepta clientes de cualquier versión (`acceptableRemoteVersions = "*"`). Arrancó sin errores nuevos. La 5.5.3 quedó en `mods-desactivados/reemplazados/`.
+  - La 6.0.10 dice "Forge 14.23.5.2860" en su changelog, pero no lo exige. Con el Forge actual (2768) arranca bien.
+  - Falta probar que entre un jugador. Los clientes que sigan con la 5.5.3 entran igual, pero no reciben las opciones del servidor. Conviene pasarles la 6.0.10 (Modrinth, SHA-1 `6455be4d12b507878067738ccb23cfa02992c719`).
+
+## Lo que sigue pendiente
+1. **PV7Core** (clanes, puntos y ranking): en pausa hasta definir para qué se quiere.
+2. **Probar JourneyMap 6.0.10 con un jugador conectado.**
+3. **Probar las recompensas jugando** y ajustar la tabla si hace falta.

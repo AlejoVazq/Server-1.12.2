@@ -33,3 +33,6 @@ pv7core/run/
 world/data/ftb_lib/players/
 world/data/ftb_lib/teams/
 world/data/MinecraftComesAlive.dat
+
+# Copias automáticas de MineColonies
+world/minecolonies/*.zip
