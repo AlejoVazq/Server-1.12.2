@@ -1,0 +1,207 @@
+betterquesting.title.quest_lines=Capítulos
+betterquesting.title.edit_line1=Editar capítulos
+betterquesting.title.edit_line2=Editar capítulo - %s
+betterquesting.title.edit_quest=Editar misión
+betterquesting.title.edit_tasks=Editar tareas
+betterquesting.title.edit_rewards=Editar recompensas
+betterquesting.title.edit_text=Editor de texto
+betterquesting.title.pre_requisites=Editar requisitos
+betterquesting.title.json_object=Objeto
+betterquesting.title.json_array=Lista
+betterquesting.title.json_add=Nuevo tipo
+betterquesting.title.select_item=Elegir objeto
+betterquesting.title.select_fluid=Elegir fluido
+betterquesting.title.select_entity=Elegir criatura
+betterquesting.title.party_none=Grupo de aventura
+betterquesting.title.party=Administrar grupo - %s
+betterquesting.title.party_invite=Invitar jugadores
+betterquesting.title.select_theme=Elegir tema
+betterquesting.title.importers=Importadores
+betterquesting.title.submit_station=Estación de entrega
+
+betterquesting.btn.rewards=Recompensas
+betterquesting.btn.tasks=Tareas
+betterquesting.btn.advanced=Avanzado
+betterquesting.btn.is_main=Es principal
+betterquesting.btn.requirements=Requisitos
+betterquesting.btn.edit=Editar
+betterquesting.btn.new=Agregar
+betterquesting.btn.import=Importar
+betterquesting.btn.logic=Lógica
+betterquesting.btn.show=Mostrar
+betterquesting.btn.claim=Reclamar
+betterquesting.btn.detect_submit=Detectar / Entregar
+betterquesting.btn.add_remove_quests=Agregar / Quitar misiones
+betterquesting.btn.designer=Diseñador
+betterquesting.btn.item=Objeto
+betterquesting.btn.list=Lista
+betterquesting.btn.fluid=Fluido
+betterquesting.btn.entity=Criatura
+betterquesting.btn.text=Texto
+betterquesting.btn.number=Número
+betterquesting.btn.object=Objeto
+betterquesting.btn.raw_nbt=NBT crudo
+betterquesting.btn.party_new=Crear grupo
+betterquesting.btn.party_leave=Salir
+betterquesting.btn.party_invite=Invitar
+betterquesting.btn.party_kick=Echar
+betterquesting.btn.party_join=Unirse
+betterquesting.btn.party_share_lives=Compartir vidas
+betterquesting.btn.party_share_loot=Recompensa única
+betterquesting.btn.icon=Ícono
+betterquesting.btn.claim_all=Reclamar todo
+betterquesting.btn.zoom_fit=Ajustar vista
+betterquesting.btn.lock_tray=Fijar panel
+
+betterquesting.home.exit=Salir
+betterquesting.home.quests=Misiones
+betterquesting.home.party=Grupo
+betterquesting.home.theme=Tema
+
+betterquesting.gui.name=Nombre
+betterquesting.gui.description=Descripción
+betterquesting.gui.quest_line=Capítulo
+betterquesting.gui.database=Base de datos
+betterquesting.gui.selection=Selección
+betterquesting.gui.search=Buscar
+betterquesting.gui.folder=Carpeta
+betterquesting.gui.party_invites=Invitaciones
+betterquesting.gui.party_members=Miembros
+betterquesting.gui.remaining_lives=Vidas restantes: %s
+betterquesting.gui.full_lives=Vidas completas
+betterquesting.gui.closing_warning=¿Seguro que querés cerrar el editor?
+betterquesting.gui.closing_confirm=¡Se pueden perder los cambios!
+betterquesting.gui.key=Nombre de la clave
+betterquesting.gui.no_key=Sin clave
+betterquesting.gui.duplicate_key=Clave repetida
+
+betterquesting.tooltip.tasks_complete=%s/%s tareas hechas
+betterquesting.tooltip.complete=COMPLETA
+betterquesting.tooltip.incomplete=INCOMPLETA
+betterquesting.tooltip.rewards_pending=Recompensas sin reclamar
+betterquesting.tooltip.requires=Requiere:
+betterquesting.tooltip.shift_advanced=Mantené SHIFT para ver más datos
+betterquesting.tooltip.reset_time=Espera: %s
+betterquesting.tooltip.main_quest=Misión principal: %s
+betterquesting.tooltip.global_quest=Misión global: %s
+betterquesting.tooltip.global_share=Compartida por todos: %s
+betterquesting.tooltip.task_logic=Lógica de tareas: %s
+betterquesting.tooltip.quest_logic=Lógica de requisitos: %s
+betterquesting.tooltip.simultaneous=Tareas simultáneas: %s
+betterquesting.tooltip.auto_claim=Reclamo automático: %s
+betterquesting.tooltip.repeat=Espera: %s
+betterquesting.tooltip.update_quests=¡Hay una actualización!%n§7Hay una versión nueva del libro.%nHacé clic para instalarla y conservar el progreso.
+
+betterquesting.notice.complete=Misión completada
+betterquesting.notice.update=Misión actualizada
+betterquesting.notice.unlock=Misión desbloqueada
+
+betterquesting.msg.heart_disabled=Las vidas de modo extremo no están activadas. Usá "/bq_admin hardcore" para activarlas
+
+key.betterquesting.quests=Abrir misiones
+key.betterquesting.party=Administrar grupo
+key.betterquesting.themes=Cambiar tema
+
+itemGroup.betterquesting=Better Questing
+
+fluid.betterquesting.placeholder=Marcador
+
+item.betterquesting.placeholder.name=Objeto marcador
+item.betterquesting.extra_life.full.name=Vida extra
+item.betterquesting.extra_life.half.name=Medio corazón
+item.betterquesting.extra_life.quarter.name=Cuarto de corazón
+item.betterquesting.guide.name=Guía de inicio de Better Questing
+
+tile.betterquesting.submit_station.name=Estación de entrega de objetos (EEO)
+
+betterquesting.btn.help1=Cómo moverse
+betterquesting.btn.help2=Estación de entrega
+betterquesting.btn.help3=Crear misiones
+betterquesting.btn.help4=Comandos
+betterquesting.btn.help5=Importar
+betterquesting.btn.help6=Temas
+betterquesting.btn.help7=Traducciones
+betterquesting.btn.help8=Recursos
+
+betterquesting.help.page1=§l§nCómo moverse%n§r%nEl libro de misiones no depende de un objeto que se pueda perder: se abre con una tecla, que podés ver y cambiar en el menú de controles.%n%nEn la pantalla de capítulos elegí uno de la lista y arrastrá el mapa para llegar a la misión que quieras.%n%nLos grupos de aventura se crean y se administran en la pantalla de grupo. Ahí también se elige si se comparten las vidas o las recompensas.%n%nPara cambiar el aspecto del libro, elegí uno de los temas instalados en la pantalla de temas.
+betterquesting.help.page2=§l§nEstación de entrega%n§r%nCasi todas las tareas se pueden entregar desde el inventario (también los líquidos), pero a veces conviene automatizarlo. Para eso está la Estación de entrega de objetos (EEO). Elegí la tarea en su menú y después metele objetos o líquidos con tuberías o tirándolos en su casilla de entrada. No borra nada si no hay una tarea elegida o si ya está completa, así que es difícil perder cosas por error. Varias estaciones pueden trabajar a la vez en tareas distintas de la misma misión.
+betterquesting.help.page3=§l§nCrear misiones%n§r%nPara crear misiones y capítulos primero hay que activar el modo edición con el comando de edición (mirá la página de comandos). Después se pueden agregar o quitar capítulos, aunque no hace falta uno para crear misiones: sirve para hacer misiones secretas que desbloquean otras.%n%nHay varios menús que conviene conocer. Al principio pueden abrumar, pero con el tiempo se hace fácil. Algunas pantallas avanzadas editan los datos crudos: cambiá con cuidado, porque puede tener efectos raros, aunque nunca debería romper ni cerrar el juego. Si pasa, avisale a un desarrollador.
+betterquesting.help.page4=§l§nComandos%n§r%nHay pocos comandos para Better Questing. Se dividen en comandos de jugador, que puede usar cualquiera, y comandos de administrador, solo para operadores.%n%n§o/bq_user refresh%n§r%nVuelve a sincronizar tu libro con el servidor por si algo quedó desfasado.%n%n§o/bq_user help%n§r%nTe da una copia de esta guía.%n%n§o/bq_admin edit%n§r%nActiva o desactiva el modo edición. Con el modo activado, los operadores pueden abrir los editores de misiones y capítulos. Acordate de desactivarlo antes de publicar.%n%n§o/bq_admin hardcore%n§r%nActiva o desactiva las vidas de modo extremo. Al quedarse sin vidas, el jugador queda baneado del servidor o se borra su mundo, como en el modo extremo normal.%n%n§o/bq_admin reset [all|<id_misión>] [usuario|uuid]%n§r%nBorra el progreso de ese jugador.%n%n§o/bq_admin default [save|load]%n§r%nGuarda o carga el libro actual como el libro por defecto de los mundos nuevos. Al guardar también se guarda el progreso, el modo extremo y el modo edición, así que usá los otros comandos antes.%n%n§o/bq_admin complete <id_misión> [usuario|uuid]%n§r%nCompleta a la fuerza una misión para ese jugador.%n%n§o/bq_admin delete [all|<id_misión>]%n§r%nBorra la misión (o todas) y su progreso. No borra el libro por defecto.%n%n§o/bq_admin lives [add|set|max|default] <valor> [usuario]%n§r%nCambia las vidas de los jugadores o los valores iniciales y máximos.
+betterquesting.help.page5=§l§nImportar%n§r%nAlgunas expansiones traen importadores de otros mods de misiones o para bajar libros de internet. Se usan con el botón "Importar" del editor de capítulos. Better Questing no trae ninguno por su cuenta.
+betterquesting.help.page6=§l§nTemas%n§r%nLos temas cambian el aspecto del libro: futurista, mágico o clásico de Minecraft. Se instalan con paquetes de recursos, con la carpeta de recursos o con expansiones.
+betterquesting.help.page7=§l§nTraducciones%n§r%nBetter Questing permite traducir los nombres y las descripciones de las misiones. Para eso se usan claves como "§omipack.mision1.nombre§r" en lugar de texto, y después un paquete de recursos con archivos .lang para cada idioma. Esos archivos también pueden ir en la carpeta de recursos de Better Questing.
+betterquesting.help.page8=§l§nRecursos%n§r%nPara personalizar la portada, agregar temas o traducciones, usá la carpeta:%n%n"§o/config/betterquesting/resources/<nombre>/§r"%n%nCada carpeta ahí funciona como un paquete de recursos.
+
+betterquesting.design.tree=Diseño en árbol
+
+betterquesting.toolbox.tab.main=Principal
+
+betterquesting.toolbox.tool.open.name=Abrir
+betterquesting.toolbox.tool.open.desc=Abre una misión para editarla
+betterquesting.toolbox.tool.grab.name=Mover
+betterquesting.toolbox.tool.grab.desc=Agarra misiones y las mueve a otro lugar del capítulo
+betterquesting.toolbox.tool.link.name=Conectar
+betterquesting.toolbox.tool.link.desc=Pone una misión como requisito de otras. Si ya están conectadas, las desconecta
+betterquesting.toolbox.tool.snap.name=Ajuste a la grilla
+betterquesting.toolbox.tool.snap.desc=Cambia el tamaño de la grilla de las otras herramientas
+betterquesting.toolbox.tool.copy.name=Copiar
+betterquesting.toolbox.tool.copy.desc=Copia la misión con sus requisitos, tareas y recompensas, pero sin el progreso
+betterquesting.toolbox.tool.new.name=Nueva misión
+betterquesting.toolbox.tool.new.desc=Crea una misión vacía
+betterquesting.toolbox.tool.delete.name=Borrar misión
+betterquesting.toolbox.tool.delete.desc=Borra la misión del capítulo y de la base de datos
+betterquesting.toolbox.tool.remove.name=Quitar misión
+betterquesting.toolbox.tool.remove.desc=Quita la misión solo del capítulo. Sigue estando en la base de datos
+betterquesting.toolbox.tool.complete.name=Completar a mano
+betterquesting.toolbox.tool.complete.desc=Completa a la fuerza la misión elegida
+betterquesting.toolbox.tool.reset.name=Reiniciar misión
+betterquesting.toolbox.tool.reset.desc=Borra el estado y el progreso de todas sus tareas
+betterquesting.toolbox.tool.icon.name=Elegir ícono
+betterquesting.toolbox.tool.icon.desc=Cambia el ícono de la misión
+betterquesting.toolbox.tool.scale.name=Tamaño del ícono
+betterquesting.toolbox.tool.scale.desc=Agranda o achica los íconos de las misiones
+betterquesting.toolbox.tool.raw.name=Editar en crudo
+betterquesting.toolbox.tool.raw.desc=Abre el JSON del capítulo para editarlo. Incluye opciones ocultas, como cambiar el fondo
+betterquesting.toolbox.tool.frame.name=Editar marco
+betterquesting.toolbox.tool.frame.desc=Cambia el estilo del marco de los íconos
+
+betterquesting.cmd.complete=Misión %s completada para %s
+betterquesting.cmd.default.save=Libro guardado como predeterminado
+betterquesting.cmd.default.save2=Libro guardado en %s
+betterquesting.cmd.default.load=Libro predeterminado recargado
+betterquesting.cmd.default.load2=Libro cargado desde %s
+betterquesting.cmd.default.set=%s quedó como libro predeterminado
+betterquesting.cmd.default.none=No se encontró el libro
+betterquesting.cmd.delete.single=Misión %s borrada
+betterquesting.cmd.delete.all=Todas las misiones borradas
+betterquesting.cmd.edit=Modo edición %s
+betterquesting.cmd.hardcore=Modo extremo %s
+betterquesting.cmd.purge_hidden=%s misiones ocultas borradas
+
+betterquesting.cmd.lives.add_player=%s vidas agregadas a %s (total: %s)
+betterquesting.cmd.lives.add_all=%s vidas agregadas a todos los jugadores
+betterquesting.cmd.lives.remove_player=%s vidas quitadas a %s (total: %s)
+betterquesting.cmd.lives.remove_all=%s vidas quitadas a todos los jugadores
+betterquesting.cmd.lives.set_player=Vidas de %s: %s
+betterquesting.cmd.lives.set_all=Vidas de todos los jugadores: %s
+betterquesting.cmd.lives.max=Vidas máximas: %s
+betterquesting.cmd.lives.default=Vidas iniciales: %s
+
+betterquesting.cmd.reset.player_single=Misión '%s' reiniciada para %s
+betterquesting.cmd.reset.player_all=Todas las misiones reiniciadas para %s
+betterquesting.cmd.reset.all_single=Misión '%s' reiniciada para todos
+betterquesting.cmd.reset.all_all=Todas las misiones reiniciadas para todos
+betterquesting.cmd.refresh=Sincronizando el libro...
+
+json.betterquesting.quest.name=Datos de la misión
+jdoc.betterquesting.quest.rewards.name=Recompensas
+jdoc.betterquesting.quest.rewards.desc=Lista de tipos de recompensa
+jdoc.betterquesting.quest.tasks.name=Tareas
+jdoc.betterquesting.quest.tasks.desc=Lista de tipos de tarea
+jdoc.betterquesting.quest.preRequisites.name=Requisitos
+jdoc.betterquesting.quest.preRequisites.desc=Misiones que hay que completar para desbloquear esta
+jdoc.betterquesting.quest.properties.name=Propiedades
+jdoc.betterquesting.quest.properties.desc=Propiedades que definen el aspecto y el funcionamiento de la misión
+
+jdoc.betterquesting.quest.properties.betterquesting.name=BetterQuesting
+jdoc.betterquesting.quest.properties.betterquesting.desc=Propiedades de BetterQuesting

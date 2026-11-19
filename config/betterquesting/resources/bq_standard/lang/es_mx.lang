@@ -1,0 +1,72 @@
+bq_standard.task.retrieval=Conseguir
+bq_standard.task.crafting=Fabricar
+bq_standard.task.hunt=Cazar
+bq_standard.task.scoreboard=Puntaje
+bq_standard.task.location=Llegar a un lugar
+bq_standard.task.fluid=Entregar fluido
+bq_standard.task.meeting=Encontrarse
+bq_standard.task.xp=Experiencia
+bq_standard.task.block_break=Romper bloques
+bq_standard.task.checkbox=Marcar como hecha
+bq_standard.task.advancement=Logro
+bq_standard.task.tame=Domesticar
+bq_standard.task.interact_item=Usar un objeto
+bq_standard.task.interact_entity=Interactuar con una criatura
+bq_standard.task.trigger=Condición especial
+
+bq_standard.reward.choice=Recompensa a elección
+bq_standard.reward.item=Objetos
+bq_standard.reward.scoreboard=Puntaje
+bq_standard.reward.command=Comando
+bq_standard.reward.xp=Experiencia
+bq_standard.reward.recipe=Recetas nuevas
+
+bq_standard.title.edit_hunt=Editar tarea de caza
+bq_standard.title.edit_meeting=Editar tarea de encuentro
+bq_standard.title.edit_loot_groups=Editar grupos de botín
+bq_standard.title.edit_loot_entries=Editar entradas de botín
+bq_standard.title.edit_retrieval=Editar tarea de conseguir
+bq_standard.title.edit_crafting=Editar tarea de fabricar
+bq_standard.title.edit_scoreboard=Editar tarea de puntaje
+bq_standard.title.edit_advancement=Editar tarea de logro
+bq_standard.title.edit_tame=Editar tarea de domesticar
+
+bq_standard.btn.select_mob=Elegir criatura
+bq_standard.btn.add_remove_drops=Agregar / Quitar botín
+bq_standard.btn.edit_items=Agregar / Quitar objetos
+bq_standard.btn.consume=Se consume: %s
+
+bq_standard.gui.amount=Cantidad
+bq_standard.gui.kill=Matá: %s
+bq_standard.gui.location=Lugar: %s
+bq_standard.gui.distance=Distancia: %s
+bq_standard.gui.dimension=Dimensión: %s
+bq_standard.gui.biome=Bioma: %s
+bq_standard.gui.structure=Estructura: %s
+bq_standard.gui.found=¡Encontrado!
+bq_standard.gui.undiscovered=Sin descubrir
+bq_standard.gui.condition=Condición: %s
+bq_standard.gui.meet=Encontrate con %s
+bq_standard.gui.weight=Peso
+bq_standard.gui.experience=Experiencia
+bq_standard.gui.tame=Domesticá: %s
+
+bq_standard.importer.hqm_bag.name=Importador de bolsas HQM
+bq_standard.importer.hqm_bag.desc=Importa bolsas de recompensa de HQM exportadas en JSON.
+bq_standard.importer.hqm_quest.name=Importador de misiones HQM
+bq_standard.importer.hqm_quest.desc=Importa capítulos de HQM exportados en JSON. Por cómo numera HQM sus misiones, puede haber errores con misiones de nombre repetido o con desbloqueos condicionales.
+bq_standard.importer.nat_file.name=Importador de archivo
+bq_standard.importer.nat_file.desc=Importa archivos de libro de Better Questing y los suma a los que ya hay.
+bq_standard.importer.nat_url.name=Importador desde internet
+bq_standard.importer.nat_url.desc=Importa libros de Better Questing desde internet y los suma a los que ya hay.
+bq_standard.importer.ftbq_quest.name=Importador de FTB Quests
+bq_standard.importer.ftbq_quest.desc=Importa capítulos y misiones de los archivos NBT de FTB Quests
+bq_standard.importer.adv_json.name=Importador de logros (JSON)
+bq_standard.importer.adv_json.desc=Importa logros de Minecraft escritos en JSON.%n%nATENCIÓN: tienen que estar en la ubicación original de Minecraft o de Triumph para importarse bien.
+
+item.bq_standard.loot_chest.name=Cofre de botín
+
+bq_standard.tooltip.fixed_loot=Botín: %s
+bq_standard.tooltip.fixed_loot_size=Contiene %s objetos
+bq_standard.tooltip.loot_table=Tabla de botín: %s
+bq_standard.tooltip.loot_chest=Rareza: %s

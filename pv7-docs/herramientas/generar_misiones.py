@@ -5,7 +5,7 @@ Formato: Better Questing 3.5.329 + Standard Expansion 3.4.173 (base de datos for
 Uso:  python -I generar_misiones.py <archivo_salida.json>
 
 Fuentes: pv7-docs/01..05 y datos leídos de los JAR, configs y world/level.dat (2026-11-19).
-Marcas en los textos: §7[V]§r verificado en archivos · §c[en prueba]§r falta comprobar jugando.
+Los datos del libro se verificaron en los JAR y configs del servidor (ver pv7-docs/07_libro_de_misiones_v3.md).
 La v1 (solo capítulos 1-5, sin compactar) está en generar_misiones_v1.py.
 """
 import json, sys
@@ -99,7 +99,7 @@ def quest(qid, x, y, name, desc, icon, tasks, rewards=(), prereq=(), logic="AND"
 def any_craft(items): return [t_craft([i]) for i in items]
 def any_get(items): return [t_get([i]) for i in items]
 
-V = "\n\n§7[V] Verificado en los archivos del servidor.§r"
+V = ""  # antes marcaba los datos verificados; se quitó del libro a pedido del administrador
 P = "\n\n§c[en prueba]§r "
 
 # =============================================================================

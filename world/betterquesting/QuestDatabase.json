@@ -63,7 +63,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Este mundo no es vanilla",
-          "desc:8": "El modo difícil de §6Better With Mods§r cambia recetas: §cno§r se fabrican herramientas ni armaduras de diamante vanilla, tintes de flores, azúcar, polvo de blaze ni piedra musgosa. Tintes, azúcar y polvo de blaze salen del §eMolino§r de BWM; el carbón vegetal, del horno de ladrillo (Kiln).\n\n§eHerramientas de consulta:§r\n · JEI: §eR§r = cómo se fabrica, §eU§r = para qué sirve.\n · Hwyla: mirá un bloque y te dice qué es y de qué mod viene (no muestra el interior de los cajones).\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "El modo difícil de §6Better With Mods§r cambia recetas: §cno§r se fabrican herramientas ni armaduras de diamante vanilla, tintes de flores, azúcar, polvo de blaze ni piedra musgosa. Tintes, azúcar y polvo de blaze salen del §eMolino§r de BWM; el carbón vegetal, del horno de ladrillo (Kiln).\n\n§eHerramientas de consulta:§r\n · JEI: §eR§r = cómo se fabrica, §eU§r = para qué sirve.\n · Hwyla: mirá un bloque y te dice qué es y de qué mod viene (no muestra el interior de los cajones).",
           "icon:10": {
             "id:8": "minecraft:crafting_table",
             "Count:3": 1,
@@ -216,7 +216,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Descansar (Camping Mod y Nightmares)",
-          "desc:8": "Fabricá una §etienda§r o un §esaco de dormir§r.\n · §6Navaja suiza:§r 6 tintes rojos + 3 hierro (el tinte rojo sale del Molino).\n · §6Saco:§r navaja arriba + 3 lanas.  §6Tienda:§r 5 lonas + 2 estacas.\n · Lona = cáñamo + navaja · Estaca = palo de hierro + navaja · Palo de hierro = 2 hierro en vertical.\n\n§cOjo:§r al dormir hay un §c5 %§r de chance de pesadilla. Dormí con equipo y vida llena.\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Fabricá una §etienda§r o un §esaco de dormir§r.\n · §6Navaja suiza:§r 6 tintes rojos + 3 hierro (el tinte rojo sale del Molino).\n · §6Saco:§r navaja arriba + 3 lanas.  §6Tienda:§r 5 lonas + 2 estacas.\n · Lona = cáñamo + navaja · Estaca = palo de hierro + navaja · Palo de hierro = 2 hierro en vertical.\n\n§cOjo:§r al dormir hay un §c5 %§r de chance de pesadilla. Dormí con equipo y vida llena.",
           "icon:10": {
             "id:8": "camping:sleeping_bag",
             "Count:3": 1,
@@ -301,7 +301,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "La fogata",
-          "desc:8": "§6Camp Fire:§r 1 tronco arriba, 3 en el medio y 3 palos abajo (se apaga en ~6 min).\nTambién valen las fogatas del Camping Mod (5 palos, o 4 piedras labradas).\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "§6Camp Fire:§r 1 tronco arriba, 3 en el medio y 3 palos abajo (se apaga en ~6 min).\nTambién valen las fogatas del Camping Mod (5 palos, o 4 piedras labradas).",
           "icon:10": {
             "id:8": "campfire:campfire",
             "Count:3": 1,
@@ -403,7 +403,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Comer bien y no perder todo",
-          "desc:8": "Conseguí §ecualquier comida cocinada§r (carnes, pescado, papa asada, pan o venado del Camping Mod). La comida cruda no envenena acá.\n\n§6Si morís:§r tu equipo queda en una §etumba§r (Tombstone); volvé a buscarla. En la §eHunting Dimension§r no podés reaparecer; en §eCavenia§r no perdés inventario ni experiencia.\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Conseguí §ecualquier comida cocinada§r (carnes, pescado, papa asada, pan o venado del Camping Mod). La comida cruda no envenena acá.\n\n§6Si morís:§r tu equipo queda en una §etumba§r (Tombstone); volvé a buscarla. En la §eHunting Dimension§r no podés reaparecer; en §eCavenia§r no perdés inventario ni experiencia.",
           "icon:10": {
             "id:8": "minecraft:cooked_beef",
             "Count:3": 1,
@@ -607,7 +607,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Equipo de verdad (Spartan Shields)",
-          "desc:8": "Las herramientas y armaduras de diamante vanilla §cno§r tienen receta; las de mods sí.\n\n§6Escudo de madera:§r 6 tablones + 1 palo en diagonal. Para mejorarlo: escudo al centro + 4 del material (piedra labrada, hierro, oro, obsidiana o diamante).\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Las herramientas y armaduras de diamante vanilla §cno§r tienen receta; las de mods sí.\n\n§6Escudo de madera:§r 6 tablones + 1 palo en diagonal. Para mejorarlo: escudo al centro + 4 del material (piedra labrada, hierro, oro, obsidiana o diamante).",
           "icon:10": {
             "id:8": "spartanshields:shield_basic_wood",
             "Count:3": 1,
@@ -675,7 +675,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Martillo y desencantador",
-          "desc:8": "§6Martillo (Hammer Time):§r rompe 3×3. 5 del material + 2 palos. Madera = §etroncos§r; piedra = §epiedra lisa§r.\n\n§6Disenchantment Table:§r saca encantamientos a un libro. Fila del medio: tinte amarillo, esmeralda, tinte amarillo; abajo: esmeralda, mesa de encantamientos, esmeralda. §cProbala antes con algo barato.§r\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "§6Martillo (Hammer Time):§r rompe 3×3. 5 del material + 2 palos. Madera = §etroncos§r; piedra = §epiedra lisa§r.\n\n§6Disenchantment Table:§r saca encantamientos a un libro. Fila del medio: tinte amarillo, esmeralda, tinte amarillo; abajo: esmeralda, mesa de encantamientos, esmeralda. §cProbala antes con algo barato.§r",
           "icon:10": {
             "id:8": "hammertime:itemhammerstone",
             "Count:3": 1,
@@ -811,7 +811,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Switch-Bow §7[avanzado]",
-          "desc:8": "Arco con carcaj: cambiás de flecha sin guardar nada.\n§6Switch-Bow:§r 3 palos + 1 ojo de ender + 3 hilos. §6Carcaj:§r cuero, hilo y un cofre (miralo en JEI).\n\nNecesita polvo de blaze (Nether + Molino). §aNo bloquea nada.§r\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Arco con carcaj: cambiás de flecha sin guardar nada.\n§6Switch-Bow:§r 3 palos + 1 ojo de ender + 3 hilos. §6Carcaj:§r cuero, hilo y un cofre (miralo en JEI).\n\nNecesita polvo de blaze (Nether + Molino). §aNo bloquea nada.§r",
           "icon:10": {
             "id:8": "switchbow:switchbow",
             "Count:3": 1,
@@ -885,7 +885,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Brújula de biomas",
-          "desc:8": "§6Nature's Compass:§r 4 brotes en las esquinas, 4 troncos a los lados y una brújula al centro. Te dice dónde está el bioma que elijas, incluso de otros mods.\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "§6Nature's Compass:§r 4 brotes en las esquinas, 4 troncos a los lados y una brújula al centro. Te dice dónde está el bioma que elijas, incluso de otros mods.",
           "icon:10": {
             "id:8": "naturescompass:naturescompass",
             "Count:3": 1,
@@ -1008,7 +1008,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Cruzar rápido: puentes y portales",
-          "desc:8": "§6Bridge Builder (Rope Bridge):§r gancho (5 hierro) + cañón (6 hierro + 3 cuerdas) + mango, en fila. Cuerda = 3 hilos + 3 enredaderas → 8. Cada bloque gasta 2 cuerdas, 2 hilos, 1 madera y 1 losa.\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "§6Bridge Builder (Rope Bridge):§r gancho (5 hierro) + cañón (6 hierro + 3 cuerdas) + mango, en fila. Cuerda = 3 hilos + 3 enredaderas → 8. Cada bloque gasta 2 cuerdas, 2 hilos, 1 madera y 1 losa.",
           "icon:10": {
             "id:8": "ropebridge:bridge_builder",
             "Count:3": 1,
@@ -1080,7 +1080,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Tu primera mochila",
-          "desc:8": "Fabricá §ecualquiera§r:\n · §6Backpacks:§r bolsillo = 5 cuero + 3 hilo; mochila = 7 cuero + placa de presión de oro.\n · §6Iron Backpacks:§r 4 lanas + 4 cueros + cofre al centro.\n · §6Camping Mod:§r bolsa = 1 hilo + 5 cueros.\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Fabricá §ecualquiera§r:\n · §6Backpacks:§r bolsillo = 5 cuero + 3 hilo; mochila = 7 cuero + placa de presión de oro.\n · §6Iron Backpacks:§r 4 lanas + 4 cueros + cofre al centro.\n · §6Camping Mod:§r bolsa = 1 hilo + 5 cueros.",
           "icon:10": {
             "id:8": "backpacks16840:backpack",
             "Count:3": 1,
@@ -1199,7 +1199,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Almacén ordenado",
-          "desc:8": "§6Cajón 1×1 (Storage Drawers):§r 3 tablones arriba, cofre al centro, 3 tablones abajo. El §6controlador§r (piedra lisa, 2 comparadores, 1 cajón, 1 diamante) une todos los cajones.\n\n§6Chest Transporter:§r 6 palos; levanta un cofre lleno (da hambre y lentitud mientras lo llevás).\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "§6Cajón 1×1 (Storage Drawers):§r 3 tablones arriba, cofre al centro, 3 tablones abajo. El §6controlador§r (piedra lisa, 2 comparadores, 1 cajón, 1 diamante) une todos los cajones.\n\n§6Chest Transporter:§r 6 palos; levanta un cofre lleno (da hambre y lentitud mientras lo llevás).",
           "icon:10": {
             "id:8": "storagedrawers:basicdrawers",
             "Count:3": 1,
@@ -1267,7 +1267,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Tu primer cultivo",
-          "desc:8": "Cosechá trigo, zanahoria, papa, remolacha, o tomate/chile de §eRustic§r (usan estaca: 3 tablones en vertical).\n\n§6Water Strainer:§r base (2 barrotes, tablones, tolva y cofre) + filtro (8 palos alrededor de una red): junta palos, arcilla y piedra; el denso da arena, grava y a veces oro.\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Cosechá trigo, zanahoria, papa, remolacha, o tomate/chile de §eRustic§r (usan estaca: 3 tablones en vertical).\n\n§6Water Strainer:§r base (2 barrotes, tablones, tolva y cofre) + filtro (8 palos alrededor de una red): junta palos, arcilla y piedra; el denso da arena, grava y a veces oro.",
           "icon:10": {
             "id:8": "rustic:tomato",
             "Count:3": 1,
@@ -1504,7 +1504,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "El talismán del pantano",
-          "desc:8": "En los pantanos del Overworld hay §eAltares Druídicos§r custodiados por §eDruidas Oscuros§r. Derrotalos: sueltan §ePiezas del Talismán del Pantano§r. Uní las 4 piezas en el Dark Druid Altar.\n\nCada Druida Oscuro tiene 50 % de chance de soltar una pieza, y siempre es una que todavía no tenés en el inventario. Tenés que matarlo vos.\n\nSe completa sola al conseguir el talismán (logro \"Give Me That\").\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "En los pantanos del Overworld hay §eAltares Druídicos§r custodiados por §eDruidas Oscuros§r. Derrotalos: sueltan §ePiezas del Talismán del Pantano§r. Uní las 4 piezas en el Dark Druid Altar.\n\nCada Druida Oscuro tiene 50 % de chance de soltar una pieza, y siempre es una que todavía no tenés en el inventario. Tenés que matarlo vos.\n\nSe completa sola al conseguir el talismán (logro \"Give Me That\").",
           "icon:10": {
             "id:8": "thebetweenlands:swamp_talisman",
             "Count:3": 1,
@@ -1566,7 +1566,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "El árbol portal",
-          "desc:8": "Usá el talismán sobre un brote para hacer crecer un §eÁrbol Portal§r y cruzá a la Betweenlands (dimensión 20).\n\nLogro \"Dank World\".\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Usá el talismán sobre un brote para hacer crecer un §eÁrbol Portal§r y cruzá a la Betweenlands (dimensión 20).\n\nLogro \"Dank World\".",
           "icon:10": {
             "id:8": "thebetweenlands:swamp_talisman",
             "Count:3": 1,
@@ -1628,7 +1628,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Sobrevivir al pantano",
-          "desc:8": "Acá las §cantorchas comunes no sirven§r, las herramientas del Overworld rinden menos y se corroen, y la comida se pudre. Juntá §eBalls of Sap§r (savia): curan la podredumbre.\n\nLogro \"A Cure\".\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Acá las §cantorchas comunes no sirven§r, las herramientas del Overworld rinden menos y se corroen, y la comida se pudre. Juntá §eBalls of Sap§r (savia): curan la podredumbre.\n\nLogro \"A Cure\".",
           "icon:10": {
             "id:8": "minecraft:torch",
             "Count:3": 1,
@@ -1684,7 +1684,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Madera del pantano",
-          "desc:8": "Juntá madera local y fabricá una §eWeedwood Crafting Table§r: desde acá se fabrica casi todo.\n\nLogro \"All Over Again\".\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Juntá madera local y fabricá una §eWeedwood Crafting Table§r: desde acá se fabrica casi todo.\n\nLogro \"All Over Again\".",
           "icon:10": {
             "id:8": "thebetweenlands:weedwood_planks",
             "Count:3": 1,
@@ -1740,7 +1740,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Metales del pantano",
-          "desc:8": "Bajá a las cuevas y conseguí un lingote de §eSyrmorite§r u §eOctine§r.\n\nLogro \"New Shinies\".\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Bajá a las cuevas y conseguí un lingote de §eSyrmorite§r u §eOctine§r.\n\nLogro \"New Shinies\".",
           "icon:10": {
             "id:8": "minecraft:iron_ingot",
             "Count:3": 1,
@@ -1796,7 +1796,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "El horno doble de azufre",
-          "desc:8": "Fabricá un §eDual Sulfur Furnace§r: funde dos cosas a la vez con azufre.\n\nLogro \"Efficiency\".\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Fabricá un §eDual Sulfur Furnace§r: funde dos cosas a la vez con azufre.\n\nLogro \"Efficiency\".",
           "icon:10": {
             "id:8": "minecraft:furnace",
             "Count:3": 1,
@@ -1852,7 +1852,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Armas del pantano",
-          "desc:8": "Conseguí una espada de la Betweenlands. Las armas del Overworld pegan menos acá.\n\nLogro \"Serious Business\".\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Conseguí una espada de la Betweenlands. Las armas del Overworld pegan menos acá.\n\nLogro \"Serious Business\".",
           "icon:10": {
             "id:8": "minecraft:iron_sword",
             "Count:3": 1,
@@ -1908,7 +1908,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Luchador sin miedo",
-          "desc:8": "Derrotá a una Swamp Hag, un Wight, una Tar Beast, un Sludge y una Peat Mummy.\n\nLogro \"Fearless Fighter\".\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Derrotá a una Swamp Hag, un Wight, una Tar Beast, un Sludge y una Peat Mummy.\n\nLogro \"Fearless Fighter\".",
           "icon:10": {
             "id:8": "minecraft:skull",
             "Count:3": 1,
@@ -1970,7 +1970,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Jefe: Dreadful Peat Mummy",
-          "desc:8": "Un jefe con barra de vida que surge de la turba. Llevá equipo de la Betweenlands y amigos.\n\nID: thebetweenlands:dreadful_mummy\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Un jefe con barra de vida que surge de la turba. Llevá equipo de la Betweenlands y amigos.\n\nID: thebetweenlands:dreadful_mummy",
           "icon:10": {
             "id:8": "minecraft:skull",
             "Count:3": 1,
@@ -2037,7 +2037,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Jefe: Spirit Tree",
-          "desc:8": "El gran árbol espíritu defiende su claro. Hay que derrotar su §eCara Grande§r.\n\nID: thebetweenlands:spirit_tree_face_large\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "El gran árbol espíritu defiende su claro. Hay que derrotar su §eCara Grande§r.\n\nID: thebetweenlands:spirit_tree_face_large",
           "icon:10": {
             "id:8": "thebetweenlands:weedwood_planks",
             "Count:3": 1,
@@ -2104,7 +2104,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "La fortaleza Wight",
-          "desc:8": "Encontrá una §eWight Fortress§r. Adentro espera el jefe final del pantano.\n\nLogro \"Enter The Stronghold\".\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Encontrá una §eWight Fortress§r. Adentro espera el jefe final del pantano.\n\nLogro \"Enter The Stronghold\".",
           "icon:10": {
             "id:8": "minecraft:stonebrick",
             "Count:3": 1,
@@ -2167,7 +2167,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Jefe final: Primordial Malevolence",
-          "desc:8": "El jefe de la Wight Fortress. Tiene torretas, barreras y teletransportes: vayan preparados.\n\nID: thebetweenlands:fortress_boss\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "El jefe de la Wight Fortress. Tiene torretas, barreras y teletransportes: vayan preparados.\n\nID: thebetweenlands:fortress_boss",
           "icon:10": {
             "id:8": "minecraft:nether_star",
             "Count:3": 1,
@@ -2234,7 +2234,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Silla de playa",
-          "desc:8": "§6Silla:§r 6 palos de bambú (columnas de los costados) + 3 lanas (columna del medio). El color depende de la lana.\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "§6Silla:§r 6 palos de bambú (columnas de los costados) + 3 lanas (columna del medio). El color depende de la lana.",
           "icon:10": {
             "id:8": "tropicraft:chair",
             "Count:3": 1,
@@ -2302,7 +2302,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Una Piña Colada",
-          "desc:8": "Prepará una §ePiña Colada§r en la §eDrink Mixer§r (8 bloques Chunk O' Head alrededor de una taza de bambú). Poné una taza de bambú (7 brotes en U) y mezclá §eananá§r (o cubos de ananá) con §ecoco§r (o trozo de coco). No lleva agua.\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Prepará una §ePiña Colada§r en la §eDrink Mixer§r (8 bloques Chunk O' Head alrededor de una taza de bambú). Poné una taza de bambú (7 brotes en U) y mezclá §eananá§r (o cubos de ananá) con §ecoco§r (o trozo de coco). No lleva agua.",
           "icon:10": {
             "id:8": "tropicraft:bamboo_mug",
             "Count:3": 1,
@@ -2357,7 +2357,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Viaje a los trópicos",
-          "desc:8": "Sentate en la silla de playa §eal atardecer§r y tomá la Piña Colada: con su efecto te lleva a los trópicos (dimensión -127). El código del mod comprueba las tres cosas: silla, atardecer y efecto.\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Sentate en la silla de playa §eal atardecer§r y tomá la Piña Colada: con su efecto te lleva a los trópicos (dimensión -127). El código del mod comprueba las tres cosas: silla, atardecer y efecto.",
           "icon:10": {
             "id:8": "tropicraft:chair",
             "Count:3": 1,
@@ -2516,7 +2516,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Varita del portal",
-          "desc:8": "§6Tropics Portal Enchanter Wand:§r 3 palos de bambú en el centro, 2 azuritas y 2 zircones a los costados.\n§6Portal:§r un anillo 5×5 de §earenisca§r con un cuadrado 3×3 de §eagua§r adentro (aire arriba del agua, altura 9 o más). Hacé clic derecho cerca con la varita en modo construcción: arma el portal y gasta 1 de durabilidad. Sirve para ir y volver.\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "§6Tropics Portal Enchanter Wand:§r 3 palos de bambú en el centro, 2 azuritas y 2 zircones a los costados.\n§6Portal:§r un anillo 5×5 de §earenisca§r con un cuadrado 3×3 de §eagua§r adentro (aire arriba del agua, altura 9 o más). Hacé clic derecho cerca con la varita en modo construcción: arma el portal y gasta 1 de durabilidad. Sirve para ir y volver.",
           "icon:10": {
             "id:8": "tropicraft:portal_enchanter",
             "Count:3": 1,
@@ -2590,7 +2590,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Polvo elemental",
-          "desc:8": "Mineá §eElemental Dust Ore§r y juntá 8 de polvo. Con él y un bloque de oro + esmeralda se hace el §eAltar Center§r.\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Mineá §eElemental Dust Ore§r y juntá 8 de polvo. Con él y un bloque de oro + esmeralda se hace el §eAltar Center§r.",
           "icon:10": {
             "id:8": "elementaldimensions:elementaldust",
             "Count:3": 1,
@@ -2658,7 +2658,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "La Runa de Tierra",
-          "desc:8": "Los §eGuardias§r de las mazmorras-portal sueltan la §eRuna de Tierra§r (según su tabla de botín). Esas mazmorras son raras: usá la brújula y explorá mucho.\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Los §eGuardias§r de las mazmorras-portal sueltan la §eRuna de Tierra§r (según su tabla de botín). Esas mazmorras son raras: usá la brújula y explorá mucho.",
           "icon:10": {
             "id:8": "elementaldimensions:earthrune",
             "Count:3": 1,
@@ -2732,7 +2732,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Dimensión Tierra",
-          "desc:8": "El §ePortal Dialer§r está en las mazmorras-portal (no se fabrica). Con la runa en la mano, hacé clic derecho al dialer: la runa queda puesta y elige el destino. Parate en el lugar frente al dialer y esperá unos segundos. Con la mano vacía, clic derecho devuelve la runa. Los dialers de las otras dimensiones solo vuelven al Overworld.\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "El §ePortal Dialer§r está en las mazmorras-portal (no se fabrica). Con la runa en la mano, hacé clic derecho al dialer: la runa queda puesta y elige el destino. Parate en el lugar frente al dialer y esperá unos segundos. Con la mano vacía, clic derecho devuelve la runa. Los dialers de las otras dimensiones solo vuelven al Overworld.",
           "icon:10": {
             "id:8": "elementaldimensions:earthrune",
             "Count:3": 1,
@@ -2806,7 +2806,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Jefe: Dirt Zombie Boss",
-          "desc:8": "Suelta la §eparte 3 de la Runa de Agua§r y el Digging Focus. Los Dirt Zombies comunes sueltan la parte 1.\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Suelta la §eparte 3 de la Runa de Agua§r y el Digging Focus. Los Dirt Zombies comunes sueltan la parte 1.",
           "icon:10": {
             "id:8": "elementaldimensions:focusdigging",
             "Count:3": 1,
@@ -2873,7 +2873,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Dimensión Agua",
-          "desc:8": "Uní las 3 partes en la §eRuna de Agua§r (sin forma) y entrá al Agua (101).\n\n§6Las partes 2§r están en un cofre de la mazmorra de la dimensión anterior: Agua en la mazmorra de Tierra, Aire en la de Agua, Espíritu en la de Aire y Fuego en la de Espíritu.\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Uní las 3 partes en la §eRuna de Agua§r (sin forma) y entrá al Agua (101).\n\n§6Las partes 2§r están en un cofre de la mazmorra de la dimensión anterior: Agua en la mazmorra de Tierra, Aire en la de Agua, Espíritu en la de Aire y Fuego en la de Espíritu.",
           "icon:10": {
             "id:8": "elementaldimensions:waterrune",
             "Count:3": 1,
@@ -2964,7 +2964,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Jefe: Water Creep Boss",
-          "desc:8": "Suelta la §eparte 3 de la Runa de Aire§r y el Damage Focus. Los Water Creeps sueltan la parte 1. Su semilla de invocación es 4 semillas de trigo alrededor de un diamante.\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Suelta la §eparte 3 de la Runa de Aire§r y el Damage Focus. Los Water Creeps sueltan la parte 1. Su semilla de invocación es 4 semillas de trigo alrededor de un diamante.",
           "icon:10": {
             "id:8": "elementaldimensions:focusdamage",
             "Count:3": 1,
@@ -3031,7 +3031,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Dimensión Aire",
-          "desc:8": "Armá la §eRuna de Aire§r y entrá al Aire (102).\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Armá la §eRuna de Aire§r y entrá al Aire (102).",
           "icon:10": {
             "id:8": "elementaldimensions:airrune",
             "Count:3": 1,
@@ -3122,7 +3122,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Jefe: Ghost Boss",
-          "desc:8": "Suelta la §eparte 3 de la Runa de Espíritu§r y el Teleport Focus. Los Ghosts sueltan la parte 1. Semilla de invocación: trigo alrededor de una esmeralda.\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Suelta la §eparte 3 de la Runa de Espíritu§r y el Teleport Focus. Los Ghosts sueltan la parte 1. Semilla de invocación: trigo alrededor de una esmeralda.",
           "icon:10": {
             "id:8": "elementaldimensions:focusteleport",
             "Count:3": 1,
@@ -3189,7 +3189,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Dimensión Espíritu",
-          "desc:8": "Armá la §eRuna de Espíritu§r y entrá al Espíritu (103). Los Spirits sueltan partes 1 y 3 de la Runa de Fuego.\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Armá la §eRuna de Espíritu§r y entrá al Espíritu (103). Los Spirits sueltan partes 1 y 3 de la Runa de Fuego.",
           "icon:10": {
             "id:8": "elementaldimensions:spiritrune",
             "Count:3": 1,
@@ -3280,7 +3280,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Dimensión Fuego",
-          "desc:8": "Armá la §eRuna de Fuego§r y entrá al Fuego (104).\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Armá la §eRuna de Fuego§r y entrá al Fuego (104).",
           "icon:10": {
             "id:8": "elementaldimensions:firerune",
             "Count:3": 1,
@@ -3371,7 +3371,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Jefe final: Fire Boss",
-          "desc:8": "El último jefe. Suelta la §eElemental Wand§r. Su semilla usa una §eestrella del Nether§r (wither).\n\n§7No tiene barra de jefe.§r\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "El último jefe. Suelta la §eElemental Wand§r. Su semilla usa una §eestrella del Nether§r (wither).\n\n§7No tiene barra de jefe.§r",
           "icon:10": {
             "id:8": "elementaldimensions:elementalwand",
             "Count:3": 1,
@@ -3438,7 +3438,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "El marco del cazador",
-          "desc:8": "§6Hunting Dimension Frame:§r 8 troncos alrededor de una flecha. El portal tiene la misma forma que el del Nether (marco de 4×5 como mínimo). Se activa con clic derecho usando una §eespada, un arco o un mechero§r. Para cruzar hay que §eagacharse§r.\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "§6Hunting Dimension Frame:§r 8 troncos alrededor de una flecha. El portal tiene la misma forma que el del Nether (marco de 4×5 como mínimo). Se activa con clic derecho usando una §eespada, un arco o un mechero§r. Para cruzar hay que §eagacharse§r.",
           "icon:10": {
             "id:8": "huntingdim:frame",
             "Count:3": 1,
@@ -3506,7 +3506,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "La cacería",
-          "desc:8": "Entrá a la Hunting Dimension. Reglas del servidor: los mobs tienen §c+30 % de vida y ataque y +4 de armadura§r, dan más experiencia (×2,5 con 20 % de chance) y §cno podés reaparecer ahí§r si morís.\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Entrá a la Hunting Dimension. Reglas del servidor: los mobs tienen §c+30 % de vida y ataque y +4 de armadura§r, dan más experiencia (×2,5 con 20 % de chance) y §cno podés reaparecer ahí§r si morís.",
           "icon:10": {
             "id:8": "minecraft:bow",
             "Count:3": 1,
@@ -3580,7 +3580,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Musgo trepador",
-          "desc:8": "El §eCreeping Moss§r cambia el bioma de un chunk dentro de la dimensión. Se hace con 8 bloques de piedra musgosa alrededor de un ingrediente (brote, hojas, enredadera, arena, hielo…).\n\n§7Con BWM la piedra musgosa no se fabrica: crece sola junto al agua.§r\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "El §eCreeping Moss§r cambia el bioma de un chunk dentro de la dimensión. Se hace con 8 bloques de piedra musgosa alrededor de un ingrediente (brote, hojas, enredadera, arena, hielo…).\n\n§7Con BWM la piedra musgosa no se fabrica: crece sola junto al agua.§r",
           "icon:10": {
             "id:8": "huntingdim:biome_changer",
             "Count:3": 1,
@@ -3648,7 +3648,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "El portal a la Caverna",
-          "desc:8": "Armá un marco tipo portal del Nether con §epiedra musgosa o ladrillo de piedra§r y activalo con una §eesmeralda§r.\n\nLogro \"Cavern\" (entrar a la dimensión).\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Armá un marco tipo portal del Nether con §epiedra musgosa o ladrillo de piedra§r y activalo con una §eesmeralda§r.\n\nLogro \"Cavern\" (entrar a la dimensión).",
           "icon:10": {
             "id:8": "minecraft:emerald",
             "Count:3": 1,
@@ -3710,7 +3710,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Cazador cavénico",
-          "desc:8": "Derrotá a uno de cada monstruo cavénico.\n\nLogro \"Cavenic Hunter\".\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Derrotá a uno de cada monstruo cavénico.\n\nLogro \"Cavenic Hunter\".",
           "icon:10": {
             "id:8": "minecraft:bone",
             "Count:3": 1,
@@ -3772,7 +3772,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Aguamarina y Aqua Cavern",
-          "desc:8": "Conseguí §eaguamarina§r y entrá a la Aqua Cavern.\n\nLogros \"Aquamarine\" y \"Aqua Cavern\".\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Conseguí §eaguamarina§r y entrá a la Aqua Cavern.\n\nLogros \"Aquamarine\" y \"Aqua Cavern\".",
           "icon:10": {
             "id:8": "cavern:aquamarine_pickaxe",
             "Count:3": 1,
@@ -3839,7 +3839,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Ruins Cavern",
-          "desc:8": "Mineá randomita, conseguí un §eMiner's Thought Orb§r y entrá a la Ruins Cavern.\n\nLogro \"Ruins Cavern\".\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Mineá randomita, conseguí un §eMiner's Thought Orb§r y entrá a la Ruins Cavern.\n\nLogro \"Ruins Cavern\".",
           "icon:10": {
             "id:8": "minecraft:mossy_cobblestone",
             "Count:3": 1,
@@ -3901,7 +3901,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Caveland",
-          "desc:8": "Juntá un brote en la caverna y entrá a Caveland.\n\nLogro \"Caveland\".\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Juntá un brote en la caverna y entrá a Caveland.\n\nLogro \"Caveland\".",
           "icon:10": {
             "id:8": "cavern:perverted_sapling",
             "Count:3": 1,
@@ -3963,7 +3963,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Ice Cavern",
-          "desc:8": "Conseguí hielo compacto y entrá a la Ice Cavern.\n\nLogro \"Ice Cavern\".\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Conseguí hielo compacto y entrá a la Ice Cavern.\n\nLogro \"Ice Cavern\".",
           "icon:10": {
             "id:8": "minecraft:packed_ice",
             "Count:3": 1,
@@ -4025,7 +4025,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Huge Cavern",
-          "desc:8": "Con un diamante como llave, entrá a la Huge Cavern.\n\nLogro \"Huge Cavern\".\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Con un diamante como llave, entrá a la Huge Cavern.\n\nLogro \"Huge Cavern\".",
           "icon:10": {
             "id:8": "minecraft:diamond",
             "Count:3": 1,
@@ -4087,7 +4087,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Cavenia, zona de práctica",
-          "desc:8": "Entrá a §eCavenia§r. En este servidor ahí §ano perdés inventario ni experiencia§r al morir: ideal para practicar combate.\n\nLogro \"Cavenia\".\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Entrá a §eCavenia§r. En este servidor ahí §ano perdés inventario ni experiencia§r al morir: ideal para practicar combate.\n\nLogro \"Cavenia\".",
           "icon:10": {
             "id:8": "cavern:cavenic_bow",
             "Count:3": 1,
@@ -4149,7 +4149,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Magia de la caverna",
-          "desc:8": "Conseguí un §eMagical Book§r: hechizos de teletransporte, invocación, fuego y más.\n\nLogro \"Study Magic\".\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Conseguí un §eMagical Book§r: hechizos de teletransporte, invocación, fuego y más.\n\nLogro \"Study Magic\".",
           "icon:10": {
             "id:8": "cavern:magical_book",
             "Count:3": 1,
@@ -4211,7 +4211,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Cristal de roca",
-          "desc:8": "Conseguí un §eRock Crystal§r.\n\n§7Usá solo guías de la versión 1.12.2 (no del rework moderno).§r\nLogro del mod: rock_crystals\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Conseguí un §eRock Crystal§r.\n\n§7Usá solo guías de la versión 1.12.2 (no del rework moderno).§r\nLogro del mod: rock_crystals",
           "icon:10": {
             "id:8": "minecraft:glowstone_dust",
             "Count:3": 1,
@@ -4267,7 +4267,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Constelación brillante",
-          "desc:8": "Descubrí una constelación brillante con el Looking Glass.\n\n§7Usá solo guías de la versión 1.12.2 (no del rework moderno).§r\nLogro del mod: find_constellation\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Descubrí una constelación brillante con el Looking Glass.\n\n§7Usá solo guías de la versión 1.12.2 (no del rework moderno).§r\nLogro del mod: find_constellation",
           "icon:10": {
             "id:8": "minecraft:glowstone_dust",
             "Count:3": 1,
@@ -4329,7 +4329,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Sintonizarte",
-          "desc:8": "Sintonizate con una constelación brillante.\n\n§7Usá solo guías de la versión 1.12.2 (no del rework moderno).§r\nLogro del mod: attune_self\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Sintonizate con una constelación brillante.\n\n§7Usá solo guías de la versión 1.12.2 (no del rework moderno).§r\nLogro del mod: attune_self",
           "icon:10": {
             "id:8": "minecraft:glowstone_dust",
             "Count:3": 1,
@@ -4391,7 +4391,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Altar de luz estelar",
-          "desc:8": "Mejorá la Luminous Crafting Table a Starlight Crafting Altar.\n\n§7Usá solo guías de la versión 1.12.2 (no del rework moderno).§r\nLogro del mod: craft_t2_altar\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Mejorá la Luminous Crafting Table a Starlight Crafting Altar.\n\n§7Usá solo guías de la versión 1.12.2 (no del rework moderno).§r\nLogro del mod: craft_t2_altar",
           "icon:10": {
             "id:8": "minecraft:glowstone_dust",
             "Count:3": 1,
@@ -4453,7 +4453,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Cristal sintonizado",
-          "desc:8": "Sintonizá un cristal con una constelación.\n\n§7Usá solo guías de la versión 1.12.2 (no del rework moderno).§r\nLogro del mod: attune_crystal\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Sintonizá un cristal con una constelación.\n\n§7Usá solo guías de la versión 1.12.2 (no del rework moderno).§r\nLogro del mod: attune_crystal",
           "icon:10": {
             "id:8": "minecraft:glowstone_dust",
             "Count:3": 1,
@@ -4515,7 +4515,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Constelación tenue",
-          "desc:8": "Descubrí una constelación tenue con el Telescope.\n\n§7Usá solo guías de la versión 1.12.2 (no del rework moderno).§r\nLogro del mod: find_weak_constellation\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Descubrí una constelación tenue con el Telescope.\n\n§7Usá solo guías de la versión 1.12.2 (no del rework moderno).§r\nLogro del mod: find_weak_constellation",
           "icon:10": {
             "id:8": "minecraft:glowstone_dust",
             "Count:3": 1,
@@ -4577,7 +4577,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Altar celestial",
-          "desc:8": "Fabricá un Celestial Altar.\n\n§7Usá solo guías de la versión 1.12.2 (no del rework moderno).§r\nLogro del mod: craft_t3_altar\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Fabricá un Celestial Altar.\n\n§7Usá solo guías de la versión 1.12.2 (no del rework moderno).§r\nLogro del mod: craft_t3_altar",
           "icon:10": {
             "id:8": "minecraft:glowstone_dust",
             "Count:3": 1,
@@ -4640,7 +4640,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Altar iridiscente",
-          "desc:8": "Fabricá un Iridescent Altar.\n\n§7Usá solo guías de la versión 1.12.2 (no del rework moderno).§r\nLogro del mod: craft_t4_altar\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Fabricá un Iridescent Altar.\n\n§7Usá solo guías de la versión 1.12.2 (no del rework moderno).§r\nLogro del mod: craft_t4_altar",
           "icon:10": {
             "id:8": "minecraft:glowstone_dust",
             "Count:3": 1,
@@ -4702,7 +4702,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Luz interior",
-          "desc:8": "Llevá tu luz estelar personal a nivel 20.\n\n§7Usá solo guías de la versión 1.12.2 (no del rework moderno).§r\nLogro del mod: perk_level_medium\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Llevá tu luz estelar personal a nivel 20.\n\n§7Usá solo guías de la versión 1.12.2 (no del rework moderno).§r\nLogro del mod: perk_level_medium",
           "icon:10": {
             "id:8": "minecraft:glowstone_dust",
             "Count:3": 1,
@@ -4764,7 +4764,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Draconio",
-          "desc:8": "Mineá §eDraconium Ore§r y fundí 4 lingotes. Dónde aparece: §eOverworld§r y otras dimensiones de mods, en piedra, muy profundo (capas 2 a 8); §eNether§r (capas 1 a 125) y §eEnd§r (capas 1 a 70, vetas más grandes).\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Mineá §eDraconium Ore§r y fundí 4 lingotes. Dónde aparece: §eOverworld§r y otras dimensiones de mods, en piedra, muy profundo (capas 2 a 8); §eNether§r (capas 1 a 125) y §eEnd§r (capas 1 a 70, vetas más grandes).",
           "icon:10": {
             "id:8": "draconicevolution:draconium_ingot",
             "Count:3": 1,
@@ -5265,7 +5265,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Jefe legendario: Chaos Guardian",
-          "desc:8": "Vive en las §eChaos Islands§r del End. En este servidor tiene §c2000 de vida§r y su isla §cexplota§r al romper el cristal del caos.\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Vive en las §eChaos Islands§r del End. En este servidor tiene §c2000 de vida§r y su isla §cexplota§r al romper el cristal del caos.",
           "icon:10": {
             "id:8": "draconicevolution:chaos_shard",
             "Count:3": 1,
@@ -5406,7 +5406,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Un universo de almas",
-          "desc:8": "Harshen Universe agrega almas, sangre, accesorios (anillos, pendientes) y la dimensión §ePontus§r.\n\n§7Aviso técnico: el error del archivo de accesorios solo afecta al ajuste de daño del §ePunchy Ring§r, que queda con su valor de fábrica. Los demás accesorios funcionan.§r\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Harshen Universe agrega almas, sangre, accesorios (anillos, pendientes) y la dimensión §ePontus§r.\n\n§7Aviso técnico: el error del archivo de accesorios solo afecta al ajuste de daño del §ePunchy Ring§r, que queda con su valor de fábrica. Los demás accesorios funcionan.§r",
           "icon:10": {
             "id:8": "harshenuniverse:harshen_soul_fragment",
             "Count:3": 1,
@@ -5461,7 +5461,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Mineral de almas",
-          "desc:8": "§6Harshen Soul Ingot:§r Harshen Soul Fragment al centro, Harshen Crystal a los costados y Emerald Shard arriba y abajo. El fragmento sale del §eHarshen Soul Ore§r, que solo se mina con el §eSoul Harsher Pickaxe§r (botín del castillo de Kazzendre). El cristal sale de la §eHarshen Soul Flower§r del Overworld.\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "§6Harshen Soul Ingot:§r Harshen Soul Fragment al centro, Harshen Crystal a los costados y Emerald Shard arriba y abajo. El fragmento sale del §eHarshen Soul Ore§r, que solo se mina con el §eSoul Harsher Pickaxe§r (botín del castillo de Kazzendre). El cristal sale de la §eHarshen Soul Flower§r del Overworld.",
           "icon:10": {
             "id:8": "harshenuniverse:harshen_soul_ingot",
             "Count:3": 1,
@@ -5535,7 +5535,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Pontus",
-          "desc:8": "Juntá las §e3 partes del Pontus World Gate Spawner§r (cofres del castillo de Kazzendre y santuarios del Overworld) y unilas con un fragmento de alma en el §eLightning Ritual§r. Usá el spawner sobre un bloque: aparece la §eHarshen Dimensional Gate§r. La normal dura un tiempo limitado; para reactivarla, tirale un §eRitual Crystal activo§r. La versión mejorada es permanente.\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Juntá las §e3 partes del Pontus World Gate Spawner§r (cofres del castillo de Kazzendre y santuarios del Overworld) y unilas con un fragmento de alma en el §eLightning Ritual§r. Usá el spawner sobre un bloque: aparece la §eHarshen Dimensional Gate§r. La normal dura un tiempo limitado; para reactivarla, tirale un §eRitual Crystal activo§r. La versión mejorada es permanente.",
           "icon:10": {
             "id:8": "harshenuniverse:pontus_cube",
             "Count:3": 1,
@@ -5609,7 +5609,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Kazzendre",
-          "desc:8": "El señor del castillo del Overworld (hay uno solo por mundo). No tiene barra de jefe, pero tiene §c380 de vida§r y armadura. Después de él hay una sala del tesoro con el Soul Harsher Pickaxe.\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "El señor del castillo del Overworld (hay uno solo por mundo). No tiene barra de jefe, pero tiene §c380 de vida§r y armadura. Después de él hay una sala del tesoro con el Soul Harsher Pickaxe.",
           "icon:10": {
             "id:8": "harshenuniverse:harshen_crystal",
             "Count:3": 1,
@@ -5676,7 +5676,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Semillas de cáñamo",
-          "desc:8": "Conseguí semillas de cáñamo (salen al arar pasto).\n\nLogro del mod: hemp_seed\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Conseguí semillas de cáñamo (salen al arar pasto).\n\nLogro del mod: hemp_seed",
           "icon:10": {
             "id:8": "betterwithmods:material",
             "Count:3": 1,
@@ -5732,7 +5732,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Engranaje de madera",
-          "desc:8": "Fabricá un engranaje de madera.\n\nLogro del mod: wood_gear\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Fabricá un engranaje de madera.\n\nLogro del mod: wood_gear",
           "icon:10": {
             "id:8": "betterwithmods:material",
             "Count:3": 1,
@@ -5788,7 +5788,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Piedra de molino",
-          "desc:8": "Fabricá la Mill Stone: tintes, azúcar y polvo de blaze salen de acá.\n\nLogro del mod: millstone\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Fabricá la Mill Stone: tintes, azúcar y polvo de blaze salen de acá.\n\nLogro del mod: millstone",
           "icon:10": {
             "id:8": "betterwithmods:material",
             "Count:3": 1,
@@ -5844,7 +5844,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Eje y caja de engranajes",
-          "desc:8": "Fabricá una caja de engranajes para repartir energía.\n\nLogro del mod: gearbox\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Fabricá una caja de engranajes para repartir energía.\n\nLogro del mod: gearbox",
           "icon:10": {
             "id:8": "betterwithmods:material",
             "Count:3": 1,
@@ -5900,7 +5900,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Molino de viento",
-          "desc:8": "Fabricá un molino de viento.\n\nLogro del mod: horizontal_windmill\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Fabricá un molino de viento.\n\nLogro del mod: horizontal_windmill",
           "icon:10": {
             "id:8": "betterwithmods:material",
             "Count:3": 1,
@@ -5962,7 +5962,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "La sierra",
-          "desc:8": "Fabricá una sierra.\n\nLogro del mod: saw\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Fabricá una sierra.\n\nLogro del mod: saw",
           "icon:10": {
             "id:8": "betterwithmods:material",
             "Count:3": 1,
@@ -6024,7 +6024,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Fuego controlado",
-          "desc:8": "Fabricá un Hibachi (fuego permanente) con fuelle.\n\nLogro del mod: hibachi\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Fabricá un Hibachi (fuego permanente) con fuelle.\n\nLogro del mod: hibachi",
           "icon:10": {
             "id:8": "betterwithmods:material",
             "Count:3": 1,
@@ -6086,7 +6086,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "El Kiln",
-          "desc:8": "Construí un horno de ladrillo (Kiln) sobre un Hibachi.\n\nLogro del mod: kiln\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Construí un horno de ladrillo (Kiln) sobre un Hibachi.\n\nLogro del mod: kiln",
           "icon:10": {
             "id:8": "betterwithmods:material",
             "Count:3": 1,
@@ -6148,7 +6148,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Caldero",
-          "desc:8": "Fabricá un caldero de BWM. §cOjo: hay recetas explosivas.§r\n\nLogro del mod: cauldron\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Fabricá un caldero de BWM. §cOjo: hay recetas explosivas.§r\n\nLogro del mod: cauldron",
           "icon:10": {
             "id:8": "betterwithmods:material",
             "Count:3": 1,
@@ -6210,7 +6210,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Cuero curtido",
-          "desc:8": "Conseguí cuero curtido.\n\nLogro del mod: tanned_leather\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Conseguí cuero curtido.\n\nLogro del mod: tanned_leather",
           "icon:10": {
             "id:8": "betterwithmods:material",
             "Count:3": 1,
@@ -6272,7 +6272,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Crisol",
-          "desc:8": "Fabricá un crisol.\n\nLogro del mod: crucible\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Fabricá un crisol.\n\nLogro del mod: crucible",
           "icon:10": {
             "id:8": "betterwithmods:material",
             "Count:3": 1,
@@ -6334,7 +6334,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Acero de alma",
-          "desc:8": "Conseguí un lingote de Soulforged Steel. §cEn este servidor la receta es más difícil y pide End Slag.§r\n\nLogro del mod: soul_forged_steel\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Conseguí un lingote de Soulforged Steel. §cEn este servidor la receta es más difícil y pide End Slag.§r\n\nLogro del mod: soul_forged_steel",
           "icon:10": {
             "id:8": "betterwithmods:material",
             "Count:3": 1,
@@ -6396,7 +6396,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Yunque de acero",
-          "desc:8": "Fabricá el Soulforged Steel Anvil.\n\nLogro del mod: steel_anvil\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Fabricá el Soulforged Steel Anvil.\n\nLogro del mod: steel_anvil",
           "icon:10": {
             "id:8": "betterwithmods:material",
             "Count:3": 1,
@@ -6458,7 +6458,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Encantador infernal",
-          "desc:8": "Fabricá el Infernal Enchanter. El acero de alma solo se encanta con él.\n\nLogro del mod: infernal_enchanter\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Fabricá el Infernal Enchanter. El acero de alma solo se encanta con él.\n\nLogro del mod: infernal_enchanter",
           "icon:10": {
             "id:8": "betterwithmods:material",
             "Count:3": 1,
@@ -6520,7 +6520,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Condensador",
-          "desc:8": "§6Condenser:§r ladrillos alrededor de un balde, con arcilla endurecida blanca abajo al centro. Destila hierbas para hacer §eelixires§r.\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "§6Condenser:§r ladrillos alrededor de un balde, con arcilla endurecida blanca abajo al centro. Destila hierbas para hacer §eelixires§r.",
           "icon:10": {
             "id:8": "rustic:condenser",
             "Count:3": 1,
@@ -6588,7 +6588,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Retorta",
-          "desc:8": "§6Retort:§r 2 ladrillos, 1 hierro y 1 balde. Va al lado del condensador.\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "§6Retort:§r 2 ladrillos, 1 hierro y 1 balde. Va al lado del condensador.",
           "icon:10": {
             "id:8": "rustic:retort",
             "Count:3": 1,
@@ -6656,7 +6656,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Tu primer elixir",
-          "desc:8": "Destilá un §eelixir§r con hierbas de Rustic (aloe, chamomile, ginseng, etc.). Los elixires son un ítem propio de Rustic: los cambios de pociones de Better With Mods (soporte de pociones, pilas de 8) no los afectan.\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Destilá un §eelixir§r con hierbas de Rustic (aloe, chamomile, ginseng, etc.). Los elixires son un ítem propio de Rustic: los cambios de pociones de Better With Mods (soporte de pociones, pilas de 8) no los afectan.",
           "icon:10": {
             "id:8": "rustic:elixir",
             "Count:3": 1,
@@ -6730,7 +6730,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Tina de prensado",
-          "desc:8": "§6Crushing Tub:§r tablones, hierro y losas. Pisá uvas, manzanas u olivas para hacer jugo.\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "§6Crushing Tub:§r tablones, hierro y losas. Pisá uvas, manzanas u olivas para hacer jugo.",
           "icon:10": {
             "id:8": "rustic:crushing_tub",
             "Count:3": 1,
@@ -6798,7 +6798,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Barril de fermentación",
-          "desc:8": "§6Brewing Barrel:§r tablones, hierro y losas. Fermenta jugos en vino, sidra o hidromiel.\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "§6Brewing Barrel:§r tablones, hierro y losas. Fermenta jugos en vino, sidra o hidromiel.",
           "icon:10": {
             "id:8": "rustic:brewing_barrel",
             "Count:3": 1,
@@ -6866,7 +6866,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Colmenar",
-          "desc:8": "§6Apiary:§r troncos arriba y abajo, tablones a los costados. Da miel y cera de abeja.\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "§6Apiary:§r troncos arriba y abajo, tablones a los costados. Da miel y cera de abeja.",
           "icon:10": {
             "id:8": "rustic:apiary",
             "Count:3": 1,
@@ -6934,7 +6934,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Pesadillas",
-          "desc:8": "Cuando dormís hay §e5 % de chance§r de pesadilla: te despierta y aparece una de tres, con la misma probabilidad: una §eHag§r, una §eShadow Person§r o 8 §ePhantasmic Spiders§r. Derrotá a cualquiera.\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Cuando dormís hay §e5 % de chance§r de pesadilla: te despierta y aparece una de tres, con la misma probabilidad: una §eHag§r, una §eShadow Person§r o 8 §ePhantasmic Spiders§r. Derrotá a cualquiera.",
           "icon:10": {
             "id:8": "minecraft:bed",
             "Count:3": 1,
@@ -7021,7 +7021,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "El espantapájaros",
-          "desc:8": "SpookyCraft agrega animales esqueléticos y un §eScarecrow§r. Derrotalo.\n\nID: spookycraft:scarecrow\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "SpookyCraft agrega animales esqueléticos y un §eScarecrow§r. Derrotalo.\n\nID: spookycraft:scarecrow",
           "icon:10": {
             "id:8": "minecraft:pumpkin",
             "Count:3": 1,
@@ -7088,7 +7088,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "El Rey Zombi",
-          "desc:8": "Re-Zombies agrega zombis con oficio: mineros, caballeros, piratas… Derrotá al §eZombie King§r: al morir tiene §e20 % de chance§r de soltar una pieza de su armadura (5 % cada una: casco, peto, pantalón o botas).\n\nID: rezombiesv15ver1122jar:zombieking\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Re-Zombies agrega zombis con oficio: mineros, caballeros, piratas… Derrotá al §eZombie King§r: al morir tiene §e20 % de chance§r de soltar una pieza de su armadura (5 % cada una: casco, peto, pantalón o botas).\n\nID: rezombiesv15ver1122jar:zombieking",
           "icon:10": {
             "id:8": "rezombiesv15ver1122jar:kingarmourhelmet",
             "Count:3": 1,
@@ -7155,7 +7155,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Creepers elementales",
-          "desc:8": "Hay 24 tipos de creepers elementales. Derrotá a uno de fuego, uno de hielo y uno eléctrico.\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Hay 24 tipos de creepers elementales. Derrotá a uno de fuego, uno de hielo y uno eléctrico.",
           "icon:10": {
             "id:8": "minecraft:gunpowder",
             "Count:3": 1,
@@ -7242,7 +7242,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Monstruos mortales",
-          "desc:8": "Deadly Monsters trae criaturas muy peligrosas. Derrotá a §ecualquiera§r de: Woman, Wideman, Climber, Mutant Steve o Topielec.\n\n§7El Zombie Chicken no suelta botín (falta su tabla).§r\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Deadly Monsters trae criaturas muy peligrosas. Derrotá a §ecualquiera§r de: Woman, Wideman, Climber, Mutant Steve o Topielec.\n\n§7El Zombie Chicken no suelta botín (falta su tabla).§r",
           "icon:10": {
             "id:8": "dmonsters:souleye",
             "Count:3": 1,
@@ -7525,7 +7525,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Espada de plata",
-          "desc:8": "§6Silver Sword:§r 2 lingotes de plata y un palo, en vertical. Efectiva contra hombres lobo.\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "§6Silver Sword:§r 2 lingotes de plata y un palo, en vertical. Efectiva contra hombres lobo.",
           "icon:10": {
             "id:8": "howlingmoon:silver_sword",
             "Count:3": 1,
@@ -7593,7 +7593,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Noche de luna llena",
-          "desc:8": "Derrotá a un §ehombre lobo§r.\n\nID: howlingmoon:entitywerewolf\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Derrotá a un §ehombre lobo§r.\n\nID: howlingmoon:entitywerewolf",
           "icon:10": {
             "id:8": "howlingmoon:moonstone",
             "Count:3": 1,
@@ -7660,7 +7660,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "La cura",
-          "desc:8": "§6Receta:§r poción rara (Awkward Potion) + flor §eWolfsbane§r en el soporte de pociones. Al tomarla te da 30 s de veneno y náuseas, y además: si sos hombre lobo te cura; si estás infectado, cura la infección; si no, te vuelve inmune (o te quita la inmunidad).\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "§6Receta:§r poción rara (Awkward Potion) + flor §eWolfsbane§r en el soporte de pociones. Al tomarla te da 30 s de veneno y náuseas, y además: si sos hombre lobo te cura; si estás infectado, cura la infección; si no, te vuelve inmune (o te quita la inmunidad).",
           "icon:10": {
             "id:8": "howlingmoon:potion_wolfsbane",
             "Count:3": 1,
@@ -7734,7 +7734,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Reconocer un infernal",
-          "desc:8": "Cualquier monstruo puede salir con modificadores. Rarezas del servidor: §eÉlite§r 1 de 15, §6Ultra§r 1 de 7 entre élites, §cInfernal§r 1 de 7 entre ultra. Hay 27 modificadores activos (veneno, robo de vida, explosión, etc.).\n\n§cAntigranjas activo:§r si los matás en una trampa de mobs, dejan de dar recompensas.\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Cualquier monstruo puede salir con modificadores. Rarezas del servidor: §eÉlite§r 1 de 15, §6Ultra§r 1 de 7 entre élites, §cInfernal§r 1 de 7 entre ultra. Hay 27 modificadores activos (veneno, robo de vida, explosión, etc.).\n\n§cAntigranjas activo:§r si los matás en una trampa de mobs, dejan de dar recompensas.",
           "icon:10": {
             "id:8": "minecraft:blaze_powder",
             "Count:3": 1,
@@ -7850,7 +7850,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Núcleo defensor (Totem Defender)",
-          "desc:8": "§6Core:§r 6 lapislázuli, 1 perla de ender y 1 bloque de redstone. Los §eTotems§r (madera, hierro, oro, diamante) disparan a lo que elijas con sus filtros (enemigos, animales, otros jugadores).\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "§6Core:§r 6 lapislázuli, 1 perla de ender y 1 bloque de redstone. Los §eTotems§r (madera, hierro, oro, diamante) disparan a lo que elijas con sus filtros (enemigos, animales, otros jugadores).",
           "icon:10": {
             "id:8": "totemdefender:core",
             "Count:3": 1,
@@ -7924,7 +7924,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Tótems espirituales (Mob Totems)",
-          "desc:8": "§6Pasos:§r 1) §eTotemic Focus§r (pólvora, pluma y palos): clic derecho a un tronco lo vuelve madera de tótem. 2) §eCarving Knife§r (pedernal y palo): clic derecho al aire elige el tallado y clic derecho a la madera la talla. 3) Tótem de 2 o 3 bloques con una §eOffering Box§r al lado del bloque de abajo, cargada con ofrendas.\nCreeper: no aparecen monstruos (radio 32). Cow: no aparecen animales. Blaze: prende fuego. Spider: envenena. Modificadores: Ocelot +16 de radio, Wither −16, Llama +2 de daño, Rabbit más velocidad. §7El Wolf todavía no funciona.§r\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "§6Pasos:§r 1) §eTotemic Focus§r (pólvora, pluma y palos): clic derecho a un tronco lo vuelve madera de tótem. 2) §eCarving Knife§r (pedernal y palo): clic derecho al aire elige el tallado y clic derecho a la madera la talla. 3) Tótem de 2 o 3 bloques con una §eOffering Box§r al lado del bloque de abajo, cargada con ofrendas.\nCreeper: no aparecen monstruos (radio 32). Cow: no aparecen animales. Blaze: prende fuego. Spider: envenena. Modificadores: Ocelot +16 de radio, Wither −16, Llama +2 de daño, Rabbit más velocidad. §7El Wolf todavía no funciona.§r",
           "icon:10": {
             "id:8": "mobtotems:carving_knife",
             "Count:3": 1,
@@ -7992,7 +7992,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Seguridad (SecurityCraft)",
-          "desc:8": "Teclados con contraseña, bloques reforzados, minas y cámaras. Fabricá un §eKey Panel§r (8 botones de piedra alrededor de una placa de presión pesada). Para el teclado: colocá un §eFrame§r (7 hierros y 1 redstone) y hacé clic derecho con el Key Panel. Al teclado se le pone una clave y da 3 s de redstone al acertarla.\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Teclados con contraseña, bloques reforzados, minas y cámaras. Fabricá un §eKey Panel§r (8 botones de piedra alrededor de una placa de presión pesada). Para el teclado: colocá un §eFrame§r (7 hierros y 1 redstone) y hacé clic derecho con el Key Panel. Al teclado se le pone una clave y da 3 s de redstone al acertarla.",
           "icon:10": {
             "id:8": "securitycraft:keypad_item",
             "Count:3": 1,
@@ -9015,7 +9015,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Todos los anillos",
-          "desc:8": "Conseguí todos los anillos de la Betweenlands.\n\nLogro \"None To Rule Them All\".\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Conseguí todos los anillos de la Betweenlands.\n\nLogro \"None To Rule Them All\".",
           "icon:10": {
             "id:8": "minecraft:gold_nugget",
             "Count:3": 1,
@@ -9077,7 +9077,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Maestro de los hongos",
-          "desc:8": "Juntá todos los hongos de la Betweenlands.\n\nLogro \"Mushroom Master\".\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Juntá todos los hongos de la Betweenlands.\n\nLogro \"Mushroom Master\".",
           "icon:10": {
             "id:8": "minecraft:brown_mushroom",
             "Count:3": 1,
@@ -9139,7 +9139,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Libro de herboristería completo",
-          "desc:8": "Completá el Herblore Book.\n\nLogro \"Fully Booked\".\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Completá el Herblore Book.\n\nLogro \"Fully Booked\".",
           "icon:10": {
             "id:8": "minecraft:book",
             "Count:3": 1,
@@ -9201,7 +9201,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Herramientas compuestas",
-          "desc:8": "Fabricá una herramienta compuesta con magia de Cavern.\n\nLogro \"Fantastic Tools\".\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Fabricá una herramienta compuesta con magia de Cavern.\n\nLogro \"Fantastic Tools\".",
           "icon:10": {
             "id:8": "cavern:composite_pickaxe",
             "Count:3": 1,
@@ -9263,7 +9263,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Fundá una colonia (MineColonies)",
-          "desc:8": "Para empezar: §eSupplyCamp Chest§r (5 cofres en U, necesita un terreno plano de 16×17 sin pasto ni flores) o §eSupplyShip Chest§r (5 botes en U, va en el agua). Cada jugador puede colocar solo uno. Después colocá el §eTown Hall§r.\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "Para empezar: §eSupplyCamp Chest§r (5 cofres en U, necesita un terreno plano de 16×17 sin pasto ni flores) o §eSupplyShip Chest§r (5 botes en U, va en el agua). Cada jugador puede colocar solo uno. Después colocá el §eTown Hall§r.",
           "icon:10": {
             "id:8": "minecolonies:blockhuttownhall",
             "Count:3": 1,
@@ -9411,7 +9411,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Vida en la aldea (MCA)",
-          "desc:8": "MCA cambia a los aldeanos: hablan, trabajan, se casan. §6Anillo de compromiso:§r 7 lingotes de oro (o de oro rosa) en anillo con un diamante arriba al medio.\n\n§7[V] Verificado en los archivos del servidor.§r",
+          "desc:8": "MCA cambia a los aldeanos: hablan, trabajan, se casan. §6Anillo de compromiso:§r 7 lingotes de oro (o de oro rosa) en anillo con un diamante arriba al medio.",
           "icon:10": {
             "id:8": "mca:engagement_ring",
             "Count:3": 1,

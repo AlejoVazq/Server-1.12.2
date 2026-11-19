@@ -1,0 +1,522 @@
+[
+  {
+    "themeID": "arremods:libro",
+    "themeName": "Libro de aventuras",
+    "themeParent": "bq_standard:light",
+    "textures": {
+      "betterquesting:panel_main": {
+        "textureType": "betterquesting:texture_sliced",
+        "atlas": "arremods:textures/gui/libro.png",
+        "bounds": [
+          0,
+          0,
+          24,
+          24
+        ],
+        "padding": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "sliceMode": 2
+      },
+      "betterquesting:aux_frame_0": {
+        "textureType": "betterquesting:texture_sliced",
+        "atlas": "arremods:textures/gui/libro.png",
+        "bounds": [
+          24,
+          0,
+          24,
+          24
+        ],
+        "padding": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "sliceMode": 1
+      },
+      "betterquesting:panel_inner": {
+        "textureType": "betterquesting:texture_sliced",
+        "atlas": "arremods:textures/gui/libro.png",
+        "bounds": [
+          0,
+          24,
+          24,
+          24
+        ],
+        "padding": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "sliceMode": 1
+      },
+      "betterquesting:item_frame": {
+        "textureType": "betterquesting:texture_sliced",
+        "atlas": "arremods:textures/gui/libro.png",
+        "bounds": [
+          40,
+          24,
+          8,
+          8
+        ],
+        "padding": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "sliceMode": 2
+      },
+      "betterquesting:tooltip_bg": {
+        "textureType": "betterquesting:texture_sliced",
+        "atlas": "arremods:textures/gui/libro.png",
+        "bounds": [
+          0,
+          48,
+          8,
+          8
+        ],
+        "padding": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "sliceMode": 1
+      },
+      "betterquesting:scroll_h_bg": {
+        "textureType": "betterquesting:texture_sliced",
+        "atlas": "arremods:textures/gui/libro.png",
+        "bounds": [
+          24,
+          24,
+          16,
+          8
+        ],
+        "padding": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "sliceMode": 2
+      },
+      "betterquesting:scroll_v_bg": {
+        "textureType": "betterquesting:texture_sliced",
+        "atlas": "arremods:textures/gui/libro.png",
+        "bounds": [
+          24,
+          40,
+          8,
+          16
+        ],
+        "padding": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "sliceMode": 2
+      },
+      "betterquesting:btn_normal_0": {
+        "textureType": "betterquesting:texture_sliced",
+        "atlas": "arremods:textures/gui/libro.png",
+        "bounds": [
+          40,
+          32,
+          8,
+          8
+        ],
+        "padding": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "sliceMode": 1
+      },
+      "betterquesting:btn_normal_1": {
+        "textureType": "betterquesting:texture_sliced",
+        "atlas": "arremods:textures/gui/libro.png",
+        "bounds": [
+          40,
+          40,
+          8,
+          8
+        ],
+        "padding": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "sliceMode": 1
+      },
+      "betterquesting:btn_normal_2": {
+        "textureType": "betterquesting:texture_sliced",
+        "atlas": "arremods:textures/gui/libro.png",
+        "bounds": [
+          40,
+          48,
+          8,
+          8
+        ],
+        "padding": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "sliceMode": 1
+      },
+      "betterquesting:scroll_h_0": {
+        "textureType": "betterquesting:texture_sliced",
+        "atlas": "arremods:textures/gui/libro.png",
+        "bounds": [
+          24,
+          32,
+          16,
+          8
+        ],
+        "padding": [
+          4,
+          3,
+          4,
+          3
+        ],
+        "sliceMode": 2
+      },
+      "betterquesting:scroll_v_0": {
+        "textureType": "betterquesting:texture_sliced",
+        "atlas": "arremods:textures/gui/libro.png",
+        "bounds": [
+          32,
+          40,
+          8,
+          16
+        ],
+        "padding": [
+          3,
+          4,
+          3,
+          4
+        ],
+        "sliceMode": 2
+      },
+      "betterquesting:scroll_h_1": {
+        "textureType": "betterquesting:texture_sliced",
+        "atlas": "arremods:textures/gui/libro.png",
+        "bounds": [
+          24,
+          32,
+          16,
+          8
+        ],
+        "padding": [
+          4,
+          3,
+          4,
+          3
+        ],
+        "sliceMode": 2
+      },
+      "betterquesting:scroll_v_1": {
+        "textureType": "betterquesting:texture_sliced",
+        "atlas": "arremods:textures/gui/libro.png",
+        "bounds": [
+          32,
+          40,
+          8,
+          16
+        ],
+        "padding": [
+          3,
+          4,
+          3,
+          4
+        ],
+        "sliceMode": 2
+      },
+      "betterquesting:scroll_h_2": {
+        "textureType": "betterquesting:texture_sliced",
+        "atlas": "arremods:textures/gui/libro.png",
+        "bounds": [
+          24,
+          32,
+          16,
+          8
+        ],
+        "padding": [
+          4,
+          3,
+          4,
+          3
+        ],
+        "sliceMode": 2
+      },
+      "betterquesting:scroll_v_2": {
+        "textureType": "betterquesting:texture_sliced",
+        "atlas": "arremods:textures/gui/libro.png",
+        "bounds": [
+          32,
+          40,
+          8,
+          16
+        ],
+        "padding": [
+          3,
+          4,
+          3,
+          4
+        ],
+        "sliceMode": 2
+      },
+      "betterquesting:quest_norm_0": {
+        "textureType": "betterquesting:texture_sliced",
+        "atlas": "bq_standard:textures/gui/gui_themes.png",
+        "bounds": [
+          0,
+          56,
+          24,
+          24
+        ],
+        "padding": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "sliceMode": 1
+      },
+      "betterquesting:quest_main_0": {
+        "textureType": "betterquesting:texture_sliced",
+        "atlas": "bq_standard:textures/gui/gui_themes.png",
+        "bounds": [
+          24,
+          56,
+          24,
+          24
+        ],
+        "padding": [
+          11,
+          5,
+          11,
+          5
+        ],
+        "sliceMode": 1
+      },
+      "betterquesting:quest_norm_1": {
+        "textureType": "betterquesting:texture_sliced",
+        "atlas": "bq_standard:textures/gui/gui_themes.png",
+        "bounds": [
+          0,
+          56,
+          24,
+          24
+        ],
+        "padding": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "sliceMode": 1
+      },
+      "betterquesting:quest_main_1": {
+        "textureType": "betterquesting:texture_sliced",
+        "atlas": "bq_standard:textures/gui/gui_themes.png",
+        "bounds": [
+          24,
+          56,
+          24,
+          24
+        ],
+        "padding": [
+          11,
+          5,
+          11,
+          5
+        ],
+        "sliceMode": 1
+      },
+      "betterquesting:quest_norm_2": {
+        "textureType": "betterquesting:texture_sliced",
+        "atlas": "bq_standard:textures/gui/gui_themes.png",
+        "bounds": [
+          0,
+          56,
+          24,
+          24
+        ],
+        "padding": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "sliceMode": 1
+      },
+      "betterquesting:quest_main_2": {
+        "textureType": "betterquesting:texture_sliced",
+        "atlas": "bq_standard:textures/gui/gui_themes.png",
+        "bounds": [
+          24,
+          56,
+          24,
+          24
+        ],
+        "padding": [
+          11,
+          5,
+          11,
+          5
+        ],
+        "sliceMode": 1
+      },
+      "betterquesting:quest_norm_3": {
+        "textureType": "betterquesting:texture_sliced",
+        "atlas": "bq_standard:textures/gui/gui_themes.png",
+        "bounds": [
+          0,
+          56,
+          24,
+          24
+        ],
+        "padding": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "sliceMode": 1
+      },
+      "betterquesting:quest_main_3": {
+        "textureType": "betterquesting:texture_sliced",
+        "atlas": "bq_standard:textures/gui/gui_themes.png",
+        "bounds": [
+          24,
+          56,
+          24,
+          24
+        ],
+        "padding": [
+          11,
+          5,
+          11,
+          5
+        ],
+        "sliceMode": 1
+      }
+    },
+    "colors": {
+      "betterquesting:text_header": {
+        "colorType": "betterquesting:color_static",
+        "color": "FF3B2412"
+      },
+      "betterquesting:text_main": {
+        "colorType": "betterquesting:color_static",
+        "color": "FF3B2412"
+      },
+      "betterquesting:text_aux_0": {
+        "colorType": "betterquesting:color_static",
+        "color": "FF5A4028"
+      },
+      "betterquesting:text_aux_1": {
+        "colorType": "betterquesting:color_static",
+        "color": "FF7A5A36"
+      },
+      "betterquesting:text_highlight": {
+        "colorType": "betterquesting:color_static",
+        "color": "FF8A2A10"
+      },
+      "betterquesting:text_watermark": {
+        "colorType": "betterquesting:color_static",
+        "color": "807A5A36"
+      },
+      "betterquesting:gui_divider": {
+        "colorType": "betterquesting:color_static",
+        "color": "FF7A5A36"
+      },
+      "betterquesting:grid_major": {
+        "colorType": "betterquesting:color_static",
+        "color": "406B3D1E"
+      },
+      "betterquesting:grid_minor": {
+        "colorType": "betterquesting:color_static",
+        "color": "206B3D1E"
+      },
+      "betterquesting:btn_idle": {
+        "colorType": "betterquesting:color_static",
+        "color": "FF3B2412"
+      },
+      "betterquesting:btn_disabled": {
+        "colorType": "betterquesting:color_static",
+        "color": "FF8C826C"
+      },
+      "betterquesting:quest_line_locked": {
+        "colorType": "betterquesting:color_static",
+        "color": "FF901010"
+      },
+      "betterquesting:quest_line_unlocked": {
+        "colorType": "betterquesting:color_pulse",
+        "period": 1.0,
+        "phase": 0.0,
+        "color1": {
+          "colorType": "betterquesting:color_static",
+          "color": "FFB06000"
+        },
+        "color2": {
+          "colorType": "betterquesting:color_static",
+          "color": "FF603000"
+        }
+      },
+      "betterquesting:quest_line_pending": {
+        "colorType": "betterquesting:color_static",
+        "color": "FF207020"
+      },
+      "betterquesting:quest_line_complete": {
+        "colorType": "betterquesting:color_static",
+        "color": "FF207020"
+      },
+      "betterquesting:quest_icon_locked": {
+        "colorType": "betterquesting:color_static",
+        "color": "FF8C826C"
+      },
+      "betterquesting:quest_icon_unlocked": {
+        "colorType": "betterquesting:color_pulse",
+        "period": 1.0,
+        "phase": 0.0,
+        "color1": {
+          "colorType": "betterquesting:color_static",
+          "color": "FFC07010"
+        },
+        "color2": {
+          "colorType": "betterquesting:color_static",
+          "color": "FF704000"
+        }
+      },
+      "betterquesting:quest_icon_pending": {
+        "colorType": "betterquesting:color_pulse",
+        "period": 1.0,
+        "phase": 0.0,
+        "color1": {
+          "colorType": "betterquesting:color_static",
+          "color": "FF00A0A0"
+        },
+        "color2": {
+          "colorType": "betterquesting:color_static",
+          "color": "FF006060"
+        }
+      },
+      "betterquesting:quest_icon_complete": {
+        "colorType": "betterquesting:color_static",
+        "color": "FF30A030"
+      }
+    }
+  }
+]

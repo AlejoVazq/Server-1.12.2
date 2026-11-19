@@ -64,6 +64,13 @@ El progreso de los jugadores se mantiene: ninguna de las misiones que cambiaron 
   - La 6.0.10 dice "Forge 14.23.5.2860" en su changelog, pero no lo exige. Con el Forge actual (2768) arranca bien.
   - Falta probar que entre un jugador. Los clientes que sigan con la 5.5.3 entran igual, pero no reciben las opciones del servidor. Conviene pasarles la 6.0.10 (Modrinth, SHA-1 `6455be4d12b507878067738ccb23cfa02992c719`).
 
+## Aspecto del libro (2026-11-19)
+- **Tema "Libro de aventuras"** (`arremods:libro`): tapa de cuero con costura dorada y hojas de pergamino. Lo genera `herramientas/generar_tema_libro.py` en `config/betterquesting/resources/arremods/`. Hereda de `bq_standard:light`, y los marcos de los íconos son los de ese tema.
+- **Español:** traducciones de Better Questing y Standard Expansion en `config/betterquesting/resources/{betterquesting,bq_standard}/lang/` (es_ar, es_es, es_mx). Los nombres de objetos y criaturas de otros mods siguen en inglés, porque esos mods no traen español.
+- **Sin "[V] Verificado…"** en los textos.
+- **Espacio de la descripción:** Better Questing parte la columna izquierda en dos mitades fijas (descripción arriba, recompensa abajo) cuando la misión tiene recompensas. Está fijo en el código de `GuiQuest`. No se puede cambiar con temas ni configs; la descripción tiene barra de desplazamiento.
+- Todo esto es del **cliente**: cada jugador necesita la carpeta `config/betterquesting/resources/` y `S:Theme=arremods:libro` en su `config/betterquesting.cfg`.
+
 ## Lo que sigue pendiente
 1. **PV7Core** (clanes, puntos y ranking): en pausa hasta definir para qué se quiere.
 2. **Probar JourneyMap 6.0.10 con un jugador conectado.**
