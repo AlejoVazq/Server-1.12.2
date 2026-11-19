@@ -8,7 +8,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Tu libro de aventuras",
-          "desc:8": "Este libro es tu guía. No hay orden obligatorio y tu progreso es solo tuyo.\n\n§eUso:§r abrí una misión, hacé lo que pide y entregala o marcá la casilla. Si tiene premio, tocá §a\"Claim\"§r.\nSi perdés el libro: §elibro + palo§r.\n\n§6Reglas del servidor§r\n§e1.§r Somos todos amigos: buena onda, y si algo molesta se habla.\n§e2.§r §cNo se roba ni se rompe§r lo que es de otro jugador: casas, cofres, granjas, máquinas. Las tumbas también son de su dueño. Si rompés algo sin querer, lo arreglás o lo devolvés.\n§e3.§r §aLas trampas y las bromas valen.§r Si caés en una, te reís y listo; eso sí, la trampa no puede romper ni llevarse cosas ajenas.\n§e4.§r §cNadie va al End ni mata al dragón por su cuenta.§r Es la §eexpedición grupal§r (cap. 20) y se organiza entre todos.\n§e5.§r Pelear contra otro jugador solo si los dos están de acuerdo.\n§e6.§r Nada de hacks, x-ray ni programas para sacar ventaja.\n§e7.§r Si una granja o una máquina hace lagear el servidor, se apaga o se achica.\n§e8.§r Reclamá los chunks de tu base en el mapa de FTB Utilities: así nadie la puede romper sin querer. Si vas a construir cerca de otro, avisale antes.",
+          "desc:8": "Este libro es tu guía. No hay orden obligatorio y tu progreso es solo tuyo.\n\n§eUso:§r abrí una misión, hacé lo que pide y entregala o marcá la casilla. Si tiene premio, tocá §a\"Claim\"§r.\nSi perdés el libro: §elibro + palo§r.\n\n§6Reglas del servidor§r\n§e1.§r Somos todos amigos: buena onda, y si algo molesta se habla.\n§e2.§r §cNo se roba ni se rompe§r lo que es de otro jugador: casas, cofres, granjas, máquinas. Las tumbas también son de su dueño. Si rompés algo sin querer, lo arreglás o lo devolvés.\n§e3.§r §aLas trampas y las bromas valen.§r Si caés en una, te reís y listo; eso sí, la trampa no puede romper ni llevarse cosas ajenas.\n§e4.§r §cNadie va al End ni mata al dragón por su cuenta.§r Es la §eexpedición grupal§r (cap. 25) y se organiza entre todos.\n§e5.§r Pelear contra otro jugador solo si los dos están de acuerdo.\n§e6.§r Nada de hacks, x-ray ni programas para sacar ventaja.\n§e7.§r Si una granja o una máquina hace lagear el servidor, se apaga o se achica.\n§e8.§r Reclamá los chunks de tu base en el mapa de FTB Utilities: así nadie la puede romper sin querer. Si vas a construir cerca de otro, avisale antes.",
           "icon:10": {
             "id:8": "questbook:itemquestbook",
             "Count:3": 1,
@@ -147,6 +147,61 @@
       }
     },
     "3:10": {
+      "questID:3": 3500,
+      "preRequisites:11": [
+        0
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Hablá con tu grupo (Voice Chat)",
+          "desc:8": "El servidor tiene §eSimple Voice Chat§r: hablás con los jugadores que están cerca tuyo, y se escucha más fuerte o más bajo según la distancia.\n\n · Mantené apretado §eBloq Mayús§r (Caps Lock) para hablar.\n · La tecla §eV§r abre el menú del mod: ahí elegís micrófono, volumen y probás el sonido.\n · En el menú también se arman §egrupos§r para hablar entre ustedes aunque estén lejos.\n\nLas teclas se cambian en Opciones → Controles. Marcá la casilla cuando lo hayas probado.",
+          "icon:10": {
+            "id:8": "minecraft:noteblock",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "isMain:1": 0,
+          "taskLogic:8": "AND",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:xp",
+          "amount:3": 30,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "4:10": {
       "questID:3": 10,
       "preRequisites:11": [
         0
@@ -208,7 +263,7 @@
         }
       }
     },
-    "4:10": {
+    "5:10": {
       "questID:3": 12,
       "preRequisites:11": [
         10
@@ -293,7 +348,7 @@
         }
       }
     },
-    "5:10": {
+    "6:10": {
       "questID:3": 13,
       "preRequisites:11": [
         10
@@ -395,7 +450,7 @@
         }
       }
     },
-    "6:10": {
+    "7:10": {
       "questID:3": 16,
       "preRequisites:11": [
         13
@@ -599,7 +654,7 @@
         }
       }
     },
-    "7:10": {
+    "8:10": {
       "questID:3": 20,
       "preRequisites:11": [
         0
@@ -667,7 +722,7 @@
         }
       }
     },
-    "8:10": {
+    "9:10": {
       "questID:3": 23,
       "preRequisites:11": [
         20
@@ -803,7 +858,7 @@
         }
       }
     },
-    "9:10": {
+    "10:10": {
       "questID:3": 22,
       "preRequisites:11": [
         20
@@ -877,7 +932,62 @@
         }
       }
     },
-    "10:10": {
+    "11:10": {
+      "questID:3": 3501,
+      "preRequisites:11": [
+        20
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Minar vetas enteras (OreExcavation)",
+          "desc:8": "§eOreExcavation§r rompe de una vez todos los bloques iguales que están pegados: una veta entera de mineral o un árbol completo.\n\n · Mantené apretada la tecla §e`§r (a la izquierda del 1) mientras rompés el bloque.\n · Funciona con la herramienta correcta en la mano: pico para minerales, hacha para troncos, pala para tierra.\n · Rompe hasta §e128 bloques§r por vez, gasta durabilidad por cada bloque y te da hambre.\n\n§7Si el servidor se pone lento, el mod se frena solo.§r Marcá la casilla cuando lo hayas probado.",
+          "icon:10": {
+            "id:8": "minecraft:iron_pickaxe",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "isMain:1": 0,
+          "taskLogic:8": "AND",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:xp",
+          "amount:3": 30,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "12:10": {
       "questID:3": 30,
       "preRequisites:11": [
         0
@@ -945,7 +1055,7 @@
         }
       }
     },
-    "11:10": {
+    "13:10": {
       "questID:3": 31,
       "preRequisites:11": [
         30
@@ -1000,7 +1110,7 @@
         }
       }
     },
-    "12:10": {
+    "14:10": {
       "questID:3": 32,
       "preRequisites:11": [
         30
@@ -1036,7 +1146,7 @@
       },
       "rewards:9": {}
     },
-    "13:10": {
+    "15:10": {
       "questID:3": 40,
       "preRequisites:11": [
         0
@@ -1072,7 +1182,7 @@
       },
       "rewards:9": {}
     },
-    "14:10": {
+    "16:10": {
       "questID:3": 42,
       "preRequisites:11": [
         40
@@ -1191,7 +1301,7 @@
         }
       }
     },
-    "15:10": {
+    "17:10": {
       "questID:3": 43,
       "preRequisites:11": [
         40
@@ -1259,7 +1369,7 @@
         }
       }
     },
-    "16:10": {
+    "18:10": {
       "questID:3": 45,
       "preRequisites:11": [
         40
@@ -1412,7 +1522,7 @@
         }
       }
     },
-    "17:10": {
+    "19:10": {
       "questID:3": 47,
       "preRequisites:11": [
         40,
@@ -1422,7 +1532,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Elegí tu próxima rama",
-          "desc:8": "Ya tenés base, almacén y territorio. Desde acá el libro se abre y podés seguir por donde quieras:\n · §6Dimensiones§r (cap. 6 a 10): pantanos, trópicos, cinco mundos elementales, caza y cavernas.\n · §6Magia y tecnología§r (cap. 11 a 14): estrellas, dragones, almas y alquimia.\n · §6Combate§r (cap. 15 a 20): monstruos de la noche, depredadores, hombres lobo y jefes.\n\n§eConsejo:§r si es tu primera vez con mods, empezá por §eCavern§r (cap. 10) o §eTropicraft§r (cap. 7): son los más fáciles.",
+          "desc:8": "Ya tenés base, almacén y territorio. Desde acá el libro se abre y podés seguir por donde quieras:\n · §6Dimensiones§r (cap. 6 a 10): pantanos, trópicos, cinco mundos elementales, caza y cavernas.\n · §6Magia y tecnología§r (cap. 11 a 19): estrellas, dragones, almas y alquimia.\n · §6Combate§r (cap. 20 a 25): monstruos de la noche, depredadores, hombres lobo y jefes.\n\n§eConsejo:§r si es tu primera vez con mods, empezá por §eCavern§r (cap. 10) o §eTropicraft§r (cap. 7): son los más fáciles.",
           "icon:10": {
             "id:8": "minecraft:nether_star",
             "Count:3": 1,
@@ -1496,7 +1606,7 @@
         }
       }
     },
-    "18:10": {
+    "20:10": {
       "questID:3": 600,
       "preRequisites:11": [
         0
@@ -1558,7 +1668,7 @@
         }
       }
     },
-    "19:10": {
+    "21:10": {
       "questID:3": 601,
       "preRequisites:11": [
         600
@@ -1620,7 +1730,7 @@
         }
       }
     },
-    "20:10": {
+    "22:10": {
       "questID:3": 602,
       "preRequisites:11": [
         601
@@ -1676,7 +1786,7 @@
         }
       }
     },
-    "21:10": {
+    "23:10": {
       "questID:3": 603,
       "preRequisites:11": [
         601
@@ -1732,7 +1842,7 @@
         }
       }
     },
-    "22:10": {
+    "24:10": {
       "questID:3": 604,
       "preRequisites:11": [
         603
@@ -1788,7 +1898,7 @@
         }
       }
     },
-    "23:10": {
+    "25:10": {
       "questID:3": 605,
       "preRequisites:11": [
         604
@@ -1844,7 +1954,7 @@
         }
       }
     },
-    "24:10": {
+    "26:10": {
       "questID:3": 606,
       "preRequisites:11": [
         604
@@ -1900,7 +2010,7 @@
         }
       }
     },
-    "25:10": {
+    "27:10": {
       "questID:3": 607,
       "preRequisites:11": [
         606
@@ -1962,7 +2072,7 @@
         }
       }
     },
-    "26:10": {
+    "28:10": {
       "questID:3": 608,
       "preRequisites:11": [
         607
@@ -2029,7 +2139,7 @@
         }
       }
     },
-    "27:10": {
+    "29:10": {
       "questID:3": 609,
       "preRequisites:11": [
         607
@@ -2096,7 +2206,7 @@
         }
       }
     },
-    "28:10": {
+    "30:10": {
       "questID:3": 610,
       "preRequisites:11": [
         601
@@ -2158,7 +2268,7 @@
         }
       }
     },
-    "29:10": {
+    "31:10": {
       "questID:3": 611,
       "preRequisites:11": [
         610,
@@ -2167,7 +2277,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Jefe final: Primordial Malevolence",
-          "desc:8": "El jefe de la cima de la Wight Fortress. Pelea desde el centro de la sala con §etorretas§r, §ebarreras§r que lo vuelven invulnerable y §eteletransportes§r.\n\n§eCómo ganarle:§r rompé las torretas primero, esquivá los proyectiles y pegale cuando la barrera baja. Vayan en grupo, con armadura de syrmorite o mejor y mucha comida.\n\nEs uno de los tres jefes de la §eTrilogía§r del cap. 25.",
+          "desc:8": "El jefe de la cima de la Wight Fortress. Pelea desde el centro de la sala con §etorretas§r, §ebarreras§r que lo vuelven invulnerable y §eteletransportes§r.\n\n§eCómo ganarle:§r rompé las torretas primero, esquivá los proyectiles y pegale cuando la barrera baja. Vayan en grupo, con armadura de syrmorite o mejor y mucha comida.\n\nEs uno de los tres jefes de la §eTrilogía§r del cap. 30.",
           "icon:10": {
             "id:8": "minecraft:nether_star",
             "Count:3": 1,
@@ -2226,7 +2336,7 @@
         }
       }
     },
-    "30:10": {
+    "32:10": {
       "questID:3": 700,
       "preRequisites:11": [
         0
@@ -2294,7 +2404,7 @@
         }
       }
     },
-    "31:10": {
+    "33:10": {
       "questID:3": 701,
       "preRequisites:11": [
         700
@@ -2349,7 +2459,7 @@
         }
       }
     },
-    "32:10": {
+    "34:10": {
       "questID:3": 702,
       "preRequisites:11": [
         701
@@ -2423,7 +2533,7 @@
         }
       }
     },
-    "33:10": {
+    "35:10": {
       "questID:3": 703,
       "preRequisites:11": [
         702
@@ -2508,7 +2618,7 @@
         }
       }
     },
-    "34:10": {
+    "36:10": {
       "questID:3": 704,
       "preRequisites:11": [
         703
@@ -2582,7 +2692,7 @@
         }
       }
     },
-    "35:10": {
+    "37:10": {
       "questID:3": 800,
       "preRequisites:11": [
         0
@@ -2650,7 +2760,7 @@
         }
       }
     },
-    "36:10": {
+    "38:10": {
       "questID:3": 801,
       "preRequisites:11": [
         800
@@ -2724,7 +2834,7 @@
         }
       }
     },
-    "37:10": {
+    "39:10": {
       "questID:3": 802,
       "preRequisites:11": [
         801
@@ -2798,7 +2908,7 @@
         }
       }
     },
-    "38:10": {
+    "40:10": {
       "questID:3": 803,
       "preRequisites:11": [
         802
@@ -2865,7 +2975,7 @@
         }
       }
     },
-    "39:10": {
+    "41:10": {
       "questID:3": 804,
       "preRequisites:11": [
         803
@@ -2956,7 +3066,7 @@
         }
       }
     },
-    "40:10": {
+    "42:10": {
       "questID:3": 805,
       "preRequisites:11": [
         804
@@ -3023,7 +3133,7 @@
         }
       }
     },
-    "41:10": {
+    "43:10": {
       "questID:3": 806,
       "preRequisites:11": [
         805
@@ -3114,7 +3224,7 @@
         }
       }
     },
-    "42:10": {
+    "44:10": {
       "questID:3": 807,
       "preRequisites:11": [
         806
@@ -3181,7 +3291,7 @@
         }
       }
     },
-    "43:10": {
+    "45:10": {
       "questID:3": 808,
       "preRequisites:11": [
         807
@@ -3272,7 +3382,7 @@
         }
       }
     },
-    "44:10": {
+    "46:10": {
       "questID:3": 809,
       "preRequisites:11": [
         808
@@ -3363,7 +3473,7 @@
         }
       }
     },
-    "45:10": {
+    "47:10": {
       "questID:3": 810,
       "preRequisites:11": [
         809
@@ -3371,7 +3481,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Jefe final: Fire Boss",
-          "desc:8": "El último jefe del capítulo. Se invoca con una §eFire Boss Seed§r: 4 semillas de trigo alrededor de una §eestrella del Nether§r (la suelta el Wither, cap. 20).\n\nEn la §edimensión Fuego§r, §etirá la semilla al suelo§r (tecla §eQ§r) y alejate: hay una explosión antes de que aparezca.\n\nSuelta la §eElemental Wand§r. §7No tiene barra de jefe: fijate su vida con Hwyla.§r\n\nEs uno de los tres jefes de la §eTrilogía§r del cap. 25.",
+          "desc:8": "El último jefe del capítulo. Se invoca con una §eFire Boss Seed§r: 4 semillas de trigo alrededor de una §eestrella del Nether§r (la suelta el Wither, cap. 25).\n\nEn la §edimensión Fuego§r, §etirá la semilla al suelo§r (tecla §eQ§r) y alejate: hay una explosión antes de que aparezca.\n\nSuelta la §eElemental Wand§r. §7No tiene barra de jefe: fijate su vida con Hwyla.§r\n\nEs uno de los tres jefes de la §eTrilogía§r del cap. 30.",
           "icon:10": {
             "id:8": "elementaldimensions:elementalwand",
             "Count:3": 1,
@@ -3430,7 +3540,7 @@
         }
       }
     },
-    "46:10": {
+    "48:10": {
       "questID:3": 900,
       "preRequisites:11": [
         0
@@ -3498,7 +3608,7 @@
         }
       }
     },
-    "47:10": {
+    "49:10": {
       "questID:3": 901,
       "preRequisites:11": [
         900
@@ -3572,7 +3682,7 @@
         }
       }
     },
-    "48:10": {
+    "50:10": {
       "questID:3": 902,
       "preRequisites:11": [
         901
@@ -3640,7 +3750,7 @@
         }
       }
     },
-    "49:10": {
+    "51:10": {
       "questID:3": 1000,
       "preRequisites:11": [
         0
@@ -3702,7 +3812,7 @@
         }
       }
     },
-    "50:10": {
+    "52:10": {
       "questID:3": 1001,
       "preRequisites:11": [
         1000
@@ -3764,7 +3874,7 @@
         }
       }
     },
-    "51:10": {
+    "53:10": {
       "questID:3": 1002,
       "preRequisites:11": [
         1000
@@ -3831,7 +3941,7 @@
         }
       }
     },
-    "52:10": {
+    "54:10": {
       "questID:3": 1003,
       "preRequisites:11": [
         1000
@@ -3893,7 +4003,7 @@
         }
       }
     },
-    "53:10": {
+    "55:10": {
       "questID:3": 1004,
       "preRequisites:11": [
         1000
@@ -3955,7 +4065,7 @@
         }
       }
     },
-    "54:10": {
+    "56:10": {
       "questID:3": 1005,
       "preRequisites:11": [
         1000
@@ -4017,7 +4127,7 @@
         }
       }
     },
-    "55:10": {
+    "57:10": {
       "questID:3": 1006,
       "preRequisites:11": [
         1000
@@ -4079,7 +4189,7 @@
         }
       }
     },
-    "56:10": {
+    "58:10": {
       "questID:3": 1007,
       "preRequisites:11": [
         1000
@@ -4141,7 +4251,7 @@
         }
       }
     },
-    "57:10": {
+    "59:10": {
       "questID:3": 1008,
       "preRequisites:11": [
         1000
@@ -4203,7 +4313,7 @@
         }
       }
     },
-    "58:10": {
+    "60:10": {
       "questID:3": 1100,
       "preRequisites:11": [
         0
@@ -4259,7 +4369,7 @@
         }
       }
     },
-    "59:10": {
+    "61:10": {
       "questID:3": 1101,
       "preRequisites:11": [
         1100
@@ -4321,7 +4431,7 @@
         }
       }
     },
-    "60:10": {
+    "62:10": {
       "questID:3": 1102,
       "preRequisites:11": [
         1101
@@ -4383,7 +4493,7 @@
         }
       }
     },
-    "61:10": {
+    "63:10": {
       "questID:3": 1103,
       "preRequisites:11": [
         1102
@@ -4445,7 +4555,7 @@
         }
       }
     },
-    "62:10": {
+    "64:10": {
       "questID:3": 1104,
       "preRequisites:11": [
         1103
@@ -4507,7 +4617,7 @@
         }
       }
     },
-    "63:10": {
+    "65:10": {
       "questID:3": 1105,
       "preRequisites:11": [
         1103
@@ -4569,7 +4679,7 @@
         }
       }
     },
-    "64:10": {
+    "66:10": {
       "questID:3": 1106,
       "preRequisites:11": [
         1104
@@ -4631,7 +4741,7 @@
         }
       }
     },
-    "65:10": {
+    "67:10": {
       "questID:3": 1107,
       "preRequisites:11": [
         1106,
@@ -4694,7 +4804,7 @@
         }
       }
     },
-    "66:10": {
+    "68:10": {
       "questID:3": 1108,
       "preRequisites:11": [
         1102
@@ -4756,7 +4866,7 @@
         }
       }
     },
-    "67:10": {
+    "69:10": {
       "questID:3": 1200,
       "preRequisites:11": [
         0
@@ -4824,7 +4934,7 @@
         }
       }
     },
-    "68:10": {
+    "70:10": {
       "questID:3": 1201,
       "preRequisites:11": [
         1200
@@ -4898,7 +5008,7 @@
         }
       }
     },
-    "69:10": {
+    "71:10": {
       "questID:3": 1202,
       "preRequisites:11": [
         1201
@@ -4972,7 +5082,7 @@
         }
       }
     },
-    "70:10": {
+    "72:10": {
       "questID:3": 1204,
       "preRequisites:11": [
         1202,
@@ -4981,7 +5091,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Núcleo Wyvern",
-          "desc:8": "El §eWyvern Core§r es el segundo nivel de núcleo y la base del equipo Wyvern.\n\nSe arma con §eFusion Crafting§r: lleva §eDraconic Cores§r y una §eestrella del Nether§r (la suelta el Wither). Mirá la receta completa con §eR§r en JEI.\n\nEsta misión se abre después de la §eexpedición grupal al End§r (cap. 20).",
+          "desc:8": "El §eWyvern Core§r es el segundo nivel de núcleo y la base del equipo Wyvern.\n\nSe arma con §eFusion Crafting§r: lleva §eDraconic Cores§r y una §eestrella del Nether§r (la suelta el Wither). Mirá la receta completa con §eR§r en JEI.\n\nEsta misión se abre después de la §eexpedición grupal al End§r (cap. 25).",
           "icon:10": {
             "id:8": "draconicevolution:wyvern_core",
             "Count:3": 1,
@@ -5047,7 +5157,7 @@
         }
       }
     },
-    "71:10": {
+    "73:10": {
       "questID:3": 1205,
       "preRequisites:11": [
         1204
@@ -5257,7 +5367,7 @@
         }
       }
     },
-    "72:10": {
+    "74:10": {
       "questID:3": 1206,
       "preRequisites:11": [
         1205
@@ -5324,7 +5434,7 @@
         }
       }
     },
-    "73:10": {
+    "75:10": {
       "questID:3": 1207,
       "preRequisites:11": [
         1206
@@ -5398,7 +5508,7 @@
         }
       }
     },
-    "74:10": {
+    "76:10": {
       "questID:3": 1300,
       "preRequisites:11": [
         0
@@ -5453,7 +5563,7 @@
         }
       }
     },
-    "75:10": {
+    "77:10": {
       "questID:3": 1301,
       "preRequisites:11": [
         1300
@@ -5527,7 +5637,7 @@
         }
       }
     },
-    "76:10": {
+    "78:10": {
       "questID:3": 1302,
       "preRequisites:11": [
         1301
@@ -5601,7 +5711,7 @@
         }
       }
     },
-    "77:10": {
+    "79:10": {
       "questID:3": 1303,
       "preRequisites:11": [
         1302
@@ -5668,7 +5778,7 @@
         }
       }
     },
-    "78:10": {
+    "80:10": {
       "questID:3": 1500,
       "preRequisites:11": [
         0
@@ -5736,7 +5846,7 @@
         }
       }
     },
-    "79:10": {
+    "81:10": {
       "questID:3": 1501,
       "preRequisites:11": [
         1500
@@ -5804,7 +5914,7 @@
         }
       }
     },
-    "80:10": {
+    "82:10": {
       "questID:3": 1502,
       "preRequisites:11": [
         1501
@@ -5878,7 +5988,7 @@
         }
       }
     },
-    "81:10": {
+    "83:10": {
       "questID:3": 1503,
       "preRequisites:11": [
         1500
@@ -5946,7 +6056,7 @@
         }
       }
     },
-    "82:10": {
+    "84:10": {
       "questID:3": 1504,
       "preRequisites:11": [
         1503
@@ -6014,7 +6124,7 @@
         }
       }
     },
-    "83:10": {
+    "85:10": {
       "questID:3": 1505,
       "preRequisites:11": [
         1500
@@ -6082,7 +6192,2704 @@
         }
       }
     },
-    "84:10": {
+    "86:10": {
+      "questID:3": 3000,
+      "preRequisites:11": [
+        0
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "El taller del herrero",
+          "desc:8": "En Tinkers' Construct las herramientas no se fabrican en la mesa de crafteo: se arman con §epiezas§r.\n\n 1. §ePattern§r (patrón en blanco): 2 tablones y 2 palos en diagonal.\n 2. §eStencil Table§r: graba el patrón con la forma de la pieza (cabeza de pico, mango, unión…).\n 3. §ePart Builder§r: con el patrón grabado y el material (madera, piedra, hueso, pedernal…) hace la pieza.\n 4. §eTool Station§r: junta las piezas en la herramienta.\n\nLas recetas exactas están en JEI. El libro §eMaterials and You§r explica cada material y sus rasgos.",
+          "icon:10": {
+            "id:8": "tconstruct:tooltables",
+            "Count:3": 1,
+            "Damage:2": 2,
+            "OreDict:8": ""
+          },
+          "isMain:1": 1,
+          "taskLogic:8": "AND",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "tconstruct:tooltables",
+              "Count:3": 1,
+              "Damage:2": 2,
+              "OreDict:8": ""
+            }
+          }
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:xp",
+          "amount:3": 60,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "87:10": {
+      "questID:3": 3001,
+      "preRequisites:11": [
+        3000
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Estación de herramientas",
+          "desc:8": "La §eTool Station§r arma herramientas de 3 piezas: pico, pala, hacha, espada, y más.\n\nTambién §erepara§r: poné la herramienta y material del mismo tipo que su cabeza. Y §emejora§r: agregando modificadores (redstone = más velocidad, lapislázuli = fortuna, cuarzo = más daño…). Cada herramienta tiene una cantidad limitada de espacios para modificadores.",
+          "icon:10": {
+            "id:8": "tconstruct:tooltables",
+            "Count:3": 1,
+            "Damage:2": 3,
+            "OreDict:8": ""
+          },
+          "isMain:1": 0,
+          "taskLogic:8": "AND",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "tconstruct:tooltables",
+              "Count:3": 1,
+              "Damage:2": 3,
+              "OreDict:8": ""
+            }
+          }
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:xp",
+          "amount:3": 60,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "88:10": {
+      "questID:3": 3002,
+      "preRequisites:11": [
+        3000
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Tu primer pico a medida",
+          "desc:8": "Armá un pico con la Tool Station: §ecabeza de pico + mango + unión§r.\n\nLos rasgos dependen del material de cada pieza: pasá el mouse por la pieza o mirá el libro §eMaterials and You§r.\n\nLas herramientas de Tinkers §eno se rompen§r: cuando se gasta la durabilidad quedan inutilizables hasta que las reparás.",
+          "icon:10": {
+            "id:8": "tconstruct:pickaxe",
+            "Count:3": 1,
+            "Damage:2": 32767,
+            "OreDict:8": ""
+          },
+          "isMain:1": 0,
+          "taskLogic:8": "AND",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "tconstruct:pickaxe",
+              "Count:3": 1,
+              "Damage:2": 32767,
+              "OreDict:8": ""
+            }
+          }
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:xp",
+          "amount:3": 60,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "89:10": {
+      "questID:3": 3003,
+      "preRequisites:11": [
+        3001
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "La fundición",
+          "desc:8": "La §eSmeltery§r funde metales para hacer piezas de metal.\n\n · §eGrout§r: arena, grava y arcilla. Al hornearlo da §eSeared Brick§r.\n · Con los ladrillos se hacen el §econtrolador§r, el §edrenaje§r (Seared Drain), un §etanque§r, la §ecanilla§r (Faucet) y la §emesa de colado§r (Casting Table).\n · Armá un piso y paredes de Seared Bricks con el controlador en una pared. Poné §elava§r en el tanque como combustible.\n\nTirá metal adentro, abrí la canilla sobre una mesa de colado con un molde (Cast) y sale la pieza o el lingote.",
+          "icon:10": {
+            "id:8": "tconstruct:smeltery_controller",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "isMain:1": 0,
+          "taskLogic:8": "AND",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "tconstruct:smeltery_controller",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:xp",
+          "amount:3": 250,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:gold_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:ender_pearl",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "90:10": {
+      "questID:3": 3004,
+      "preRequisites:11": [
+        3003
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Forja de herramientas",
+          "desc:8": "La §eTool Forge§r se fabrica con una §eTool Station§r, Seared Bricks y §ebloques de metal§r (receta en JEI).\n\nHace las herramientas grandes: §emartillo§r (3×3), §eexcavadora§r (pala 3×3), §ehacha de leñador§r (tala árboles enteros), §eespada larga§r y §eguadaña§r. Usan piezas grandes (placas y cabezas grandes) que salen de la Smeltery.",
+          "icon:10": {
+            "id:8": "tconstruct:toolforge",
+            "Count:3": 1,
+            "Damage:2": 32767,
+            "OreDict:8": ""
+          },
+          "isMain:1": 0,
+          "taskLogic:8": "AND",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "tconstruct:toolforge",
+              "Count:3": 1,
+              "Damage:2": 32767,
+              "OreDict:8": ""
+            }
+          }
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:xp",
+          "amount:3": 250,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:gold_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:ender_pearl",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "91:10": {
+      "questID:3": 3005,
+      "preRequisites:11": [
+        3003
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Manyullyn",
+          "desc:8": "El §eManyullyn§r es uno de los mejores materiales de Tinkers.\n\n · El §ecobalto§r (azul) y la §eardita§r (naranja) aparecen en el §eNether§r, en el techo y en el piso.\n · Para minarlos hace falta un pico con nivel de minado alto: el libro §eMaterials and You§r dice el nivel de cada material.\n · Fundí los dos en la Smeltery al mismo tiempo: se mezclan solos y forman Manyullyn.",
+          "icon:10": {
+            "id:8": "tconstruct:ingots",
+            "Count:3": 1,
+            "Damage:2": 2,
+            "OreDict:8": ""
+          },
+          "isMain:1": 0,
+          "taskLogic:8": "AND",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "tconstruct:ingots",
+              "Count:3": 1,
+              "Damage:2": 2,
+              "OreDict:8": "ingotManyullyn"
+            }
+          }
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:xp",
+          "amount:3": 500,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:diamond",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:golden_apple",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "92:10": {
+      "questID:3": 3100,
+      "preRequisites:11": [
+        0
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Primeras máquinas",
+          "desc:8": "Ender IO es tecnología con energía (RF). Para empezar:\n\n · §eGrains of Infinity§r: prendé fuego arriba de la §ebedrock§r. Cuando se apaga, a veces deja este polvo.\n · Con el polvo, barrotes y hierro se hace el §eSimple Machine Chassis§r, la base de las máquinas simples.\n · El §eSimple Alloy Smelter§r funde aleaciones, la §eSimple SAG Mill§r muele minerales (de 1 mineral salen 2 polvos) y el §eSimple Furnace§r funde con energía.\n\nTodas necesitan energía: mirá la misión del generador.",
+          "icon:10": {
+            "id:8": "enderio:block_simple_alloy_smelter",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "isMain:1": 1,
+          "taskLogic:8": "OR",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "enderio:block_simple_alloy_smelter",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "index:3": 1,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "enderio:block_simple_sag_mill",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "2:10": {
+          "index:3": 2,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "enderio:block_simple_furnace",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:xp",
+          "amount:3": 120,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "93:10": {
+      "questID:3": 3101,
+      "preRequisites:11": [
+        3100
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Energía a carbón",
+          "desc:8": "El §eStirling Generator§r quema combustible (carbón, madera, carbón vegetal) y genera energía.\n\nPonelo pegado a la máquina, o llevá la energía con conductos. La versión normal rinde más que la simple.\n\n§7La energía de Ender IO (RF) también la usan Applied Energistics 2 y Draconic Evolution.§r",
+          "icon:10": {
+            "id:8": "enderio:block_simple_stirling_generator",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "isMain:1": 0,
+          "taskLogic:8": "OR",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "enderio:block_simple_stirling_generator",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "index:3": 1,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "enderio:block_stirling_generator",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:xp",
+          "amount:3": 60,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "94:10": {
+      "questID:3": 3102,
+      "preRequisites:11": [
+        3100
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Acero eléctrico",
+          "desc:8": "El §eElectrical Steel§r es la aleación básica de Ender IO: §ehierro + carbón + silicio§r en el Alloy Smelter.\n\nEl §esilicio§r sale de moler §earena§r en la SAG Mill.\n\nJuntá 4: se usa en máquinas, conductos y en la armadura y herramientas de las mejoras.",
+          "icon:10": {
+            "id:8": "enderio:item_alloy_ingot",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "isMain:1": 0,
+          "taskLogic:8": "AND",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "enderio:item_alloy_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": "ingotElectricalSteel"
+            }
+          }
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:xp",
+          "amount:3": 120,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "95:10": {
+      "questID:3": 3103,
+      "preRequisites:11": [
+        3101,
+        3102
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Conductos",
+          "desc:8": "Los §econductos§r llevan cosas de un bloque a otro:\n · §eEnergy Conduit§r: energía.\n · §eItem Conduit§r: objetos (por ejemplo, de una máquina a un cofre).\n · §eFluid Conduit§r: líquidos.\n\nSe pueden poner varios conductos distintos en el mismo bloque. Se hacen con §eConduit Binder§r (arena, grava y arcilla horneados). La §eYeta Wrench§r configura qué lado entrega y qué lado recibe.",
+          "icon:10": {
+            "id:8": "enderio:item_power_conduit",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "isMain:1": 0,
+          "taskLogic:8": "OR",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "enderio:item_power_conduit",
+              "Count:3": 1,
+              "Damage:2": 32767,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "index:3": 1,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "enderio:item_item_conduit",
+              "Count:3": 1,
+              "Damage:2": 32767,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "2:10": {
+          "index:3": 2,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "enderio:item_liquid_conduit",
+              "Count:3": 1,
+              "Damage:2": 32767,
+              "OreDict:8": ""
+            }
+          }
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:xp",
+          "amount:3": 120,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "96:10": {
+      "questID:3": 3104,
+      "preRequisites:11": [
+        3103
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Banco de capacitores",
+          "desc:8": "El §eCapacitor Bank§r guarda energía: cargalo con el generador y las máquinas la toman cuando la necesitan.\n\nVarios bancos pegados funcionan como uno solo y más grande.",
+          "icon:10": {
+            "id:8": "enderio:block_cap_bank",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "isMain:1": 0,
+          "taskLogic:8": "AND",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "enderio:block_cap_bank",
+              "Count:3": 1,
+              "Damage:2": 32767,
+              "OreDict:8": ""
+            }
+          }
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:xp",
+          "amount:3": 120,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "97:10": {
+      "questID:3": 3105,
+      "preRequisites:11": [
+        3102
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Acero oscuro",
+          "desc:8": "El §eDark Steel§r es §ehierro + carbón + obsidiana§r en el Alloy Smelter.\n\nSirve para herramientas, armadura, barrotes, puertas y escaleras indestructibles para los creepers. Juntá 4.",
+          "icon:10": {
+            "id:8": "enderio:item_alloy_ingot",
+            "Count:3": 1,
+            "Damage:2": 6,
+            "OreDict:8": ""
+          },
+          "isMain:1": 0,
+          "taskLogic:8": "AND",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "enderio:item_alloy_ingot",
+              "Count:3": 4,
+              "Damage:2": 6,
+              "OreDict:8": "ingotDarkSteel"
+            }
+          }
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:xp",
+          "amount:3": 250,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:gold_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:ender_pearl",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "98:10": {
+      "questID:3": 3106,
+      "preRequisites:11": [
+        3105
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Equipo de acero oscuro",
+          "desc:8": "Las herramientas y la armadura de §eDark Steel§r se mejoran en un yunque con §eDark Steel Upgrades§r: más energía, velocidad, rotura de área, visión nocturna y más.\n\nLas mejoras usan energía: cargalas en un cargador o con el Capacitor Bank.",
+          "icon:10": {
+            "id:8": "enderio:item_dark_steel_pickaxe",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "isMain:1": 0,
+          "taskLogic:8": "OR",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "enderio:item_dark_steel_pickaxe",
+              "Count:3": 1,
+              "Damage:2": 32767,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "index:3": 1,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "enderio:item_dark_steel_sword",
+              "Count:3": 1,
+              "Damage:2": 32767,
+              "OreDict:8": ""
+            }
+          }
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:xp",
+          "amount:3": 250,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:gold_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:ender_pearl",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "99:10": {
+      "questID:3": 3200,
+      "preRequisites:11": [
+        0
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Cuarzo certus",
+          "desc:8": "El §ecuarzo certus§r es la base de Applied Energistics 2. El mineral aparece en el Overworld, como el hierro.\n\nHay una variante, el §ecertus cargado§r, que brilla. Sirve para hacer cristal fluix.\n\nTambién se pueden §ecultivar§r cristales: tirá una semilla de cristal (Crystal Seed) al agua y esperá.",
+          "icon:10": {
+            "id:8": "appliedenergistics2:material",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "isMain:1": 1,
+          "taskLogic:8": "AND",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "appliedenergistics2:material",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": "crystalCertusQuartz"
+            }
+          }
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:xp",
+          "amount:3": 60,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "100:10": {
+      "questID:3": 3201,
+      "preRequisites:11": [
+        3200
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Brújula de meteoritos",
+          "desc:8": "Las cuatro §eprensas§r del Inscriber no se fabrican: están en los §emeteoritos§r.\n\n · La §eMeteorite Compass§r apunta al meteorito más cercano.\n · Adentro del meteorito, en el medio, hay un §ecofre de Sky Stone§r con las prensas.\n\nNecesitás las cuatro: §eLogic, Calculation, Engineering y Silicon§r. Si en un meteorito faltan, buscá otro.",
+          "icon:10": {
+            "id:8": "appliedenergistics2:sky_compass",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "isMain:1": 0,
+          "taskLogic:8": "AND",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "appliedenergistics2:sky_compass",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:xp",
+          "amount:3": 60,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "101:10": {
+      "questID:3": 3202,
+      "preRequisites:11": [
+        3200
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Cargador y fluix",
+          "desc:8": "El §eCharger§r carga el cuarzo certus y lo vuelve §ecertus cargado§r. Necesita energía.\n\n§eCristal fluix:§r tirá al agua un certus cargado, un cuarzo del Nether y un polvo de redstone. Al rato salen 2 cristales fluix.",
+          "icon:10": {
+            "id:8": "appliedenergistics2:charger",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "isMain:1": 0,
+          "taskLogic:8": "AND",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "appliedenergistics2:charger",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:xp",
+          "amount:3": 120,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "102:10": {
+      "questID:3": 3203,
+      "preRequisites:11": [
+        3201,
+        3202
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "El Inscriber",
+          "desc:8": "El §eInscriber§r imprime los circuitos con las prensas de los meteoritos.\n\nUn §eprocesador§r se hace en tres pasos: el circuito impreso (oro, certus o diamante), el silicio impreso y la unión de los dos con redstone.\n\n§eLogic§r (oro), §eCalculation§r (certus) y §eEngineering§r (diamante) se usan en todo lo que sigue.",
+          "icon:10": {
+            "id:8": "appliedenergistics2:inscriber",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "isMain:1": 0,
+          "taskLogic:8": "AND",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "appliedenergistics2:inscriber",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:xp",
+          "amount:3": 250,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:gold_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:ender_pearl",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "103:10": {
+      "questID:3": 3204,
+      "preRequisites:11": [
+        3203
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "La red ME",
+          "desc:8": "El §eME Controller§r es el corazón de la red ME. Todo lo que conectes con §ecables fluix§r forma parte de la red.\n\n§eEnergía:§r un §eEnergy Acceptor§r toma energía RF (por ejemplo de Ender IO). Otra opción es la §eVibration Chamber§r, que quema combustible.\n\nCada canal de cable lleva un máximo de equipos. Si algo no anda, mirá los canales con la Network Tool.",
+          "icon:10": {
+            "id:8": "appliedenergistics2:controller",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "isMain:1": 0,
+          "taskLogic:8": "AND",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "appliedenergistics2:controller",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:xp",
+          "amount:3": 250,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:gold_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:ender_pearl",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "104:10": {
+      "questID:3": 3205,
+      "preRequisites:11": [
+        3204
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Guardar en la red",
+          "desc:8": "El §eME Drive§r guarda las §eceldas de almacenamiento§r. Una §eStorage Cell de 1k§r guarda 1024 bytes repartidos en hasta 63 tipos de objetos.\n\nCon un §eME Terminal§r (receta en JEI) ves todo lo guardado en un solo lugar y lo buscás por nombre.\n\nDespués vienen las celdas de 4k, 16k y 64k.",
+          "icon:10": {
+            "id:8": "appliedenergistics2:drive",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "isMain:1": 0,
+          "taskLogic:8": "AND",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "appliedenergistics2:drive",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "index:3": 1,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "appliedenergistics2:storage_cell_1k",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:xp",
+          "amount:3": 250,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:gold_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:ender_pearl",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "105:10": {
+      "questID:3": 3206,
+      "preRequisites:11": [
+        3204
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Autocrafteo",
+          "desc:8": "El §eMolecular Assembler§r hace §eautocrafteo§r: le das un patrón (Encoded Pattern) y fabrica solo.\n\nPara pedirle cosas desde el terminal hacen falta §eCrafting Storage§r y §eCrafting Unit§r juntos, como un CPU de crafteo, y una §eInterface§r al lado del Assembler.",
+          "icon:10": {
+            "id:8": "appliedenergistics2:molecular_assembler",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "isMain:1": 0,
+          "taskLogic:8": "AND",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "appliedenergistics2:molecular_assembler",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:xp",
+          "amount:3": 500,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:diamond",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:golden_apple",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "106:10": {
+      "questID:3": 3300,
+      "preRequisites:11": [
+        0
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Semillas de inferium",
+          "desc:8": "§eInferium Ore§r aparece en el Overworld. Al minarlo suelta §eesencia de inferium§r.\n\nFabricá semillas de inferium (receta en JEI). Plantalas en §etierra arada§r: cada cosecha da más esencia.\n\nLa §eesencia§r es la moneda del mod: con ella se hacen herramientas, semillas y todo lo demás.",
+          "icon:10": {
+            "id:8": "mysticalagriculture:tier1_inferium_seeds",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "isMain:1": 1,
+          "taskLogic:8": "AND",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "mysticalagriculture:tier1_inferium_seeds",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:xp",
+          "amount:3": 60,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "107:10": {
+      "questID:3": 3301,
+      "preRequisites:11": [
+        3300
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Cristal de infusión",
+          "desc:8": "El §eInfusion Crystal§r junta esencia: §e4 de un tier se convierten en 1 del tier siguiente§r.\n\nTiers de esencia: §einferium → prudentium → intermedium → superium → supremium§r.\n\nEl cristal tiene usos limitados. Más adelante viene el maestro, que no se gasta.",
+          "icon:10": {
+            "id:8": "mysticalagriculture:infusion_crystal",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "isMain:1": 0,
+          "taskLogic:8": "AND",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "mysticalagriculture:infusion_crystal",
+              "Count:3": 1,
+              "Damage:2": 32767,
+              "OreDict:8": ""
+            }
+          }
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:xp",
+          "amount:3": 60,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "108:10": {
+      "questID:3": 3302,
+      "preRequisites:11": [
+        3300
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Tu primera semilla de recursos",
+          "desc:8": "Las §esemillas de recursos§r dan materiales al cosecharlas: hierro, carbón, diamante y más.\n\n · §eProsperity Ore§r da fragmentos de prosperidad. Con ellos y semillas comunes se hace la §eBase Crafting Seed§r.\n · Rodeá la Base Crafting Seed con esencias y el material: sale la semilla del recurso.\n\nLa cosecha da §eesencia del recurso§r (por ejemplo, esencia de hierro). En la mesa de crafteo, la esencia se convierte en el material.",
+          "icon:10": {
+            "id:8": "mysticalagriculture:iron_seeds",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "isMain:1": 0,
+          "taskLogic:8": "OR",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "mysticalagriculture:iron_seeds",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "index:3": 1,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "mysticalagriculture:coal_seeds",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "2:10": {
+          "index:3": 2,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "mysticalagriculture:dirt_seeds",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:xp",
+          "amount:3": 120,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "109:10": {
+      "questID:3": 3303,
+      "preRequisites:11": [
+        3301
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Subir de nivel",
+          "desc:8": "Las semillas de inferium de tier mayor dan más esencia por cosecha.\n\nSe fabrican con la semilla del tier anterior y esencia del tier nuevo (prudentium para tier 2). La receta está en JEI.",
+          "icon:10": {
+            "id:8": "mysticalagriculture:tier2_inferium_seeds",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "isMain:1": 0,
+          "taskLogic:8": "AND",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "mysticalagriculture:tier2_inferium_seeds",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:xp",
+          "amount:3": 120,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "110:10": {
+      "questID:3": 3304,
+      "preRequisites:11": [
+        3303
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Cristal maestro",
+          "desc:8": "El §eMaster Infusion Crystal§r hace lo mismo que el común pero §eno se gasta nunca§r.\n\nEs caro: requiere esencias de los tiers altos.",
+          "icon:10": {
+            "id:8": "mysticalagriculture:master_infusion_crystal",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "isMain:1": 0,
+          "taskLogic:8": "AND",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "mysticalagriculture:master_infusion_crystal",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:xp",
+          "amount:3": 500,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:diamond",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:golden_apple",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "111:10": {
+      "questID:3": 3305,
+      "preRequisites:11": [
+        3302,
+        3303
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Semillas de diamante",
+          "desc:8": "Las §eDiamond Seeds§r son de tier 5. Usan mucha esencia, pero dan diamantes para siempre.\n\n§eAcelerá el crecimiento:§r el §eGrowth Accelerator§r debajo de la tierra arada hace crecer más rápido lo que tiene encima.",
+          "icon:10": {
+            "id:8": "mysticalagriculture:diamond_seeds",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "isMain:1": 0,
+          "taskLogic:8": "AND",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "mysticalagriculture:diamond_seeds",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:xp",
+          "amount:3": 500,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:diamond",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:golden_apple",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "112:10": {
+      "questID:3": 3306,
+      "preRequisites:11": [
+        3304
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Equipo de supremium",
+          "desc:8": "El §eSupremium§r es el tier más alto de esencia.\n\nLas herramientas y la armadura de Supremium son de las mejores del servidor. Mirá en el tooltip qué bonus da la armadura completa.",
+          "icon:10": {
+            "id:8": "mysticalagriculture:supremium_sword",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "isMain:1": 0,
+          "taskLogic:8": "OR",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "mysticalagriculture:supremium_pickaxe",
+              "Count:3": 1,
+              "Damage:2": 32767,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "index:3": 1,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "mysticalagriculture:supremium_sword",
+              "Count:3": 1,
+              "Damage:2": 32767,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "2:10": {
+          "index:3": 2,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "mysticalagriculture:supremium_chestplate",
+              "Count:3": 1,
+              "Damage:2": 32767,
+              "OreDict:8": ""
+            }
+          }
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:xp",
+          "amount:3": 900,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:diamond",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:golden_apple",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "113:10": {
+      "questID:3": 3400,
+      "preRequisites:11": [
+        0
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Hornos de hierro",
+          "desc:8": "Los §eIron Furnaces§r son hornos más rápidos que el común:\n · §eHierro§r: 8 lingotes de hierro alrededor de un horno.\n · §eOro§r: oro alrededor de un horno de hierro.\n · §eDiamante§r, §eVidrio§r y §eObsidiana§r: cada vez más rápidos (recetas en JEI).\n\nSe pueden conectar a tolvas o conductos como un horno común.",
+          "icon:10": {
+            "id:8": "ironfurnaces:iron_furnace_idle",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "isMain:1": 1,
+          "taskLogic:8": "AND",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ironfurnaces:iron_furnace_idle",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:xp",
+          "amount:3": 60,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "114:10": {
+      "questID:3": 3401,
+      "preRequisites:11": [
+        3400
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Horno de diamante",
+          "desc:8": "El §eDiamond Furnace§r es de los más rápidos del mod. Se fabrica a partir de un horno de oro: mirá la receta en JEI.",
+          "icon:10": {
+            "id:8": "ironfurnaces:diamond_furnace_idle",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "isMain:1": 0,
+          "taskLogic:8": "AND",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ironfurnaces:diamond_furnace_idle",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:xp",
+          "amount:3": 250,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:gold_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:ender_pearl",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "115:10": {
+      "questID:3": 3402,
+      "preRequisites:11": [
+        3400
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Cofre ender",
+          "desc:8": "El §eEnder Chest§r comparte su inventario con todos los cofres ender del §emismo color§r, aunque estén en otra dimensión.\n\n · Arriba tiene §e3 franjas§r: hacé clic derecho en cada una con un tinte para cambiar la combinación.\n · Con un §ediamante§r en el seguro, el cofre pasa a ser §epersonal§r: solo lo abrís vos.\n\n§cOjo:§r si otro jugador usa tus mismos colores en un cofre no personal, ve lo mismo que vos.",
+          "icon:10": {
+            "id:8": "enderstorage:ender_storage",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "isMain:1": 0,
+          "taskLogic:8": "AND",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "enderstorage:ender_storage",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:xp",
+          "amount:3": 120,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "116:10": {
+      "questID:3": 3403,
+      "preRequisites:11": [
+        3402
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Tanque o bolsa ender",
+          "desc:8": "El §eEnder Tank§r hace lo mismo que el cofre ender, pero con §elíquidos§r: dos tanques del mismo color comparten el líquido.\n\nLa §eEnder Pouch§r es una bolsa que se lleva en el inventario: abre el cofre ender de sus mismos colores desde cualquier lugar.",
+          "icon:10": {
+            "id:8": "enderstorage:ender_storage",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "isMain:1": 0,
+          "taskLogic:8": "OR",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "enderstorage:ender_storage",
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "index:3": 1,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "enderstorage:ender_pouch",
+              "Count:3": 1,
+              "Damage:2": 32767,
+              "OreDict:8": ""
+            }
+          }
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:xp",
+          "amount:3": 120,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "117:10": {
+      "questID:3": 3404,
+      "preRequisites:11": [
+        3400
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Colector de objetos",
+          "desc:8": "El §eItem Collector§r junta los objetos tirados cerca y los guarda en el cofre o la máquina de al lado.\n\n · §eBásico:§r hasta §e5 bloques§r de distancia.\n · §eAvanzado:§r hasta §e7 bloques§r y con §efiltro§r para elegir qué objetos junta.\n\nIdeal para granjas de mobs y de cultivos.",
+          "icon:10": {
+            "id:8": "itemcollectors:basic_collector",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "isMain:1": 0,
+          "taskLogic:8": "OR",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "itemcollectors:basic_collector",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "index:3": 1,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "itemcollectors:advanced_collector",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:xp",
+          "amount:3": 60,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "118:10": {
+      "questID:3": 3405,
+      "preRequisites:11": [
+        0
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Un corazón rojo",
+          "desc:8": "Con §eBaubley Heart Canisters§r la vida máxima sube con corazones:\n · §eRojo:§r 5 % de chance al matar cualquier monstruo.\n · §eAmarillo:§r lo sueltan los §ejefes§r.\n · §eVerde:§r lo suelta el §eEnder Dragon§r.\n · §eAzul:§r lo sueltan los §eEvokers§r de las mansiones del bosque.\n\nLos Wither Skeleton sueltan a veces un §eWither Bone§r, que se usa en las recetas del mod.",
+          "icon:10": {
+            "id:8": "bhc:red_heart",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "isMain:1": 0,
+          "taskLogic:8": "AND",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "bhc:red_heart",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:xp",
+          "amount:3": 120,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "119:10": {
+      "questID:3": 3406,
+      "preRequisites:11": [
+        3405
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Más vida",
+          "desc:8": "Los corazones se meten en §ecanisters§r (latas de corazones). Los canisters se ponen en el §eHeart Amulet§r.\n\n · El amuleto va en el lugar de §eamuleto§r de Baubles (botón de Baubles en el inventario).\n · Con el amuleto en la mano, clic derecho abre sus espacios para los canisters.\n · Cada canister suma corazones. Las recetas están en JEI.",
+          "icon:10": {
+            "id:8": "bhc:red_heart_canister",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "isMain:1": 0,
+          "taskLogic:8": "AND",
+          "questLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "lockedProgress:1": 0,
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "isGlobal:1": 0
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "bhc:heart_amulet",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "index:3": 1,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "bhc:red_heart_canister",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:xp",
+          "amount:3": 250,
+          "isLevels:1": 0
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:gold_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:ender_pearl",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "120:10": {
       "questID:3": 1600,
       "preRequisites:11": [
         0
@@ -6169,141 +8976,7 @@
         }
       }
     },
-    "85:10": {
-      "questID:3": 1601,
-      "preRequisites:11": [
-        1600
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "name:8": "El espantapájaros",
-          "desc:8": "El §eScarecrow§r (espantapájaros) es un monstruo de SpookyCraft. Aparece §ede noche§r en los biomas de §ellanura§r (Plains), como cualquier otro monstruo.\n\n§eTruco:§r si de noche usás una §ecalabaza§r o una §ecabeza de mob§r en la cabeza, a veces aparecen monstruos espeluznantes a tu alrededor, entre ellos el Scarecrow y animales esqueléticos (vacas, cerdos, lobos, llamas…). Andá preparado.",
-          "icon:10": {
-            "id:8": "minecraft:pumpkin",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "isMain:1": 0,
-          "taskLogic:8": "AND",
-          "questLogic:8": "AND",
-          "visibility:8": "NORMAL",
-          "repeatTime:3": -1,
-          "autoClaim:1": 0,
-          "isSilent:1": 0,
-          "lockedProgress:1": 0,
-          "simultaneous:1": 0,
-          "globalShare:1": 0,
-          "isGlobal:1": 0
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "index:3": 0,
-          "taskID:8": "bq_standard:hunt",
-          "target:8": "spookycraft:scarecrow",
-          "required:3": 1,
-          "subtypes:1": 0,
-          "ignoreNBT:1": 1,
-          "targetNBT:10": {},
-          "damageType:8": ""
-        }
-      },
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:xp",
-          "amount:3": 120,
-          "isLevels:1": 0
-        },
-        "1:10": {
-          "index:3": 1,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "id:8": "minecraft:iron_ingot",
-              "Count:3": 4,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "minecraft:bread",
-              "Count:3": 4,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        }
-      }
-    },
-    "86:10": {
-      "questID:3": 1602,
-      "preRequisites:11": [
-        1600
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "name:8": "El Rey Zombi",
-          "desc:8": "Re-Zombies agrega zombis con oficio: mineros, caballeros, piratas y más. Cada uno pelea distinto.\n\nEl jefe es el §eZombie King§r: mucha más vida y armadura propia. Aparece entre los zombis.\n\nAl morir tiene §e20 % de chance§r de soltar una pieza de su armadura de rey (5 % cada una: casco, peto, pantalón o botas). Vale la pena cazarlo varias veces.",
-          "icon:10": {
-            "id:8": "rezombiesv15ver1122jar:kingarmourhelmet",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "isMain:1": 0,
-          "taskLogic:8": "AND",
-          "questLogic:8": "AND",
-          "visibility:8": "NORMAL",
-          "repeatTime:3": -1,
-          "autoClaim:1": 0,
-          "isSilent:1": 0,
-          "lockedProgress:1": 0,
-          "simultaneous:1": 0,
-          "globalShare:1": 0,
-          "isGlobal:1": 0
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "index:3": 0,
-          "taskID:8": "bq_standard:hunt",
-          "target:8": "rezombiesv15ver1122jar:zombieking",
-          "required:3": 1,
-          "subtypes:1": 0,
-          "ignoreNBT:1": 1,
-          "targetNBT:10": {},
-          "damageType:8": ""
-        }
-      },
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:xp",
-          "amount:3": 250,
-          "isLevels:1": 0
-        },
-        "1:10": {
-          "index:3": 1,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "id:8": "minecraft:gold_ingot",
-              "Count:3": 4,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "minecraft:ender_pearl",
-              "Count:3": 2,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        }
-      }
-    },
-    "87:10": {
+    "121:10": {
       "questID:3": 1603,
       "preRequisites:11": [
         1600
@@ -6390,7 +9063,7 @@
         }
       }
     },
-    "88:10": {
+    "122:10": {
       "questID:3": 1700,
       "preRequisites:11": [
         0
@@ -6497,7 +9170,7 @@
         }
       }
     },
-    "89:10": {
+    "123:10": {
       "questID:3": 1701,
       "preRequisites:11": [
         1700
@@ -6605,7 +9278,7 @@
         }
       }
     },
-    "90:10": {
+    "124:10": {
       "questID:3": 1800,
       "preRequisites:11": [
         0
@@ -6673,7 +9346,7 @@
         }
       }
     },
-    "91:10": {
+    "125:10": {
       "questID:3": 1801,
       "preRequisites:11": [
         1800
@@ -6741,7 +9414,7 @@
         }
       }
     },
-    "92:10": {
+    "126:10": {
       "questID:3": 1802,
       "preRequisites:11": [
         1801
@@ -6808,7 +9481,7 @@
         }
       }
     },
-    "93:10": {
+    "127:10": {
       "questID:3": 1803,
       "preRequisites:11": [
         1800
@@ -6882,7 +9555,7 @@
         }
       }
     },
-    "94:10": {
+    "128:10": {
       "questID:3": 1900,
       "preRequisites:11": [
         0
@@ -6937,7 +9610,7 @@
         }
       }
     },
-    "95:10": {
+    "129:10": {
       "questID:3": 1901,
       "preRequisites:11": [
         1900
@@ -6998,7 +9671,7 @@
         }
       }
     },
-    "96:10": {
+    "130:10": {
       "questID:3": 2000,
       "preRequisites:11": [
         0
@@ -7072,7 +9745,7 @@
         }
       }
     },
-    "97:10": {
+    "131:10": {
       "questID:3": 2001,
       "preRequisites:11": [
         2000
@@ -7140,7 +9813,7 @@
         }
       }
     },
-    "98:10": {
+    "132:10": {
       "questID:3": 2002,
       "preRequisites:11": [
         2000
@@ -7208,7 +9881,7 @@
         }
       }
     },
-    "99:10": {
+    "133:10": {
       "questID:3": 2100,
       "preRequisites:11": [
         0
@@ -7244,7 +9917,7 @@
       },
       "rewards:9": {}
     },
-    "100:10": {
+    "134:10": {
       "questID:3": 2101,
       "preRequisites:11": [
         2100
@@ -7311,7 +9984,7 @@
         }
       }
     },
-    "101:10": {
+    "135:10": {
       "questID:3": 2102,
       "preRequisites:11": [
         2100
@@ -7385,7 +10058,7 @@
         }
       }
     },
-    "102:10": {
+    "136:10": {
       "questID:3": 2103,
       "preRequisites:11": [
         2100
@@ -7452,7 +10125,7 @@
         }
       }
     },
-    "103:10": {
+    "137:10": {
       "questID:3": 2200,
       "preRequisites:11": [
         1207
@@ -7662,7 +10335,7 @@
         }
       }
     },
-    "104:10": {
+    "138:10": {
       "questID:3": 2201,
       "preRequisites:11": [
         2200
@@ -7736,7 +10409,7 @@
         }
       }
     },
-    "105:10": {
+    "139:10": {
       "questID:3": 2202,
       "preRequisites:11": [
         1202
@@ -7810,7 +10483,7 @@
         }
       }
     },
-    "106:10": {
+    "140:10": {
       "questID:3": 2300,
       "preRequisites:11": [
         0
@@ -7818,7 +10491,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Viajero de mundos",
-          "desc:8": "Visitá §e12 dimensiones§r. Cada tarea se completa sola al llegar:\n · §eNether§r (portal de obsidiana) · §eEnd§r (expedición grupal, cap. 20)\n · §eBetweenlands§r (cap. 6) · §eTrópicos§r (cap. 7)\n · §eTierra, Agua, Aire, Espíritu y Fuego§r (cap. 8)\n · §eHunting Dimension§r (cap. 9) · §eCavern§r (cap. 10) · §ePontus§r (cap. 13)\n\nCada capítulo explica cómo llegar a su dimensión.",
+          "desc:8": "Visitá §e12 dimensiones§r. Cada tarea se completa sola al llegar:\n · §eNether§r (portal de obsidiana) · §eEnd§r (expedición grupal, cap. 25)\n · §eBetweenlands§r (cap. 6) · §eTrópicos§r (cap. 7)\n · §eTierra, Agua, Aire, Espíritu y Fuego§r (cap. 8)\n · §eHunting Dimension§r (cap. 9) · §eCavern§r (cap. 10) · §ePontus§r (cap. 13)\n\nCada capítulo explica cómo llegar a su dimensión.",
           "icon:10": {
             "id:8": "minecraft:ender_eye",
             "Count:3": 1,
@@ -8071,7 +10744,7 @@
         }
       }
     },
-    "107:10": {
+    "141:10": {
       "questID:3": 2301,
       "preRequisites:11": [
         2300
@@ -8163,7 +10836,7 @@
         }
       }
     },
-    "108:10": {
+    "142:10": {
       "questID:3": 2400,
       "preRequisites:11": [
         601
@@ -8225,7 +10898,7 @@
         }
       }
     },
-    "109:10": {
+    "143:10": {
       "questID:3": 2401,
       "preRequisites:11": [
         2400
@@ -8287,7 +10960,7 @@
         }
       }
     },
-    "110:10": {
+    "144:10": {
       "questID:3": 2402,
       "preRequisites:11": [
         2400
@@ -8349,7 +11022,7 @@
         }
       }
     },
-    "111:10": {
+    "145:10": {
       "questID:3": 2403,
       "preRequisites:11": [
         1008
@@ -8411,155 +11084,7 @@
         }
       }
     },
-    "112:10": {
-      "questID:3": 2500,
-      "preRequisites:11": [
-        0
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "name:8": "Fundá una colonia (MineColonies)",
-          "desc:8": "Para empezar: §eSupplyCamp Chest§r (5 cofres en U, necesita un terreno plano de 16×17 sin pasto ni flores) o §eSupplyShip Chest§r (5 botes en U, va en el agua). Cada jugador puede colocar solo uno. Después colocá el §eTown Hall§r.",
-          "icon:10": {
-            "id:8": "minecolonies:blockhuttownhall",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "isMain:1": 1,
-          "taskLogic:8": "AND",
-          "questLogic:8": "AND",
-          "visibility:8": "NORMAL",
-          "repeatTime:3": -1,
-          "autoClaim:1": 0,
-          "isSilent:1": 0,
-          "lockedProgress:1": 0,
-          "simultaneous:1": 0,
-          "globalShare:1": 0,
-          "isGlobal:1": 0
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "index:3": 0,
-          "taskID:8": "bq_standard:retrieval",
-          "partialMatch:1": 1,
-          "ignoreNBT:1": 1,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "autoConsume:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "minecolonies:blockhuttownhall",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        }
-      },
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:xp",
-          "amount:3": 250,
-          "isLevels:1": 0
-        },
-        "1:10": {
-          "index:3": 1,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "id:8": "minecraft:gold_ingot",
-              "Count:3": 4,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "minecraft:ender_pearl",
-              "Count:3": 2,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        }
-      }
-    },
-    "113:10": {
-      "questID:3": 2501,
-      "preRequisites:11": [
-        2500
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "name:8": "Tu primer constructor",
-          "desc:8": "En MineColonies los §eciudadanos§r hacen el trabajo, pero alguien tiene que construir las casas: el §eBuilder§r.\n\n 1. Colocá la §echoza del Builder§r (Builder's Hut) cerca del Town Hall.\n 2. Abrila y pedí que se construya: se le asigna un ciudadano.\n 3. El constructor te pide §emateriales§r: ponelos en el cofre de su choza.\n\nDespués, cada edificio nuevo se coloca con su bloque y el Builder lo levanta solo.",
-          "icon:10": {
-            "id:8": "minecolonies:blockhutbuilder",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "isMain:1": 0,
-          "taskLogic:8": "AND",
-          "questLogic:8": "AND",
-          "visibility:8": "NORMAL",
-          "repeatTime:3": -1,
-          "autoClaim:1": 0,
-          "isSilent:1": 0,
-          "lockedProgress:1": 0,
-          "simultaneous:1": 0,
-          "globalShare:1": 0,
-          "isGlobal:1": 0
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "index:3": 0,
-          "taskID:8": "bq_standard:retrieval",
-          "partialMatch:1": 1,
-          "ignoreNBT:1": 1,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "autoConsume:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "minecolonies:blockhutbuilder",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        }
-      },
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:xp",
-          "amount:3": 120,
-          "isLevels:1": 0
-        },
-        "1:10": {
-          "index:3": 1,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "id:8": "minecraft:iron_ingot",
-              "Count:3": 4,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "minecraft:bread",
-              "Count:3": 4,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        }
-      }
-    },
-    "114:10": {
+    "146:10": {
       "questID:3": 2502,
       "preRequisites:11": [
         0
@@ -8574,7 +11099,7 @@
             "Damage:2": 0,
             "OreDict:8": ""
           },
-          "isMain:1": 0,
+          "isMain:1": 1,
           "taskLogic:8": "OR",
           "questLogic:8": "AND",
           "visibility:8": "NORMAL",
@@ -8650,7 +11175,7 @@
         }
       }
     },
-    "115:10": {
+    "147:10": {
       "questID:3": 2600,
       "preRequisites:11": [
         611,
@@ -8739,7 +11264,7 @@
         }
       }
     },
-    "116:10": {
+    "148:10": {
       "questID:3": 2601,
       "preRequisites:11": [
         2101
@@ -8806,7 +11331,7 @@
         }
       }
     },
-    "117:10": {
+    "149:10": {
       "questID:3": 2700,
       "preRequisites:11": [
         2300,
@@ -8897,7 +11422,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Cap. 1 · Bienvenido a ArreMods",
-          "desc:8": "§6Tu guía de ArreMods.§r Cada capítulo es un mod o un tema del servidor.\n\n§eCómo se usa:§r no hay un orden obligatorio. Las misiones grises se desbloquean al completar otras; las que tienen marco grande son las principales de cada capítulo.\n\n§eHerramientas que vas a usar todo el tiempo:§r\n · §6JEI§r (a la derecha del inventario): §eR§r sobre un objeto = cómo se fabrica, §eU§r = para qué sirve.\n · §6Hwyla§r: mirá un bloque y te dice qué es y de qué mod viene.\n · §6JourneyMap§r: §eJ§r abre el mapa, §eB§r crea un waypoint.\n\nEmpezá leyendo las reglas en la primera misión.",
+          "desc:8": "§6Tu guía de ArreMods.§r Cada capítulo es un mod o un tema del servidor.\n\n§eCómo se usa:§r no hay un orden obligatorio. Las misiones grises se desbloquean al completar otras; las que tienen marco grande son las principales de cada capítulo.\n\n§eHerramientas que vas a usar todo el tiempo:§r\n · §6JEI§r (a la derecha del inventario): §eR§r sobre un objeto = cómo se fabrica, §eU§r = para qué sirve.\n · §6Hwyla§r: mirá un bloque y te dice qué es y de qué mod viene.\n · §6JourneyMap§r: §eJ§r abre el mapa, §eB§r crea un waypoint.\n · §6Voice Chat§r: mantené §eBloq Mayús§r para hablar; §eV§r abre el menú.\n\nEmpezá leyendo las reglas en la primera misión.",
           "icon:10": {
             "id:8": "questbook:itemquestbook",
             "Count:3": 1,
@@ -8930,6 +11455,13 @@
           "y:3": 0,
           "sizeX:3": 24,
           "sizeY:3": 24
+        },
+        "3:10": {
+          "id:3": 3500,
+          "x:3": 144,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
         }
       }
     },
@@ -8939,7 +11471,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Cap. 2 · Los primeros días",
-          "desc:8": "§6Sobrevivir la primera noche.§r Madera, un refugio, un lugar donde dormir, fuego y comida.\n\n§eMods de este capítulo:§r\n · §6The Camping Mod§r: tiendas, sacos de dormir, fogatas para cocinar y mochilas.\n · §6Campfire§r: fogata que da luz y calor, pero se apaga sola a los ~6 minutos.\n · §6Corail Tombstone§r: si morís, tus cosas quedan en una tumba donde caíste.\n\n§cOjo con la noche:§r salen criaturas de otros mods (zombis con oficio, creepers elementales, monstruos mortales) y al dormir hay un 5 % de chance de pesadilla. Dormí con equipo puesto y la vida llena.",
+          "desc:8": "§6Sobrevivir la primera noche.§r Madera, un refugio, un lugar donde dormir, fuego y comida.\n\n§eMods de este capítulo:§r\n · §6The Camping Mod§r: tiendas, sacos de dormir, fogatas para cocinar y mochilas.\n · §6Campfire§r: fogata que da luz y calor, pero se apaga sola a los ~6 minutos.\n · §6Corail Tombstone§r: si morís, tus cosas quedan en una tumba donde caíste.\n\n§cOjo con la noche:§r salen criaturas de otros mods (creepers elementales, monstruos mortales, hombres lobo) y al dormir hay un 5 % de chance de pesadilla. Dormí con equipo puesto y la vida llena.",
           "icon:10": {
             "id:8": "campfire:campfire",
             "Count:3": 1,
@@ -8988,7 +11520,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Cap. 3 · Preparación del aventurero",
-          "desc:8": "§6Equiparte antes de salir a explorar.§r\n\n§eMods de este capítulo:§r\n · §6Spartan Shields§r: escudos de madera, piedra, hierro, oro, obsidiana y diamante. Cada material aguanta más golpes.\n · §6Hammer Time§r: martillos que rompen 3×3 bloques de una vez. Ideales para minar y abrir túneles.\n · §6Disenchanter§r: mesa que saca los encantamientos de un objeto y los pasa a un libro.\n · §6Switch-Bow§r: arco con carcaj para cambiar de tipo de flecha sin abrir el inventario.\n\nNada de este capítulo bloquea el resto: es para llegar mejor preparado.",
+          "desc:8": "§6Equiparte antes de salir a explorar.§r\n\n§eMods de este capítulo:§r\n · §6Spartan Shields§r: escudos de madera, piedra, hierro, oro, obsidiana y diamante. Cada material aguanta más golpes.\n · §6Hammer Time§r: martillos que rompen 3×3 bloques de una vez. Ideales para minar y abrir túneles.\n · §6Disenchanter§r: mesa que saca los encantamientos de un objeto y los pasa a un libro.\n · §6Switch-Bow§r: arco con carcaj para cambiar de tipo de flecha sin abrir el inventario.\n · §6OreExcavation§r: con la tecla §e`§r rompés una veta o un árbol entero de una vez.\n\nNada de este capítulo bloquea el resto: es para llegar mejor preparado.",
           "icon:10": {
             "id:8": "spartanshields:shield_basic_wood",
             "Count:3": 1,
@@ -9019,6 +11551,13 @@
           "id:3": 22,
           "x:3": 96,
           "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "id:3": 3501,
+          "x:3": 48,
+          "y:3": 48,
           "sizeX:3": 24,
           "sizeY:3": 24
         }
@@ -9597,7 +12136,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Cap. 12 · Draconic Evolution",
-          "desc:8": "§6Draconic Evolution§r · tecnología dracónica\n\nHerramientas, armaduras y máquinas cada vez más poderosas, hechas con §edraconio§r y energía.\n\n§eDónde está el draconio:§r en el Overworld muy profundo (capas 2 a 8), en el Nether y en el End.\n\n§eProgresión:§r Draconic Core → Fusion Crafting (las recetas grandes del mod) → Wyvern → Awakened → Chaotic.\n\n§cNecesita el End:§r a partir del Wyvern Core hacen falta recursos del End, que se abre con la §eexpedición grupal§r del cap. 20.\n\n§cJefe:§r el Chaos Guardian, en las Chaos Islands del End, con 2000 de vida.",
+          "desc:8": "§6Draconic Evolution§r · tecnología dracónica\n\nHerramientas, armaduras y máquinas cada vez más poderosas, hechas con §edraconio§r y energía.\n\n§eDónde está el draconio:§r en el Overworld muy profundo (capas 2 a 8), en el Nether y en el End.\n\n§eProgresión:§r Draconic Core → Fusion Crafting (las recetas grandes del mod) → Wyvern → Awakened → Chaotic.\n\n§cNecesita el End:§r a partir del Wyvern Core hacen falta recursos del End, que se abre con la §eexpedición grupal§r del cap. 25.\n\n§cJefe:§r el Chaos Guardian, en las Chaos Islands del End, con 2000 de vida.",
           "icon:10": {
             "id:8": "draconicevolution:draconic_core",
             "Count:3": 1,
@@ -9778,8 +12317,351 @@
       "order:3": 14,
       "properties:10": {
         "betterquesting:10": {
-          "name:8": "Cap. 15 · Criaturas de la noche",
-          "desc:8": "§6Criaturas de la noche§r\n\nVarios mods hacen las noches mucho más peligrosas que en Minecraft normal:\n · §6Nightmares§r: al dormir hay 5 % de chance de pesadilla. Aparece una Hag, una Shadow Person o 8 Phantasmic Spiders.\n · §6SpookyCraft§r: animales esqueléticos y el Scarecrow.\n · §6Re-Zombies§r: zombis con oficio (mineros, caballeros, piratas…) y el Zombie King, que a veces suelta su armadura.\n · §6Elemental Creepers§r: 24 tipos de creepers que explotan con fuego, hielo, rayos y más.\n\n§eConsejo:§r iluminá bien la base y no salgas de noche sin escudo.",
+          "name:8": "Cap. 15 · Tinkers' Construct",
+          "desc:8": "§6Tinkers' Construct§r · herramientas a medida\n\nHerramientas y armas armadas §epieza por pieza§r: cabeza, mango y unión, cada una del material que elijas. Cada material tiene rasgos propios, y las herramientas se reparan y se mejoran.\n\n§eProgresión:§r patrones y mesas de madera → Smeltery (fundición de metales) → Tool Forge (herramientas grandes) → cobalto y ardita del Nether.\n\nEl libro §eMaterials and You§r explica cada material. Las recetas están en JEI.",
+          "icon:10": {
+            "id:8": "tconstruct:smeltery_controller",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "visibility:8": "NORMAL",
+          "bg_image:8": "",
+          "bg_size:3": 256
+        }
+      },
+      "quests:9": {
+        "0:10": {
+          "id:3": 3000,
+          "x:3": 0,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "id:3": 3001,
+          "x:3": 48,
+          "y:3": -24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "id:3": 3002,
+          "x:3": 48,
+          "y:3": 24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "id:3": 3003,
+          "x:3": 96,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "id:3": 3004,
+          "x:3": 144,
+          "y:3": -24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "id:3": 3005,
+          "x:3": 144,
+          "y:3": 24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        }
+      }
+    },
+    "15:10": {
+      "lineID:3": 15,
+      "order:3": 15,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Cap. 16 · Ender IO",
+          "desc:8": "§6Ender IO§r · máquinas y energía\n\nMáquinas que funcionan con energía (RF): hornos de aleación, molinos, generadores y conductos.\n\n§eProgresión:§r Grains of Infinity → máquinas simples → Electrical Steel → conductos y banco de capacitores → Dark Steel y sus mejoras.\n\nLa energía de Ender IO sirve también para Applied Energistics 2 (cap. 17) y Draconic Evolution (cap. 12).",
+          "icon:10": {
+            "id:8": "enderio:block_simple_alloy_smelter",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "visibility:8": "NORMAL",
+          "bg_image:8": "",
+          "bg_size:3": 256
+        }
+      },
+      "quests:9": {
+        "0:10": {
+          "id:3": 3100,
+          "x:3": 0,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "id:3": 3101,
+          "x:3": 48,
+          "y:3": -24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "id:3": 3102,
+          "x:3": 48,
+          "y:3": 24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "id:3": 3103,
+          "x:3": 96,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "id:3": 3104,
+          "x:3": 144,
+          "y:3": -24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "id:3": 3105,
+          "x:3": 144,
+          "y:3": 24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "id:3": 3106,
+          "x:3": 192,
+          "y:3": 24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        }
+      }
+    },
+    "16:10": {
+      "lineID:3": 16,
+      "order:3": 16,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Cap. 17 · Applied Energistics 2",
+          "desc:8": "§6Applied Energistics 2§r · almacenamiento digital\n\nGuardá miles de objetos en §eceldas§r y buscá cualquiera desde un terminal. Más adelante, la red fabrica sola (autocrafteo).\n\n§eProgresión:§r cuarzo certus → meteoritos (prensas) → Inscriber y procesadores → ME Controller → ME Drive y celdas → Molecular Assembler.\n\n§cNecesita energía:§r Ender IO (cap. 16) o la Vibration Chamber del mod.",
+          "icon:10": {
+            "id:8": "appliedenergistics2:controller",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "visibility:8": "NORMAL",
+          "bg_image:8": "",
+          "bg_size:3": 256
+        }
+      },
+      "quests:9": {
+        "0:10": {
+          "id:3": 3200,
+          "x:3": 0,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "id:3": 3201,
+          "x:3": 48,
+          "y:3": -24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "id:3": 3202,
+          "x:3": 48,
+          "y:3": 24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "id:3": 3203,
+          "x:3": 96,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "id:3": 3204,
+          "x:3": 144,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "id:3": 3205,
+          "x:3": 192,
+          "y:3": -24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "id:3": 3206,
+          "x:3": 192,
+          "y:3": 24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        }
+      }
+    },
+    "17:10": {
+      "lineID:3": 17,
+      "order:3": 17,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Cap. 18 · Mystical Agriculture",
+          "desc:8": "§6Mystical Agriculture§r · cultivá tus recursos\n\nSemillas que dan hierro, carbón, diamante y muchos materiales más al cosecharlas.\n\n§eProgresión:§r esencia de inferium → semillas de inferium → cristal de infusión (sube la esencia de tier) → semillas de recursos → equipo de Supremium.\n\nTiers de esencia: §einferium → prudentium → intermedium → superium → supremium§r.",
+          "icon:10": {
+            "id:8": "mysticalagriculture:tier1_inferium_seeds",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "visibility:8": "NORMAL",
+          "bg_image:8": "",
+          "bg_size:3": 256
+        }
+      },
+      "quests:9": {
+        "0:10": {
+          "id:3": 3300,
+          "x:3": 0,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "id:3": 3301,
+          "x:3": 48,
+          "y:3": -24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "id:3": 3302,
+          "x:3": 48,
+          "y:3": 24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "id:3": 3303,
+          "x:3": 96,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "id:3": 3304,
+          "x:3": 144,
+          "y:3": -24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "id:3": 3305,
+          "x:3": 144,
+          "y:3": 24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "id:3": 3306,
+          "x:3": 192,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        }
+      }
+    },
+    "18:10": {
+      "lineID:3": 18,
+      "order:3": 18,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Cap. 19 · Taller y mejoras",
+          "desc:8": "§6Taller y mejoras§r\n\nMods chicos que hacen la vida más fácil:\n · §6Iron Furnaces§r: hornos más rápidos (hierro, oro, diamante, vidrio y obsidiana).\n · §6Ender Storage§r: cofres, tanques y bolsas que comparten su contenido por colores, en cualquier dimensión.\n · §6Item Collectors§r: juntan los objetos tirados y los guardan en un cofre.\n · §6Baubley Heart Canisters§r: corazones de vida extra que sueltan los monstruos y los jefes.",
+          "icon:10": {
+            "id:8": "ironfurnaces:iron_furnace_idle",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "visibility:8": "NORMAL",
+          "bg_image:8": "",
+          "bg_size:3": 256
+        }
+      },
+      "quests:9": {
+        "0:10": {
+          "id:3": 3400,
+          "x:3": 0,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "id:3": 3401,
+          "x:3": 48,
+          "y:3": -24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "id:3": 3402,
+          "x:3": 48,
+          "y:3": 24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "id:3": 3403,
+          "x:3": 96,
+          "y:3": 24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "id:3": 3404,
+          "x:3": 96,
+          "y:3": -24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "id:3": 3405,
+          "x:3": 0,
+          "y:3": 48,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "id:3": 3406,
+          "x:3": 48,
+          "y:3": 72,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        }
+      }
+    },
+    "19:10": {
+      "lineID:3": 19,
+      "order:3": 19,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Cap. 20 · Criaturas de la noche",
+          "desc:8": "§6Criaturas de la noche§r\n\nVarios mods hacen las noches mucho más peligrosas que en Minecraft normal:\n · §6Nightmares§r: al dormir hay 5 % de chance de pesadilla. Aparece una Hag, una Shadow Person o 8 Phantasmic Spiders.\n · §6Elemental Creepers§r: 24 tipos de creepers que explotan con fuego, hielo, rayos y más.\n\n§eConsejo:§r iluminá bien la base y no salgas de noche sin escudo.",
           "icon:10": {
             "id:8": "minecraft:skull",
             "Count:3": 1,
@@ -9800,34 +12682,20 @@
           "sizeY:3": 24
         },
         "1:10": {
-          "id:3": 1601,
-          "x:3": 48,
-          "y:3": -24,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "2:10": {
-          "id:3": 1602,
-          "x:3": 48,
-          "y:3": 24,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "3:10": {
           "id:3": 1603,
-          "x:3": 96,
+          "x:3": 48,
           "y:3": 0,
           "sizeX:3": 24,
           "sizeY:3": 24
         }
       }
     },
-    "15:10": {
-      "lineID:3": 15,
-      "order:3": 15,
+    "20:10": {
+      "lineID:3": 20,
+      "order:3": 20,
       "properties:10": {
         "betterquesting:10": {
-          "name:8": "Cap. 16 · Depredadores",
+          "name:8": "Cap. 21 · Depredadores",
           "desc:8": "§6Depredadores§r · Deadly Monsters\n\nLos monstruos más peligrosos del servidor: la Woman, el Wideman, el Climber, el Mutant Steve y el Topielec, entre otros. Pegan fuerte y aguantan mucho.\n\n§eTrofeos:§r algunos sueltan partes raras (Woman's Heart, Wideman's Spine, Soul Eye).\n\n§cNo vayas solo ni con equipo de hierro.§r",
           "icon:10": {
             "id:8": "dmonsters:souleye",
@@ -9857,12 +12725,12 @@
         }
       }
     },
-    "16:10": {
-      "lineID:3": 16,
-      "order:3": 16,
+    "21:10": {
+      "lineID:3": 21,
+      "order:3": 21,
       "properties:10": {
         "betterquesting:10": {
-          "name:8": "Cap. 17 · Maldición lunar",
+          "name:8": "Cap. 22 · Maldición lunar",
           "desc:8": "§6Maldición lunar§r · Howling Moon\n\nHombres lobo. Si uno te muerde, te podés contagiar de §elicantropía§r y convertirte en lobo.\n\n§eLa plata:§r el mod agrega mineral de plata. La §eespada de plata§r es el arma contra los hombres lobo.\n\n§eLa cura:§r la §ePoción de Wolfsbane§r (poción rara + flor Wolfsbane). Cura la infección o la licantropía, y si estás sano te vuelve inmune.\n\n§7Este mod no tiene jefes.§r",
           "icon:10": {
             "id:8": "howlingmoon:moonstone",
@@ -9906,12 +12774,12 @@
         }
       }
     },
-    "17:10": {
-      "lineID:3": 17,
-      "order:3": 17,
+    "22:10": {
+      "lineID:3": 22,
+      "order:3": 22,
       "properties:10": {
         "betterquesting:10": {
-          "name:8": "Cap. 18 · Enemigos infernales",
+          "name:8": "Cap. 23 · Enemigos infernales",
           "desc:8": "§6Enemigos infernales§r · Infernal Mobs\n\nCualquier monstruo puede aparecer con poderes extra. Se reconocen por el §enombre de color§r sobre la cabeza.\n\n§eRangos:§r Élite (1 de cada 15), Ultra (1 de cada 7 élites) e Infernal (1 de cada 7 ultras). Hay 27 poderes posibles: veneno, robo de vida, explosiones, invisibilidad y más.\n\n§aSueltan mejor botín§r, pero §cno dan recompensas si los matás en una granja de mobs§r.",
           "icon:10": {
             "id:8": "minecraft:blaze_powder",
@@ -9941,12 +12809,12 @@
         }
       }
     },
-    "18:10": {
-      "lineID:3": 18,
-      "order:3": 18,
+    "23:10": {
+      "lineID:3": 23,
+      "order:3": 23,
       "properties:10": {
         "betterquesting:10": {
-          "name:8": "Cap. 19 · Guardianes y defensas",
+          "name:8": "Cap. 24 · Guardianes y defensas",
           "desc:8": "§6Guardianes y defensas§r\n\nTres mods para proteger la base:\n · §6Totem Defender§r: tótems de madera, hierro, oro o diamante que disparan a lo que elijas (monstruos, animales u otros jugadores).\n · §6Mob Totems§r: tótems tallados que, con ofrendas, evitan que aparezcan monstruos, prenden fuego o envenenan.\n · §6SecurityCraft§r: teclados con clave, bloques reforzados, minas, cámaras y más.\n\n§7Recordá las reglas: las trampas valen, pero no pueden romper ni llevarse cosas de otros.§r",
           "icon:10": {
             "id:8": "totemdefender:core",
@@ -9983,12 +12851,12 @@
         }
       }
     },
-    "19:10": {
-      "lineID:3": 19,
-      "order:3": 19,
+    "24:10": {
+      "lineID:3": 24,
+      "order:3": 24,
       "properties:10": {
         "betterquesting:10": {
-          "name:8": "Cap. 20 · Grandes expediciones",
+          "name:8": "Cap. 25 · Grandes expediciones",
           "desc:8": "§6Grandes expediciones§r\n\nLos jefes de Minecraft, para enfrentar en grupo:\n · §eEl Wither§r: lo invocás vos. Suelta la estrella del Nether.\n · §eEl Elder Guardian§r: en los monumentos oceánicos.\n · §eEl Ender Dragon§r: §cexpedición grupal obligatoria§r. Nadie entra al End antes; se organiza entre todos.\n\nDespués del dragón, el End queda abierto: Chaos Guardian, draconio del End y más.",
           "icon:10": {
             "id:8": "minecraft:nether_star",
@@ -10032,12 +12900,12 @@
         }
       }
     },
-    "20:10": {
-      "lineID:3": 20,
-      "order:3": 20,
+    "25:10": {
+      "lineID:3": 25,
+      "order:3": 25,
       "properties:10": {
         "betterquesting:10": {
-          "name:8": "Cap. 21 · El poder definitivo",
+          "name:8": "Cap. 26 · El poder definitivo",
           "desc:8": "§6El poder definitivo§r\n\nLa cima de Draconic Evolution: equipo dracónico, núcleos caóticos y el armamento más fuerte del servidor.\n\nSe abre con la Fusion Crafting del cap. 12. Necesita muchos recursos, energía y fragmentos del Chaos Guardian.",
           "icon:10": {
             "id:8": "draconicevolution:chaotic_core",
@@ -10074,12 +12942,12 @@
         }
       }
     },
-    "21:10": {
-      "lineID:3": 21,
-      "order:3": 21,
+    "26:10": {
+      "lineID:3": 26,
+      "order:3": 26,
       "properties:10": {
         "betterquesting:10": {
-          "name:8": "Cap. 22 · Maestro de las dimensiones",
+          "name:8": "Cap. 27 · Maestro de las dimensiones",
           "desc:8": "§6Maestro de las dimensiones§r\n\nPisá todas las dimensiones del servidor: Nether, End, Betweenlands, Trópicos, las 5 elementales, Hunting Dimension, Cavern y Pontus, y además las 7 cavernas.\n\nEs un capítulo para coleccionistas: se va completando solo mientras jugás los demás.",
           "icon:10": {
             "id:8": "minecraft:ender_eye",
@@ -10109,12 +12977,12 @@
         }
       }
     },
-    "22:10": {
-      "lineID:3": 22,
-      "order:3": 22,
+    "27:10": {
+      "lineID:3": 27,
+      "order:3": 27,
       "properties:10": {
         "betterquesting:10": {
-          "name:8": "Cap. 23 · Coleccionista",
+          "name:8": "Cap. 28 · Coleccionista",
           "desc:8": "§6Coleccionista§r\n\nLogros difíciles de los mods grandes: anillos de la Betweenlands, el maestro de los hongos, el libro de herboristería completo y las herramientas compuestas de Cavern.\n\nNo apurarse: son metas largas.",
           "icon:10": {
             "id:8": "minecraft:chest",
@@ -10158,15 +13026,15 @@
         }
       }
     },
-    "23:10": {
-      "lineID:3": 23,
-      "order:3": 23,
+    "28:10": {
+      "lineID:3": 28,
+      "order:3": 28,
       "properties:10": {
         "betterquesting:10": {
-          "name:8": "Cap. 24 · Arquitecto del mundo",
-          "desc:8": "§6Arquitecto del mundo§r\n\n · §6MineColonies§r: fundá una colonia con aldeanos que trabajan para vos. El constructor levanta los edificios, y cada edificio trae un oficio nuevo (granjero, minero, leñador y más). Arrancás con un SupplyCamp o un SupplyShip.\n · §6MCA (Minecraft Comes Alive)§r: los aldeanos hablan, trabajan, tienen familia y te podés casar.\n\nIdeal para jugar tranquilo entre expediciones.",
+          "name:8": "Cap. 29 · Vida en la aldea",
+          "desc:8": "§6Vida en la aldea§r · MCA (Minecraft Comes Alive)\n\nLos aldeanos dejan de ser muñecos: hablan, trabajan, tienen familia y te podés casar.\n\nHablales seguido para subir la amistad: con amistad alta aceptan pedidos y, con un anillo, casamiento.\n\nIdeal para jugar tranquilo entre expediciones.",
           "icon:10": {
-            "id:8": "minecolonies:blockhuttownhall",
+            "id:8": "mca:engagement_ring",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -10178,34 +13046,20 @@
       },
       "quests:9": {
         "0:10": {
-          "id:3": 2500,
-          "x:3": 0,
-          "y:3": 0,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "1:10": {
-          "id:3": 2501,
-          "x:3": 48,
-          "y:3": 0,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "2:10": {
           "id:3": 2502,
           "x:3": 0,
-          "y:3": 48,
+          "y:3": 0,
           "sizeX:3": 24,
           "sizeY:3": 24
         }
       }
     },
-    "24:10": {
-      "lineID:3": 24,
-      "order:3": 24,
+    "29:10": {
+      "lineID:3": 29,
+      "order:3": 29,
       "properties:10": {
         "betterquesting:10": {
-          "name:8": "Cap. 25 · Desafíos legendarios",
+          "name:8": "Cap. 30 · Desafíos legendarios",
           "desc:8": "§6Desafíos legendarios§r\n\nLos combates más difíciles del servidor:\n · La trilogía de jefes finales: §ePrimordial Malevolence§r (Betweenlands), §eFire Boss§r (Elemental Dimensions) y §eChaos Guardian§r (Draconic Evolution).\n · El Wither tres veces.\n\n§cVayan en grupo y con el mejor equipo que tengan.§r",
           "icon:10": {
             "id:8": "minecraft:diamond_sword",
@@ -10235,12 +13089,12 @@
         }
       }
     },
-    "25:10": {
-      "lineID:3": 25,
-      "order:3": 25,
+    "30:10": {
+      "lineID:3": 30,
+      "order:3": 30,
       "properties:10": {
         "betterquesting:10": {
-          "name:8": "Cap. 26 · La última expedición",
+          "name:8": "Cap. 31 · La última expedición",
           "desc:8": "§6La última expedición§r\n\nEl cierre del libro: recorriste todas las dimensiones y venciste a los jefes finales.\n\nEs opcional y no bloquea nada. Como premio te llevás el título de §6Leyenda de ArreMods§r.",
           "icon:10": {
             "id:8": "minecraft:dragon_egg",

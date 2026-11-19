@@ -98,21 +98,23 @@ DESCRIPCIONES = {
    "§eHerramientas que vas a usar todo el tiempo:§r\n"
    " · §6JEI§r (a la derecha del inventario): §eR§r sobre un objeto = cómo se fabrica, §eU§r = para qué sirve.\n"
    " · §6Hwyla§r: mirá un bloque y te dice qué es y de qué mod viene.\n"
-   " · §6JourneyMap§r: §eJ§r abre el mapa, §eB§r crea un waypoint.\n\n"
+   " · §6JourneyMap§r: §eJ§r abre el mapa, §eB§r crea un waypoint.\n"
+   " · §6Voice Chat§r: mantené §eBloq Mayús§r para hablar; §eV§r abre el menú.\n\n"
    "Empezá leyendo las reglas en la primera misión.",
 2: "§6Sobrevivir la primera noche.§r Madera, un refugio, un lugar donde dormir, fuego y comida.\n\n"
    "§eMods de este capítulo:§r\n"
    " · §6The Camping Mod§r: tiendas, sacos de dormir, fogatas para cocinar y mochilas.\n"
    " · §6Campfire§r: fogata que da luz y calor, pero se apaga sola a los ~6 minutos.\n"
    " · §6Corail Tombstone§r: si morís, tus cosas quedan en una tumba donde caíste.\n\n"
-   "§cOjo con la noche:§r salen criaturas de otros mods (zombis con oficio, creepers elementales, monstruos mortales) "
+   "§cOjo con la noche:§r salen criaturas de otros mods (creepers elementales, monstruos mortales, hombres lobo) "
    "y al dormir hay un 5 % de chance de pesadilla. Dormí con equipo puesto y la vida llena.",
 3: "§6Equiparte antes de salir a explorar.§r\n\n"
    "§eMods de este capítulo:§r\n"
    " · §6Spartan Shields§r: escudos de madera, piedra, hierro, oro, obsidiana y diamante. Cada material aguanta más golpes.\n"
    " · §6Hammer Time§r: martillos que rompen 3×3 bloques de una vez. Ideales para minar y abrir túneles.\n"
    " · §6Disenchanter§r: mesa que saca los encantamientos de un objeto y los pasa a un libro.\n"
-   " · §6Switch-Bow§r: arco con carcaj para cambiar de tipo de flecha sin abrir el inventario.\n\n"
+   " · §6Switch-Bow§r: arco con carcaj para cambiar de tipo de flecha sin abrir el inventario.\n"
+   " · §6OreExcavation§r: con la tecla §e`§r rompés una veta o un árbol entero de una vez.\n\n"
    "Nada de este capítulo bloquea el resto: es para llegar mejor preparado.",
 4: "§6Orientarte y moverte rápido.§r El mundo es grande y hay biomas y estructuras de muchos mods.\n\n"
    "§eMods de este capítulo:§r\n"
@@ -177,7 +179,7 @@ DESCRIPCIONES = {
     "§eDónde está el draconio:§r en el Overworld muy profundo (capas 2 a 8), en el Nether y en el End.\n\n"
     "§eProgresión:§r Draconic Core → Fusion Crafting (las recetas grandes del mod) → Wyvern → Awakened → Chaotic.\n\n"
     "§cNecesita el End:§r a partir del Wyvern Core hacen falta recursos del End, que se abre con la "
-    "§eexpedición grupal§r del cap. 20.\n\n"
+    "§eexpedición grupal§r del cap. 25.\n\n"
     "§cJefe:§r el Chaos Guardian, en las Chaos Islands del End, con 2000 de vida.",
 13: "§6Harshen Universe§r · dimensión Pontus (5)\n\n"
     "Almas, sangre, rituales y accesorios (anillos, collares, pendientes).\n\n"
@@ -194,64 +196,88 @@ DESCRIPCIONES = {
     " · §eMiel y cera:§r el colmenar.\n"
     " · §eCultivos:§r tomate y chile (crecen sobre estacas) y uvas.\n\n"
     "También trae muebles y decoración: sillas, mesas, velas y candelabros.",
-15: "§6Criaturas de la noche§r\n\n"
+15: "§6Tinkers' Construct§r · herramientas a medida\n\n"
+    "Herramientas y armas armadas §epieza por pieza§r: cabeza, mango y unión, cada una del material que elijas. "
+    "Cada material tiene rasgos propios, y las herramientas se reparan y se mejoran.\n\n"
+    "§eProgresión:§r patrones y mesas de madera → Smeltery (fundición de metales) → Tool Forge (herramientas grandes) → "
+    "cobalto y ardita del Nether.\n\n"
+    "El libro §eMaterials and You§r explica cada material. Las recetas están en JEI.",
+16: "§6Ender IO§r · máquinas y energía\n\n"
+    "Máquinas que funcionan con energía (RF): hornos de aleación, molinos, generadores y conductos.\n\n"
+    "§eProgresión:§r Grains of Infinity → máquinas simples → Electrical Steel → conductos y banco de capacitores → "
+    "Dark Steel y sus mejoras.\n\n"
+    "La energía de Ender IO sirve también para Applied Energistics 2 (cap. 17) y Draconic Evolution (cap. 12).",
+17: "§6Applied Energistics 2§r · almacenamiento digital\n\n"
+    "Guardá miles de objetos en §eceldas§r y buscá cualquiera desde un terminal. Más adelante, la red fabrica sola (autocrafteo).\n\n"
+    "§eProgresión:§r cuarzo certus → meteoritos (prensas) → Inscriber y procesadores → ME Controller → "
+    "ME Drive y celdas → Molecular Assembler.\n\n"
+    "§cNecesita energía:§r Ender IO (cap. 16) o la Vibration Chamber del mod.",
+18: "§6Mystical Agriculture§r · cultivá tus recursos\n\n"
+    "Semillas que dan hierro, carbón, diamante y muchos materiales más al cosecharlas.\n\n"
+    "§eProgresión:§r esencia de inferium → semillas de inferium → cristal de infusión (sube la esencia de tier) → "
+    "semillas de recursos → equipo de Supremium.\n\n"
+    "Tiers de esencia: §einferium → prudentium → intermedium → superium → supremium§r.",
+19: "§6Taller y mejoras§r\n\n"
+    "Mods chicos que hacen la vida más fácil:\n"
+    " · §6Iron Furnaces§r: hornos más rápidos (hierro, oro, diamante, vidrio y obsidiana).\n"
+    " · §6Ender Storage§r: cofres, tanques y bolsas que comparten su contenido por colores, en cualquier dimensión.\n"
+    " · §6Item Collectors§r: juntan los objetos tirados y los guardan en un cofre.\n"
+    " · §6Baubley Heart Canisters§r: corazones de vida extra que sueltan los monstruos y los jefes.",
+20: "§6Criaturas de la noche§r\n\n"
     "Varios mods hacen las noches mucho más peligrosas que en Minecraft normal:\n"
     " · §6Nightmares§r: al dormir hay 5 % de chance de pesadilla. Aparece una Hag, una Shadow Person o 8 Phantasmic Spiders.\n"
-    " · §6SpookyCraft§r: animales esqueléticos y el Scarecrow.\n"
-    " · §6Re-Zombies§r: zombis con oficio (mineros, caballeros, piratas…) y el Zombie King, que a veces suelta su armadura.\n"
     " · §6Elemental Creepers§r: 24 tipos de creepers que explotan con fuego, hielo, rayos y más.\n\n"
     "§eConsejo:§r iluminá bien la base y no salgas de noche sin escudo.",
-16: "§6Depredadores§r · Deadly Monsters\n\n"
+21: "§6Depredadores§r · Deadly Monsters\n\n"
     "Los monstruos más peligrosos del servidor: la Woman, el Wideman, el Climber, el Mutant Steve y el Topielec, entre otros. "
     "Pegan fuerte y aguantan mucho.\n\n"
     "§eTrofeos:§r algunos sueltan partes raras (Woman's Heart, Wideman's Spine, Soul Eye).\n\n"
     "§cNo vayas solo ni con equipo de hierro.§r",
-17: "§6Maldición lunar§r · Howling Moon\n\n"
+22: "§6Maldición lunar§r · Howling Moon\n\n"
     "Hombres lobo. Si uno te muerde, te podés contagiar de §elicantropía§r y convertirte en lobo.\n\n"
     "§eLa plata:§r el mod agrega mineral de plata. La §eespada de plata§r es el arma contra los hombres lobo.\n\n"
     "§eLa cura:§r la §ePoción de Wolfsbane§r (poción rara + flor Wolfsbane). Cura la infección o la licantropía, "
     "y si estás sano te vuelve inmune.\n\n"
     "§7Este mod no tiene jefes.§r",
-18: "§6Enemigos infernales§r · Infernal Mobs\n\n"
+23: "§6Enemigos infernales§r · Infernal Mobs\n\n"
     "Cualquier monstruo puede aparecer con poderes extra. Se reconocen por el §enombre de color§r sobre la cabeza.\n\n"
     "§eRangos:§r Élite (1 de cada 15), Ultra (1 de cada 7 élites) e Infernal (1 de cada 7 ultras). "
     "Hay 27 poderes posibles: veneno, robo de vida, explosiones, invisibilidad y más.\n\n"
     "§aSueltan mejor botín§r, pero §cno dan recompensas si los matás en una granja de mobs§r.",
-19: "§6Guardianes y defensas§r\n\n"
+24: "§6Guardianes y defensas§r\n\n"
     "Tres mods para proteger la base:\n"
     " · §6Totem Defender§r: tótems de madera, hierro, oro o diamante que disparan a lo que elijas (monstruos, animales u otros jugadores).\n"
     " · §6Mob Totems§r: tótems tallados que, con ofrendas, evitan que aparezcan monstruos, prenden fuego o envenenan.\n"
     " · §6SecurityCraft§r: teclados con clave, bloques reforzados, minas, cámaras y más.\n\n"
     "§7Recordá las reglas: las trampas valen, pero no pueden romper ni llevarse cosas de otros.§r",
-20: "§6Grandes expediciones§r\n\n"
+25: "§6Grandes expediciones§r\n\n"
     "Los jefes de Minecraft, para enfrentar en grupo:\n"
     " · §eEl Wither§r: lo invocás vos. Suelta la estrella del Nether.\n"
     " · §eEl Elder Guardian§r: en los monumentos oceánicos.\n"
     " · §eEl Ender Dragon§r: §cexpedición grupal obligatoria§r. Nadie entra al End antes; se organiza entre todos.\n\n"
     "Después del dragón, el End queda abierto: Chaos Guardian, draconio del End y más.",
-21: "§6El poder definitivo§r\n\n"
+26: "§6El poder definitivo§r\n\n"
     "La cima de Draconic Evolution: equipo dracónico, núcleos caóticos y el armamento más fuerte del servidor.\n\n"
     "Se abre con la Fusion Crafting del cap. 12. Necesita muchos recursos, energía y fragmentos del Chaos Guardian.",
-22: "§6Maestro de las dimensiones§r\n\n"
+27: "§6Maestro de las dimensiones§r\n\n"
     "Pisá todas las dimensiones del servidor: Nether, End, Betweenlands, Trópicos, las 5 elementales, "
     "Hunting Dimension, Cavern y Pontus, y además las 7 cavernas.\n\n"
     "Es un capítulo para coleccionistas: se va completando solo mientras jugás los demás.",
-23: "§6Coleccionista§r\n\n"
+28: "§6Coleccionista§r\n\n"
     "Logros difíciles de los mods grandes: anillos de la Betweenlands, el maestro de los hongos, "
     "el libro de herboristería completo y las herramientas compuestas de Cavern.\n\n"
     "No apurarse: son metas largas.",
-24: "§6Arquitecto del mundo§r\n\n"
-    " · §6MineColonies§r: fundá una colonia con aldeanos que trabajan para vos. El constructor levanta los edificios, "
-    "y cada edificio trae un oficio nuevo (granjero, minero, leñador y más). Arrancás con un SupplyCamp o un SupplyShip.\n"
-    " · §6MCA (Minecraft Comes Alive)§r: los aldeanos hablan, trabajan, tienen familia y te podés casar.\n\n"
+29: "§6Vida en la aldea§r · MCA (Minecraft Comes Alive)\n\n"
+    "Los aldeanos dejan de ser muñecos: hablan, trabajan, tienen familia y te podés casar.\n\n"
+    "Hablales seguido para subir la amistad: con amistad alta aceptan pedidos y, con un anillo, casamiento.\n\n"
     "Ideal para jugar tranquilo entre expediciones.",
-25: "§6Desafíos legendarios§r\n\n"
+30: "§6Desafíos legendarios§r\n\n"
     "Los combates más difíciles del servidor:\n"
     " · La trilogía de jefes finales: §ePrimordial Malevolence§r (Betweenlands), §eFire Boss§r (Elemental Dimensions) "
     "y §eChaos Guardian§r (Draconic Evolution).\n"
     " · El Wither tres veces.\n\n"
     "§cVayan en grupo y con el mejor equipo que tengan.§r",
-26: "§6La última expedición§r\n\n"
+31: "§6La última expedición§r\n\n"
     "El cierre del libro: recorriste todas las dimensiones y venciste a los jefes finales.\n\n"
     "Es opcional y no bloquea nada. Como premio te llevás el título de §6Leyenda de ArreMods§r.",
 }
@@ -285,7 +311,7 @@ quest(0, 0, 0, "Tu libro de aventuras",
       "§e3.§r §aLas trampas y las bromas valen.§r Si caés en una, te reís y listo; "
       "eso sí, la trampa no puede romper ni llevarse cosas ajenas.\n"
       "§e4.§r §cNadie va al End ni mata al dragón por su cuenta.§r Es la §eexpedición grupal§r "
-      "(cap. 20) y se organiza entre todos.\n"
+      "(cap. 25) y se organiza entre todos.\n"
       "§e5.§r Pelear contra otro jugador solo si los dos están de acuerdo.\n"
       "§e6.§r Nada de hacks, x-ray ni programas para sacar ventaja.\n"
       "§e7.§r Si una granja o una máquina hace lagear el servidor, se apaga o se achica.\n"
@@ -301,6 +327,10 @@ quest(5, 96, 0, "Tu primer mapa",
       "Abrí JourneyMap (§eJ§r), creá un waypoint en tu base (§eB§r) y ponele nombre.\n\n"
       "§7El mapa también marca dónde moriste.§r",
       item("minecraft:map"), [t_check()], [r_xp(2)], prereq=[0])
+
+quest(3500, 144, 0, "Hablá con tu grupo (Voice Chat)",
+      "Probá el chat de voz: mantené §eBloq Mayús§r para hablar y usá §eV§r para el menú.",
+      item("minecraft:noteblock"), [t_check()], [r_xp(1)], prereq=[0])
 
 chapter("Cap. 2 · Los primeros días", "Madera, refugio, descanso, fuego y comida.", item("campfire:campfire"))
 quest(10, 0, 0, "Madera y refugio",
@@ -354,6 +384,10 @@ quest(22, 96, 0, "Switch-Bow §7[avanzado]",
       "Necesita polvo de blaze (vara de blaze del Nether). §aNo bloquea nada.§r" + V,
       item("switchbow:switchbow"), [t_craft([item("switchbow:switchbow")])], [r_xp(5)], prereq=[20])
 
+quest(3501, 48, 48, "Minar vetas enteras (OreExcavation)",
+      "Mantené §e`§r mientras rompés un bloque: se rompe toda la veta o el árbol entero.",
+      item("minecraft:iron_pickaxe"), [t_check()], [r_xp(2)], prereq=[20])
+
 chapter("Cap. 4 · Explorador", "Orientarte, buscar biomas y moverte rápido.", item("naturescompass:naturescompass"))
 quest(30, 0, 0, "Brújula de biomas",
       "§6Nature's Compass:§r 4 brotes en las esquinas, 4 troncos a los lados y una brújula al centro. "
@@ -398,7 +432,7 @@ quest(45, 96, 24, "Tu primer cultivo",
       [r_xp(2)], prereq=[40], logic="OR")
 quest(47, 96, -24, "Elegí tu próxima rama",
       "Tenés base, almacén y territorio. Desde acá todo está abierto: dimensiones (cap. 6-10), magia y tecnología "
-      "(cap. 11-14) y combate (cap. 15-20). Elegí.",
+      "(cap. 11-19) y combate (cap. 20-25). Elegí.",
       item("minecraft:nether_star"), [t_check()],
       [r_xp(5), r_title("Aventurero de ArreMods", ["Completaste el Bloque I", "de la guía de aventuras."])],
       prereq=[40, 42, 43], main=True)
@@ -604,7 +638,7 @@ quest(1202, 96, 0, "Fusion Crafting",
       "Fabricá el §eFusion Crafting Core§r y sus inyectores: así se hacen las recetas grandes del mod.",
       item(DE + "fusion_crafting_core"), [t_craft([item(DE + "fusion_crafting_core")])], [r_xp(6)], prereq=[1201])
 quest(1204, 144, 0, "Núcleo Wyvern",
-      "Fabricá un §eWyvern Core§r. Necesita recursos del End: se desbloquea con la §eexpedición grupal§r del cap. 20.",
+      "Fabricá un §eWyvern Core§r. Necesita recursos del End: se desbloquea con la §eexpedición grupal§r del cap. 25.",
       item(DE + "wyvern_core"), [t_craft([item(DE + "wyvern_core")])], [r_xp(8)], prereq=[1202, 2102])
 quest(1205, 192, 0, "Equipo Wyvern",
       "Conseguí cualquier pieza de equipo Wyvern.",
@@ -663,29 +697,164 @@ quest(1505, 144, 0, "Colmenar",
       item(RU + "apiary"), [t_craft([item(RU + "apiary")])], [r_xp(3)], prereq=[1500])
 
 # =============================================================================
+# BLOQUE III (b) — Tecnología y taller (mods agregados el 2026-11-19)
+# IDs desde 3000 para no tocar el progreso de las misiones existentes.
+# =============================================================================
+chapter("Cap. 15 · Tinkers' Construct", "Herramientas y armas armadas pieza por pieza.", item("tconstruct:smeltery_controller"))
+TC = "tconstruct:"
+quest(3000, 0, 0, "El taller del herrero",
+      "Tinkers' Construct arma las herramientas §epieza por pieza§r: cabeza, mango y unión, cada una del material que quieras.\n\n"
+      "§6Pattern:§r 2 tablones y 2 palos en diagonal. Con patrones se fabrican la §eStencil Table§r, la §ePart Builder§r "
+      "y la §eTool Station§r (recetas en JEI). Fabricá la Part Builder.",
+      item(TC + "tooltables", dmg=2), [t_craft([item(TC + "tooltables", dmg=2)])], [r_xp(3)], prereq=[0], main=True)
+quest(3001, 48, -24, "Estación de herramientas",
+      "La §eTool Station§r une las piezas en una herramienta. Fabricala.",
+      item(TC + "tooltables", dmg=3), [t_craft([item(TC + "tooltables", dmg=3)])], [r_xp(3)], prereq=[3000])
+quest(3002, 48, 24, "Tu primer pico a medida",
+      "Armá un §epico de Tinkers§r en la Tool Station. Cada material da rasgos distintos: pasá el mouse por la pieza para verlos.",
+      item(TC + "pickaxe", dmg=WILD), [t_get([item(TC + "pickaxe", dmg=WILD)])], [r_xp(4)], prereq=[3000])
+quest(3003, 96, 0, "La fundición",
+      "Construí una §eSmeltery§r y fabricá su §econtrolador§r.",
+      item(TC + "smeltery_controller"), [t_craft([item(TC + "smeltery_controller")])], [r_xp(8)], prereq=[3001])
+quest(3004, 144, -24, "Forja de herramientas",
+      "La §eTool Forge§r arma las herramientas grandes: martillo, excavadora, hacha de leñador y espada larga.",
+      item(TC + "toolforge", dmg=WILD), [t_craft([item(TC + "toolforge", dmg=WILD)])], [r_xp(8)], prereq=[3003])
+quest(3005, 144, 24, "Manyullyn",
+      "Conseguí un lingote de §eManyullyn§r, la aleación de §ecobalto§r y §eardita§r. Los dos minerales están en el §eNether§r.",
+      item(TC + "ingots", dmg=2), [t_get([item(TC + "ingots", 1, 2, "ingotManyullyn")])], [r_xp(14)], prereq=[3003])
+
+chapter("Cap. 16 · Ender IO", "Máquinas, energía, conductos y acero oscuro.", item("enderio:block_simple_alloy_smelter"))
+EIO = "enderio:"
+quest(3100, 0, 0, "Primeras máquinas",
+      "Fabricá una máquina simple de Ender IO: §eSimple Alloy Smelter§r, §eSimple SAG Mill§r o §eSimple Furnace§r.",
+      item(EIO + "block_simple_alloy_smelter"),
+      any_craft([item(EIO + "block_simple_alloy_smelter"), item(EIO + "block_simple_sag_mill"), item(EIO + "block_simple_furnace")]),
+      [r_xp(6)], prereq=[0], logic="OR", main=True)
+quest(3101, 48, -24, "Energía a carbón",
+      "Fabricá un §eStirling Generator§r (el simple o el normal). Quema combustible y genera energía (RF).",
+      item(EIO + "block_simple_stirling_generator"),
+      any_craft([item(EIO + "block_simple_stirling_generator"), item(EIO + "block_stirling_generator")]),
+      [r_xp(4)], prereq=[3100], logic="OR")
+quest(3102, 48, 24, "Acero eléctrico",
+      "Fundí §eElectrical Steel§r en el Alloy Smelter.",
+      item(EIO + "item_alloy_ingot"), [t_get([item(EIO + "item_alloy_ingot", 4, 0, "ingotElectricalSteel")])], [r_xp(5)], prereq=[3100])
+quest(3103, 96, 0, "Conductos",
+      "Fabricá un §econducto§r de energía, de objetos o de fluidos.",
+      item(EIO + "item_power_conduit"),
+      any_craft([item(EIO + "item_power_conduit", dmg=WILD), item(EIO + "item_item_conduit", dmg=WILD),
+                 item(EIO + "item_liquid_conduit", dmg=WILD)]),
+      [r_xp(5)], prereq=[3101, 3102], logic="OR")
+quest(3104, 144, -24, "Banco de capacitores",
+      "Fabricá un §eCapacitor Bank§r para guardar energía.",
+      item(EIO + "block_cap_bank", dmg=1), [t_craft([item(EIO + "block_cap_bank", dmg=WILD)])], [r_xp(6)], prereq=[3103])
+quest(3105, 144, 24, "Acero oscuro",
+      "Fundí §eDark Steel§r en el Alloy Smelter.",
+      item(EIO + "item_alloy_ingot", dmg=6), [t_get([item(EIO + "item_alloy_ingot", 4, 6, "ingotDarkSteel")])], [r_xp(8)], prereq=[3102])
+quest(3106, 192, 24, "Equipo de acero oscuro",
+      "Fabricá un §epico§r o una §eespada§r de Dark Steel.",
+      item(EIO + "item_dark_steel_pickaxe"),
+      any_craft([item(EIO + "item_dark_steel_pickaxe", dmg=WILD), item(EIO + "item_dark_steel_sword", dmg=WILD)]),
+      [r_xp(10)], prereq=[3105], logic="OR")
+
+chapter("Cap. 17 · Applied Energistics 2", "Almacenamiento digital y autocrafteo.", item("appliedenergistics2:controller"))
+AE = "appliedenergistics2:"
+quest(3200, 0, 0, "Cuarzo certus",
+      "Conseguí §ecristales de cuarzo certus§r.",
+      item(AE + "material"), [t_get([item(AE + "material", 4, 0, "crystalCertusQuartz")])], [r_xp(3)], prereq=[0], main=True)
+quest(3201, 48, -24, "Brújula de meteoritos",
+      "Fabricá una §eMeteorite Compass§r. Apunta al meteorito más cercano.",
+      item(AE + "sky_compass"), [t_craft([item(AE + "sky_compass")])], [r_xp(4)], prereq=[3200])
+quest(3202, 48, 24, "Cargador y fluix",
+      "Fabricá un §eCharger§r. Necesita energía para funcionar.",
+      item(AE + "charger"), [t_craft([item(AE + "charger")])], [r_xp(5)], prereq=[3200])
+quest(3203, 96, 0, "El Inscriber",
+      "Fabricá un §eInscriber§r. Con las prensas de los meteoritos imprime los procesadores.",
+      item(AE + "inscriber"), [t_craft([item(AE + "inscriber")])], [r_xp(8)], prereq=[3201, 3202])
+quest(3204, 144, 0, "La red ME",
+      "Fabricá un §eME Controller§r, el corazón de la red.",
+      item(AE + "controller"), [t_craft([item(AE + "controller")])], [r_xp(10)], prereq=[3203])
+quest(3205, 192, -24, "Guardar en la red",
+      "Fabricá un §eME Drive§r y una §eStorage Cell de 1k§r.",
+      item(AE + "drive"), [t_craft([item(AE + "drive")]), t_craft([item(AE + "storage_cell_1k")])], [r_xp(10)], prereq=[3204])
+quest(3206, 192, 24, "Autocrafteo",
+      "Fabricá un §eMolecular Assembler§r.",
+      item(AE + "molecular_assembler"), [t_craft([item(AE + "molecular_assembler")])], [r_xp(14)], prereq=[3204])
+
+chapter("Cap. 18 · Mystical Agriculture", "Cultivá recursos: hierro, carbón, diamante y más.", item("mysticalagriculture:tier1_inferium_seeds"))
+MA = "mysticalagriculture:"
+quest(3300, 0, 0, "Semillas de inferium",
+      "Fabricá §eInferium Seeds§r de tier 1.",
+      item(MA + "tier1_inferium_seeds"), [t_craft([item(MA + "tier1_inferium_seeds")])], [r_xp(3)], prereq=[0], main=True)
+quest(3301, 48, -24, "Cristal de infusión",
+      "Fabricá un §eInfusion Crystal§r.",
+      item(MA + "infusion_crystal"), [t_craft([item(MA + "infusion_crystal", dmg=WILD)])], [r_xp(4)], prereq=[3300])
+quest(3302, 48, 24, "Tu primera semilla de recursos",
+      "Fabricá una semilla de §ehierro§r, de §ecarbón§r o de §etierra§r.",
+      item(MA + "iron_seeds"),
+      any_craft([item(MA + "iron_seeds"), item(MA + "coal_seeds"), item(MA + "dirt_seeds")]),
+      [r_xp(6)], prereq=[3300], logic="OR")
+quest(3303, 96, 0, "Subir de nivel",
+      "Fabricá §eInferium Seeds§r de tier 2.",
+      item(MA + "tier2_inferium_seeds"), [t_craft([item(MA + "tier2_inferium_seeds")])], [r_xp(6)], prereq=[3301])
+quest(3304, 144, -24, "Cristal maestro",
+      "Fabricá el §eMaster Infusion Crystal§r.",
+      item(MA + "master_infusion_crystal"), [t_craft([item(MA + "master_infusion_crystal")])], [r_xp(15)], prereq=[3303])
+quest(3305, 144, 24, "Semillas de diamante",
+      "Fabricá §eDiamond Seeds§r.",
+      item(MA + "diamond_seeds"), [t_craft([item(MA + "diamond_seeds")])], [r_xp(15)], prereq=[3302, 3303])
+quest(3306, 192, 0, "Equipo de supremium",
+      "Fabricá un pico, una espada o un peto de §eSupremium§r.",
+      item(MA + "supremium_sword"),
+      any_craft([item(MA + "supremium_pickaxe", dmg=WILD), item(MA + "supremium_sword", dmg=WILD),
+                 item(MA + "supremium_chestplate", dmg=WILD)]),
+      [r_xp(25)], prereq=[3304], logic="OR")
+
+chapter("Cap. 19 · Taller y mejoras", "Hornos de hierro, almacén ender, colectores y corazones extra.", item("ironfurnaces:iron_furnace_idle"))
+IF = "ironfurnaces:"
+quest(3400, 0, 0, "Hornos de hierro",
+      "Fabricá un §eIron Furnace§r.",
+      item(IF + "iron_furnace_idle"), [t_craft([item(IF + "iron_furnace_idle")])], [r_xp(3)], prereq=[0], main=True)
+quest(3401, 48, -24, "Horno de diamante",
+      "Fabricá un §eDiamond Furnace§r.",
+      item(IF + "diamond_furnace_idle"), [t_craft([item(IF + "diamond_furnace_idle")])], [r_xp(8)], prereq=[3400])
+quest(3402, 48, 24, "Cofre ender",
+      "Fabricá un §eEnder Chest§r de Ender Storage.",
+      item("enderstorage:ender_storage"), [t_craft([item("enderstorage:ender_storage", dmg=0)])], [r_xp(6)], prereq=[3400])
+quest(3403, 96, 24, "Tanque o bolsa ender",
+      "Fabricá un §eEnder Tank§r o una §eEnder Pouch§r.",
+      item("enderstorage:ender_storage", dmg=1),
+      any_craft([item("enderstorage:ender_storage", dmg=1), item("enderstorage:ender_pouch", dmg=WILD)]),
+      [r_xp(6)], prereq=[3402], logic="OR")
+quest(3404, 96, -24, "Colector de objetos",
+      "Fabricá un §eItem Collector§r (básico o avanzado).",
+      item("itemcollectors:basic_collector"),
+      any_craft([item("itemcollectors:basic_collector"), item("itemcollectors:advanced_collector")]),
+      [r_xp(4)], prereq=[3400], logic="OR")
+quest(3405, 0, 48, "Un corazón rojo",
+      "Conseguí un §eRed Heart§r.",
+      item("bhc:red_heart"), [t_get([item("bhc:red_heart")])], [r_xp(5)], prereq=[0])
+quest(3406, 48, 72, "Más vida",
+      "Fabricá un §eHeart Amulet§r y un §eRed Heart Canister§r.",
+      item("bhc:red_heart_canister"),
+      [t_craft([item("bhc:heart_amulet")]), t_craft([item("bhc:red_heart_canister")])],
+      [r_xp(12)], prereq=[3405])
+
+# =============================================================================
 # BLOQUE IV — Combate y desafíos
 # =============================================================================
-chapter("Cap. 15 · Criaturas de la noche", "Pesadillas, esqueletos espeluznantes y zombis especiales.", item("minecraft:skull", dmg=2))
+chapter("Cap. 20 · Criaturas de la noche", "Pesadillas y creepers elementales.", item("minecraft:skull", dmg=2))
 quest(1600, 0, 0, "Pesadillas",
       "Cuando dormís hay §e5 % de chance§r de pesadilla: te despierta y aparece una de tres, con la misma probabilidad: "
       "una §eHag§r, una §eShadow Person§r o 8 §ePhantasmic Spiders§r. Derrotá a cualquiera." + V,
       item("minecraft:bed", dmg=15), [t_hunt("nightmares:hag"), t_hunt("nightmares:shadow"), t_hunt("nightmares:spider")],
       [r_xp(6)], prereq=[0], logic="OR", main=True)
-quest(1601, 48, -24, "El espantapájaros",
-      "SpookyCraft agrega animales esqueléticos y un §eScarecrow§r. Derrotalo.\n\nID: spookycraft:scarecrow" + V,
-      item("minecraft:pumpkin"), [t_hunt("spookycraft:scarecrow")], [r_xp(5)], prereq=[1600])
-quest(1602, 48, 24, "El Rey Zombi",
-      "Re-Zombies agrega zombis con oficio: mineros, caballeros, piratas… Derrotá al §eZombie King§r: "
-      "al morir tiene §e20 % de chance§r de soltar una pieza de su armadura (5 % cada una: casco, peto, pantalón o botas).\n\n"
-      "ID: rezombiesv15ver1122jar:zombieking" + V,
-      item("rezombiesv15ver1122jar:kingarmourhelmet"), [t_hunt("rezombiesv15ver1122jar:zombieking")], [r_xp(8)], prereq=[1600])
-quest(1603, 96, 0, "Creepers elementales",
+quest(1603, 48, 0, "Creepers elementales",
       "Hay 24 tipos de creepers elementales. Derrotá a uno de fuego, uno de hielo y uno eléctrico." + V,
       item("minecraft:gunpowder"),
       [t_hunt("elementalcreepers:firecreeper"), t_hunt("elementalcreepers:icecreeper"), t_hunt("elementalcreepers:lightningcreeper")],
       [r_xp(8)], prereq=[1600])
 
-chapter("Cap. 16 · Depredadores", "Deadly Monsters: los monstruos más peligrosos.", item("dmonsters:souleye"))
+chapter("Cap. 21 · Depredadores", "Deadly Monsters: los monstruos más peligrosos.", item("dmonsters:souleye"))
 quest(1700, 0, 0, "Monstruos mortales",
       "Deadly Monsters trae criaturas muy peligrosas. Derrotá a §ecualquiera§r de: Woman, Wideman, Climber, Mutant Steve o Topielec.\n\n"
       "§7El Zombie Chicken no suelta botín (falta su tabla).§r" + V,
@@ -697,7 +866,7 @@ quest(1701, 48, 0, "Coleccionista de trofeos",
       item("dmonsters:womanheart"), any_get([item("dmonsters:womanheart"), item("dmonsters:widemanspine"), item("dmonsters:souleye")]),
       [r_xp(6)], prereq=[1700], logic="OR")
 
-chapter("Cap. 17 · Maldición lunar", "Howling Moon: licantropía. Sin jefes.", item("howlingmoon:moonstone"))
+chapter("Cap. 22 · Maldición lunar", "Howling Moon: licantropía. Sin jefes.", item("howlingmoon:moonstone"))
 HM = "howlingmoon:"
 quest(1800, 0, 0, "Plata",
       "Conseguí un §elingote de plata§r (mineral de plata de Howling Moon).",
@@ -713,7 +882,7 @@ quest(1803, 96, 24, "La cura",
       "si sos hombre lobo te cura; si estás infectado, cura la infección; si no, te vuelve inmune (o te quita la inmunidad)." + V,
       item(HM + "potion_wolfsbane"), [t_get([item(HM + "potion_wolfsbane", 1, WILD)])], [r_xp(5)], prereq=[1800])
 
-chapter("Cap. 18 · Enemigos infernales", "Infernal Mobs: monstruos con poderes extra.", item("minecraft:blaze_powder"))
+chapter("Cap. 23 · Enemigos infernales", "Infernal Mobs: monstruos con poderes extra.", item("minecraft:blaze_powder"))
 quest(1900, 0, 0, "Reconocer un infernal",
       "Cualquier monstruo puede salir con modificadores. Rarezas del servidor: §eÉlite§r 1 de 15, §6Ultra§r 1 de 7 entre élites, "
       "§cInfernal§r 1 de 7 entre ultra. Hay 27 modificadores activos (veneno, robo de vida, explosión, etc.).\n\n"
@@ -723,7 +892,7 @@ quest(1901, 48, 0, "Tu primer infernal",
       "Derrotá a un monstruo con nombre de color (élite, ultra o infernal) y marcá la casilla.\n§7(Esta misión confía en tu palabra.)§r",
       item("minecraft:golden_sword"), [t_check()], [r_xp(8)], prereq=[1900])
 
-chapter("Cap. 19 · Guardianes y defensas", "Totems defensores, tótems espirituales y SecurityCraft.", item("totemdefender:core"))
+chapter("Cap. 24 · Guardianes y defensas", "Totems defensores, tótems espirituales y SecurityCraft.", item("totemdefender:core"))
 quest(2000, 0, 0, "Núcleo defensor (Totem Defender)",
       "§6Core:§r 6 lapislázuli, 1 perla de ender y 1 bloque de redstone. Los §eTotems§r (madera, hierro, oro, diamante) "
       "disparan a lo que elijas con sus filtros (enemigos, animales, otros jugadores)." + V,
@@ -741,7 +910,7 @@ quest(2002, 48, 24, "Seguridad (SecurityCraft)",
       "Al teclado se le pone una clave y da 3 s de redstone al acertarla." + V,
       item("securitycraft:keypad_item"), [t_get([item("securitycraft:keypad_item")])], [r_xp(4)], prereq=[2000])
 
-chapter("Cap. 20 · Grandes expediciones", "Jefes vanilla y expediciones en grupo.", item("minecraft:nether_star"))
+chapter("Cap. 25 · Grandes expediciones", "Jefes vanilla y expediciones en grupo.", item("minecraft:nether_star"))
 quest(2100, 0, 0, "Expediciones en grupo",
       "Los jefes grandes se enfrentan mejor en equipo. Tu progreso del libro sigue siendo individual: cada uno completa sus misiones.\n\n"
       "§7Los puntos de clan y el ranking llegarán con PV7Core.§r",
@@ -762,7 +931,7 @@ quest(2103, 96, 0, "Guardián del templo",
 # =============================================================================
 # BLOQUE V — Maestría
 # =============================================================================
-chapter("Cap. 21 · El poder definitivo", "La cima de Draconic Evolution.", item("draconicevolution:chaotic_core"))
+chapter("Cap. 26 · El poder definitivo", "La cima de Draconic Evolution.", item("draconicevolution:chaotic_core"))
 quest(2200, 0, 0, "Equipo dracónico",
       "Conseguí cualquier pieza de equipo §eDraconic§r.",
       item(DE + "draconic_chest"),
@@ -776,7 +945,7 @@ quest(2202, 48, 48, "Almacén de energía",
       "Fabricá un §eEnergy Storage Core§r para guardar energía en grande.",
       item(DE + "energy_storage_core"), [t_craft([item(DE + "energy_storage_core")])], [r_xp(10)], prereq=[1202])
 
-chapter("Cap. 22 · Maestro de las dimensiones", "Pisá todas las dimensiones del servidor.", item("minecraft:ender_eye"))
+chapter("Cap. 27 · Maestro de las dimensiones", "Pisá todas las dimensiones del servidor.", item("minecraft:ender_eye"))
 dims = [(-1, "Nether"), (1, "End"), (20, "Betweenlands"), (-127, "Trópicos"), (100, "Tierra elemental"),
         (101, "Agua elemental"), (102, "Aire elemental"), (103, "Espíritu elemental"), (104, "Fuego elemental"),
         (28885, "Hunting Dimension"), (-50, "Cavern"), (5, "Pontus")]
@@ -791,7 +960,7 @@ quest(2301, 48, 0, "Todas las cavernas",
                                "enter_the_ice_cavern", "enter_the_huge_cavern", "cavenia/root")],
       [r_xp(15)], prereq=[2300])
 
-chapter("Cap. 23 · Coleccionista", "Logros difíciles de completar.", item("minecraft:chest"))
+chapter("Cap. 28 · Coleccionista", "Logros difíciles de completar.", item("minecraft:chest"))
 quest(2400, 0, 0, "Todos los anillos",
       "Conseguí todos los anillos de la Betweenlands.\n\nLogro \"None To Rule Them All\"." + V,
       item("minecraft:gold_nugget"), [t_adv(BL + "adventurer/none_to_rule_them_all")], [r_xp(15)], prereq=[601], main=True)
@@ -805,20 +974,13 @@ quest(2403, 96, 0, "Herramientas compuestas",
       "Fabricá una herramienta compuesta con magia de Cavern.\n\nLogro \"Fantastic Tools\"." + V,
       item("cavern:composite_pickaxe"), [t_adv(CV + "composite_tools")], [r_xp(12)], prereq=[1008])
 
-chapter("Cap. 24 · Arquitecto del mundo", "Colonias y aldeanos.", item("minecolonies:blockhuttownhall"))
-quest(2500, 0, 0, "Fundá una colonia (MineColonies)",
-      "Para empezar: §eSupplyCamp Chest§r (5 cofres en U, necesita un terreno plano de 16×17 sin pasto ni flores) "
-      "o §eSupplyShip Chest§r (5 botes en U, va en el agua). Cada jugador puede colocar solo uno. Después colocá el §eTown Hall§r." + V,
-      item("minecolonies:blockhuttownhall"), [t_get([item("minecolonies:blockhuttownhall")])], [r_xp(8)], prereq=[0], main=True)
-quest(2501, 48, 0, "Tu primer constructor",
-      "Colocá la choza del §eBuilder§r: es quien construye todo lo demás.",
-      item("minecolonies:blockhutbuilder"), [t_get([item("minecolonies:blockhutbuilder")])], [r_xp(6)], prereq=[2500])
-quest(2502, 0, 48, "Vida en la aldea (MCA)",
+chapter("Cap. 29 · Vida en la aldea", "Aldeanos que hablan, trabajan y se casan (MCA).", item("mca:engagement_ring"))
+quest(2502, 0, 0, "Vida en la aldea (MCA)",
       "MCA cambia a los aldeanos: hablan, trabajan, se casan. §6Anillo de compromiso:§r 7 lingotes de oro (o de oro rosa) en anillo con un diamante arriba al medio." + V,
       item("mca:engagement_ring"), any_get([item("mca:engagement_ring"), item("mca:engagement_ring_rg")]),
-      [r_xp(6)], prereq=[0], logic="OR")
+      [r_xp(6)], prereq=[0], logic="OR", main=True)
 
-chapter("Cap. 25 · Desafíos legendarios", "Los combates más difíciles del servidor.", item("minecraft:diamond_sword"))
+chapter("Cap. 30 · Desafíos legendarios", "Los combates más difíciles del servidor.", item("minecraft:diamond_sword"))
 quest(2600, 0, 0, "Trilogía de jefes finales",
       "Derrotá a Primordial Malevolence, al Fire Boss y al Chaos Guardian.",
       item("minecraft:diamond_sword"),
@@ -828,7 +990,7 @@ quest(2601, 48, 0, "Wither en serie",
       "Derrotá al Wither 3 veces.",
       item("minecraft:nether_star"), [t_hunt("minecraft:wither", 3)], [r_xp(30)], prereq=[2101])
 
-chapter("Cap. 26 · La última expedición", "Opcional. No bloquea nada.", item("minecraft:dragon_egg"))
+chapter("Cap. 31 · La última expedición", "Opcional. No bloquea nada.", item("minecraft:dragon_egg"))
 quest(2700, 0, 0, "Leyenda de ArreMods",
       "Recorriste todas las dimensiones y venciste a los jefes finales. Tu nombre queda en la historia del servidor.",
       item("minecraft:dragon_egg"), [t_check()],
@@ -858,8 +1020,8 @@ TEXTOS = {
     "§7La cantidad de chunks que podés reclamar la fija el administrador.§r",
 47: "Ya tenés base, almacén y territorio. Desde acá el libro se abre y podés seguir por donde quieras:\n"
     " · §6Dimensiones§r (cap. 6 a 10): pantanos, trópicos, cinco mundos elementales, caza y cavernas.\n"
-    " · §6Magia y tecnología§r (cap. 11 a 14): estrellas, dragones, almas y alquimia.\n"
-    " · §6Combate§r (cap. 15 a 20): monstruos de la noche, depredadores, hombres lobo y jefes.\n\n"
+    " · §6Magia y tecnología§r (cap. 11 a 19): estrellas, dragones, almas y alquimia.\n"
+    " · §6Combate§r (cap. 20 a 25): monstruos de la noche, depredadores, hombres lobo y jefes.\n\n"
     "§eConsejo:§r si es tu primera vez con mods, empezá por §eCavern§r (cap. 10) o §eTropicraft§r (cap. 7): son los más fáciles.",
 
 # --- Cap. 6 · The Betweenlands ---
@@ -920,7 +1082,7 @@ TEXTOS = {
      "que lo vuelven invulnerable y §eteletransportes§r.\n\n"
      "§eCómo ganarle:§r rompé las torretas primero, esquivá los proyectiles y pegale cuando la barrera baja. "
      "Vayan en grupo, con armadura de syrmorite o mejor y mucha comida.\n\n"
-     "Es uno de los tres jefes de la §eTrilogía§r del cap. 25.",
+     "Es uno de los tres jefes de la §eTrilogía§r del cap. 30.",
 
 # --- Cap. 7 · Tropicraft ---
 702: "Con todo listo:\n"
@@ -1065,7 +1227,7 @@ TEXTOS = {
 1204: "El §eWyvern Core§r es el segundo nivel de núcleo y la base del equipo Wyvern.\n\n"
       "Se arma con §eFusion Crafting§r: lleva §eDraconic Cores§r y una §eestrella del Nether§r (la suelta el Wither). "
       "Mirá la receta completa con §eR§r en JEI.\n\n"
-      "Esta misión se abre después de la §eexpedición grupal al End§r (cap. 20).",
+      "Esta misión se abre después de la §eexpedición grupal al End§r (cap. 25).",
 1205: "Con Wyvern Cores y draconio se fabrica el equipo §eWyvern§r en el Fusion Crafting: pico, espada, hacha, pala, arco y armadura.\n\n"
       "Las herramientas Wyvern §eminan en área§r y se cargan con energía (RF). La armadura tiene un §eescudo de energía§r que absorbe golpes.\n\n"
       "Conseguí cualquier pieza.",
@@ -1111,22 +1273,153 @@ TEXTOS = {
       "con el tiempo producen panales. De los panales salen §emiel§r y §ecera de abeja§r.\n\n"
       "La miel sirve para comida e hidromiel; la cera, para velas.",
 
-# --- Cap. 15 · Criaturas de la noche ---
-1601: "El §eScarecrow§r (espantapájaros) es un monstruo de SpookyCraft. Aparece §ede noche§r en los biomas de §ellanura§r (Plains), "
-      "como cualquier otro monstruo.\n\n"
-      "§eTruco:§r si de noche usás una §ecalabaza§r o una §ecabeza de mob§r en la cabeza, a veces aparecen monstruos espeluznantes a tu alrededor, "
-      "entre ellos el Scarecrow y animales esqueléticos (vacas, cerdos, lobos, llamas…). Andá preparado.",
-1602: "Re-Zombies agrega zombis con oficio: mineros, caballeros, piratas y más. Cada uno pelea distinto.\n\n"
-      "El jefe es el §eZombie King§r: mucha más vida y armadura propia. Aparece entre los zombis.\n\n"
-      "Al morir tiene §e20 % de chance§r de soltar una pieza de su armadura de rey (5 % cada una: casco, peto, pantalón o botas). "
-      "Vale la pena cazarlo varias veces.",
+# --- Cap. 1 y 3: Voice Chat y OreExcavation ---
+3500: "El servidor tiene §eSimple Voice Chat§r: hablás con los jugadores que están cerca tuyo, y se escucha más fuerte o más bajo según la distancia.\n\n"
+      " · Mantené apretado §eBloq Mayús§r (Caps Lock) para hablar.\n"
+      " · La tecla §eV§r abre el menú del mod: ahí elegís micrófono, volumen y probás el sonido.\n"
+      " · En el menú también se arman §egrupos§r para hablar entre ustedes aunque estén lejos.\n\n"
+      "Las teclas se cambian en Opciones → Controles. Marcá la casilla cuando lo hayas probado.",
+3501: "§eOreExcavation§r rompe de una vez todos los bloques iguales que están pegados: una veta entera de mineral o un árbol completo.\n\n"
+      " · Mantené apretada la tecla §e`§r (a la izquierda del 1) mientras rompés el bloque.\n"
+      " · Funciona con la herramienta correcta en la mano: pico para minerales, hacha para troncos, pala para tierra.\n"
+      " · Rompe hasta §e128 bloques§r por vez, gasta durabilidad por cada bloque y te da hambre.\n\n"
+      "§7Si el servidor se pone lento, el mod se frena solo.§r Marcá la casilla cuando lo hayas probado.",
+
+# --- Cap. 15 · Tinkers' Construct ---
+3000: "En Tinkers' Construct las herramientas no se fabrican en la mesa de crafteo: se arman con §epiezas§r.\n\n"
+      " 1. §ePattern§r (patrón en blanco): 2 tablones y 2 palos en diagonal.\n"
+      " 2. §eStencil Table§r: graba el patrón con la forma de la pieza (cabeza de pico, mango, unión…).\n"
+      " 3. §ePart Builder§r: con el patrón grabado y el material (madera, piedra, hueso, pedernal…) hace la pieza.\n"
+      " 4. §eTool Station§r: junta las piezas en la herramienta.\n\n"
+      "Las recetas exactas están en JEI. El libro §eMaterials and You§r explica cada material y sus rasgos.",
+3001: "La §eTool Station§r arma herramientas de 3 piezas: pico, pala, hacha, espada, y más.\n\n"
+      "También §erepara§r: poné la herramienta y material del mismo tipo que su cabeza. "
+      "Y §emejora§r: agregando modificadores (redstone = más velocidad, lapislázuli = fortuna, cuarzo = más daño…). "
+      "Cada herramienta tiene una cantidad limitada de espacios para modificadores.",
+3002: "Armá un pico con la Tool Station: §ecabeza de pico + mango + unión§r.\n\n"
+      "Los rasgos dependen del material de cada pieza: pasá el mouse por la pieza o mirá el libro §eMaterials and You§r.\n\n"
+      "Las herramientas de Tinkers §eno se rompen§r: cuando se gasta la durabilidad quedan inutilizables hasta que las reparás.",
+3003: "La §eSmeltery§r funde metales para hacer piezas de metal.\n\n"
+      " · §eGrout§r: arena, grava y arcilla. Al hornearlo da §eSeared Brick§r.\n"
+      " · Con los ladrillos se hacen el §econtrolador§r, el §edrenaje§r (Seared Drain), un §etanque§r, la §ecanilla§r (Faucet) "
+      "y la §emesa de colado§r (Casting Table).\n"
+      " · Armá un piso y paredes de Seared Bricks con el controlador en una pared. Poné §elava§r en el tanque como combustible.\n\n"
+      "Tirá metal adentro, abrí la canilla sobre una mesa de colado con un molde (Cast) y sale la pieza o el lingote.",
+3004: "La §eTool Forge§r se fabrica con una §eTool Station§r, Seared Bricks y §ebloques de metal§r (receta en JEI).\n\n"
+      "Hace las herramientas grandes: §emartillo§r (3×3), §eexcavadora§r (pala 3×3), §ehacha de leñador§r (tala árboles enteros), "
+      "§eespada larga§r y §eguadaña§r. Usan piezas grandes (placas y cabezas grandes) que salen de la Smeltery.",
+3005: "El §eManyullyn§r es uno de los mejores materiales de Tinkers.\n\n"
+      " · El §ecobalto§r (azul) y la §eardita§r (naranja) aparecen en el §eNether§r, en el techo y en el piso.\n"
+      " · Para minarlos hace falta un pico con nivel de minado alto: el libro §eMaterials and You§r dice el nivel de cada material.\n"
+      " · Fundí los dos en la Smeltery al mismo tiempo: se mezclan solos y forman Manyullyn.",
+
+# --- Cap. 16 · Ender IO ---
+3100: "Ender IO es tecnología con energía (RF). Para empezar:\n\n"
+      " · §eGrains of Infinity§r: prendé fuego arriba de la §ebedrock§r. Cuando se apaga, a veces deja este polvo.\n"
+      " · Con el polvo, barrotes y hierro se hace el §eSimple Machine Chassis§r, la base de las máquinas simples.\n"
+      " · El §eSimple Alloy Smelter§r funde aleaciones, la §eSimple SAG Mill§r muele minerales (de 1 mineral salen 2 polvos) "
+      "y el §eSimple Furnace§r funde con energía.\n\n"
+      "Todas necesitan energía: mirá la misión del generador.",
+3101: "El §eStirling Generator§r quema combustible (carbón, madera, carbón vegetal) y genera energía.\n\n"
+      "Ponelo pegado a la máquina, o llevá la energía con conductos. La versión normal rinde más que la simple.\n\n"
+      "§7La energía de Ender IO (RF) también la usan Applied Energistics 2 y Draconic Evolution.§r",
+3102: "El §eElectrical Steel§r es la aleación básica de Ender IO: §ehierro + carbón + silicio§r en el Alloy Smelter.\n\n"
+      "El §esilicio§r sale de moler §earena§r en la SAG Mill.\n\n"
+      "Juntá 4: se usa en máquinas, conductos y en la armadura y herramientas de las mejoras.",
+3103: "Los §econductos§r llevan cosas de un bloque a otro:\n"
+      " · §eEnergy Conduit§r: energía.\n · §eItem Conduit§r: objetos (por ejemplo, de una máquina a un cofre).\n"
+      " · §eFluid Conduit§r: líquidos.\n\n"
+      "Se pueden poner varios conductos distintos en el mismo bloque. Se hacen con §eConduit Binder§r "
+      "(arena, grava y arcilla horneados). La §eYeta Wrench§r configura qué lado entrega y qué lado recibe.",
+3104: "El §eCapacitor Bank§r guarda energía: cargalo con el generador y las máquinas la toman cuando la necesitan.\n\n"
+      "Varios bancos pegados funcionan como uno solo y más grande.",
+3105: "El §eDark Steel§r es §ehierro + carbón + obsidiana§r en el Alloy Smelter.\n\n"
+      "Sirve para herramientas, armadura, barrotes, puertas y escaleras indestructibles para los creepers. Juntá 4.",
+3106: "Las herramientas y la armadura de §eDark Steel§r se mejoran en un yunque con §eDark Steel Upgrades§r: "
+      "más energía, velocidad, rotura de área, visión nocturna y más.\n\n"
+      "Las mejoras usan energía: cargalas en un cargador o con el Capacitor Bank.",
+
+# --- Cap. 17 · Applied Energistics 2 ---
+3200: "El §ecuarzo certus§r es la base de Applied Energistics 2. El mineral aparece en el Overworld, como el hierro.\n\n"
+      "Hay una variante, el §ecertus cargado§r, que brilla. Sirve para hacer cristal fluix.\n\n"
+      "También se pueden §ecultivar§r cristales: tirá una semilla de cristal (Crystal Seed) al agua y esperá.",
+3201: "Las cuatro §eprensas§r del Inscriber no se fabrican: están en los §emeteoritos§r.\n\n"
+      " · La §eMeteorite Compass§r apunta al meteorito más cercano.\n"
+      " · Adentro del meteorito, en el medio, hay un §ecofre de Sky Stone§r con las prensas.\n\n"
+      "Necesitás las cuatro: §eLogic, Calculation, Engineering y Silicon§r. Si en un meteorito faltan, buscá otro.",
+3202: "El §eCharger§r carga el cuarzo certus y lo vuelve §ecertus cargado§r. Necesita energía.\n\n"
+      "§eCristal fluix:§r tirá al agua un certus cargado, un cuarzo del Nether y un polvo de redstone. Al rato salen 2 cristales fluix.",
+3203: "El §eInscriber§r imprime los circuitos con las prensas de los meteoritos.\n\n"
+      "Un §eprocesador§r se hace en tres pasos: el circuito impreso (oro, certus o diamante), "
+      "el silicio impreso y la unión de los dos con redstone.\n\n"
+      "§eLogic§r (oro), §eCalculation§r (certus) y §eEngineering§r (diamante) se usan en todo lo que sigue.",
+3204: "El §eME Controller§r es el corazón de la red ME. Todo lo que conectes con §ecables fluix§r forma parte de la red.\n\n"
+      "§eEnergía:§r un §eEnergy Acceptor§r toma energía RF (por ejemplo de Ender IO). "
+      "Otra opción es la §eVibration Chamber§r, que quema combustible.\n\n"
+      "Cada canal de cable lleva un máximo de equipos. Si algo no anda, mirá los canales con la Network Tool.",
+3205: "El §eME Drive§r guarda las §eceldas de almacenamiento§r. Una §eStorage Cell de 1k§r guarda 1024 bytes repartidos en hasta 63 tipos de objetos.\n\n"
+      "Con un §eME Terminal§r (receta en JEI) ves todo lo guardado en un solo lugar y lo buscás por nombre.\n\n"
+      "Después vienen las celdas de 4k, 16k y 64k.",
+3206: "El §eMolecular Assembler§r hace §eautocrafteo§r: le das un patrón (Encoded Pattern) y fabrica solo.\n\n"
+      "Para pedirle cosas desde el terminal hacen falta §eCrafting Storage§r y §eCrafting Unit§r juntos, como un CPU de crafteo, "
+      "y una §eInterface§r al lado del Assembler.",
+
+# --- Cap. 18 · Mystical Agriculture ---
+3300: "§eInferium Ore§r aparece en el Overworld. Al minarlo suelta §eesencia de inferium§r.\n\n"
+      "Fabricá semillas de inferium (receta en JEI). Plantalas en §etierra arada§r: cada cosecha da más esencia.\n\n"
+      "La §eesencia§r es la moneda del mod: con ella se hacen herramientas, semillas y todo lo demás.",
+3301: "El §eInfusion Crystal§r junta esencia: §e4 de un tier se convierten en 1 del tier siguiente§r.\n\n"
+      "Tiers de esencia: §einferium → prudentium → intermedium → superium → supremium§r.\n\n"
+      "El cristal tiene usos limitados. Más adelante viene el maestro, que no se gasta.",
+3302: "Las §esemillas de recursos§r dan materiales al cosecharlas: hierro, carbón, diamante y más.\n\n"
+      " · §eProsperity Ore§r da fragmentos de prosperidad. Con ellos y semillas comunes se hace la §eBase Crafting Seed§r.\n"
+      " · Rodeá la Base Crafting Seed con esencias y el material: sale la semilla del recurso.\n\n"
+      "La cosecha da §eesencia del recurso§r (por ejemplo, esencia de hierro). En la mesa de crafteo, la esencia se convierte en el material.",
+3303: "Las semillas de inferium de tier mayor dan más esencia por cosecha.\n\n"
+      "Se fabrican con la semilla del tier anterior y esencia del tier nuevo (prudentium para tier 2). La receta está en JEI.",
+3304: "El §eMaster Infusion Crystal§r hace lo mismo que el común pero §eno se gasta nunca§r.\n\n"
+      "Es caro: requiere esencias de los tiers altos.",
+3305: "Las §eDiamond Seeds§r son de tier 5. Usan mucha esencia, pero dan diamantes para siempre.\n\n"
+      "§eAcelerá el crecimiento:§r el §eGrowth Accelerator§r debajo de la tierra arada hace crecer más rápido lo que tiene encima.",
+3306: "El §eSupremium§r es el tier más alto de esencia.\n\n"
+      "Las herramientas y la armadura de Supremium son de las mejores del servidor. Mirá en el tooltip qué bonus da la armadura completa.",
+
+# --- Cap. 19 · Taller y mejoras ---
+3400: "Los §eIron Furnaces§r son hornos más rápidos que el común:\n"
+      " · §eHierro§r: 8 lingotes de hierro alrededor de un horno.\n"
+      " · §eOro§r: oro alrededor de un horno de hierro.\n"
+      " · §eDiamante§r, §eVidrio§r y §eObsidiana§r: cada vez más rápidos (recetas en JEI).\n\n"
+      "Se pueden conectar a tolvas o conductos como un horno común.",
+3401: "El §eDiamond Furnace§r es de los más rápidos del mod. Se fabrica a partir de un horno de oro: mirá la receta en JEI.",
+3402: "El §eEnder Chest§r comparte su inventario con todos los cofres ender del §emismo color§r, aunque estén en otra dimensión.\n\n"
+      " · Arriba tiene §e3 franjas§r: hacé clic derecho en cada una con un tinte para cambiar la combinación.\n"
+      " · Con un §ediamante§r en el seguro, el cofre pasa a ser §epersonal§r: solo lo abrís vos.\n\n"
+      "§cOjo:§r si otro jugador usa tus mismos colores en un cofre no personal, ve lo mismo que vos.",
+3403: "El §eEnder Tank§r hace lo mismo que el cofre ender, pero con §elíquidos§r: dos tanques del mismo color comparten el líquido.\n\n"
+      "La §eEnder Pouch§r es una bolsa que se lleva en el inventario: abre el cofre ender de sus mismos colores desde cualquier lugar.",
+3404: "El §eItem Collector§r junta los objetos tirados cerca y los guarda en el cofre o la máquina de al lado.\n\n"
+      " · §eBásico:§r hasta §e5 bloques§r de distancia.\n"
+      " · §eAvanzado:§r hasta §e7 bloques§r y con §efiltro§r para elegir qué objetos junta.\n\n"
+      "Ideal para granjas de mobs y de cultivos.",
+3405: "Con §eBaubley Heart Canisters§r la vida máxima sube con corazones:\n"
+      " · §eRojo:§r 5 % de chance al matar cualquier monstruo.\n"
+      " · §eAmarillo:§r lo sueltan los §ejefes§r.\n"
+      " · §eVerde:§r lo suelta el §eEnder Dragon§r.\n"
+      " · §eAzul:§r lo sueltan los §eEvokers§r de las mansiones del bosque.\n\n"
+      "Los Wither Skeleton sueltan a veces un §eWither Bone§r, que se usa en las recetas del mod.",
+3406: "Los corazones se meten en §ecanisters§r (latas de corazones). Los canisters se ponen en el §eHeart Amulet§r.\n\n"
+      " · El amuleto va en el lugar de §eamuleto§r de Baubles (botón de Baubles en el inventario).\n"
+      " · Con el amuleto en la mano, clic derecho abre sus espacios para los canisters.\n"
+      " · Cada canister suma corazones. Las recetas están en JEI.",
+
+# --- Cap. 20 · Criaturas de la noche ---
 1603: "Elemental Creepers agrega §e24 tipos de creepers§r que aparecen de noche como los normales. Cada uno explota distinto:\n"
       " · §eFire Creeper§r: deja todo en llamas.\n"
       " · §eIce Creeper§r: congela el suelo y el agua.\n"
       " · §eLightning Creeper§r (eléctrico): tira rayos.\n\n"
       "Se reconocen por el color. Derrotá a uno de cada uno de estos tres. §eConsejo:§r con arco es más seguro.",
 
-# --- Cap. 16 · Depredadores ---
+# --- Cap. 21 · Depredadores ---
 1700: "Deadly Monsters trae los monstruos más peligrosos del servidor. Salen de noche y en lugares oscuros:\n"
       " · §eWoman§r · §eWideman§r · §eClimber§r · §eMutant Steve§r · §eTopielec§r\n\n"
       "Pegan mucho más fuerte que un zombi y aguantan más golpes.\n\n"
@@ -1138,7 +1431,7 @@ TEXTOS = {
       " · §eSoul Eye§r: un ojo de alma.\n\n"
       "Conseguí cualquiera de los tres. Si no te sale, seguí cazando: no siempre los sueltan.",
 
-# --- Cap. 17 · Howling Moon ---
+# --- Cap. 22 · Howling Moon ---
 1800: "La §eplata§r de Howling Moon aparece como §emineral de plata§r bajo tierra."
       "Minalo con pico de hierro o mejor y fundilo en el horno.\n\n"
       "La plata es la mejor arma contra los §ehombres lobo§r: les hace mucho más daño.",
@@ -1146,13 +1439,13 @@ TEXTOS = {
       "Llevá la §eespada de plata§r y armadura. §cOjo:§r si te muerden te pueden §einfectar§r, y con el tiempo te convertís vos también. "
       "La cura está en la misión \"La cura\".",
 
-# --- Cap. 18 · Infernal Mobs ---
+# --- Cap. 23 · Infernal Mobs ---
 1901: "Los monstruos con modificadores tienen el §enombre de color§r arriba de la cabeza, y al lado sus poderes. "
       "Antes de pelear, leelos: algunos explotan, roban vida, te envenenan o te tiran lejos.\n\n"
       "Derrotá a uno (élite, ultra o infernal) y marcá la casilla. Los infernales sueltan buen botín: objetos encantados y más experiencia.\n\n"
       "§7Esta misión confía en tu palabra.§r",
 
-# --- Cap. 20 · Grandes expediciones ---
+# --- Cap. 25 · Grandes expediciones ---
 2100: "Los jefes grandes se enfrentan mejor en equipo. Este capítulo junta los combates pensados para hacer en grupo.\n\n"
       "Tu progreso del libro sigue siendo §eindividual§r: cada uno completa sus misiones, aunque peleen juntos.\n\n"
       "§eConsejo:§r antes de una expedición, pónganse de acuerdo en el horario, lleven comida, pociones y armadura de repuesto.",
@@ -1165,7 +1458,7 @@ TEXTOS = {
       "Llevá §epociones de respiración§r, un casco con Respiración y botas con Agilidad Acuática.\n\n"
       "Derrotá a uno. Sueltan una §eesponja mojada§r y prismarina.",
 
-# --- Cap. 21 · Draconic Evolution final ---
+# --- Cap. 26 · Draconic Evolution final ---
 2200: "El equipo §eDraconic§r es el nivel más alto: más área de minado, más escudo y más daño que el Wyvern.\n\n"
       "Se fabrica con §eFusion Crafting§r usando §eAwakened Cores§r, §edraconio despertado§r y la pieza Wyvern equivalente. "
       "Mirá cada receta con §eR§r en JEI.\n\n"
@@ -1178,14 +1471,14 @@ TEXTOS = {
       "Para sacar y meter energía se usan los §eEnergy Pylons§r.\n\n"
       "La forma de cada nivel la muestra el núcleo en su propio menú.",
 
-# --- Cap. 22 · Maestro de las dimensiones ---
+# --- Cap. 27 · Maestro de las dimensiones ---
 2301: "Entrá a las 7 dimensiones de Cavern. Cada una tiene su llave (clic derecho adentro de un marco de piedra musgosa):\n"
       " · §eCavern§r: esmeralda · §eAqua Cavern§r: aguamarina\n"
       " · §eRuins Cavern§r: Miner's Thought Orb · §eCaveland§r: un brote\n"
       " · §eIce Cavern§r: hielo compacto · §eHuge Cavern§r: diamante\n"
       " · §eCavenia§r: clic derecho con un Cavenic Orb estando en cualquier caverna",
 
-# --- Cap. 23 · Coleccionista ---
+# --- Cap. 28 · Coleccionista ---
 2400: "La Betweenlands tiene §e4 anillos mágicos§r . Se encuentran como botín explorando el pantano:\n"
       " · §eRing of Power§r · §eRing of Ascent§r\n"
       " · §eRing of Recruitment§r · §eRing of Summoning§r\n\n"
@@ -1204,14 +1497,7 @@ TEXTOS = {
       "Conseguí un libro con ese hechizo (lo sueltan los jefes Crazy de Cavenia), juntá los materiales y lanzalo. "
       "Fabricá cualquiera de las tres.",
 
-# --- Cap. 24 · Arquitecto del mundo ---
-2501: "En MineColonies los §eciudadanos§r hacen el trabajo, pero alguien tiene que construir las casas: el §eBuilder§r.\n\n"
-      " 1. Colocá la §echoza del Builder§r (Builder's Hut) cerca del Town Hall.\n"
-      " 2. Abrila y pedí que se construya: se le asigna un ciudadano.\n"
-      " 3. El constructor te pide §emateriales§r: ponelos en el cofre de su choza.\n\n"
-      "Después, cada edificio nuevo se coloca con su bloque y el Builder lo levanta solo.",
-
-# --- Cap. 25 · Desafíos legendarios ---
+# --- Cap. 30 · Desafíos legendarios ---
 2600: "Los tres jefes finales del servidor:\n"
       " · §ePrimordial Malevolence§r: la cima de la Wight Fortress (Betweenlands, cap. 6).\n"
       " · §eFire Boss§r: la dimensión Fuego (Elemental Dimensions, cap. 8).\n"
@@ -1240,14 +1526,14 @@ TEXTOS = {
      "En la §edimensión Aire§r, §etirá la semilla al suelo§r (tecla §eQ§r). Hay una §cexplosión§r y aparece el jefe: alejate un poco.\n\n"
      "Suelta la §eparte 3 de la Runa de Espíritu§r y el §eTeleport Focus§r. Los Ghosts comunes sueltan la parte 1.",
 810: "El último jefe del capítulo. Se invoca con una §eFire Boss Seed§r: 4 semillas de trigo alrededor de una §eestrella del Nether§r "
-     "(la suelta el Wither, cap. 20).\n\n"
+     "(la suelta el Wither, cap. 25).\n\n"
      "En la §edimensión Fuego§r, §etirá la semilla al suelo§r (tecla §eQ§r) y alejate: hay una explosión antes de que aparezca.\n\n"
      "Suelta la §eElemental Wand§r. §7No tiene barra de jefe: fijate su vida con Hwyla.§r\n\n"
-     "Es uno de los tres jefes de la §eTrilogía§r del cap. 25.",
+     "Es uno de los tres jefes de la §eTrilogía§r del cap. 30.",
 1801: "§6Silver Sword:§r 2 lingotes de plata y un palo, en vertical (como una espada común).\n\n"
       "Les hace §edaño extra a los hombres lobo§r. Con una espada común también se puede, pero tarda mucho más.",
 2300: "Visitá §e12 dimensiones§r. Cada tarea se completa sola al llegar:\n"
-      " · §eNether§r (portal de obsidiana) · §eEnd§r (expedición grupal, cap. 20)\n"
+      " · §eNether§r (portal de obsidiana) · §eEnd§r (expedición grupal, cap. 25)\n"
       " · §eBetweenlands§r (cap. 6) · §eTrópicos§r (cap. 7)\n"
       " · §eTierra, Agua, Aire, Espíritu y Fuego§r (cap. 8)\n"
       " · §eHunting Dimension§r (cap. 9) · §eCavern§r (cap. 10) · §ePontus§r (cap. 13)\n\n"

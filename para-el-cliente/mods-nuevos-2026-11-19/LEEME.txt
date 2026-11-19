@@ -5,6 +5,11 @@ Actualizacion de mods del 19-11-2026
    El servidor ahora usa Forge 1.12.2-14.23.5.2860 (antes 2768).
    En CurseForge: clic en los tres puntos de la instancia > "Edit" (Editar)
    > Version de Forge > elegir 14.23.5.2860.
+   Si NO usas CurseForge (launcher oficial de Minecraft): abri con doble clic
+   instalar-forge.bat (usa el Java 8 de CurseForge; el .jar solo con doble clic
+   puede fallar si la PC tiene un Java viejo asociado), elegi
+   "Install client" > OK, y en el launcher usa el perfil "forge 1.12.2-14.23.5.2860".
+   Hace falta Java 8 para abrirlo.
 
 2) BORRAR de la carpeta "mods" del cliente:
    - minecolonies-1.12.2-0.10.53-BETA-universal.jar
@@ -13,12 +18,13 @@ Actualizacion de mods del 19-11-2026
    - Re-Zombies-V1.5-Ver-1.12.2.jar
    - jei_1.12.2-4.13.1.225.jar             (se reemplaza por una version nueva)
    - CodeChickenLib-1.12.2-3.2.2.354-universal.jar  (se reemplaza por una version nueva)
+   - journeymap-1.12.2-5.5.3.jar           (se reemplaza por JourneyMap 6.0.10)
+   - ImmersiveEngineering-0.12-98.jar      (si lo habias agregado antes: se saco del servidor)
 
 3) COPIAR a la carpeta "mods" todos los archivos de la carpeta AGREGAR (18 archivos):
    Mods pedidos:
    - Applied Energistics 2 ........ appliedenergistics2-rv6-stable-7.jar
    - Tinkers' Construct ........... TConstruct-1.12.2-2.13.0.183.jar + Mantle (libreria)
-   - Immersive Engineering ........ ImmersiveEngineering-0.12-98.jar
    - Ender IO ..................... EnderIO-1.12.2-5.3.72.jar + EnderCore (libreria)
    - Mystical Agriculture ......... MysticalAgriculture-1.12.2-1.7.5.jar + Cucumber (libreria)
    - Iron Furnaces ................ ironfurnaces-1.3.5.jar
@@ -31,6 +37,7 @@ Actualizacion de mods del 19-11-2026
    Actualizaciones que piden los mods nuevos:
    - JEI 4.16.1.302 (EnderIO pide 4.14 o mas nuevo)
    - CodeChickenLib 3.2.3.358 (Ender Storage pide 3.2.3 o mas nuevo)
+   - JourneyMap 6.0.10 (la misma version que tiene el servidor)
 
 4) MEMORIA: con estos mods conviene darle al juego al menos 4 GB de RAM
    (CurseForge > Settings > Minecraft > Java Settings > Allocated Memory).

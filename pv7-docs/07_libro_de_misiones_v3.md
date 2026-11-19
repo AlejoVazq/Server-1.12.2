@@ -90,6 +90,32 @@ El progreso de los jugadores se mantiene: ninguna de las misiones que cambiaron 
   - **SpookyCraft:** el Scarecrow aparece de noche en las llanuras (Plains). Si de noche llevás una calabaza o una cabeza de mob puesta, aparecen monstruos espeluznantes alrededor; la opción `pumpkinHats` viene activada.
 - Siguen cortas (menos de 200 caracteres) 15 misiones que ya tienen la receta completa y no necesitan más.
 
+## Mods nuevos (2026-11-19, noche) — `ArreMods_misiones_v8.json`
+- **Mods:**
+  - **Quitados:** MineColonies, SpookyCraft (con craftdev-core), Re-Zombies e Immersive Engineering. Los JAR están en `mods-desactivados/quitados-mods-nuevos/`.
+  - **Agregados:** Tinkers' Construct, Ender IO, Applied Energistics 2, Mystical Agriculture, Iron Furnaces, Ender Storage, Item Collectors, Baubley Heart Canisters, Simple Voice Chat y OreExcavation (en lugar de FTB Ultimine, que no existe para 1.12.2).
+  - **Forge** pasó a 14.23.5.2860.
+- **Libro: se quitaron 4 misiones:** el Scarecrow (1601), el Zombie King (1602) y las dos de MineColonies (2500 y 2501). El capítulo de aldeanos quedó solo con MCA ("Vida en la aldea").
+- **Capítulos nuevos, en el bloque de magia y tecnología** (los IDs de misión arrancan en 3000, así no se toca el progreso guardado):
+
+| Cap. | Mod | Misiones |
+|---|---|---|
+| 15 | Tinkers' Construct | Part Builder → Tool Station / pico a medida → Smeltery → Tool Forge / Manyullyn |
+| 16 | Ender IO | máquina simple → Stirling / Electrical Steel → conductos → Capacitor Bank / Dark Steel → equipo de Dark Steel |
+| 17 | Applied Energistics 2 | certus → brújula de meteoritos / Charger → Inscriber → ME Controller → Drive + celda 1k / Molecular Assembler |
+| 18 | Mystical Agriculture | semillas tier 1 → cristal de infusión / semilla de recurso → tier 2 → cristal maestro / semillas de diamante → Supremium |
+| 19 | Taller y mejoras | Iron Furnace → Diamond Furnace; Ender Chest → tanque/bolsa; Item Collector; corazón rojo → amuleto + canister |
+
+- **Misiones sueltas:** Voice Chat en el cap. 1 (3500) y OreExcavation en el cap. 3 (3501). Las dos son de marcar la casilla.
+- **Renumeración:** los capítulos de combate y maestría pasaron de 15–26 a **20–31**. Todas las referencias "cap. N" de los textos se actualizaron. Por ejemplo, la expedición al End ahora es el cap. 25.
+- **Datos usados en los textos nuevos:**
+  - **Heart Canisters** (`config/bhc/bhc-drops.json`): el corazón rojo lo suelta cualquier monstruo hostil (5 %), el amarillo los jefes, el verde el dragón y el azul los Evokers. El Wither Bone sale el 15 % de las veces.
+  - **Item Collectors:** alcance de 5 bloques (básico) y de 7 con filtro (avanzado).
+  - **OreExcavation:** tecla "`", hasta 128 bloques, con TPS Guard.
+  - **Ender Storage:** inventario 3×9, y el diamante lo hace personal.
+- **Verificación:** todos los IDs de objetos y criaturas del libro se cruzaron con el registro de `world/level.dat`: 0 desconocidos. El servidor arrancó con el libro instalado ("Loaded 150 quests", "Loaded 31 quest lines").
+- **150 misiones en 31 capítulos.**
+
 ## Lo que sigue pendiente
 1. **PV7Core** (clanes, puntos y ranking): en pausa hasta definir para qué se quiere.
 2. **Probar JourneyMap 6.0.10 con un jugador conectado.**

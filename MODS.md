@@ -44,7 +44,6 @@ Forge: `forge-1.12.2-14.23.5.2860.jar` (Java 8).
 | `howlingmoon-1.12.2-0.9.jar` | 0.8 MB | `5ac3fa31fab84c85046aafc47545059a0a095e6cbd063dc76482e07e237ae233` |
 | `HuntingDimension-1.12.2-1.0.36.jar` | 0.1 MB | `fd718dc15ca10a55be9aaaa59a31a96d2c6b7c9304e1bdc390dff457bfee6e5a` |
 | `Hwyla-1.8.26-B41_1.12.2.jar` | 0.4 MB | `e9ddecd4920ee9a57e11e4b43fb1dd395bbf37e276be726a99a2590272304124` |
-| `ImmersiveEngineering-0.12-98.jar` | 6.1 MB | `1dceb974d037dae7161f9a8e9f78cb33dfaad9e3adf02d14d52a3024eb961e58` |
 | `InfernalMobs-1.12.2.jar` | 0.2 MB | `2e4ad1508ea232db9de4a0c98a295565955ef6bee3191b1df0bc56d0d27280c4` |
 | `IronBackpacks-1.12.2-3.0.8-12.jar` | 0.4 MB | `5c9e680279ca009ab3ea114c22cd869cadb41cc0bae834b7857fee709c79075e` |
 | `ironfurnaces-1.3.5.jar` | 0.1 MB | `82d6eb4011a8a4b62684f206552fed2b487ac1be3dd55967361447d3672f20df` |
@@ -85,7 +84,6 @@ Forge: `forge-1.12.2-14.23.5.2860.jar` (Java 8).
 | `WaterStrainer-1.12-3.2.0.jar` | 0.1 MB | `2006883a38d50dbfafa73866f7c7e449083e7b766d9e7bd8ed6726ccd34cd892` |
 | `Wawla-1.12.2-2.5.264.jar` | 0.1 MB | `a8142fef980ec9673ff349b1313b3e7cfaed44b92df01b5f257809f545d73f58` |
 | `memory_repo/angrypixel/TheBetweenlands/3.4.1/TheBetweenlands-3.4.1-core.jar` | 0.0 MB | `e2118a356bfb7ce1d643050d59579330ce612e3956c12d0bb1da3d02f828785d` |
-| `memory_repo/blusunrize/ImmersiveEngineering-core/0.12-98/ImmersiveEngineering-core-0.12-98.jar` | 0.0 MB | `a36f7fe0b2971df39bc7f14df3e5fb13695025a60d32b865e8f5c06659d552c2` |
 | `memory_repo/net/dark_roleplay/drplibrary/1.12.2-0.1.1.5/drplibrary-1.12.2-0.1.1.5.jar` | 0.1 MB | `54248ae0737b58813004a8c24d0a7ec6413f964476f7e7870f1f942a3b400c94` |
 | `memory_repo/net/dark_roleplay/drplibrary/1.12.2-0.1.2.4-SNAPSHOT/drplibrary-1.12.2-0.1.2.4-SNAPSHOT-20181115.042433.jar` | 0.2 MB | `f228524edb0bcb82ffba654b6233a745d8cc03a87712df03bbdd32212b9d7971` |
 | `memory_repo/net/dark_roleplay/drplibrary/1.12.2-0.1.2.4-SNAPSHOT/drplibrary-1.12.2-0.1.2.4-SNAPSHOT-20181115.072433.jar` | 0.2 MB | `f228524edb0bcb82ffba654b6233a745d8cc03a87712df03bbdd32212b9d7971` |
@@ -134,18 +132,21 @@ Forge: `forge-1.12.2-14.23.5.2860.jar` (Java 8).
 | `BWM-quitado/BetterWithLib-1.12-1.5.jar` | 0.0 MB | `dc55dc18b2b06a6404cf4b8efa3191845a963a86cdc411f6c5bf892780cbdde9` |
 | `BWM-quitado/BetterWithMods-1.12-2.3.19-1017.jar` | 4.8 MB | `7b1454f23d656288035edfc2366c92136cb295ef63a64f83430e01c5a2f6584a` |
 | `quitados-mods-nuevos/craftdev-core-1.12.2-2.2.8.jar` | 0.1 MB | `cf2300fe3500559376dc7a1502d69276841610cfde8cdee5ba350c7c4d3cd602` |
+| `quitados-mods-nuevos/ImmersiveEngineering-0.12-98.jar` | 6.1 MB | `1dceb974d037dae7161f9a8e9f78cb33dfaad9e3adf02d14d52a3024eb961e58` |
 | `quitados-mods-nuevos/minecolonies-1.12.2-0.10.53-BETA-universal.jar` | 30.4 MB | `31c8ce2806ff97c8bd1178c1e751c77dbbaac22f1e4b94260c165a47200ea590` |
 | `quitados-mods-nuevos/Re-Zombies-V1.5-Ver-1.12.2.jar` | 0.4 MB | `f057f008df81cf800d0c6aa8074ad99a3ca3aa798fdc525cc0a815ad3344b0be` |
 | `quitados-mods-nuevos/spookycraft-1.12.2-1.0.3.jar` | 1.0 MB | `4fac4cc0b12a5c047269da66bb2f5987ed41f3672a332a76ae8d191defb45f53` |
 | `reemplazados/CodeChickenLib-1.12.2-3.2.2.354-universal.jar` | 0.7 MB | `53874310d215a65b66a46fd41ed6ae9f80eca0f66d51c290eec52c2646fd3cf5` |
 | `reemplazados/jei_1.12.2-4.13.1.225.jar` | 0.6 MB | `5f99cbf59815b27a99a4411685aaed5913a581efb1f09d9d231106f175247794` |
 | `reemplazados/journeymap-1.12.2-5.5.3.jar` | 1.7 MB | `e6071b72d42c864db417cb1d0edd57b3cd61a014bc30cca8dc444dac5d039534` |
+| `quitados-mods-nuevos/memory_repo/blusunrize/ImmersiveEngineering-core/0.12-98/ImmersiveEngineering-core-0.12-98.jar` | 0.0 MB | `a36f7fe0b2971df39bc7f14df3e5fb13695025a60d32b865e8f5c06659d552c2` |
 
 ## Para el cliente (`para-el-cliente/`)
 
 | Archivo | Tamaño | SHA-256 |
 |---|---|---|
 | `StandardExpansion-3.4.173.jar` | 0.4 MB | `405211aef15d442f857f92c4f755f051396283d6e6fc2de818f4f693091e89f9` |
+| `mods-nuevos-2026-11-19/forge-1.12.2-14.23.5.2860-installer.jar` | 4.5 MB | `ea7c33ba95e3993a98d0e9e38168c0759ec323a18675a71d938e1f3f70e6e8e7` |
 | `mods-nuevos-2026-11-19/AGREGAR/_supermartijn642corelib-1.1.26b-forge-mc1.12.jar` | 1.5 MB | `0ab206c53cad83621bbec3f17b05fe729b96aa10bfafa31e7486b90af24524e6` |
 | `mods-nuevos-2026-11-19/AGREGAR/appliedenergistics2-rv6-stable-7.jar` | 3.9 MB | `e7f7fbf6caaf6206dbd958fb8f9185f874a405289e62ae3e97209b455a89fb1a` |
 | `mods-nuevos-2026-11-19/AGREGAR/baubley-heart-canisters-1.12.2-2.0.3.jar` | 0.1 MB | `9ee41a6be7584b762babad24e5a61242247f8855a227288a65e63935caec467b` |
@@ -154,10 +155,10 @@ Forge: `forge-1.12.2-14.23.5.2860.jar` (Java 8).
 | `mods-nuevos-2026-11-19/AGREGAR/EnderCore-1.12.2-0.5.78.jar` | 0.6 MB | `adbd309f6c8001c38c4630aa701cdc5ea59fa7ee9ffa770e21f56b160adb443c` |
 | `mods-nuevos-2026-11-19/AGREGAR/EnderIO-1.12.2-5.3.72.jar` | 8.5 MB | `9b5e7756af35a191de8bc8f010c0f7c7ffc2e1e056a69ec265d1dd5ce90d19b4` |
 | `mods-nuevos-2026-11-19/AGREGAR/EnderStorage-1.12.2-2.4.6.137-universal.jar` | 0.2 MB | `06e2357019f4e0836bfb9202af013adc125252f610b198a7a547d4596d2934c0` |
-| `mods-nuevos-2026-11-19/AGREGAR/ImmersiveEngineering-0.12-98.jar` | 6.1 MB | `1dceb974d037dae7161f9a8e9f78cb33dfaad9e3adf02d14d52a3024eb961e58` |
 | `mods-nuevos-2026-11-19/AGREGAR/ironfurnaces-1.3.5.jar` | 0.1 MB | `82d6eb4011a8a4b62684f206552fed2b487ac1be3dd55967361447d3672f20df` |
 | `mods-nuevos-2026-11-19/AGREGAR/itemcollectors-1.1.12-forge-mc1.12.jar` | 0.1 MB | `c5c507dfa2d1188bf22d399c0914d3b3bf24ebfc6843b08e49e1d50a1841c358` |
 | `mods-nuevos-2026-11-19/AGREGAR/jei_1.12.2-4.16.1.302.jar` | 0.6 MB | `9dbc2c0ec8c28821fdd5dca487909089501607ee25c0e8470c43c9fd0bd12053` |
+| `mods-nuevos-2026-11-19/AGREGAR/journeymap-forge-1.12.2-6.0.10.jar` | 5.8 MB | `ce49733a678a74e636f6ba56181e80fffd4a94aa9a53bd4ce4836d5ab29cb2b1` |
 | `mods-nuevos-2026-11-19/AGREGAR/Mantle-1.12-1.3.3.55.jar` | 0.8 MB | `0975ad3ef3b8b35fe43461feabe44d406b5521b0a2f3d1965c8d2f6a59ad2e65` |
 | `mods-nuevos-2026-11-19/AGREGAR/MysticalAgriculture-1.12.2-1.7.5.jar` | 1.5 MB | `e84a70bbcb5dc559d28c7bc65f1ef1af512485097ad89c6748249b173019975c` |
 | `mods-nuevos-2026-11-19/AGREGAR/OreExcavation-1.4.150.jar` | 0.2 MB | `535c5a8e2d708fa810687698425f982f16c326c0cc91fa5eec08194d65ef2c28` |
