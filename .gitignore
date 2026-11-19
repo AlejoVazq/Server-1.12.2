@@ -9,7 +9,7 @@
 !/config/
 !/pv7-docs/
 !/para-el-cliente/
-para-el-cliente/*.jar
+para-el-cliente/**/*.jar
 !/pv7core/
 !/world/
 

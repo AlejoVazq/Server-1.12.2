@@ -17,4 +17,4 @@ Configuración, mundo, libro de misiones y herramientas propias del servidor Arr
 - Logs, copias de seguridad, listas de jugadores (`ops`, `whitelist`, `usercache`) y datos de cada jugador.
 
 ## Forge
-`forge-1.12.2-14.23.5.2768-universal.jar` (Java 8).
+`forge-1.12.2-14.23.5.2860.jar` (Java 8).
