@@ -71,6 +71,12 @@ El progreso de los jugadores se mantiene: ninguna de las misiones que cambiaron 
 - **Espacio de la descripción:** Better Questing parte la columna izquierda en dos mitades fijas (descripción arriba, recompensa abajo) cuando la misión tiene recompensas. Está fijo en el código de `GuiQuest`. No se puede cambiar con temas ni configs; la descripción tiene barra de desplazamiento.
 - Todo esto es del **cliente**: cada jugador necesita la carpeta `config/betterquesting/resources/` y `S:Theme=arremods:libro` en su `config/betterquesting.cfg`.
 
+## Versión preliminar del pack (2026-11-19): sin Better With Mods
+- Se quitaron **Better With Mods 2.3.19** y **BetterWithLib 1.5** porque su modo difícil complicaba demasiado el juego para jugadores nuevos. Los JAR están en `mods-desactivados/BWM-quitado/`. Copia del mundo previa: `backups/mundo-antes-quitar-bwm-*.tar.gz`.
+- Vuelven las recetas normales de Minecraft: herramientas de diamante, tintes de flores, azúcar, polvo de blaze, piedra musgosa y carbón vegetal en el horno.
+- Libro: se quitó el capítulo "Better With Mods" (14 misiones), se renumeraron los capítulos 15-27 a 14-26 y se sacaron las menciones al Molino, el Kiln y las recetas difíciles. Quedan **118 misiones en 26 capítulos**. El progreso de las misiones 1400 y 1401 se perdió con el capítulo.
+- Los jugadores tienen que quitar esos dos JAR de su cliente.
+
 ## Lo que sigue pendiente
 1. **PV7Core** (clanes, puntos y ranking): en pausa hasta definir para qué se quiere.
 2. **Probar JourneyMap 6.0.10 con un jugador conectado.**

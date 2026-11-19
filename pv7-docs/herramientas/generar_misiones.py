@@ -89,8 +89,176 @@ QUESTS = []
 LINES = []
 _line = [-1]
 
+# ---- descripciones de los capítulos -------------------------------------------
+# Se muestran al elegir un capítulo en la lista. Clave = número de capítulo.
+DESCRIPCIONES = {
+1: "§6Tu guía de ArreMods.§r Cada capítulo es un mod o un tema del servidor.\n\n"
+   "§eCómo se usa:§r no hay un orden obligatorio. Las misiones grises se desbloquean al completar otras; "
+   "las que tienen marco grande son las principales de cada capítulo.\n\n"
+   "§eHerramientas que vas a usar todo el tiempo:§r\n"
+   " · §6JEI§r (a la derecha del inventario): §eR§r sobre un objeto = cómo se fabrica, §eU§r = para qué sirve.\n"
+   " · §6Hwyla§r: mirá un bloque y te dice qué es y de qué mod viene.\n"
+   " · §6JourneyMap§r: §eJ§r abre el mapa, §eB§r crea un waypoint.\n\n"
+   "Empezá leyendo las reglas en la primera misión.",
+2: "§6Sobrevivir la primera noche.§r Madera, un refugio, un lugar donde dormir, fuego y comida.\n\n"
+   "§eMods de este capítulo:§r\n"
+   " · §6The Camping Mod§r: tiendas, sacos de dormir, fogatas para cocinar y mochilas.\n"
+   " · §6Campfire§r: fogata que da luz y calor, pero se apaga sola a los ~6 minutos.\n"
+   " · §6Corail Tombstone§r: si morís, tus cosas quedan en una tumba donde caíste.\n\n"
+   "§cOjo con la noche:§r salen criaturas de otros mods (zombis con oficio, creepers elementales, monstruos mortales) "
+   "y al dormir hay un 5 % de chance de pesadilla. Dormí con equipo puesto y la vida llena.",
+3: "§6Equiparte antes de salir a explorar.§r\n\n"
+   "§eMods de este capítulo:§r\n"
+   " · §6Spartan Shields§r: escudos de madera, piedra, hierro, oro, obsidiana y diamante. Cada material aguanta más golpes.\n"
+   " · §6Hammer Time§r: martillos que rompen 3×3 bloques de una vez. Ideales para minar y abrir túneles.\n"
+   " · §6Disenchanter§r: mesa que saca los encantamientos de un objeto y los pasa a un libro.\n"
+   " · §6Switch-Bow§r: arco con carcaj para cambiar de tipo de flecha sin abrir el inventario.\n\n"
+   "Nada de este capítulo bloquea el resto: es para llegar mejor preparado.",
+4: "§6Orientarte y moverte rápido.§r El mundo es grande y hay biomas y estructuras de muchos mods.\n\n"
+   "§eMods de este capítulo:§r\n"
+   " · §6Nature's Compass§r: elegís un bioma de la lista y la aguja te lleva hasta el más cercano.\n"
+   " · §6JourneyMap§r: mapa, minimapa y waypoints. También marca dónde moriste.\n"
+   " · §6Rope Bridge§r: dispara un puente de cuerda y madera para cruzar barrancos y ríos.\n"
+   " · §6NetherPortalFix§r: cada portal del Nether vuelve al portal desde el que entraste.\n\n"
+   "§7Los biomas de Tropicraft y Betweenlands no están en el mundo normal: tienen su propia dimensión.§r",
+5: "§6Tu primera base.§r Reclamá el terreno, ordená tus cosas y empezá a cultivar.\n\n"
+   "§eMods de este capítulo:§r\n"
+   " · §6FTB Utilities§r: reclamo de chunks (nadie puede romper tu base) y §e/sethome§r / §e/home§r.\n"
+   " · §6Backpacks§r, §6Iron Backpacks§r y las bolsas del §6Camping Mod§r: más espacio para llevar.\n"
+   " · §6Storage Drawers§r: cajones que guardan muchísimo de un solo objeto; con el controlador se unen todos.\n"
+   " · §6Chest Transporter§r: levanta un cofre lleno para mudarlo.\n"
+   " · §6Water Strainer§r: filtra agua y junta palos, arcilla, arena y grava.\n\n"
+   "Al terminar este capítulo, elegís tu rama: dimensiones, magia y tecnología, o combate.",
+6: "§6The Betweenlands§r · dimensión 20\n\n"
+   "Un pantano oscuro, enorme y con reglas propias. Es uno de los mods más grandes del servidor.\n\n"
+   "§eCómo se entra:§r matá §eDruidas Oscuros§r en los altares druídicos de los pantanos del Overworld para juntar "
+   "las 4 piezas del talismán. Con el talismán hacés crecer un árbol portal.\n\n"
+   "§cReglas del pantano:§r las antorchas comunes no funcionan, las herramientas del Overworld rinden menos y se corroen, "
+   "y la comida se pudre. Todo se fabrica de nuevo con materiales locales.\n\n"
+   "§eJefes:§r Dreadful Peat Mummy, Spirit Tree y Primordial Malevolence (jefe final de la Wight Fortress).",
+7: "§6Tropicraft§r · dimensión -127\n\n"
+   "Islas tropicales con playas, volcanes, aldeas Koa, tiburones, tortugas y cócteles.\n\n"
+   "§eDos formas de llegar:§r\n"
+   " · Sentate en una §esilla de playa§r al atardecer después de tomar una §ePiña Colada§r.\n"
+   " · Armá un portal con la §evarita§r: un anillo 5×5 de arenisca con un cuadrado 3×3 de agua adentro. "
+   "Este portal sirve para ir y volver.\n\n"
+   "Los cócteles se preparan en la §eDrink Mixer§r. Las §eazuritas§r y los §ezircones§r de las islas sirven para la varita.",
+8: "§6Elemental Dimensions§r · dimensiones 100 a 104\n\n"
+   "Cinco dimensiones en cadena: §eTierra → Agua → Aire → Espíritu → Fuego§r. Cada una tiene su jefe.\n\n"
+   "§eCómo funciona:§r cada dimensión se abre con una §eruna§r. La de Tierra la sueltan los Guardias de las "
+   "mazmorras-portal del Overworld. Las demás runas tienen 3 partes: las partes 1 y 3 las sueltan los monstruos "
+   "y jefes de cada dimensión, y la parte 2 está en un cofre de la mazmorra de la dimensión anterior.\n\n"
+   "§eEl viaje:§r poné la runa en el §ePortal Dialer§r de la mazmorra y parate frente a él.\n\n"
+   "§eJefe final:§r el Fire Boss, que suelta la Elemental Wand.",
+9: "§6Hunting Dimension§r · dimensión 28885\n\n"
+   "Una dimensión para cazar: mobs más fuertes que dan más experiencia.\n\n"
+   "§eEl portal:§r misma forma que el del Nether, hecho con §eHunting Dimension Frames§r "
+   "(8 troncos alrededor de una flecha). Se activa con espada, arco o mechero, y se cruza §eagachado§r.\n\n"
+   "§cReglas del servidor ahí adentro:§r los mobs tienen +30 % de vida y ataque y +4 de armadura, "
+   "y §cno podés reaparecer en la dimensión§r si morís.\n\n"
+   "Con el §eCreeping Moss§r podés cambiar el bioma de un chunk de la dimensión.",
+10: "§6Cavern§r · dimensiones -50 a -56\n\n"
+    "Siete mundos subterráneos, cada uno con sus minerales y peligros:\n"
+    " · §eCavern§r (-50): la principal, con aguamarina y randomita.\n"
+    " · §eRuins Cavern§r (-51) · §eAqua Cavern§r (-52) · §eCaveland§r (-53)\n"
+    " · §eIce Cavern§r (-54) · §eCavenia§r (-55) · §eHuge Cavern§r (-56)\n\n"
+    "§eCómo se entra:§r marco tipo portal del Nether de piedra musgosa o ladrillo de piedra, activado con una esmeralda. "
+    "Cada caverna nueva pide su propia llave (aguamarina, hielo compacto, diamante, etc.).\n\n"
+    "§aCavenia es zona de práctica:§r ahí no perdés inventario ni experiencia al morir.",
+11: "§6Astral Sorcery§r · magia de las estrellas\n\n"
+    "Magia que se alimenta de la luz de las estrellas: hace falta cielo abierto y noches despejadas.\n\n"
+    "§eCómo empezar:§r conseguí un §eRock Crystal§r y el §eAstral Tome§r, el libro del mod "
+    "(la receta está en JEI). El libro se va completando a medida que avanzás.\n\n"
+    "§eProgresión:§r Luminous Crafting Table → Starlight Crafting Altar → Celestial Altar → Iridescent Altar. "
+    "En el camino te sintonizás con una constelación y desbloqueás habilidades propias.\n\n"
+    "§7Usá guías de la versión 1.12.2: el mod cambió mucho en versiones nuevas.§r",
+12: "§6Draconic Evolution§r · tecnología dracónica\n\n"
+    "Herramientas, armaduras y máquinas cada vez más poderosas, hechas con §edraconio§r y energía.\n\n"
+    "§eDónde está el draconio:§r en el Overworld muy profundo (capas 2 a 8), en el Nether y en el End.\n\n"
+    "§eProgresión:§r Draconic Core → Fusion Crafting (las recetas grandes del mod) → Wyvern → Awakened → Chaotic.\n\n"
+    "§cNecesita el End:§r a partir del Wyvern Core hacen falta recursos del End, que se abre con la "
+    "§eexpedición grupal§r del cap. 20.\n\n"
+    "§cJefe:§r el Chaos Guardian, en las Chaos Islands del End, con 2000 de vida.",
+13: "§6Harshen Universe§r · dimensión Pontus (5)\n\n"
+    "Almas, sangre, rituales y accesorios (anillos, collares, pendientes).\n\n"
+    "§eLa clave del mod:§r el castillo de §eKazzendre§r en el Overworld. Hay uno solo por mundo. "
+    "Después de vencerlo, en la sala del tesoro está el §eSoul Harsher Pickaxe§r, el único pico que mina el "
+    "Harshen Soul Ore.\n\n"
+    "§eRituales:§r Lightning Ritual, Blood Ritual y Heretic Ritual. Con el Lightning Ritual se arma el "
+    "spawner de la puerta a Pontus.\n\n"
+    "Las flores de alma del Overworld dan Harshen Crystals.",
+14: "§6Rustic§r · alquimia, vino y vida de campo\n\n"
+    "Un mod tranquilo para la base:\n"
+    " · §eAlquimia:§r el Condensador y la Retorta destilan hierbas (aloe, manzanilla, ginseng y más) en §eelixires§r.\n"
+    " · §eBebidas:§r la tina de prensado saca jugo de uvas, manzanas u olivas, y el barril los fermenta en vino, sidra o hidromiel.\n"
+    " · §eMiel y cera:§r el colmenar.\n"
+    " · §eCultivos:§r tomate y chile (crecen sobre estacas) y uvas.\n\n"
+    "También trae muebles y decoración: sillas, mesas, velas y candelabros.",
+15: "§6Criaturas de la noche§r\n\n"
+    "Varios mods hacen las noches mucho más peligrosas que en Minecraft normal:\n"
+    " · §6Nightmares§r: al dormir hay 5 % de chance de pesadilla. Aparece una Hag, una Shadow Person o 8 Phantasmic Spiders.\n"
+    " · §6SpookyCraft§r: animales esqueléticos y el Scarecrow.\n"
+    " · §6Re-Zombies§r: zombis con oficio (mineros, caballeros, piratas…) y el Zombie King, que a veces suelta su armadura.\n"
+    " · §6Elemental Creepers§r: 24 tipos de creepers que explotan con fuego, hielo, rayos y más.\n\n"
+    "§eConsejo:§r iluminá bien la base y no salgas de noche sin escudo.",
+16: "§6Depredadores§r · Deadly Monsters\n\n"
+    "Los monstruos más peligrosos del servidor: la Woman, el Wideman, el Climber, el Mutant Steve y el Topielec, entre otros. "
+    "Pegan fuerte y aguantan mucho.\n\n"
+    "§eTrofeos:§r algunos sueltan partes raras (Woman's Heart, Wideman's Spine, Soul Eye).\n\n"
+    "§cNo vayas solo ni con equipo de hierro.§r",
+17: "§6Maldición lunar§r · Howling Moon\n\n"
+    "Hombres lobo. Si uno te muerde, te podés contagiar de §elicantropía§r y convertirte en lobo.\n\n"
+    "§eLa plata:§r el mod agrega mineral de plata. La §eespada de plata§r es el arma contra los hombres lobo.\n\n"
+    "§eLa cura:§r la §ePoción de Wolfsbane§r (poción rara + flor Wolfsbane). Cura la infección o la licantropía, "
+    "y si estás sano te vuelve inmune.\n\n"
+    "§7Este mod no tiene jefes.§r",
+18: "§6Enemigos infernales§r · Infernal Mobs\n\n"
+    "Cualquier monstruo puede aparecer con poderes extra. Se reconocen por el §enombre de color§r sobre la cabeza.\n\n"
+    "§eRangos:§r Élite (1 de cada 15), Ultra (1 de cada 7 élites) e Infernal (1 de cada 7 ultras). "
+    "Hay 27 poderes posibles: veneno, robo de vida, explosiones, invisibilidad y más.\n\n"
+    "§aSueltan mejor botín§r, pero §cno dan recompensas si los matás en una granja de mobs§r.",
+19: "§6Guardianes y defensas§r\n\n"
+    "Tres mods para proteger la base:\n"
+    " · §6Totem Defender§r: tótems de madera, hierro, oro o diamante que disparan a lo que elijas (monstruos, animales u otros jugadores).\n"
+    " · §6Mob Totems§r: tótems tallados que, con ofrendas, evitan que aparezcan monstruos, prenden fuego o envenenan.\n"
+    " · §6SecurityCraft§r: teclados con clave, bloques reforzados, minas, cámaras y más.\n\n"
+    "§7Recordá las reglas: las trampas valen, pero no pueden romper ni llevarse cosas de otros.§r",
+20: "§6Grandes expediciones§r\n\n"
+    "Los jefes de Minecraft, para enfrentar en grupo:\n"
+    " · §eEl Wither§r: lo invocás vos. Suelta la estrella del Nether.\n"
+    " · §eEl Elder Guardian§r: en los monumentos oceánicos.\n"
+    " · §eEl Ender Dragon§r: §cexpedición grupal obligatoria§r. Nadie entra al End antes; se organiza entre todos.\n\n"
+    "Después del dragón, el End queda abierto: Chaos Guardian, draconio del End y más.",
+21: "§6El poder definitivo§r\n\n"
+    "La cima de Draconic Evolution: equipo dracónico, núcleos caóticos y el armamento más fuerte del servidor.\n\n"
+    "Se abre con la Fusion Crafting del cap. 12. Necesita muchos recursos, energía y fragmentos del Chaos Guardian.",
+22: "§6Maestro de las dimensiones§r\n\n"
+    "Pisá todas las dimensiones del servidor: Nether, End, Betweenlands, Trópicos, las 5 elementales, "
+    "Hunting Dimension, Cavern y Pontus, y además las 7 cavernas.\n\n"
+    "Es un capítulo para coleccionistas: se va completando solo mientras jugás los demás.",
+23: "§6Coleccionista§r\n\n"
+    "Logros difíciles de los mods grandes: anillos de la Betweenlands, el maestro de los hongos, "
+    "el libro de herboristería completo y las herramientas compuestas de Cavern.\n\n"
+    "No apurarse: son metas largas.",
+24: "§6Arquitecto del mundo§r\n\n"
+    " · §6MineColonies§r: fundá una colonia con aldeanos que trabajan para vos. El constructor levanta los edificios, "
+    "y cada edificio trae un oficio nuevo (granjero, minero, leñador y más). Arrancás con un SupplyCamp o un SupplyShip.\n"
+    " · §6MCA (Minecraft Comes Alive)§r: los aldeanos hablan, trabajan, tienen familia y te podés casar.\n\n"
+    "Ideal para jugar tranquilo entre expediciones.",
+25: "§6Desafíos legendarios§r\n\n"
+    "Los combates más difíciles del servidor:\n"
+    " · La trilogía de jefes finales: §ePrimordial Malevolence§r (Betweenlands), §eFire Boss§r (Elemental Dimensions) "
+    "y §eChaos Guardian§r (Draconic Evolution).\n"
+    " · El Wither tres veces.\n\n"
+    "§cVayan en grupo y con el mejor equipo que tengan.§r",
+26: "§6La última expedición§r\n\n"
+    "El cierre del libro: recorriste todas las dimensiones y venciste a los jefes finales.\n\n"
+    "Es opcional y no bloquea nada. Como premio te llevás el título de §6Leyenda de ArreMods§r.",
+}
+
 def chapter(name, desc, icon):
-    LINES.append((name, desc, icon)); _line[0] = len(LINES) - 1
+    num = int(name.split("Cap. ")[1].split(" ")[0])
+    LINES.append((name, DESCRIPCIONES.get(num, desc), icon)); _line[0] = len(LINES) - 1
 
 def quest(qid, x, y, name, desc, icon, tasks, rewards=(), prereq=(), logic="AND", main=False):
     QUESTS.append((qid, _line[0], x, y, dict(name=name, desc=desc, icon=icon, tasks=list(tasks),
@@ -117,7 +285,7 @@ quest(0, 0, 0, "Tu libro de aventuras",
       "§e3.§r §aLas trampas y las bromas valen.§r Si caés en una, te reís y listo; "
       "eso sí, la trampa no puede romper ni llevarse cosas ajenas.\n"
       "§e4.§r §cNadie va al End ni mata al dragón por su cuenta.§r Es la §eexpedición grupal§r "
-      "(cap. 21) y se organiza entre todos.\n"
+      "(cap. 20) y se organiza entre todos.\n"
       "§e5.§r Pelear contra otro jugador solo si los dos están de acuerdo.\n"
       "§e6.§r Nada de hacks, x-ray ni programas para sacar ventaja.\n"
       "§e7.§r Si una granja o una máquina hace lagear el servidor, se apaga o se achica.\n"
@@ -125,26 +293,24 @@ quest(0, 0, 0, "Tu libro de aventuras",
       "Si vas a construir cerca de otro, avisale antes.",
       item("questbook:itemquestbook"), [t_check()], [r_xp(1)], main=True)
 quest(2, 48, 0, "Este mundo no es vanilla",
-      "El modo difícil de §6Better With Mods§r cambia recetas: §cno§r se fabrican herramientas ni armaduras de diamante vanilla, "
-      "tintes de flores, azúcar, polvo de blaze ni piedra musgosa. Tintes, azúcar y polvo de blaze salen del §eMolino§r de BWM; "
-      "el carbón vegetal, del horno de ladrillo (Kiln).\n\n"
+      "Hay decenas de mods: dimensiones nuevas, jefes, magia y tecnología. Cuando no sepas cómo se hace algo, preguntale a JEI.\n\n"
       "§eHerramientas de consulta:§r\n · JEI: §eR§r = cómo se fabrica, §eU§r = para qué sirve.\n"
       " · Hwyla: mirá un bloque y te dice qué es y de qué mod viene (no muestra el interior de los cajones)." + V,
       item("minecraft:crafting_table"), [t_check()], [], prereq=[0])
 quest(5, 96, 0, "Tu primer mapa",
       "Abrí JourneyMap (§eJ§r), creá un waypoint en tu base (§eB§r) y ponele nombre.\n\n"
-      "§7Todos deben usar JourneyMap 5.5.3, igual que el servidor.§r",
+      "§7El mapa también marca dónde moriste.§r",
       item("minecraft:map"), [t_check()], [r_xp(2)], prereq=[0])
 
 chapter("Cap. 2 · Los primeros días", "Madera, refugio, descanso, fuego y comida.", item("campfire:campfire"))
 quest(10, 0, 0, "Madera y refugio",
       "Juntá §e16 troncos§r y armá un refugio con paredes, techo, puerta y luz adentro.\n\n"
-      "§eConsejo:§r el carbón vegetal no sale del horno; buscá carbón mineral para las antorchas.",
+      "§eConsejo:§r si no encontrás carbón, quemá troncos en el horno: sale carbón vegetal.",
       item("minecraft:log"), [t_get([item("minecraft:log", 16, WILD, "logWood")])],
       [r_items([item("minecraft:torch", 8)])], prereq=[0], main=True)
 quest(12, 48, -24, "Descansar (Camping Mod y Nightmares)",
       "Fabricá una §etienda§r o un §esaco de dormir§r.\n"
-      " · §6Navaja suiza:§r 6 tintes rojos + 3 hierro (el tinte rojo sale del Molino).\n"
+      " · §6Navaja suiza:§r 6 tintes rojos + 3 hierro (el tinte rojo sale de las amapolas).\n"
       " · §6Saco:§r navaja arriba + 3 lanas.  §6Tienda:§r 5 lonas + 2 estacas.\n"
       " · Lona = cáñamo + navaja · Estaca = palo de hierro + navaja · Palo de hierro = 2 hierro en vertical.\n\n"
       "§cOjo:§r al dormir hay un §c5 %§r de chance de pesadilla. Dormí con equipo y vida llena." + V,
@@ -158,7 +324,7 @@ quest(13, 48, 24, "La fogata",
       [r_xp(2)], prereq=[10], logic="OR")
 quest(16, 96, 24, "Comer bien y no perder todo",
       "Conseguí §ecualquier comida cocinada§r (carnes, pescado, papa asada, pan o venado del Camping Mod). "
-      "La comida cruda no envenena acá.\n\n"
+      "\n\n"
       "§6Si morís:§r tu equipo queda en una §etumba§r (Tombstone); volvé a buscarla. "
       "En la §eHunting Dimension§r no podés reaparecer; en §eCavenia§r no perdés inventario ni experiencia." + V,
       item("minecraft:cooked_beef"),
@@ -169,7 +335,7 @@ quest(16, 96, 24, "Comer bien y no perder todo",
 
 chapter("Cap. 3 · Preparación del aventurero", "Escudos, martillos y arcos.", item("spartanshields:shield_basic_wood"))
 quest(20, 0, 0, "Equipo de verdad (Spartan Shields)",
-      "Las herramientas y armaduras de diamante vanilla §cno§r tienen receta; las de mods sí.\n\n"
+      "Un escudo bloquea golpes y flechas con clic derecho. Los de Spartan Shields aguantan más que el de Minecraft.\n\n"
       "§6Escudo de madera:§r 6 tablones + 1 palo en diagonal. Para mejorarlo: escudo al centro + 4 del material "
       "(piedra labrada, hierro, oro, obsidiana o diamante)." + V,
       item("spartanshields:shield_basic_wood"), [t_craft([item("spartanshields:shield_basic_wood")])],
@@ -185,7 +351,7 @@ quest(23, 48, 0, "Martillo y desencantador",
 quest(22, 96, 0, "Switch-Bow §7[avanzado]",
       "Arco con carcaj: cambiás de flecha sin guardar nada.\n"
       "§6Switch-Bow:§r 3 palos + 1 ojo de ender + 3 hilos. §6Carcaj:§r cuero, hilo y un cofre (miralo en JEI).\n\n"
-      "Necesita polvo de blaze (Nether + Molino). §aNo bloquea nada.§r" + V,
+      "Necesita polvo de blaze (vara de blaze del Nether). §aNo bloquea nada.§r" + V,
       item("switchbow:switchbow"), [t_craft([item("switchbow:switchbow")])], [r_xp(5)], prereq=[20])
 
 chapter("Cap. 4 · Explorador", "Orientarte, buscar biomas y moverte rápido.", item("naturescompass:naturescompass"))
@@ -197,7 +363,7 @@ quest(30, 0, 0, "Brújula de biomas",
 quest(31, 48, 0, "Tu primera semana de exploración",
       "Buscá con la brújula un bioma que no conozcas (Savanna, Mesa, Ice Spikes…), llegá y marcalo en JourneyMap. "
       "Anotá cuevas, aldeas y estructuras cerca de tu base.\n\n"
-      "§7Las aldeas no generan golems de hierro. Los biomas de Tropicraft y Betweenlands están en sus dimensiones.§r",
+      "§7Los biomas de Tropicraft y Betweenlands están en sus dimensiones.§r",
       item("minecraft:filled_map"), [t_check()], [r_xp(3)], prereq=[30])
 quest(32, 96, 0, "Cruzar rápido: puentes y portales",
       "§6Bridge Builder (Rope Bridge):§r gancho (5 hierro) + cañón (6 hierro + 3 cuerdas) + mango, en fila. "
@@ -232,7 +398,7 @@ quest(45, 96, 24, "Tu primer cultivo",
       [r_xp(2)], prereq=[40], logic="OR")
 quest(47, 96, -24, "Elegí tu próxima rama",
       "Tenés base, almacén y territorio. Desde acá todo está abierto: dimensiones (cap. 6-10), magia y tecnología "
-      "(cap. 11-15) y combate (cap. 16-21). Elegí.",
+      "(cap. 11-14) y combate (cap. 15-20). Elegí.",
       item("minecraft:nether_star"), [t_check()],
       [r_xp(5), r_title("Aventurero de ArreMods", ["Completaste el Bloque I", "de la guía de aventuras."])],
       prereq=[40, 42, 43], main=True)
@@ -367,8 +533,7 @@ quest(901, 48, 0, "La cacería",
       item("minecraft:bow"), [t_dim(28885, "Hunting Dimension")], [r_xp(6)], prereq=[900])
 quest(902, 96, 0, "Musgo trepador",
       "El §eCreeping Moss§r cambia el bioma de un chunk dentro de la dimensión. "
-      "Se hace con 8 bloques de piedra musgosa alrededor de un ingrediente (brote, hojas, enredadera, arena, hielo…).\n\n"
-      "§7Con BWM la piedra musgosa no se fabrica: crece sola junto al agua.§r" + V,
+      "Se hace con 8 bloques de piedra musgosa alrededor de un ingrediente (brote, hojas, enredadera, arena, hielo…)." + V,
       item("huntingdim:biome_changer"), [t_craft([item("huntingdim:biome_changer", 1, WILD)])], [r_xp(4)], prereq=[901])
 
 chapter("Cap. 10 · Cavern", "Siete dimensiones subterráneas (-50 a -56).", item("cavern:cave_block"))
@@ -439,7 +604,7 @@ quest(1202, 96, 0, "Fusion Crafting",
       "Fabricá el §eFusion Crafting Core§r y sus inyectores: así se hacen las recetas grandes del mod.",
       item(DE + "fusion_crafting_core"), [t_craft([item(DE + "fusion_crafting_core")])], [r_xp(6)], prereq=[1201])
 quest(1204, 144, 0, "Núcleo Wyvern",
-      "Fabricá un §eWyvern Core§r. Necesita recursos del End: se desbloquea con la §eexpedición grupal§r del cap. 21.",
+      "Fabricá un §eWyvern Core§r. Necesita recursos del End: se desbloquea con la §eexpedición grupal§r del cap. 20.",
       item(DE + "wyvern_core"), [t_craft([item(DE + "wyvern_core")])], [r_xp(8)], prereq=[1202, 2102])
 quest(1205, 192, 0, "Equipo Wyvern",
       "Conseguí cualquier pieza de equipo Wyvern.",
@@ -475,33 +640,7 @@ quest(1303, 144, 0, "Kazzendre",
       "Después de él hay una sala del tesoro con el Soul Harsher Pickaxe." + V,
       item(HU + "harshen_crystal"), [t_hunt(HU + "kazzendre")], [r_xp(15)], prereq=[1302])
 
-chapter("Cap. 14 · Better With Mods", "Ingeniería mecánica: molinos, sierras, hornos y acero de alma.", item("betterwithmods:material"))
-BW = "betterwithmods:"
-bwm = [
-    (1400, "Semillas de cáñamo", "Conseguí semillas de cáñamo (salen al arar pasto).", "hemp_seed", [0]),
-    (1401, "Engranaje de madera", "Fabricá un engranaje de madera.", "wood_gear", [1400]),
-    (1402, "Piedra de molino", "Fabricá la Mill Stone: tintes, azúcar y polvo de blaze salen de acá.", "millstone", [1401]),
-    (1403, "Eje y caja de engranajes", "Fabricá una caja de engranajes para repartir energía.", "gearbox", [1402]),
-    (1404, "Molino de viento", "Fabricá un molino de viento.", "horizontal_windmill", [1403]),
-    (1405, "La sierra", "Fabricá una sierra.", "saw", [1403]),
-    (1406, "Fuego controlado", "Fabricá un Hibachi (fuego permanente) con fuelle.", "hibachi", [1405]),
-    (1407, "El Kiln", "Construí un horno de ladrillo (Kiln) sobre un Hibachi.", "kiln", [1406]),
-    (1408, "Caldero", "Fabricá un caldero de BWM. §cOjo: hay recetas explosivas.§r", "cauldron", [1402]),
-    (1409, "Cuero curtido", "Conseguí cuero curtido.", "tanned_leather", [1408]),
-    (1410, "Crisol", "Fabricá un crisol.", "crucible", [1407]),
-    (1411, "Acero de alma", "Conseguí un lingote de Soulforged Steel. §cEn este servidor la receta es más difícil y pide End Slag.§r",
-     "soul_forged_steel", [1410]),
-    (1412, "Yunque de acero", "Fabricá el Soulforged Steel Anvil.", "steel_anvil", [1411]),
-    (1413, "Encantador infernal", "Fabricá el Infernal Enchanter. El acero de alma solo se encanta con él.", "infernal_enchanter", [1412]),
-]
-pos = {1400: (0, 0), 1401: (48, 0), 1402: (96, 0), 1403: (144, 0), 1404: (192, -48), 1405: (192, 0),
-       1406: (240, 0), 1407: (288, 0), 1408: (144, 48), 1409: (192, 48), 1410: (336, 0), 1411: (384, 0),
-       1412: (432, 0), 1413: (480, 0)}
-for qid, nm, ds, adv, pre in bwm:
-    quest(qid, pos[qid][0], pos[qid][1], nm, ds + "\n\nLogro del mod: " + adv + V, item("betterwithmods:material"),
-          [t_adv(BW + adv)], [r_xp(3 + (qid - 1400) // 2)], prereq=pre, main=(qid in (1400, 1413)))
-
-chapter("Cap. 15 · Rustic", "Alquimia, vino, miel y decoración medieval.", item("rustic:elixir"))
+chapter("Cap. 14 · Rustic", "Alquimia, vino, miel y decoración medieval.", item("rustic:elixir"))
 RU = "rustic:"
 quest(1500, 0, 0, "Condensador",
       "§6Condenser:§r ladrillos alrededor de un balde, con arcilla endurecida blanca abajo al centro. "
@@ -511,8 +650,7 @@ quest(1501, 48, -24, "Retorta",
       "§6Retort:§r 2 ladrillos, 1 hierro y 1 balde. Va al lado del condensador." + V,
       item(RU + "retort"), [t_craft([item(RU + "retort")])], [r_xp(3)], prereq=[1500])
 quest(1502, 96, -24, "Tu primer elixir",
-      "Destilá un §eelixir§r con hierbas de Rustic (aloe, chamomile, ginseng, etc.). Los elixires son un ítem propio de Rustic: "
-      "los cambios de pociones de Better With Mods (soporte de pociones, pilas de 8) no los afectan." + V,
+      "Destilá un §eelixir§r con hierbas de Rustic (aloe, chamomile, ginseng, etc.). Se hacen en el condensador, no en el soporte de pociones." + V,
       item(RU + "elixir"), [t_get([item(RU + "elixir", 1, WILD)])], [r_xp(6)], prereq=[1501])
 quest(1503, 48, 24, "Tina de prensado",
       "§6Crushing Tub:§r tablones, hierro y losas. Pisá uvas, manzanas u olivas para hacer jugo." + V,
@@ -527,7 +665,7 @@ quest(1505, 144, 0, "Colmenar",
 # =============================================================================
 # BLOQUE IV — Combate y desafíos
 # =============================================================================
-chapter("Cap. 16 · Criaturas de la noche", "Pesadillas, esqueletos espeluznantes y zombis especiales.", item("minecraft:skull", dmg=2))
+chapter("Cap. 15 · Criaturas de la noche", "Pesadillas, esqueletos espeluznantes y zombis especiales.", item("minecraft:skull", dmg=2))
 quest(1600, 0, 0, "Pesadillas",
       "Cuando dormís hay §e5 % de chance§r de pesadilla: te despierta y aparece una de tres, con la misma probabilidad: "
       "una §eHag§r, una §eShadow Person§r o 8 §ePhantasmic Spiders§r. Derrotá a cualquiera." + V,
@@ -547,7 +685,7 @@ quest(1603, 96, 0, "Creepers elementales",
       [t_hunt("elementalcreepers:firecreeper"), t_hunt("elementalcreepers:icecreeper"), t_hunt("elementalcreepers:lightningcreeper")],
       [r_xp(8)], prereq=[1600])
 
-chapter("Cap. 17 · Depredadores", "Deadly Monsters: los monstruos más peligrosos.", item("dmonsters:souleye"))
+chapter("Cap. 16 · Depredadores", "Deadly Monsters: los monstruos más peligrosos.", item("dmonsters:souleye"))
 quest(1700, 0, 0, "Monstruos mortales",
       "Deadly Monsters trae criaturas muy peligrosas. Derrotá a §ecualquiera§r de: Woman, Wideman, Climber, Mutant Steve o Topielec.\n\n"
       "§7El Zombie Chicken no suelta botín (falta su tabla).§r" + V,
@@ -559,7 +697,7 @@ quest(1701, 48, 0, "Coleccionista de trofeos",
       item("dmonsters:womanheart"), any_get([item("dmonsters:womanheart"), item("dmonsters:widemanspine"), item("dmonsters:souleye")]),
       [r_xp(6)], prereq=[1700], logic="OR")
 
-chapter("Cap. 18 · Maldición lunar", "Howling Moon: licantropía. Sin jefes.", item("howlingmoon:moonstone"))
+chapter("Cap. 17 · Maldición lunar", "Howling Moon: licantropía. Sin jefes.", item("howlingmoon:moonstone"))
 HM = "howlingmoon:"
 quest(1800, 0, 0, "Plata",
       "Conseguí un §elingote de plata§r (mineral de plata de Howling Moon).",
@@ -575,7 +713,7 @@ quest(1803, 96, 24, "La cura",
       "si sos hombre lobo te cura; si estás infectado, cura la infección; si no, te vuelve inmune (o te quita la inmunidad)." + V,
       item(HM + "potion_wolfsbane"), [t_get([item(HM + "potion_wolfsbane", 1, WILD)])], [r_xp(5)], prereq=[1800])
 
-chapter("Cap. 19 · Enemigos infernales", "Infernal Mobs: monstruos con poderes extra.", item("minecraft:blaze_powder"))
+chapter("Cap. 18 · Enemigos infernales", "Infernal Mobs: monstruos con poderes extra.", item("minecraft:blaze_powder"))
 quest(1900, 0, 0, "Reconocer un infernal",
       "Cualquier monstruo puede salir con modificadores. Rarezas del servidor: §eÉlite§r 1 de 15, §6Ultra§r 1 de 7 entre élites, "
       "§cInfernal§r 1 de 7 entre ultra. Hay 27 modificadores activos (veneno, robo de vida, explosión, etc.).\n\n"
@@ -585,7 +723,7 @@ quest(1901, 48, 0, "Tu primer infernal",
       "Derrotá a un monstruo con nombre de color (élite, ultra o infernal) y marcá la casilla.\n§7(Esta misión confía en tu palabra.)§r",
       item("minecraft:golden_sword"), [t_check()], [r_xp(8)], prereq=[1900])
 
-chapter("Cap. 20 · Guardianes y defensas", "Totems defensores, tótems espirituales y SecurityCraft.", item("totemdefender:core"))
+chapter("Cap. 19 · Guardianes y defensas", "Totems defensores, tótems espirituales y SecurityCraft.", item("totemdefender:core"))
 quest(2000, 0, 0, "Núcleo defensor (Totem Defender)",
       "§6Core:§r 6 lapislázuli, 1 perla de ender y 1 bloque de redstone. Los §eTotems§r (madera, hierro, oro, diamante) "
       "disparan a lo que elijas con sus filtros (enemigos, animales, otros jugadores)." + V,
@@ -603,7 +741,7 @@ quest(2002, 48, 24, "Seguridad (SecurityCraft)",
       "Al teclado se le pone una clave y da 3 s de redstone al acertarla." + V,
       item("securitycraft:keypad_item"), [t_get([item("securitycraft:keypad_item")])], [r_xp(4)], prereq=[2000])
 
-chapter("Cap. 21 · Grandes expediciones", "Jefes vanilla y expediciones en grupo.", item("minecraft:nether_star"))
+chapter("Cap. 20 · Grandes expediciones", "Jefes vanilla y expediciones en grupo.", item("minecraft:nether_star"))
 quest(2100, 0, 0, "Expediciones en grupo",
       "Los jefes grandes se enfrentan mejor en equipo. Tu progreso del libro sigue siendo individual: cada uno completa sus misiones.\n\n"
       "§7Los puntos de clan y el ranking llegarán con PV7Core.§r",
@@ -615,7 +753,7 @@ quest(2102, 48, 24, "Expedición grupal: el End",
       "§cRegla del servidor:§r nadie entra al End ni mata al dragón por su cuenta. "
       "La expedición se organiza entre todos: busquen juntos el portal, entren juntos y derroten al §eEnder Dragon§r en grupo.\n\n"
       "Se completa para §ecada jugador que entre al End§r con la expedición. Después del dragón, el End queda abierto para todos "
-      "(Chaos Guardian, draconio del End, End Slag de BWM).",
+      "(Chaos Guardian y draconio del End).",
       item("minecraft:dragon_egg"), [t_dim(1, "The End")], [r_xp(20)], prereq=[2100])
 quest(2103, 96, 0, "Guardián del templo",
       "Derrotá a un §eElder Guardian§r de un monumento oceánico.",
@@ -624,7 +762,7 @@ quest(2103, 96, 0, "Guardián del templo",
 # =============================================================================
 # BLOQUE V — Maestría
 # =============================================================================
-chapter("Cap. 22 · El poder definitivo", "La cima de Draconic Evolution.", item("draconicevolution:chaotic_core"))
+chapter("Cap. 21 · El poder definitivo", "La cima de Draconic Evolution.", item("draconicevolution:chaotic_core"))
 quest(2200, 0, 0, "Equipo dracónico",
       "Conseguí cualquier pieza de equipo §eDraconic§r.",
       item(DE + "draconic_chest"),
@@ -638,7 +776,7 @@ quest(2202, 48, 48, "Almacén de energía",
       "Fabricá un §eEnergy Storage Core§r para guardar energía en grande.",
       item(DE + "energy_storage_core"), [t_craft([item(DE + "energy_storage_core")])], [r_xp(10)], prereq=[1202])
 
-chapter("Cap. 23 · Maestro de las dimensiones", "Pisá todas las dimensiones del servidor.", item("minecraft:ender_eye"))
+chapter("Cap. 22 · Maestro de las dimensiones", "Pisá todas las dimensiones del servidor.", item("minecraft:ender_eye"))
 dims = [(-1, "Nether"), (1, "End"), (20, "Betweenlands"), (-127, "Trópicos"), (100, "Tierra elemental"),
         (101, "Agua elemental"), (102, "Aire elemental"), (103, "Espíritu elemental"), (104, "Fuego elemental"),
         (28885, "Hunting Dimension"), (-50, "Cavern"), (5, "Pontus")]
@@ -653,7 +791,7 @@ quest(2301, 48, 0, "Todas las cavernas",
                                "enter_the_ice_cavern", "enter_the_huge_cavern", "cavenia/root")],
       [r_xp(15)], prereq=[2300])
 
-chapter("Cap. 24 · Coleccionista", "Logros difíciles de completar.", item("minecraft:chest"))
+chapter("Cap. 23 · Coleccionista", "Logros difíciles de completar.", item("minecraft:chest"))
 quest(2400, 0, 0, "Todos los anillos",
       "Conseguí todos los anillos de la Betweenlands.\n\nLogro \"None To Rule Them All\"." + V,
       item("minecraft:gold_nugget"), [t_adv(BL + "adventurer/none_to_rule_them_all")], [r_xp(15)], prereq=[601], main=True)
@@ -667,7 +805,7 @@ quest(2403, 96, 0, "Herramientas compuestas",
       "Fabricá una herramienta compuesta con magia de Cavern.\n\nLogro \"Fantastic Tools\"." + V,
       item("cavern:composite_pickaxe"), [t_adv(CV + "composite_tools")], [r_xp(12)], prereq=[1008])
 
-chapter("Cap. 25 · Arquitecto del mundo", "Colonias y aldeanos.", item("minecolonies:blockhuttownhall"))
+chapter("Cap. 24 · Arquitecto del mundo", "Colonias y aldeanos.", item("minecolonies:blockhuttownhall"))
 quest(2500, 0, 0, "Fundá una colonia (MineColonies)",
       "Para empezar: §eSupplyCamp Chest§r (5 cofres en U, necesita un terreno plano de 16×17 sin pasto ni flores) "
       "o §eSupplyShip Chest§r (5 botes en U, va en el agua). Cada jugador puede colocar solo uno. Después colocá el §eTown Hall§r." + V,
@@ -680,7 +818,7 @@ quest(2502, 0, 48, "Vida en la aldea (MCA)",
       item("mca:engagement_ring"), any_get([item("mca:engagement_ring"), item("mca:engagement_ring_rg")]),
       [r_xp(6)], prereq=[0], logic="OR")
 
-chapter("Cap. 26 · Desafíos legendarios", "Los combates más difíciles del servidor.", item("minecraft:diamond_sword"))
+chapter("Cap. 25 · Desafíos legendarios", "Los combates más difíciles del servidor.", item("minecraft:diamond_sword"))
 quest(2600, 0, 0, "Trilogía de jefes finales",
       "Derrotá a Primordial Malevolence, al Fire Boss y al Chaos Guardian.",
       item("minecraft:diamond_sword"),
@@ -690,7 +828,7 @@ quest(2601, 48, 0, "Wither en serie",
       "Derrotá al Wither 3 veces.",
       item("minecraft:nether_star"), [t_hunt("minecraft:wither", 3)], [r_xp(30)], prereq=[2101])
 
-chapter("Cap. 27 · La última expedición", "Opcional. No bloquea nada.", item("minecraft:dragon_egg"))
+chapter("Cap. 26 · La última expedición", "Opcional. No bloquea nada.", item("minecraft:dragon_egg"))
 quest(2700, 0, 0, "Leyenda de ArreMods",
       "Recorriste todas las dimensiones y venciste a los jefes finales. Tu nombre queda en la historia del servidor.",
       item("minecraft:dragon_egg"), [t_check()],

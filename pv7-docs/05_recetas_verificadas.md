@@ -1,3 +1,5 @@
+> **Desactualizado:** este documento es de cuando el servidor tenía Better With Mods. Se quitó el 2026-11-19, así que las recetas normales de Minecraft volvieron (tintes, carbón vegetal, herramientas de diamante, etc.).
+
 # PV7 — Recetas verificadas del Bloque I (capítulos 1 a 5)
 **Fecha:** 2026-11-19 · Completa los **[P]** de recetas del documento 03.
 

@@ -9,8 +9,6 @@ Los JAR no se suben al repo (son de otros autores). Esta lista sirve para repone
 | `Baubles-1.12-1.5.2.jar` | 0.1 MB | `b32010b2f2778aa1188585e7ead91ad46d4cb2c715f9c778a61848ba7fe51f8d` |
 | `BetterQuesting-3.5.329.jar` | 1.4 MB | `f7803b91d54b98eb54b3e2f12143866e68a46e3f963d51997d1a1195b8469ba7` |
 | `BetterThanLlamas-1.12.1-1.0.0.jar` | 0.0 MB | `d35cd93803306dfbdd38df1827239c70b14de3b6a6a56ec7d7ebda5529d1ea59` |
-| `BetterWithLib-1.12-1.5.jar` | 0.0 MB | `dc55dc18b2b06a6404cf4b8efa3191845a963a86cdc411f6c5bf892780cbdde9` |
-| `BetterWithMods-1.12-2.3.19-1017.jar` | 5.1 MB | `7b1454f23d656288035edfc2366c92136cb295ef63a64f83430e01c5a2f6584a` |
 | `Bookshelf-1.12.2-2.3.568.jar` | 0.2 MB | `511877f19931de7562791fb3a0273171fcc8771858cfcc63b3abacedf7cb780f` |
 | `BrandonsCore-1.12.2-2.4.7.189-universal.jar` | 0.9 MB | `13bb9e08f504eaa4c499feccfea5a56407be9fd0a039524f07a686af81700fa3` |
 | `Cavern_1.12.2-v1.10.6.jar` | 12.1 MB | `64a31e6d6a0c61df97c7249cd8c7e2820607ac780534fe788668d7a7b0467c9d` |
@@ -115,6 +113,8 @@ Los JAR no se suben al repo (son de otros autores). Esta lista sirve para repone
 | `ArreMods-quitados/thutcore-1.12.2-5.19.9.jar` | 0.5 MB | `207db2e9da386dd2901329e6c791f2df34026f7558d52ab59e6da9b8305b77aa` |
 | `ArreMods-quitados/thuttech-1.12.2-6.1.5.jar` | 0.1 MB | `3764e10970da8e5b080db84dec0e59b48737ed37a1d2f069cac11f04349cc7e3` |
 | `ArreMods-quitados/zawa+-+1.4.0+(1.12.2).jar` | 12.3 MB | `4bb0f3affdc3dd59f6d1a009c24627adac7cfde8de417f7e1f98746a3b6cf7e1` |
+| `BWM-quitado/BetterWithLib-1.12-1.5.jar` | 0.0 MB | `dc55dc18b2b06a6404cf4b8efa3191845a963a86cdc411f6c5bf892780cbdde9` |
+| `BWM-quitado/BetterWithMods-1.12-2.3.19-1017.jar` | 5.1 MB | `7b1454f23d656288035edfc2366c92136cb295ef63a64f83430e01c5a2f6584a` |
 | `reemplazados/journeymap-1.12.2-5.5.3.jar` | 1.8 MB | `e6071b72d42c864db417cb1d0edd57b3cd61a014bc30cca8dc444dac5d039534` |
 
 ## Solo para el cliente (`para-el-cliente/`)
