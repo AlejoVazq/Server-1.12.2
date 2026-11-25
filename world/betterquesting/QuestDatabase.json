@@ -8,7 +8,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Tu libro de aventuras",
-          "desc:8": "Este libro es tu guía. No hay orden obligatorio y tu progreso es solo tuyo.\n\n§eUso:§r abrí una misión, hacé lo que pide y entregala o marcá la casilla. Si tiene premio, tocá §a\"Claim\"§r.\nSi perdés el libro: §elibro + palo§r.\n\n§6Reglas del servidor§r\n§e1.§r Somos todos amigos: buena onda, y si algo molesta se habla.\n§e2.§r §cNo se roba ni se rompe§r lo que es de otro jugador: casas, cofres, granjas, máquinas. Las tumbas también son de su dueño. Si rompés algo sin querer, lo arreglás o lo devolvés.\n§e3.§r §aLas trampas y las bromas valen.§r Si caés en una, te reís y listo; eso sí, la trampa no puede romper ni llevarse cosas ajenas.\n§e4.§r §cNadie va al End ni mata al dragón por su cuenta.§r Es la §eexpedición grupal§r (cap. 25) y se organiza entre todos.\n§e5.§r Pelear contra otro jugador solo si los dos están de acuerdo.\n§e6.§r Nada de hacks, x-ray ni programas para sacar ventaja.\n§e7.§r Si una granja o una máquina hace lagear el servidor, se apaga o se achica.\n§e8.§r Reclamá los chunks de tu base en el mapa de FTB Utilities: así nadie la puede romper sin querer. Si vas a construir cerca de otro, avisale antes.",
+          "desc:8": "Este libro es tu guía. No hay orden obligatorio y tu progreso es solo tuyo.\n\n§eUso:§r abrí una misión, hacé lo que pide y entregala o marcá la casilla. Si tiene premio, tocá §a\"Claim\"§r.\nSi perdés el libro: §elibro + palo§r.\n\n§6Reglas del servidor§r\n§e1.§r Somos todos amigos: buena onda, y si algo molesta se habla.\n§e2.§r §cNo se roba ni se rompe§r lo que es de otro jugador: casas, cofres, granjas, máquinas. Las tumbas también son de su dueño. Si rompés algo sin querer, lo arreglás o lo devolvés.\n§e3.§r §aLas trampas y las bromas valen.§r Si caés en una, te reís y listo; eso sí, la trampa no puede romper ni llevarse cosas ajenas.\n§e4.§r §cNadie va al End ni mata al dragón por su cuenta.§r Es la §eexpedición grupal§r (Historia › Grandes expediciones) y se organiza entre todos.\n§e5.§r Pelear contra otro jugador solo si los dos están de acuerdo.\n§e6.§r Nada de hacks, x-ray ni programas para sacar ventaja.\n§e7.§r Si una granja o una máquina hace lagear el servidor, se apaga o se achica.\n§e8.§r Reclamá los chunks de tu base con §e/team create <nombre>§r y después §e/chunks claim§r (Historia › Tu primer asentamiento): así nadie la puede romper sin querer. Si vas a construir cerca de otro, avisale antes.",
           "icon:10": {
             "id:8": "questbook:itemquestbook",
             "Count:3": 1,
@@ -304,7 +304,7 @@
             "0:10": {
               "id:8": "camping:tent",
               "Count:3": 1,
-              "Damage:2": 32767,
+              "Damage:2": 15,
               "OreDict:8": ""
             }
           }
@@ -321,7 +321,7 @@
             "0:10": {
               "id:8": "camping:sleeping_bag",
               "Count:3": 1,
-              "Damage:2": 32767,
+              "Damage:2": 0,
               "OreDict:8": ""
             }
           }
@@ -1063,7 +1063,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Tu primera semana de exploración",
-          "desc:8": "Abrí la §eNature's Compass§r (clic derecho), elegí un bioma que no conozcas (Savanna, Mesa, Ice Spikes, Mushroom Island…) y seguí la flecha. Cuando llegues, hacé un waypoint en JourneyMap y marcá la casilla.\n\nEn el camino anotá en el mapa lo que veas: §ecuevas§r con minerales, §ealdeas§r para comerciar, §etemplos y estructuras§r con cofres. Muchas estructuras de mods también tienen botín.\n\n§7Los biomas de Tropicraft y Betweenlands no están en el Overworld: viven en sus propias dimensiones (cap. 6 y 7).§r",
+          "desc:8": "Abrí la §eNature's Compass§r (clic derecho), elegí un bioma que no conozcas (Savanna, Mesa, Ice Spikes, Mushroom Island…) y seguí la flecha. Cuando llegues, hacé un waypoint en JourneyMap y marcá la casilla.\n\nEn el camino anotá en el mapa lo que veas: §ecuevas§r con minerales, §ealdeas§r para comerciar, §etemplos y estructuras§r con cofres. Muchas estructuras de mods también tienen botín.\n\n§7Los biomas de Tropicraft y Betweenlands no están en el Overworld: viven en sus propias dimensiones (rama §bExploración§r).§r",
           "icon:10": {
             "id:8": "minecraft:filled_map",
             "Count:3": 1,
@@ -1154,7 +1154,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Reclamá tu terreno",
-          "desc:8": "Para que nadie rompa tu base sin querer, §ereclamá los chunks§r donde está:\n · Abrí el inventario y tocá el botón de §eFTB Utilities§r (arriba a la izquierda) → §eClaimed Chunks§r.\n · En el mapa, hacé §eclic izquierdo§r sobre los cuadrados para reclamarlos (clic derecho los libera).\n\nAdemás: §e/sethome§r guarda tu casa y §e/home§r te lleva de vuelta desde cualquier lado. Útil cuando te perdés o se hace de noche.\n\n§7La cantidad de chunks que podés reclamar la fija el administrador.§r",
+          "desc:8": "Para que nadie rompa tu base sin querer, §ereclamá los chunks§r donde está. Se hace con comandos en el chat:\n\n§e1.§r Creá tu equipo (una sola vez): §e/team create <nombre>§r\n    §7Sin equipo no se puede reclamar: sale \"Can't modify this chunk!\".§r\n§e2.§r Parate en tu base y escribí §e/chunks claim§r. Reclama el chunk donde estás (16×16 bloques).\n§e3.§r Apretá §eF3 + G§r para ver los bordes de los chunks. Caminá y repetí §e/chunks claim§r en cada uno.\n\nOtros comandos:\n · §e/chunks unclaim§r libera el chunk donde estás.\n · §e/chunks info§r dice de quién es el chunk.\n · §e/team join <nombre>§r suma a un amigo a tu equipo.\n\nAdemás: §e/sethome§r guarda tu casa y §e/home§r te lleva de vuelta desde cualquier lado. Útil cuando te perdés o se hace de noche.\n\n§7La cantidad de chunks que podés reclamar la fija el administrador.§r",
           "icon:10": {
             "id:8": "minecraft:iron_door",
             "Count:3": 1,
@@ -1274,7 +1274,41 @@
             "0:10": {
               "id:8": "camping:bag",
               "Count:3": 1,
-              "Damage:2": 32767,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "4:10": {
+          "index:3": 4,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "camping:bag",
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "5:10": {
+          "index:3": 5,
+          "taskID:8": "bq_standard:crafting",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "camping:bag",
+              "Count:3": 1,
+              "Damage:2": 2,
               "OreDict:8": ""
             }
           }
@@ -1532,7 +1566,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Elegí tu próxima rama",
-          "desc:8": "Ya tenés base, almacén y territorio. Desde acá el libro se abre y podés seguir por donde quieras:\n · §6Dimensiones§r (cap. 6 a 10): pantanos, trópicos, cinco mundos elementales, caza y cavernas.\n · §6Magia y tecnología§r (cap. 11 a 19): estrellas, dragones, almas y alquimia.\n · §6Combate§r (cap. 20 a 25): monstruos de la noche, depredadores, hombres lobo y jefes.\n\n§eConsejo:§r si es tu primera vez con mods, empezá por §eCavern§r (cap. 10) o §eTropicraft§r (cap. 7): son los más fáciles.",
+          "desc:8": "Ya tenés base, almacén y territorio. Desde acá el libro se abre y podés seguir por donde quieras:\n · §fHistoria§r: el camino principal, de la madera a los jefes del Nether y del End.\n · §eEquipo§r: hornos mejores, almacén ender y herramientas armadas pieza por pieza.\n · §6Recursos§r: cultivos, alquimia, aldeas y semillas de minerales.\n · §9Tecnología§r: máquinas, almacenamiento digital y dragones.\n · §dMagia§r: licantropía, estrellas y almas.\n · §cCombate§r: defensas, monstruos de la noche, depredadores y jefes.\n · §bExploración§r: trópicos, cavernas, caza, pantanos y cinco mundos elementales.\n · §7Logros§r: para coleccionistas.\n\nLas ramas están en orden de avance y cada una va de más fácil a más difícil (las estrellas de la descripción lo marcan).\n§eConsejo:§r antes de viajar a otra dimensión, armate en §eEquipo§r y §9Tecnología§r. La más fácil para empezar es §eTropicraft§r.",
           "icon:10": {
             "id:8": "minecraft:nether_star",
             "Count:3": 1,
@@ -2277,7 +2311,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Jefe final: Primordial Malevolence",
-          "desc:8": "El jefe de la cima de la Wight Fortress. Pelea desde el centro de la sala con §etorretas§r, §ebarreras§r que lo vuelven invulnerable y §eteletransportes§r.\n\n§eCómo ganarle:§r rompé las torretas primero, esquivá los proyectiles y pegale cuando la barrera baja. Vayan en grupo, con armadura de syrmorite o mejor y mucha comida.\n\nEs uno de los tres jefes de la §eTrilogía§r del cap. 30.",
+          "desc:8": "El jefe de la cima de la Wight Fortress. Pelea desde el centro de la sala con §etorretas§r, §ebarreras§r que lo vuelven invulnerable y §eteletransportes§r.\n\n§eCómo ganarle:§r rompé las torretas primero, esquivá los proyectiles y pegale cuando la barrera baja. Vayan en grupo, con armadura de syrmorite o mejor y mucha comida.\n\nEs uno de los tres jefes de la §eTrilogía§r del Combate › Desafíos legendarios.",
           "icon:10": {
             "id:8": "minecraft:nether_star",
             "Count:3": 1,
@@ -3481,7 +3515,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Jefe final: Fire Boss",
-          "desc:8": "El último jefe del capítulo. Se invoca con una §eFire Boss Seed§r: 4 semillas de trigo alrededor de una §eestrella del Nether§r (la suelta el Wither, cap. 25).\n\nEn la §edimensión Fuego§r, §etirá la semilla al suelo§r (tecla §eQ§r) y alejate: hay una explosión antes de que aparezca.\n\nSuelta la §eElemental Wand§r. §7No tiene barra de jefe: fijate su vida con Hwyla.§r\n\nEs uno de los tres jefes de la §eTrilogía§r del cap. 30.",
+          "desc:8": "El último jefe del capítulo. Se invoca con una §eFire Boss Seed§r: 4 semillas de trigo alrededor de una §eestrella del Nether§r (la suelta el Wither, Historia › Grandes expediciones).\n\nEn la §edimensión Fuego§r, §etirá la semilla al suelo§r (tecla §eQ§r) y alejate: hay una explosión antes de que aparezca.\n\nSuelta la §eElemental Wand§r. §7No tiene barra de jefe: fijate su vida con Hwyla.§r\n\nEs uno de los tres jefes de la §eTrilogía§r del Combate › Desafíos legendarios.",
           "icon:10": {
             "id:8": "elementaldimensions:elementalwand",
             "Count:3": 1,
@@ -5091,7 +5125,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Núcleo Wyvern",
-          "desc:8": "El §eWyvern Core§r es el segundo nivel de núcleo y la base del equipo Wyvern.\n\nSe arma con §eFusion Crafting§r: lleva §eDraconic Cores§r y una §eestrella del Nether§r (la suelta el Wither). Mirá la receta completa con §eR§r en JEI.\n\nEsta misión se abre después de la §eexpedición grupal al End§r (cap. 25).",
+          "desc:8": "El §eWyvern Core§r es el segundo nivel de núcleo y la base del equipo Wyvern.\n\nSe arma con §eFusion Crafting§r: lleva §eDraconic Cores§r y una §eestrella del Nether§r (la suelta el Wither). Mirá la receta completa con §eR§r en JEI.\n\nEsta misión se abre después de la §eexpedición grupal al End§r (Historia › Grandes expediciones).",
           "icon:10": {
             "id:8": "draconicevolution:wyvern_core",
             "Count:3": 1,
@@ -10491,7 +10525,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Viajero de mundos",
-          "desc:8": "Visitá §e12 dimensiones§r. Cada tarea se completa sola al llegar:\n · §eNether§r (portal de obsidiana) · §eEnd§r (expedición grupal, cap. 25)\n · §eBetweenlands§r (cap. 6) · §eTrópicos§r (cap. 7)\n · §eTierra, Agua, Aire, Espíritu y Fuego§r (cap. 8)\n · §eHunting Dimension§r (cap. 9) · §eCavern§r (cap. 10) · §ePontus§r (cap. 13)\n\nCada capítulo explica cómo llegar a su dimensión.",
+          "desc:8": "Visitá §e12 dimensiones§r. Cada tarea se completa sola al llegar:\n · §eNether§r (portal de obsidiana) · §eEnd§r (expedición grupal, Historia › Grandes expediciones)\n · §eBetweenlands§r (Exploración › The Betweenlands) · §eTrópicos§r (Exploración › Tropicraft)\n · §eTierra, Agua, Aire, Espíritu y Fuego§r (Exploración › Elemental Dimensions)\n · §eHunting Dimension§r (Exploración › Hunting Dimension) · §eCavern§r (Exploración › Cavern) · §ePontus§r (Magia › Harshen Universe)\n\nCada capítulo explica cómo llegar a su dimensión.",
           "icon:10": {
             "id:8": "minecraft:ender_eye",
             "Count:3": 1,
@@ -11185,7 +11219,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Trilogía de jefes finales",
-          "desc:8": "Los tres jefes finales del servidor:\n · §ePrimordial Malevolence§r: la cima de la Wight Fortress (Betweenlands, cap. 6).\n · §eFire Boss§r: la dimensión Fuego (Elemental Dimensions, cap. 8).\n · §eChaos Guardian§r: las Chaos Islands del End (Draconic Evolution, cap. 12).\n\nDerrotá a los tres. Cada uno se completa por separado, en el orden que quieras.",
+          "desc:8": "Los tres jefes finales del servidor:\n · §ePrimordial Malevolence§r: la cima de la Wight Fortress (Betweenlands, Exploración › The Betweenlands).\n · §eFire Boss§r: la dimensión Fuego (Elemental Dimensions, Exploración › Elemental Dimensions).\n · §eChaos Guardian§r: las Chaos Islands del End (Draconic Evolution, Tecnología › Draconic Evolution).\n\nDerrotá a los tres. Cada uno se completa por separado, en el orden que quieras.",
           "icon:10": {
             "id:8": "minecraft:diamond_sword",
             "Count:3": 1,
@@ -11421,8 +11455,8 @@
       "order:3": 0,
       "properties:10": {
         "betterquesting:10": {
-          "name:8": "Cap. 1 · Bienvenido a ArreMods",
-          "desc:8": "§6Tu guía de ArreMods.§r Cada capítulo es un mod o un tema del servidor.\n\n§eCómo se usa:§r no hay un orden obligatorio. Las misiones grises se desbloquean al completar otras; las que tienen marco grande son las principales de cada capítulo.\n\n§eHerramientas que vas a usar todo el tiempo:§r\n · §6JEI§r (a la derecha del inventario): §eR§r sobre un objeto = cómo se fabrica, §eU§r = para qué sirve.\n · §6Hwyla§r: mirá un bloque y te dice qué es y de qué mod viene.\n · §6JourneyMap§r: §eJ§r abre el mapa, §eB§r crea un waypoint.\n · §6Voice Chat§r: mantené §eBloq Mayús§r para hablar; §eV§r abre el menú.\n\nEmpezá leyendo las reglas en la primera misión.",
+          "name:8": "§a[Inicio]§r Bienvenido a ArreMods",
+          "desc:8": "§aInicio§r · Dificultad: §6★§8★★★★§r\n\n§6Tu guía de ArreMods.§r Cada capítulo es un mod o un tema del servidor.\n\n§eCómo se usa:§r no hay un orden obligatorio. Las misiones grises se desbloquean al completar otras; las que tienen marco grande son las principales de cada capítulo.\n\n§eHerramientas que vas a usar todo el tiempo:§r\n · §6JEI§r (a la derecha del inventario): §eR§r sobre un objeto = cómo se fabrica, §eU§r = para qué sirve.\n · §6Hwyla§r: mirá un bloque y te dice qué es y de qué mod viene.\n · §6JourneyMap§r: §eJ§r abre el mapa, §eB§r crea un waypoint.\n · §6Voice Chat§r: mantené §eBloq Mayús§r para hablar; §eV§r abre el menú.\n\nEmpezá leyendo las reglas en la primera misión.",
           "icon:10": {
             "id:8": "questbook:itemquestbook",
             "Count:3": 1,
@@ -11470,8 +11504,8 @@
       "order:3": 1,
       "properties:10": {
         "betterquesting:10": {
-          "name:8": "Cap. 2 · Los primeros días",
-          "desc:8": "§6Sobrevivir la primera noche.§r Madera, un refugio, un lugar donde dormir, fuego y comida.\n\n§eMods de este capítulo:§r\n · §6The Camping Mod§r: tiendas, sacos de dormir, fogatas para cocinar y mochilas.\n · §6Campfire§r: fogata que da luz y calor, pero se apaga sola a los ~6 minutos.\n · §6Corail Tombstone§r: si morís, tus cosas quedan en una tumba donde caíste.\n\n§cOjo con la noche:§r salen criaturas de otros mods (creepers elementales, monstruos mortales, hombres lobo) y al dormir hay un 5 % de chance de pesadilla. Dormí con equipo puesto y la vida llena.",
+          "name:8": "§f[Historia]§r Los primeros días",
+          "desc:8": "§fHistoria§r · Dificultad: §6★§8★★★★§r\n\n§6Sobrevivir la primera noche.§r Madera, un refugio, un lugar donde dormir, fuego y comida.\n\n§eMods de este capítulo:§r\n · §6The Camping Mod§r: tiendas, sacos de dormir, fogatas para cocinar y mochilas.\n · §6Campfire§r: fogata que da luz y calor, pero se apaga sola a los ~6 minutos.\n · §6Corail Tombstone§r: si morís, tus cosas quedan en una tumba donde caíste.\n\n§cOjo con la noche:§r salen criaturas de otros mods (creepers elementales, monstruos mortales, hombres lobo) y al dormir hay un 5 % de chance de pesadilla. Dormí con equipo puesto y la vida llena.",
           "icon:10": {
             "id:8": "campfire:campfire",
             "Count:3": 1,
@@ -11519,8 +11553,8 @@
       "order:3": 2,
       "properties:10": {
         "betterquesting:10": {
-          "name:8": "Cap. 3 · Preparación del aventurero",
-          "desc:8": "§6Equiparte antes de salir a explorar.§r\n\n§eMods de este capítulo:§r\n · §6Spartan Shields§r: escudos de madera, piedra, hierro, oro, obsidiana y diamante. Cada material aguanta más golpes.\n · §6Hammer Time§r: martillos que rompen 3×3 bloques de una vez. Ideales para minar y abrir túneles.\n · §6Disenchanter§r: mesa que saca los encantamientos de un objeto y los pasa a un libro.\n · §6Switch-Bow§r: arco con carcaj para cambiar de tipo de flecha sin abrir el inventario.\n · §6OreExcavation§r: con la tecla §e`§r rompés una veta o un árbol entero de una vez.\n\nNada de este capítulo bloquea el resto: es para llegar mejor preparado.",
+          "name:8": "§f[Historia]§r Preparación del aventurero",
+          "desc:8": "§fHistoria§r · Dificultad: §6★§8★★★★§r\n\n§6Equiparte antes de salir a explorar.§r\n\n§eMods de este capítulo:§r\n · §6Spartan Shields§r: escudos de madera, piedra, hierro, oro, obsidiana y diamante. Cada material aguanta más golpes.\n · §6Hammer Time§r: martillos que rompen 3×3 bloques de una vez. Ideales para minar y abrir túneles.\n · §6Disenchanter§r: mesa que saca los encantamientos de un objeto y los pasa a un libro.\n · §6Switch-Bow§r: arco con carcaj para cambiar de tipo de flecha sin abrir el inventario.\n · §6OreExcavation§r: con la tecla §e`§r rompés una veta o un árbol entero de una vez.\n\nNada de este capítulo bloquea el resto: es para llegar mejor preparado.",
           "icon:10": {
             "id:8": "spartanshields:shield_basic_wood",
             "Count:3": 1,
@@ -11568,8 +11602,8 @@
       "order:3": 3,
       "properties:10": {
         "betterquesting:10": {
-          "name:8": "Cap. 4 · Explorador",
-          "desc:8": "§6Orientarte y moverte rápido.§r El mundo es grande y hay biomas y estructuras de muchos mods.\n\n§eMods de este capítulo:§r\n · §6Nature's Compass§r: elegís un bioma de la lista y la aguja te lleva hasta el más cercano.\n · §6JourneyMap§r: mapa, minimapa y waypoints. También marca dónde moriste.\n · §6Rope Bridge§r: dispara un puente de cuerda y madera para cruzar barrancos y ríos.\n · §6NetherPortalFix§r: cada portal del Nether vuelve al portal desde el que entraste.\n\n§7Los biomas de Tropicraft y Betweenlands no están en el mundo normal: tienen su propia dimensión.§r",
+          "name:8": "§f[Historia]§r Explorador",
+          "desc:8": "§fHistoria§r · Dificultad: §6★§8★★★★§r\n\n§6Orientarte y moverte rápido.§r El mundo es grande y hay biomas y estructuras de muchos mods.\n\n§eMods de este capítulo:§r\n · §6Nature's Compass§r: elegís un bioma de la lista y la aguja te lleva hasta el más cercano.\n · §6JourneyMap§r: mapa, minimapa y waypoints. También marca dónde moriste.\n · §6Rope Bridge§r: dispara un puente de cuerda y madera para cruzar barrancos y ríos.\n · §6NetherPortalFix§r: cada portal del Nether vuelve al portal desde el que entraste.\n\n§7Los biomas de Tropicraft y Betweenlands no están en el mundo normal: tienen su propia dimensión.§r",
           "icon:10": {
             "id:8": "naturescompass:naturescompass",
             "Count:3": 1,
@@ -11610,8 +11644,8 @@
       "order:3": 4,
       "properties:10": {
         "betterquesting:10": {
-          "name:8": "Cap. 5 · Tu primer asentamiento",
-          "desc:8": "§6Tu primera base.§r Reclamá el terreno, ordená tus cosas y empezá a cultivar.\n\n§eMods de este capítulo:§r\n · §6FTB Utilities§r: reclamo de chunks (nadie puede romper tu base) y §e/sethome§r / §e/home§r.\n · §6Backpacks§r, §6Iron Backpacks§r y las bolsas del §6Camping Mod§r: más espacio para llevar.\n · §6Storage Drawers§r: cajones que guardan muchísimo de un solo objeto; con el controlador se unen todos.\n · §6Chest Transporter§r: levanta un cofre lleno para mudarlo.\n · §6Water Strainer§r: filtra agua y junta palos, arcilla, arena y grava.\n\nAl terminar este capítulo, elegís tu rama: dimensiones, magia y tecnología, o combate.",
+          "name:8": "§f[Historia]§r Tu primer asentamiento",
+          "desc:8": "§fHistoria§r · Dificultad: §6★§8★★★★§r\n\n§6Tu primera base.§r Reclamá el terreno, ordená tus cosas y empezá a cultivar.\n\n§eMods de este capítulo:§r\n · §6FTB Utilities§r: reclamo de chunks con §e/chunks claim§r (nadie puede romper tu base) y §e/sethome§r / §e/home§r.\n · §6Backpacks§r, §6Iron Backpacks§r y las bolsas del §6Camping Mod§r: más espacio para llevar.\n · §6Storage Drawers§r: cajones que guardan muchísimo de un solo objeto; con el controlador se unen todos.\n · §6Chest Transporter§r: levanta un cofre lleno para mudarlo.\n · §6Water Strainer§r: filtra agua y junta palos, arcilla, arena y grava.\n\nAl terminar este capítulo elegís tu rama. En la lista de capítulos cada uno tiene su rama entre corchetes (§fHistoria§r, §eEquipo§r, §6Recursos§r, §9Tecnología§r, §dMagia§r, §cCombate§r, §bExploración§r, §7Logros§r) y dentro de cada rama van de más fácil a más difícil.",
           "icon:10": {
             "id:8": "storagedrawers:basicdrawers",
             "Count:3": 1,
@@ -11666,8 +11700,1177 @@
       "order:3": 5,
       "properties:10": {
         "betterquesting:10": {
-          "name:8": "Cap. 6 · The Betweenlands",
-          "desc:8": "§6The Betweenlands§r · dimensión 20\n\nUn pantano oscuro, enorme y con reglas propias. Es uno de los mods más grandes del servidor.\n\n§eCómo se entra:§r matá §eDruidas Oscuros§r en los altares druídicos de los pantanos del Overworld para juntar las 4 piezas del talismán. Con el talismán hacés crecer un árbol portal.\n\n§cReglas del pantano:§r las antorchas comunes no funcionan, las herramientas del Overworld rinden menos y se corroen, y la comida se pudre. Todo se fabrica de nuevo con materiales locales.\n\n§eJefes:§r Dreadful Peat Mummy, Spirit Tree y Primordial Malevolence (jefe final de la Wight Fortress).",
+          "name:8": "§f[Historia]§r Grandes expediciones",
+          "desc:8": "§fHistoria§r · Dificultad: §6★★★★§8★§r\n\n§6Grandes expediciones§r\n\nLos jefes de Minecraft, para enfrentar en grupo:\n · §eEl Wither§r: lo invocás vos. Suelta la estrella del Nether.\n · §eEl Elder Guardian§r: en los monumentos oceánicos.\n · §eEl Ender Dragon§r: §cexpedición grupal obligatoria§r. Nadie entra al End antes; se organiza entre todos.\n\nDespués del dragón, el End queda abierto: Chaos Guardian, draconio del End y más.",
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "visibility:8": "NORMAL",
+          "bg_image:8": "",
+          "bg_size:3": 256
+        }
+      },
+      "quests:9": {
+        "0:10": {
+          "id:3": 2100,
+          "x:3": 0,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "id:3": 2101,
+          "x:3": 48,
+          "y:3": -24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "id:3": 2102,
+          "x:3": 48,
+          "y:3": 24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "id:3": 2103,
+          "x:3": 96,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        }
+      }
+    },
+    "6:10": {
+      "lineID:3": 6,
+      "order:3": 6,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "§f[Historia]§r La última expedición",
+          "desc:8": "§fHistoria§r · Dificultad: §6★★★★★§8§r\n\n§6La última expedición§r\n\nEl cierre del libro: recorriste todas las dimensiones y venciste a los jefes finales.\n\nEs opcional y no bloquea nada. Como premio te llevás el título de §6Leyenda de ArreMods§r.",
+          "icon:10": {
+            "id:8": "minecraft:dragon_egg",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "visibility:8": "NORMAL",
+          "bg_image:8": "",
+          "bg_size:3": 256
+        }
+      },
+      "quests:9": {
+        "0:10": {
+          "id:3": 2700,
+          "x:3": 0,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        }
+      }
+    },
+    "7:10": {
+      "lineID:3": 7,
+      "order:3": 7,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "§e[Equipo]§r Taller y mejoras",
+          "desc:8": "§eEquipo§r · Dificultad: §6★★§8★★★§r\n\n§6Taller y mejoras§r\n\nMods chicos que hacen la vida más fácil:\n · §6Iron Furnaces§r: hornos más rápidos (hierro, oro, diamante, vidrio y obsidiana).\n · §6Ender Storage§r: cofres, tanques y bolsas que comparten su contenido por colores, en cualquier dimensión.\n · §6Item Collectors§r: juntan los objetos tirados y los guardan en un cofre.\n · §6Baubley Heart Canisters§r: corazones de vida extra que sueltan los monstruos y los jefes.",
+          "icon:10": {
+            "id:8": "ironfurnaces:iron_furnace_idle",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "visibility:8": "NORMAL",
+          "bg_image:8": "",
+          "bg_size:3": 256
+        }
+      },
+      "quests:9": {
+        "0:10": {
+          "id:3": 3400,
+          "x:3": 0,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "id:3": 3401,
+          "x:3": 48,
+          "y:3": -24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "id:3": 3402,
+          "x:3": 48,
+          "y:3": 24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "id:3": 3403,
+          "x:3": 96,
+          "y:3": 24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "id:3": 3404,
+          "x:3": 96,
+          "y:3": -24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "id:3": 3405,
+          "x:3": 0,
+          "y:3": 48,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "id:3": 3406,
+          "x:3": 48,
+          "y:3": 72,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        }
+      }
+    },
+    "8:10": {
+      "lineID:3": 8,
+      "order:3": 8,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "§e[Equipo]§r Tinkers' Construct",
+          "desc:8": "§eEquipo§r · Dificultad: §6★★§8★★★§r\n\n§6Tinkers' Construct§r · herramientas a medida\n\nHerramientas y armas armadas §epieza por pieza§r: cabeza, mango y unión, cada una del material que elijas. Cada material tiene rasgos propios, y las herramientas se reparan y se mejoran.\n\n§eProgresión:§r patrones y mesas de madera → Smeltery (fundición de metales) → Tool Forge (herramientas grandes) → cobalto y ardita del Nether.\n\nEl libro §eMaterials and You§r explica cada material. Las recetas están en JEI.",
+          "icon:10": {
+            "id:8": "tconstruct:smeltery_controller",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "visibility:8": "NORMAL",
+          "bg_image:8": "",
+          "bg_size:3": 256
+        }
+      },
+      "quests:9": {
+        "0:10": {
+          "id:3": 3000,
+          "x:3": 0,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "id:3": 3001,
+          "x:3": 48,
+          "y:3": -24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "id:3": 3002,
+          "x:3": 48,
+          "y:3": 24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "id:3": 3003,
+          "x:3": 96,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "id:3": 3004,
+          "x:3": 144,
+          "y:3": -24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "id:3": 3005,
+          "x:3": 144,
+          "y:3": 24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        }
+      }
+    },
+    "9:10": {
+      "lineID:3": 9,
+      "order:3": 9,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "§6[Recursos]§r Rustic",
+          "desc:8": "§6Recursos§r · Dificultad: §6★§8★★★★§r\n\n§6Rustic§r · alquimia, vino y vida de campo\n\nUn mod tranquilo para la base:\n · §eAlquimia:§r el Condensador y la Retorta destilan hierbas (aloe, manzanilla, ginseng y más) en §eelixires§r.\n · §eBebidas:§r la tina de prensado saca jugo de uvas, manzanas u olivas, y el barril los fermenta en vino, sidra o hidromiel.\n · §eMiel y cera:§r el colmenar.\n · §eCultivos:§r tomate y chile (crecen sobre estacas) y uvas.\n\nTambién trae muebles y decoración: sillas, mesas, velas y candelabros.",
+          "icon:10": {
+            "id:8": "rustic:elixir",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "visibility:8": "NORMAL",
+          "bg_image:8": "",
+          "bg_size:3": 256
+        }
+      },
+      "quests:9": {
+        "0:10": {
+          "id:3": 1500,
+          "x:3": 0,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "id:3": 1501,
+          "x:3": 48,
+          "y:3": -24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "id:3": 1502,
+          "x:3": 96,
+          "y:3": -24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "id:3": 1503,
+          "x:3": 48,
+          "y:3": 24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "id:3": 1504,
+          "x:3": 96,
+          "y:3": 24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "id:3": 1505,
+          "x:3": 144,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        }
+      }
+    },
+    "10:10": {
+      "lineID:3": 10,
+      "order:3": 10,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "§6[Recursos]§r Vida en la aldea",
+          "desc:8": "§6Recursos§r · Dificultad: §6★§8★★★★§r\n\n§6Vida en la aldea§r · MCA (Minecraft Comes Alive)\n\nLos aldeanos dejan de ser muñecos: hablan, trabajan, tienen familia y te podés casar.\n\nHablales seguido para subir la amistad: con amistad alta aceptan pedidos y, con un anillo, casamiento.\n\nIdeal para jugar tranquilo entre expediciones.",
+          "icon:10": {
+            "id:8": "mca:engagement_ring",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "visibility:8": "NORMAL",
+          "bg_image:8": "",
+          "bg_size:3": 256
+        }
+      },
+      "quests:9": {
+        "0:10": {
+          "id:3": 2502,
+          "x:3": 0,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        }
+      }
+    },
+    "11:10": {
+      "lineID:3": 11,
+      "order:3": 11,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "§6[Recursos]§r Mystical Agriculture",
+          "desc:8": "§6Recursos§r · Dificultad: §6★★★§8★★§r\n\n§6Mystical Agriculture§r · cultivá tus recursos\n\nSemillas que dan hierro, carbón, diamante y muchos materiales más al cosecharlas.\n\n§eProgresión:§r esencia de inferium → semillas de inferium → cristal de infusión (sube la esencia de tier) → semillas de recursos → equipo de Supremium.\n\nTiers de esencia: §einferium → prudentium → intermedium → superium → supremium§r.",
+          "icon:10": {
+            "id:8": "mysticalagriculture:tier1_inferium_seeds",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "visibility:8": "NORMAL",
+          "bg_image:8": "",
+          "bg_size:3": 256
+        }
+      },
+      "quests:9": {
+        "0:10": {
+          "id:3": 3300,
+          "x:3": 0,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "id:3": 3301,
+          "x:3": 48,
+          "y:3": -24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "id:3": 3302,
+          "x:3": 48,
+          "y:3": 24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "id:3": 3303,
+          "x:3": 96,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "id:3": 3304,
+          "x:3": 144,
+          "y:3": -24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "id:3": 3305,
+          "x:3": 144,
+          "y:3": 24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "id:3": 3306,
+          "x:3": 192,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        }
+      }
+    },
+    "12:10": {
+      "lineID:3": 12,
+      "order:3": 12,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "§9[Tecnología]§r Ender IO",
+          "desc:8": "§9Tecnología§r · Dificultad: §6★★§8★★★§r\n\n§6Ender IO§r · máquinas y energía\n\nMáquinas que funcionan con energía (RF): hornos de aleación, molinos, generadores y conductos.\n\n§eProgresión:§r Grains of Infinity → máquinas simples → Electrical Steel → conductos y banco de capacitores → Dark Steel y sus mejoras.\n\nLa energía de Ender IO sirve también para Applied Energistics 2 (Tecnología › Applied Energistics 2) y Draconic Evolution (Tecnología › Draconic Evolution).",
+          "icon:10": {
+            "id:8": "enderio:block_simple_alloy_smelter",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "visibility:8": "NORMAL",
+          "bg_image:8": "",
+          "bg_size:3": 256
+        }
+      },
+      "quests:9": {
+        "0:10": {
+          "id:3": 3100,
+          "x:3": 0,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "id:3": 3101,
+          "x:3": 48,
+          "y:3": -24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "id:3": 3102,
+          "x:3": 48,
+          "y:3": 24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "id:3": 3103,
+          "x:3": 96,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "id:3": 3104,
+          "x:3": 144,
+          "y:3": -24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "id:3": 3105,
+          "x:3": 144,
+          "y:3": 24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "id:3": 3106,
+          "x:3": 192,
+          "y:3": 24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        }
+      }
+    },
+    "13:10": {
+      "lineID:3": 13,
+      "order:3": 13,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "§9[Tecnología]§r Applied Energistics 2",
+          "desc:8": "§9Tecnología§r · Dificultad: §6★★★§8★★§r\n\n§6Applied Energistics 2§r · almacenamiento digital\n\nGuardá miles de objetos en §eceldas§r y buscá cualquiera desde un terminal. Más adelante, la red fabrica sola (autocrafteo).\n\n§eProgresión:§r cuarzo certus → meteoritos (prensas) → Inscriber y procesadores → ME Controller → ME Drive y celdas → Molecular Assembler.\n\n§cNecesita energía:§r Ender IO (Tecnología › Ender IO) o la Vibration Chamber del mod.",
+          "icon:10": {
+            "id:8": "appliedenergistics2:controller",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "visibility:8": "NORMAL",
+          "bg_image:8": "",
+          "bg_size:3": 256
+        }
+      },
+      "quests:9": {
+        "0:10": {
+          "id:3": 3200,
+          "x:3": 0,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "id:3": 3201,
+          "x:3": 48,
+          "y:3": -24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "id:3": 3202,
+          "x:3": 48,
+          "y:3": 24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "id:3": 3203,
+          "x:3": 96,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "id:3": 3204,
+          "x:3": 144,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "id:3": 3205,
+          "x:3": 192,
+          "y:3": -24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "id:3": 3206,
+          "x:3": 192,
+          "y:3": 24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        }
+      }
+    },
+    "14:10": {
+      "lineID:3": 14,
+      "order:3": 14,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "§9[Tecnología]§r Draconic Evolution",
+          "desc:8": "§9Tecnología§r · Dificultad: §6★★★★§8★§r\n\n§6Draconic Evolution§r · tecnología dracónica\n\nHerramientas, armaduras y máquinas cada vez más poderosas, hechas con §edraconio§r y energía.\n\n§eDónde está el draconio:§r en el Overworld muy profundo (capas 2 a 8), en el Nether y en el End.\n\n§eProgresión:§r Draconic Core → Fusion Crafting (las recetas grandes del mod) → Wyvern → Awakened → Chaotic.\n\n§cNecesita el End:§r a partir del Wyvern Core hacen falta recursos del End, que se abre con la §eexpedición grupal§r del Historia › Grandes expediciones.\n\n§cJefe:§r el Chaos Guardian, en las Chaos Islands del End, con 2000 de vida.",
+          "icon:10": {
+            "id:8": "draconicevolution:draconic_core",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "visibility:8": "NORMAL",
+          "bg_image:8": "",
+          "bg_size:3": 256
+        }
+      },
+      "quests:9": {
+        "0:10": {
+          "id:3": 1200,
+          "x:3": 0,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "id:3": 1201,
+          "x:3": 48,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "id:3": 1202,
+          "x:3": 96,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "id:3": 1204,
+          "x:3": 144,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "id:3": 1205,
+          "x:3": 192,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "id:3": 1206,
+          "x:3": 240,
+          "y:3": -48,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "id:3": 1207,
+          "x:3": 288,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        }
+      }
+    },
+    "15:10": {
+      "lineID:3": 15,
+      "order:3": 15,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "§9[Tecnología]§r El poder definitivo",
+          "desc:8": "§9Tecnología§r · Dificultad: §6★★★★★§8§r\n\n§6El poder definitivo§r\n\nLa cima de Draconic Evolution: equipo dracónico, núcleos caóticos y el armamento más fuerte del servidor.\n\nSe abre con la Fusion Crafting del Tecnología › Draconic Evolution. Necesita muchos recursos, energía y fragmentos del Chaos Guardian.",
+          "icon:10": {
+            "id:8": "draconicevolution:chaotic_core",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "visibility:8": "NORMAL",
+          "bg_image:8": "",
+          "bg_size:3": 256
+        }
+      },
+      "quests:9": {
+        "0:10": {
+          "id:3": 2200,
+          "x:3": 0,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "id:3": 2201,
+          "x:3": 48,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "id:3": 2202,
+          "x:3": 48,
+          "y:3": 48,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        }
+      }
+    },
+    "16:10": {
+      "lineID:3": 16,
+      "order:3": 16,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "§d[Magia]§r Maldición lunar",
+          "desc:8": "§dMagia§r · Dificultad: §6★★§8★★★§r\n\n§6Maldición lunar§r · Howling Moon\n\nHombres lobo. Si uno te muerde, te podés contagiar de §elicantropía§r y convertirte en lobo.\n\n§eLa plata:§r el mod agrega mineral de plata. La §eespada de plata§r es el arma contra los hombres lobo.\n\n§eLa cura:§r la §ePoción de Wolfsbane§r (poción rara + flor Wolfsbane). Cura la infección o la licantropía, y si estás sano te vuelve inmune.\n\n§7Este mod no tiene jefes.§r",
+          "icon:10": {
+            "id:8": "howlingmoon:moonstone",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "visibility:8": "NORMAL",
+          "bg_image:8": "",
+          "bg_size:3": 256
+        }
+      },
+      "quests:9": {
+        "0:10": {
+          "id:3": 1800,
+          "x:3": 0,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "id:3": 1801,
+          "x:3": 48,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "id:3": 1802,
+          "x:3": 96,
+          "y:3": -24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "id:3": 1803,
+          "x:3": 96,
+          "y:3": 24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        }
+      }
+    },
+    "17:10": {
+      "lineID:3": 17,
+      "order:3": 17,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "§d[Magia]§r Astral Sorcery",
+          "desc:8": "§dMagia§r · Dificultad: §6★★★§8★★§r\n\n§6Astral Sorcery§r · magia de las estrellas\n\nMagia que se alimenta de la luz de las estrellas: hace falta cielo abierto y noches despejadas.\n\n§eCómo empezar:§r conseguí un §eRock Crystal§r y el §eAstral Tome§r, el libro del mod (la receta está en JEI). El libro se va completando a medida que avanzás.\n\n§eProgresión:§r Luminous Crafting Table → Starlight Crafting Altar → Celestial Altar → Iridescent Altar. En el camino te sintonizás con una constelación y desbloqueás habilidades propias.\n\n§7Usá guías de la versión 1.12.2: el mod cambió mucho en versiones nuevas.§r",
+          "icon:10": {
+            "id:8": "minecraft:glowstone_dust",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "visibility:8": "NORMAL",
+          "bg_image:8": "",
+          "bg_size:3": 256
+        }
+      },
+      "quests:9": {
+        "0:10": {
+          "id:3": 1100,
+          "x:3": 0,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "id:3": 1101,
+          "x:3": 48,
+          "y:3": 24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "id:3": 1102,
+          "x:3": 96,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "id:3": 1103,
+          "x:3": 144,
+          "y:3": 24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "id:3": 1104,
+          "x:3": 192,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "id:3": 1105,
+          "x:3": 240,
+          "y:3": 24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "id:3": 1106,
+          "x:3": 288,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "7:10": {
+          "id:3": 1107,
+          "x:3": 336,
+          "y:3": 24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "8:10": {
+          "id:3": 1108,
+          "x:3": 384,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        }
+      }
+    },
+    "18:10": {
+      "lineID:3": 18,
+      "order:3": 18,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "§d[Magia]§r Harshen Universe",
+          "desc:8": "§dMagia§r · Dificultad: §6★★★§8★★§r\n\n§6Harshen Universe§r · dimensión Pontus (5)\n\nAlmas, sangre, rituales y accesorios (anillos, collares, pendientes).\n\n§eLa clave del mod:§r el castillo de §eKazzendre§r en el Overworld. Hay uno solo por mundo. Después de vencerlo, en la sala del tesoro está el §eSoul Harsher Pickaxe§r, el único pico que mina el Harshen Soul Ore.\n\n§eRituales:§r Lightning Ritual, Blood Ritual y Heretic Ritual. Con el Lightning Ritual se arma el spawner de la puerta a Pontus.\n\nLas flores de alma del Overworld dan Harshen Crystals.",
+          "icon:10": {
+            "id:8": "harshenuniverse:harshen_soul_fragment",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "visibility:8": "NORMAL",
+          "bg_image:8": "",
+          "bg_size:3": 256
+        }
+      },
+      "quests:9": {
+        "0:10": {
+          "id:3": 1300,
+          "x:3": 0,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "id:3": 1301,
+          "x:3": 48,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "id:3": 1302,
+          "x:3": 96,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "id:3": 1303,
+          "x:3": 144,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        }
+      }
+    },
+    "19:10": {
+      "lineID:3": 19,
+      "order:3": 19,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "§c[Combate]§r Guardianes y defensas",
+          "desc:8": "§cCombate§r · Dificultad: §6★§8★★★★§r\n\n§6Guardianes y defensas§r\n\nTres mods para proteger la base:\n · §6Totem Defender§r: tótems de madera, hierro, oro o diamante que disparan a lo que elijas (monstruos, animales u otros jugadores).\n · §6Mob Totems§r: tótems tallados que, con ofrendas, evitan que aparezcan monstruos, prenden fuego o envenenan.\n · §6SecurityCraft§r: teclados con clave, bloques reforzados, minas, cámaras y más.\n\n§7Recordá las reglas: las trampas valen, pero no pueden romper ni llevarse cosas de otros.§r",
+          "icon:10": {
+            "id:8": "totemdefender:core",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "visibility:8": "NORMAL",
+          "bg_image:8": "",
+          "bg_size:3": 256
+        }
+      },
+      "quests:9": {
+        "0:10": {
+          "id:3": 2000,
+          "x:3": 0,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "id:3": 2001,
+          "x:3": 48,
+          "y:3": -24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "id:3": 2002,
+          "x:3": 48,
+          "y:3": 24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        }
+      }
+    },
+    "20:10": {
+      "lineID:3": 20,
+      "order:3": 20,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "§c[Combate]§r Criaturas de la noche",
+          "desc:8": "§cCombate§r · Dificultad: §6★★§8★★★§r\n\n§6Criaturas de la noche§r\n\nVarios mods hacen las noches mucho más peligrosas que en Minecraft normal:\n · §6Nightmares§r: al dormir hay 5 % de chance de pesadilla. Aparece una Hag, una Shadow Person o 8 Phantasmic Spiders.\n · §6Elemental Creepers§r: 24 tipos de creepers que explotan con fuego, hielo, rayos y más.\n\n§eConsejo:§r iluminá bien la base y no salgas de noche sin escudo.",
+          "icon:10": {
+            "id:8": "minecraft:skull",
+            "Count:3": 1,
+            "Damage:2": 2,
+            "OreDict:8": ""
+          },
+          "visibility:8": "NORMAL",
+          "bg_image:8": "",
+          "bg_size:3": 256
+        }
+      },
+      "quests:9": {
+        "0:10": {
+          "id:3": 1600,
+          "x:3": 0,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "id:3": 1603,
+          "x:3": 48,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        }
+      }
+    },
+    "21:10": {
+      "lineID:3": 21,
+      "order:3": 21,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "§c[Combate]§r Enemigos infernales",
+          "desc:8": "§cCombate§r · Dificultad: §6★★§8★★★§r\n\n§6Enemigos infernales§r · Infernal Mobs\n\nCualquier monstruo puede aparecer con poderes extra. Se reconocen por el §enombre de color§r sobre la cabeza.\n\n§eRangos:§r Élite (1 de cada 15), Ultra (1 de cada 7 élites) e Infernal (1 de cada 7 ultras). Hay 27 poderes posibles: veneno, robo de vida, explosiones, invisibilidad y más.\n\n§aSueltan mejor botín§r, pero §cno dan recompensas si los matás en una granja de mobs§r.",
+          "icon:10": {
+            "id:8": "minecraft:blaze_powder",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "visibility:8": "NORMAL",
+          "bg_image:8": "",
+          "bg_size:3": 256
+        }
+      },
+      "quests:9": {
+        "0:10": {
+          "id:3": 1900,
+          "x:3": 0,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "id:3": 1901,
+          "x:3": 48,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        }
+      }
+    },
+    "22:10": {
+      "lineID:3": 22,
+      "order:3": 22,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "§c[Combate]§r Depredadores",
+          "desc:8": "§cCombate§r · Dificultad: §6★★★§8★★§r\n\n§6Depredadores§r · Deadly Monsters\n\nLos monstruos más peligrosos del servidor: la Woman, el Wideman, el Climber, el Mutant Steve y el Topielec, entre otros. Pegan fuerte y aguantan mucho.\n\n§eTrofeos:§r algunos sueltan partes raras (Woman's Heart, Wideman's Spine, Soul Eye).\n\n§cNo vayas solo ni con equipo de hierro.§r",
+          "icon:10": {
+            "id:8": "dmonsters:souleye",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "visibility:8": "NORMAL",
+          "bg_image:8": "",
+          "bg_size:3": 256
+        }
+      },
+      "quests:9": {
+        "0:10": {
+          "id:3": 1700,
+          "x:3": 0,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "id:3": 1701,
+          "x:3": 48,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        }
+      }
+    },
+    "23:10": {
+      "lineID:3": 23,
+      "order:3": 23,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "§c[Combate]§r Desafíos legendarios",
+          "desc:8": "§cCombate§r · Dificultad: §6★★★★★§8§r\n\n§6Desafíos legendarios§r\n\nLos combates más difíciles del servidor:\n · La trilogía de jefes finales: §ePrimordial Malevolence§r (Betweenlands), §eFire Boss§r (Elemental Dimensions) y §eChaos Guardian§r (Draconic Evolution).\n · El Wither tres veces.\n\n§cVayan en grupo y con el mejor equipo que tengan.§r",
+          "icon:10": {
+            "id:8": "minecraft:diamond_sword",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "visibility:8": "NORMAL",
+          "bg_image:8": "",
+          "bg_size:3": 256
+        }
+      },
+      "quests:9": {
+        "0:10": {
+          "id:3": 2600,
+          "x:3": 0,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "id:3": 2601,
+          "x:3": 48,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        }
+      }
+    },
+    "24:10": {
+      "lineID:3": 24,
+      "order:3": 24,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "§b[Exploración]§r Tropicraft",
+          "desc:8": "§bExploración§r · Dificultad: §6★★§8★★★§r\n\n§6Tropicraft§r · dimensión -127\n\nIslas tropicales con playas, volcanes, aldeas Koa, tiburones, tortugas y cócteles.\n\n§eDos formas de llegar:§r\n · Sentate en una §esilla de playa§r al atardecer después de tomar una §ePiña Colada§r.\n · Armá un portal con la §evarita§r: un anillo 5×5 de arenisca con un cuadrado 3×3 de agua adentro. Este portal sirve para ir y volver.\n\nLos cócteles se preparan en la §eDrink Mixer§r. Las §eazuritas§r y los §ezircones§r de las islas sirven para la varita.",
+          "icon:10": {
+            "id:8": "tropicraft:chair",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "visibility:8": "NORMAL",
+          "bg_image:8": "",
+          "bg_size:3": 256
+        }
+      },
+      "quests:9": {
+        "0:10": {
+          "id:3": 700,
+          "x:3": 0,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "id:3": 701,
+          "x:3": 48,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "id:3": 702,
+          "x:3": 96,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "id:3": 703,
+          "x:3": 144,
+          "y:3": -24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "id:3": 704,
+          "x:3": 144,
+          "y:3": 24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        }
+      }
+    },
+    "25:10": {
+      "lineID:3": 25,
+      "order:3": 25,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "§b[Exploración]§r Cavern",
+          "desc:8": "§bExploración§r · Dificultad: §6★★§8★★★§r\n\n§6Cavern§r · dimensiones -50 a -56\n\nSiete mundos subterráneos, cada uno con sus minerales y peligros:\n · §eCavern§r (-50): la principal, con aguamarina y randomita.\n · §eRuins Cavern§r (-51) · §eAqua Cavern§r (-52) · §eCaveland§r (-53)\n · §eIce Cavern§r (-54) · §eCavenia§r (-55) · §eHuge Cavern§r (-56)\n\n§eCómo se entra:§r marco tipo portal del Nether de piedra musgosa o ladrillo de piedra, activado con una esmeralda. Cada caverna nueva pide su propia llave (aguamarina, hielo compacto, diamante, etc.).\n\n§aCavenia es zona de práctica:§r ahí no perdés inventario ni experiencia al morir.",
+          "icon:10": {
+            "id:8": "cavern:cave_block",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "visibility:8": "NORMAL",
+          "bg_image:8": "",
+          "bg_size:3": 256
+        }
+      },
+      "quests:9": {
+        "0:10": {
+          "id:3": 1000,
+          "x:3": 0,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "id:3": 1001,
+          "x:3": 48,
+          "y:3": -24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "id:3": 1002,
+          "x:3": 48,
+          "y:3": 24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "id:3": 1003,
+          "x:3": 96,
+          "y:3": -48,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "id:3": 1004,
+          "x:3": 96,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "id:3": 1005,
+          "x:3": 96,
+          "y:3": 48,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "id:3": 1006,
+          "x:3": 144,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "7:10": {
+          "id:3": 1007,
+          "x:3": 144,
+          "y:3": -48,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "8:10": {
+          "id:3": 1008,
+          "x:3": 144,
+          "y:3": 48,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        }
+      }
+    },
+    "26:10": {
+      "lineID:3": 26,
+      "order:3": 26,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "§b[Exploración]§r Hunting Dimension",
+          "desc:8": "§bExploración§r · Dificultad: §6★★★§8★★§r\n\n§6Hunting Dimension§r · dimensión 28885\n\nUna dimensión para cazar: mobs más fuertes que dan más experiencia.\n\n§eEl portal:§r misma forma que el del Nether, hecho con §eHunting Dimension Frames§r (8 troncos alrededor de una flecha). Se activa con espada, arco o mechero, y se cruza §eagachado§r.\n\n§cReglas del servidor ahí adentro:§r los mobs tienen +30 % de vida y ataque y +4 de armadura, y §cno podés reaparecer en la dimensión§r si morís.\n\nCon el §eCreeping Moss§r podés cambiar el bioma de un chunk de la dimensión.",
+          "icon:10": {
+            "id:8": "huntingdim:frame",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "visibility:8": "NORMAL",
+          "bg_image:8": "",
+          "bg_size:3": 256
+        }
+      },
+      "quests:9": {
+        "0:10": {
+          "id:3": 900,
+          "x:3": 0,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "id:3": 901,
+          "x:3": 48,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "id:3": 902,
+          "x:3": 96,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        }
+      }
+    },
+    "27:10": {
+      "lineID:3": 27,
+      "order:3": 27,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "§b[Exploración]§r The Betweenlands",
+          "desc:8": "§bExploración§r · Dificultad: §6★★★§8★★§r\n\n§6The Betweenlands§r · dimensión 20\n\nUn pantano oscuro, enorme y con reglas propias. Es uno de los mods más grandes del servidor.\n\n§eCómo se entra:§r matá §eDruidas Oscuros§r en los altares druídicos de los pantanos del Overworld para juntar las 4 piezas del talismán. Con el talismán hacés crecer un árbol portal.\n\n§cReglas del pantano:§r las antorchas comunes no funcionan, las herramientas del Overworld rinden menos y se corroen, y la comida se pudre. Todo se fabrica de nuevo con materiales locales.\n\n§eJefes:§r Dreadful Peat Mummy, Spirit Tree y Primordial Malevolence (jefe final de la Wight Fortress).",
           "icon:10": {
             "id:8": "thebetweenlands:swamp_talisman",
             "Count:3": 1,
@@ -11766,69 +12969,13 @@
         }
       }
     },
-    "6:10": {
-      "lineID:3": 6,
-      "order:3": 6,
+    "28:10": {
+      "lineID:3": 28,
+      "order:3": 28,
       "properties:10": {
         "betterquesting:10": {
-          "name:8": "Cap. 7 · Tropicraft",
-          "desc:8": "§6Tropicraft§r · dimensión -127\n\nIslas tropicales con playas, volcanes, aldeas Koa, tiburones, tortugas y cócteles.\n\n§eDos formas de llegar:§r\n · Sentate en una §esilla de playa§r al atardecer después de tomar una §ePiña Colada§r.\n · Armá un portal con la §evarita§r: un anillo 5×5 de arenisca con un cuadrado 3×3 de agua adentro. Este portal sirve para ir y volver.\n\nLos cócteles se preparan en la §eDrink Mixer§r. Las §eazuritas§r y los §ezircones§r de las islas sirven para la varita.",
-          "icon:10": {
-            "id:8": "tropicraft:chair",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "visibility:8": "NORMAL",
-          "bg_image:8": "",
-          "bg_size:3": 256
-        }
-      },
-      "quests:9": {
-        "0:10": {
-          "id:3": 700,
-          "x:3": 0,
-          "y:3": 0,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "1:10": {
-          "id:3": 701,
-          "x:3": 48,
-          "y:3": 0,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "2:10": {
-          "id:3": 702,
-          "x:3": 96,
-          "y:3": 0,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "3:10": {
-          "id:3": 703,
-          "x:3": 144,
-          "y:3": -24,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "4:10": {
-          "id:3": 704,
-          "x:3": 144,
-          "y:3": 24,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        }
-      }
-    },
-    "7:10": {
-      "lineID:3": 7,
-      "order:3": 7,
-      "properties:10": {
-        "betterquesting:10": {
-          "name:8": "Cap. 8 · Elemental Dimensions",
-          "desc:8": "§6Elemental Dimensions§r · dimensiones 100 a 104\n\nCinco dimensiones en cadena: §eTierra → Agua → Aire → Espíritu → Fuego§r. Cada una tiene su jefe.\n\n§eCómo funciona:§r cada dimensión se abre con una §eruna§r. La de Tierra la sueltan los Guardias de las mazmorras-portal del Overworld. Las demás runas tienen 3 partes: las partes 1 y 3 las sueltan los monstruos y jefes de cada dimensión, y la parte 2 está en un cofre de la mazmorra de la dimensión anterior.\n\n§eEl viaje:§r poné la runa en el §ePortal Dialer§r de la mazmorra y parate frente a él.\n\n§eJefe final:§r el Fire Boss, que suelta la Elemental Wand.",
+          "name:8": "§b[Exploración]§r Elemental Dimensions",
+          "desc:8": "§bExploración§r · Dificultad: §6★★★★§8★§r\n\n§6Elemental Dimensions§r · dimensiones 100 a 104\n\nCinco dimensiones en cadena: §eTierra → Agua → Aire → Espíritu → Fuego§r. Cada una tiene su jefe.\n\n§eCómo funciona:§r cada dimensión se abre con una §eruna§r. La de Tierra la sueltan los Guardias de las mazmorras-portal del Overworld. Las demás runas tienen 3 partes: las partes 1 y 3 las sueltan los monstruos y jefes de cada dimensión, y la parte 2 está en un cofre de la mazmorra de la dimensión anterior.\n\n§eEl viaje:§r poné la runa en el §ePortal Dialer§r de la mazmorra y parate frente a él.\n\n§eJefe final:§r el Fire Boss, que suelta la Elemental Wand.",
           "icon:10": {
             "id:8": "elementaldimensions:earthrune",
             "Count:3": 1,
@@ -11920,1035 +13067,13 @@
         }
       }
     },
-    "8:10": {
-      "lineID:3": 8,
-      "order:3": 8,
+    "29:10": {
+      "lineID:3": 29,
+      "order:3": 29,
       "properties:10": {
         "betterquesting:10": {
-          "name:8": "Cap. 9 · Hunting Dimension",
-          "desc:8": "§6Hunting Dimension§r · dimensión 28885\n\nUna dimensión para cazar: mobs más fuertes que dan más experiencia.\n\n§eEl portal:§r misma forma que el del Nether, hecho con §eHunting Dimension Frames§r (8 troncos alrededor de una flecha). Se activa con espada, arco o mechero, y se cruza §eagachado§r.\n\n§cReglas del servidor ahí adentro:§r los mobs tienen +30 % de vida y ataque y +4 de armadura, y §cno podés reaparecer en la dimensión§r si morís.\n\nCon el §eCreeping Moss§r podés cambiar el bioma de un chunk de la dimensión.",
-          "icon:10": {
-            "id:8": "huntingdim:frame",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "visibility:8": "NORMAL",
-          "bg_image:8": "",
-          "bg_size:3": 256
-        }
-      },
-      "quests:9": {
-        "0:10": {
-          "id:3": 900,
-          "x:3": 0,
-          "y:3": 0,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "1:10": {
-          "id:3": 901,
-          "x:3": 48,
-          "y:3": 0,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "2:10": {
-          "id:3": 902,
-          "x:3": 96,
-          "y:3": 0,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        }
-      }
-    },
-    "9:10": {
-      "lineID:3": 9,
-      "order:3": 9,
-      "properties:10": {
-        "betterquesting:10": {
-          "name:8": "Cap. 10 · Cavern",
-          "desc:8": "§6Cavern§r · dimensiones -50 a -56\n\nSiete mundos subterráneos, cada uno con sus minerales y peligros:\n · §eCavern§r (-50): la principal, con aguamarina y randomita.\n · §eRuins Cavern§r (-51) · §eAqua Cavern§r (-52) · §eCaveland§r (-53)\n · §eIce Cavern§r (-54) · §eCavenia§r (-55) · §eHuge Cavern§r (-56)\n\n§eCómo se entra:§r marco tipo portal del Nether de piedra musgosa o ladrillo de piedra, activado con una esmeralda. Cada caverna nueva pide su propia llave (aguamarina, hielo compacto, diamante, etc.).\n\n§aCavenia es zona de práctica:§r ahí no perdés inventario ni experiencia al morir.",
-          "icon:10": {
-            "id:8": "cavern:cave_block",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "visibility:8": "NORMAL",
-          "bg_image:8": "",
-          "bg_size:3": 256
-        }
-      },
-      "quests:9": {
-        "0:10": {
-          "id:3": 1000,
-          "x:3": 0,
-          "y:3": 0,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "1:10": {
-          "id:3": 1001,
-          "x:3": 48,
-          "y:3": -24,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "2:10": {
-          "id:3": 1002,
-          "x:3": 48,
-          "y:3": 24,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "3:10": {
-          "id:3": 1003,
-          "x:3": 96,
-          "y:3": -48,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "4:10": {
-          "id:3": 1004,
-          "x:3": 96,
-          "y:3": 0,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "5:10": {
-          "id:3": 1005,
-          "x:3": 96,
-          "y:3": 48,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "6:10": {
-          "id:3": 1006,
-          "x:3": 144,
-          "y:3": 0,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "7:10": {
-          "id:3": 1007,
-          "x:3": 144,
-          "y:3": -48,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "8:10": {
-          "id:3": 1008,
-          "x:3": 144,
-          "y:3": 48,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        }
-      }
-    },
-    "10:10": {
-      "lineID:3": 10,
-      "order:3": 10,
-      "properties:10": {
-        "betterquesting:10": {
-          "name:8": "Cap. 11 · Astral Sorcery",
-          "desc:8": "§6Astral Sorcery§r · magia de las estrellas\n\nMagia que se alimenta de la luz de las estrellas: hace falta cielo abierto y noches despejadas.\n\n§eCómo empezar:§r conseguí un §eRock Crystal§r y el §eAstral Tome§r, el libro del mod (la receta está en JEI). El libro se va completando a medida que avanzás.\n\n§eProgresión:§r Luminous Crafting Table → Starlight Crafting Altar → Celestial Altar → Iridescent Altar. En el camino te sintonizás con una constelación y desbloqueás habilidades propias.\n\n§7Usá guías de la versión 1.12.2: el mod cambió mucho en versiones nuevas.§r",
-          "icon:10": {
-            "id:8": "minecraft:glowstone_dust",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "visibility:8": "NORMAL",
-          "bg_image:8": "",
-          "bg_size:3": 256
-        }
-      },
-      "quests:9": {
-        "0:10": {
-          "id:3": 1100,
-          "x:3": 0,
-          "y:3": 0,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "1:10": {
-          "id:3": 1101,
-          "x:3": 48,
-          "y:3": 24,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "2:10": {
-          "id:3": 1102,
-          "x:3": 96,
-          "y:3": 0,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "3:10": {
-          "id:3": 1103,
-          "x:3": 144,
-          "y:3": 24,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "4:10": {
-          "id:3": 1104,
-          "x:3": 192,
-          "y:3": 0,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "5:10": {
-          "id:3": 1105,
-          "x:3": 240,
-          "y:3": 24,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "6:10": {
-          "id:3": 1106,
-          "x:3": 288,
-          "y:3": 0,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "7:10": {
-          "id:3": 1107,
-          "x:3": 336,
-          "y:3": 24,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "8:10": {
-          "id:3": 1108,
-          "x:3": 384,
-          "y:3": 0,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        }
-      }
-    },
-    "11:10": {
-      "lineID:3": 11,
-      "order:3": 11,
-      "properties:10": {
-        "betterquesting:10": {
-          "name:8": "Cap. 12 · Draconic Evolution",
-          "desc:8": "§6Draconic Evolution§r · tecnología dracónica\n\nHerramientas, armaduras y máquinas cada vez más poderosas, hechas con §edraconio§r y energía.\n\n§eDónde está el draconio:§r en el Overworld muy profundo (capas 2 a 8), en el Nether y en el End.\n\n§eProgresión:§r Draconic Core → Fusion Crafting (las recetas grandes del mod) → Wyvern → Awakened → Chaotic.\n\n§cNecesita el End:§r a partir del Wyvern Core hacen falta recursos del End, que se abre con la §eexpedición grupal§r del cap. 25.\n\n§cJefe:§r el Chaos Guardian, en las Chaos Islands del End, con 2000 de vida.",
-          "icon:10": {
-            "id:8": "draconicevolution:draconic_core",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "visibility:8": "NORMAL",
-          "bg_image:8": "",
-          "bg_size:3": 256
-        }
-      },
-      "quests:9": {
-        "0:10": {
-          "id:3": 1200,
-          "x:3": 0,
-          "y:3": 0,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "1:10": {
-          "id:3": 1201,
-          "x:3": 48,
-          "y:3": 0,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "2:10": {
-          "id:3": 1202,
-          "x:3": 96,
-          "y:3": 0,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "3:10": {
-          "id:3": 1204,
-          "x:3": 144,
-          "y:3": 0,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "4:10": {
-          "id:3": 1205,
-          "x:3": 192,
-          "y:3": 0,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "5:10": {
-          "id:3": 1206,
-          "x:3": 240,
-          "y:3": -48,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "6:10": {
-          "id:3": 1207,
-          "x:3": 288,
-          "y:3": 0,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        }
-      }
-    },
-    "12:10": {
-      "lineID:3": 12,
-      "order:3": 12,
-      "properties:10": {
-        "betterquesting:10": {
-          "name:8": "Cap. 13 · Harshen Universe",
-          "desc:8": "§6Harshen Universe§r · dimensión Pontus (5)\n\nAlmas, sangre, rituales y accesorios (anillos, collares, pendientes).\n\n§eLa clave del mod:§r el castillo de §eKazzendre§r en el Overworld. Hay uno solo por mundo. Después de vencerlo, en la sala del tesoro está el §eSoul Harsher Pickaxe§r, el único pico que mina el Harshen Soul Ore.\n\n§eRituales:§r Lightning Ritual, Blood Ritual y Heretic Ritual. Con el Lightning Ritual se arma el spawner de la puerta a Pontus.\n\nLas flores de alma del Overworld dan Harshen Crystals.",
-          "icon:10": {
-            "id:8": "harshenuniverse:harshen_soul_fragment",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "visibility:8": "NORMAL",
-          "bg_image:8": "",
-          "bg_size:3": 256
-        }
-      },
-      "quests:9": {
-        "0:10": {
-          "id:3": 1300,
-          "x:3": 0,
-          "y:3": 0,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "1:10": {
-          "id:3": 1301,
-          "x:3": 48,
-          "y:3": 0,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "2:10": {
-          "id:3": 1302,
-          "x:3": 96,
-          "y:3": 0,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "3:10": {
-          "id:3": 1303,
-          "x:3": 144,
-          "y:3": 0,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        }
-      }
-    },
-    "13:10": {
-      "lineID:3": 13,
-      "order:3": 13,
-      "properties:10": {
-        "betterquesting:10": {
-          "name:8": "Cap. 14 · Rustic",
-          "desc:8": "§6Rustic§r · alquimia, vino y vida de campo\n\nUn mod tranquilo para la base:\n · §eAlquimia:§r el Condensador y la Retorta destilan hierbas (aloe, manzanilla, ginseng y más) en §eelixires§r.\n · §eBebidas:§r la tina de prensado saca jugo de uvas, manzanas u olivas, y el barril los fermenta en vino, sidra o hidromiel.\n · §eMiel y cera:§r el colmenar.\n · §eCultivos:§r tomate y chile (crecen sobre estacas) y uvas.\n\nTambién trae muebles y decoración: sillas, mesas, velas y candelabros.",
-          "icon:10": {
-            "id:8": "rustic:elixir",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "visibility:8": "NORMAL",
-          "bg_image:8": "",
-          "bg_size:3": 256
-        }
-      },
-      "quests:9": {
-        "0:10": {
-          "id:3": 1500,
-          "x:3": 0,
-          "y:3": 0,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "1:10": {
-          "id:3": 1501,
-          "x:3": 48,
-          "y:3": -24,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "2:10": {
-          "id:3": 1502,
-          "x:3": 96,
-          "y:3": -24,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "3:10": {
-          "id:3": 1503,
-          "x:3": 48,
-          "y:3": 24,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "4:10": {
-          "id:3": 1504,
-          "x:3": 96,
-          "y:3": 24,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "5:10": {
-          "id:3": 1505,
-          "x:3": 144,
-          "y:3": 0,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        }
-      }
-    },
-    "14:10": {
-      "lineID:3": 14,
-      "order:3": 14,
-      "properties:10": {
-        "betterquesting:10": {
-          "name:8": "Cap. 15 · Tinkers' Construct",
-          "desc:8": "§6Tinkers' Construct§r · herramientas a medida\n\nHerramientas y armas armadas §epieza por pieza§r: cabeza, mango y unión, cada una del material que elijas. Cada material tiene rasgos propios, y las herramientas se reparan y se mejoran.\n\n§eProgresión:§r patrones y mesas de madera → Smeltery (fundición de metales) → Tool Forge (herramientas grandes) → cobalto y ardita del Nether.\n\nEl libro §eMaterials and You§r explica cada material. Las recetas están en JEI.",
-          "icon:10": {
-            "id:8": "tconstruct:smeltery_controller",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "visibility:8": "NORMAL",
-          "bg_image:8": "",
-          "bg_size:3": 256
-        }
-      },
-      "quests:9": {
-        "0:10": {
-          "id:3": 3000,
-          "x:3": 0,
-          "y:3": 0,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "1:10": {
-          "id:3": 3001,
-          "x:3": 48,
-          "y:3": -24,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "2:10": {
-          "id:3": 3002,
-          "x:3": 48,
-          "y:3": 24,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "3:10": {
-          "id:3": 3003,
-          "x:3": 96,
-          "y:3": 0,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "4:10": {
-          "id:3": 3004,
-          "x:3": 144,
-          "y:3": -24,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "5:10": {
-          "id:3": 3005,
-          "x:3": 144,
-          "y:3": 24,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        }
-      }
-    },
-    "15:10": {
-      "lineID:3": 15,
-      "order:3": 15,
-      "properties:10": {
-        "betterquesting:10": {
-          "name:8": "Cap. 16 · Ender IO",
-          "desc:8": "§6Ender IO§r · máquinas y energía\n\nMáquinas que funcionan con energía (RF): hornos de aleación, molinos, generadores y conductos.\n\n§eProgresión:§r Grains of Infinity → máquinas simples → Electrical Steel → conductos y banco de capacitores → Dark Steel y sus mejoras.\n\nLa energía de Ender IO sirve también para Applied Energistics 2 (cap. 17) y Draconic Evolution (cap. 12).",
-          "icon:10": {
-            "id:8": "enderio:block_simple_alloy_smelter",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "visibility:8": "NORMAL",
-          "bg_image:8": "",
-          "bg_size:3": 256
-        }
-      },
-      "quests:9": {
-        "0:10": {
-          "id:3": 3100,
-          "x:3": 0,
-          "y:3": 0,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "1:10": {
-          "id:3": 3101,
-          "x:3": 48,
-          "y:3": -24,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "2:10": {
-          "id:3": 3102,
-          "x:3": 48,
-          "y:3": 24,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "3:10": {
-          "id:3": 3103,
-          "x:3": 96,
-          "y:3": 0,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "4:10": {
-          "id:3": 3104,
-          "x:3": 144,
-          "y:3": -24,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "5:10": {
-          "id:3": 3105,
-          "x:3": 144,
-          "y:3": 24,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "6:10": {
-          "id:3": 3106,
-          "x:3": 192,
-          "y:3": 24,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        }
-      }
-    },
-    "16:10": {
-      "lineID:3": 16,
-      "order:3": 16,
-      "properties:10": {
-        "betterquesting:10": {
-          "name:8": "Cap. 17 · Applied Energistics 2",
-          "desc:8": "§6Applied Energistics 2§r · almacenamiento digital\n\nGuardá miles de objetos en §eceldas§r y buscá cualquiera desde un terminal. Más adelante, la red fabrica sola (autocrafteo).\n\n§eProgresión:§r cuarzo certus → meteoritos (prensas) → Inscriber y procesadores → ME Controller → ME Drive y celdas → Molecular Assembler.\n\n§cNecesita energía:§r Ender IO (cap. 16) o la Vibration Chamber del mod.",
-          "icon:10": {
-            "id:8": "appliedenergistics2:controller",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "visibility:8": "NORMAL",
-          "bg_image:8": "",
-          "bg_size:3": 256
-        }
-      },
-      "quests:9": {
-        "0:10": {
-          "id:3": 3200,
-          "x:3": 0,
-          "y:3": 0,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "1:10": {
-          "id:3": 3201,
-          "x:3": 48,
-          "y:3": -24,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "2:10": {
-          "id:3": 3202,
-          "x:3": 48,
-          "y:3": 24,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "3:10": {
-          "id:3": 3203,
-          "x:3": 96,
-          "y:3": 0,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "4:10": {
-          "id:3": 3204,
-          "x:3": 144,
-          "y:3": 0,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "5:10": {
-          "id:3": 3205,
-          "x:3": 192,
-          "y:3": -24,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "6:10": {
-          "id:3": 3206,
-          "x:3": 192,
-          "y:3": 24,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        }
-      }
-    },
-    "17:10": {
-      "lineID:3": 17,
-      "order:3": 17,
-      "properties:10": {
-        "betterquesting:10": {
-          "name:8": "Cap. 18 · Mystical Agriculture",
-          "desc:8": "§6Mystical Agriculture§r · cultivá tus recursos\n\nSemillas que dan hierro, carbón, diamante y muchos materiales más al cosecharlas.\n\n§eProgresión:§r esencia de inferium → semillas de inferium → cristal de infusión (sube la esencia de tier) → semillas de recursos → equipo de Supremium.\n\nTiers de esencia: §einferium → prudentium → intermedium → superium → supremium§r.",
-          "icon:10": {
-            "id:8": "mysticalagriculture:tier1_inferium_seeds",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "visibility:8": "NORMAL",
-          "bg_image:8": "",
-          "bg_size:3": 256
-        }
-      },
-      "quests:9": {
-        "0:10": {
-          "id:3": 3300,
-          "x:3": 0,
-          "y:3": 0,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "1:10": {
-          "id:3": 3301,
-          "x:3": 48,
-          "y:3": -24,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "2:10": {
-          "id:3": 3302,
-          "x:3": 48,
-          "y:3": 24,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "3:10": {
-          "id:3": 3303,
-          "x:3": 96,
-          "y:3": 0,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "4:10": {
-          "id:3": 3304,
-          "x:3": 144,
-          "y:3": -24,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "5:10": {
-          "id:3": 3305,
-          "x:3": 144,
-          "y:3": 24,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "6:10": {
-          "id:3": 3306,
-          "x:3": 192,
-          "y:3": 0,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        }
-      }
-    },
-    "18:10": {
-      "lineID:3": 18,
-      "order:3": 18,
-      "properties:10": {
-        "betterquesting:10": {
-          "name:8": "Cap. 19 · Taller y mejoras",
-          "desc:8": "§6Taller y mejoras§r\n\nMods chicos que hacen la vida más fácil:\n · §6Iron Furnaces§r: hornos más rápidos (hierro, oro, diamante, vidrio y obsidiana).\n · §6Ender Storage§r: cofres, tanques y bolsas que comparten su contenido por colores, en cualquier dimensión.\n · §6Item Collectors§r: juntan los objetos tirados y los guardan en un cofre.\n · §6Baubley Heart Canisters§r: corazones de vida extra que sueltan los monstruos y los jefes.",
-          "icon:10": {
-            "id:8": "ironfurnaces:iron_furnace_idle",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "visibility:8": "NORMAL",
-          "bg_image:8": "",
-          "bg_size:3": 256
-        }
-      },
-      "quests:9": {
-        "0:10": {
-          "id:3": 3400,
-          "x:3": 0,
-          "y:3": 0,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "1:10": {
-          "id:3": 3401,
-          "x:3": 48,
-          "y:3": -24,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "2:10": {
-          "id:3": 3402,
-          "x:3": 48,
-          "y:3": 24,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "3:10": {
-          "id:3": 3403,
-          "x:3": 96,
-          "y:3": 24,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "4:10": {
-          "id:3": 3404,
-          "x:3": 96,
-          "y:3": -24,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "5:10": {
-          "id:3": 3405,
-          "x:3": 0,
-          "y:3": 48,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "6:10": {
-          "id:3": 3406,
-          "x:3": 48,
-          "y:3": 72,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        }
-      }
-    },
-    "19:10": {
-      "lineID:3": 19,
-      "order:3": 19,
-      "properties:10": {
-        "betterquesting:10": {
-          "name:8": "Cap. 20 · Criaturas de la noche",
-          "desc:8": "§6Criaturas de la noche§r\n\nVarios mods hacen las noches mucho más peligrosas que en Minecraft normal:\n · §6Nightmares§r: al dormir hay 5 % de chance de pesadilla. Aparece una Hag, una Shadow Person o 8 Phantasmic Spiders.\n · §6Elemental Creepers§r: 24 tipos de creepers que explotan con fuego, hielo, rayos y más.\n\n§eConsejo:§r iluminá bien la base y no salgas de noche sin escudo.",
-          "icon:10": {
-            "id:8": "minecraft:skull",
-            "Count:3": 1,
-            "Damage:2": 2,
-            "OreDict:8": ""
-          },
-          "visibility:8": "NORMAL",
-          "bg_image:8": "",
-          "bg_size:3": 256
-        }
-      },
-      "quests:9": {
-        "0:10": {
-          "id:3": 1600,
-          "x:3": 0,
-          "y:3": 0,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "1:10": {
-          "id:3": 1603,
-          "x:3": 48,
-          "y:3": 0,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        }
-      }
-    },
-    "20:10": {
-      "lineID:3": 20,
-      "order:3": 20,
-      "properties:10": {
-        "betterquesting:10": {
-          "name:8": "Cap. 21 · Depredadores",
-          "desc:8": "§6Depredadores§r · Deadly Monsters\n\nLos monstruos más peligrosos del servidor: la Woman, el Wideman, el Climber, el Mutant Steve y el Topielec, entre otros. Pegan fuerte y aguantan mucho.\n\n§eTrofeos:§r algunos sueltan partes raras (Woman's Heart, Wideman's Spine, Soul Eye).\n\n§cNo vayas solo ni con equipo de hierro.§r",
-          "icon:10": {
-            "id:8": "dmonsters:souleye",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "visibility:8": "NORMAL",
-          "bg_image:8": "",
-          "bg_size:3": 256
-        }
-      },
-      "quests:9": {
-        "0:10": {
-          "id:3": 1700,
-          "x:3": 0,
-          "y:3": 0,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "1:10": {
-          "id:3": 1701,
-          "x:3": 48,
-          "y:3": 0,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        }
-      }
-    },
-    "21:10": {
-      "lineID:3": 21,
-      "order:3": 21,
-      "properties:10": {
-        "betterquesting:10": {
-          "name:8": "Cap. 22 · Maldición lunar",
-          "desc:8": "§6Maldición lunar§r · Howling Moon\n\nHombres lobo. Si uno te muerde, te podés contagiar de §elicantropía§r y convertirte en lobo.\n\n§eLa plata:§r el mod agrega mineral de plata. La §eespada de plata§r es el arma contra los hombres lobo.\n\n§eLa cura:§r la §ePoción de Wolfsbane§r (poción rara + flor Wolfsbane). Cura la infección o la licantropía, y si estás sano te vuelve inmune.\n\n§7Este mod no tiene jefes.§r",
-          "icon:10": {
-            "id:8": "howlingmoon:moonstone",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "visibility:8": "NORMAL",
-          "bg_image:8": "",
-          "bg_size:3": 256
-        }
-      },
-      "quests:9": {
-        "0:10": {
-          "id:3": 1800,
-          "x:3": 0,
-          "y:3": 0,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "1:10": {
-          "id:3": 1801,
-          "x:3": 48,
-          "y:3": 0,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "2:10": {
-          "id:3": 1802,
-          "x:3": 96,
-          "y:3": -24,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "3:10": {
-          "id:3": 1803,
-          "x:3": 96,
-          "y:3": 24,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        }
-      }
-    },
-    "22:10": {
-      "lineID:3": 22,
-      "order:3": 22,
-      "properties:10": {
-        "betterquesting:10": {
-          "name:8": "Cap. 23 · Enemigos infernales",
-          "desc:8": "§6Enemigos infernales§r · Infernal Mobs\n\nCualquier monstruo puede aparecer con poderes extra. Se reconocen por el §enombre de color§r sobre la cabeza.\n\n§eRangos:§r Élite (1 de cada 15), Ultra (1 de cada 7 élites) e Infernal (1 de cada 7 ultras). Hay 27 poderes posibles: veneno, robo de vida, explosiones, invisibilidad y más.\n\n§aSueltan mejor botín§r, pero §cno dan recompensas si los matás en una granja de mobs§r.",
-          "icon:10": {
-            "id:8": "minecraft:blaze_powder",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "visibility:8": "NORMAL",
-          "bg_image:8": "",
-          "bg_size:3": 256
-        }
-      },
-      "quests:9": {
-        "0:10": {
-          "id:3": 1900,
-          "x:3": 0,
-          "y:3": 0,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "1:10": {
-          "id:3": 1901,
-          "x:3": 48,
-          "y:3": 0,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        }
-      }
-    },
-    "23:10": {
-      "lineID:3": 23,
-      "order:3": 23,
-      "properties:10": {
-        "betterquesting:10": {
-          "name:8": "Cap. 24 · Guardianes y defensas",
-          "desc:8": "§6Guardianes y defensas§r\n\nTres mods para proteger la base:\n · §6Totem Defender§r: tótems de madera, hierro, oro o diamante que disparan a lo que elijas (monstruos, animales u otros jugadores).\n · §6Mob Totems§r: tótems tallados que, con ofrendas, evitan que aparezcan monstruos, prenden fuego o envenenan.\n · §6SecurityCraft§r: teclados con clave, bloques reforzados, minas, cámaras y más.\n\n§7Recordá las reglas: las trampas valen, pero no pueden romper ni llevarse cosas de otros.§r",
-          "icon:10": {
-            "id:8": "totemdefender:core",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "visibility:8": "NORMAL",
-          "bg_image:8": "",
-          "bg_size:3": 256
-        }
-      },
-      "quests:9": {
-        "0:10": {
-          "id:3": 2000,
-          "x:3": 0,
-          "y:3": 0,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "1:10": {
-          "id:3": 2001,
-          "x:3": 48,
-          "y:3": -24,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "2:10": {
-          "id:3": 2002,
-          "x:3": 48,
-          "y:3": 24,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        }
-      }
-    },
-    "24:10": {
-      "lineID:3": 24,
-      "order:3": 24,
-      "properties:10": {
-        "betterquesting:10": {
-          "name:8": "Cap. 25 · Grandes expediciones",
-          "desc:8": "§6Grandes expediciones§r\n\nLos jefes de Minecraft, para enfrentar en grupo:\n · §eEl Wither§r: lo invocás vos. Suelta la estrella del Nether.\n · §eEl Elder Guardian§r: en los monumentos oceánicos.\n · §eEl Ender Dragon§r: §cexpedición grupal obligatoria§r. Nadie entra al End antes; se organiza entre todos.\n\nDespués del dragón, el End queda abierto: Chaos Guardian, draconio del End y más.",
-          "icon:10": {
-            "id:8": "minecraft:nether_star",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "visibility:8": "NORMAL",
-          "bg_image:8": "",
-          "bg_size:3": 256
-        }
-      },
-      "quests:9": {
-        "0:10": {
-          "id:3": 2100,
-          "x:3": 0,
-          "y:3": 0,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "1:10": {
-          "id:3": 2101,
-          "x:3": 48,
-          "y:3": -24,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "2:10": {
-          "id:3": 2102,
-          "x:3": 48,
-          "y:3": 24,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "3:10": {
-          "id:3": 2103,
-          "x:3": 96,
-          "y:3": 0,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        }
-      }
-    },
-    "25:10": {
-      "lineID:3": 25,
-      "order:3": 25,
-      "properties:10": {
-        "betterquesting:10": {
-          "name:8": "Cap. 26 · El poder definitivo",
-          "desc:8": "§6El poder definitivo§r\n\nLa cima de Draconic Evolution: equipo dracónico, núcleos caóticos y el armamento más fuerte del servidor.\n\nSe abre con la Fusion Crafting del cap. 12. Necesita muchos recursos, energía y fragmentos del Chaos Guardian.",
-          "icon:10": {
-            "id:8": "draconicevolution:chaotic_core",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "visibility:8": "NORMAL",
-          "bg_image:8": "",
-          "bg_size:3": 256
-        }
-      },
-      "quests:9": {
-        "0:10": {
-          "id:3": 2200,
-          "x:3": 0,
-          "y:3": 0,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "1:10": {
-          "id:3": 2201,
-          "x:3": 48,
-          "y:3": 0,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "2:10": {
-          "id:3": 2202,
-          "x:3": 48,
-          "y:3": 48,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        }
-      }
-    },
-    "26:10": {
-      "lineID:3": 26,
-      "order:3": 26,
-      "properties:10": {
-        "betterquesting:10": {
-          "name:8": "Cap. 27 · Maestro de las dimensiones",
-          "desc:8": "§6Maestro de las dimensiones§r\n\nPisá todas las dimensiones del servidor: Nether, End, Betweenlands, Trópicos, las 5 elementales, Hunting Dimension, Cavern y Pontus, y además las 7 cavernas.\n\nEs un capítulo para coleccionistas: se va completando solo mientras jugás los demás.",
+          "name:8": "§b[Exploración]§r Maestro de las dimensiones",
+          "desc:8": "§bExploración§r · Dificultad: §6★★★★★§8§r\n\n§6Maestro de las dimensiones§r\n\nPisá todas las dimensiones del servidor: Nether, End, Betweenlands, Trópicos, las 5 elementales, Hunting Dimension, Cavern y Pontus, y además las 7 cavernas.\n\nEs un capítulo para coleccionistas: se va completando solo mientras jugás los demás.",
           "icon:10": {
             "id:8": "minecraft:ender_eye",
             "Count:3": 1,
@@ -12977,13 +13102,13 @@
         }
       }
     },
-    "27:10": {
-      "lineID:3": 27,
-      "order:3": 27,
+    "30:10": {
+      "lineID:3": 30,
+      "order:3": 30,
       "properties:10": {
         "betterquesting:10": {
-          "name:8": "Cap. 28 · Coleccionista",
-          "desc:8": "§6Coleccionista§r\n\nLogros difíciles de los mods grandes: anillos de la Betweenlands, el maestro de los hongos, el libro de herboristería completo y las herramientas compuestas de Cavern.\n\nNo apurarse: son metas largas.",
+          "name:8": "§7[Logros]§r Coleccionista",
+          "desc:8": "§7Logros§r · Dificultad: §6★★★★§8★§r\n\n§6Coleccionista§r\n\nLogros difíciles de los mods grandes: anillos de la Betweenlands, el maestro de los hongos, el libro de herboristería completo y las herramientas compuestas de Cavern.\n\nNo apurarse: son metas largas.",
           "icon:10": {
             "id:8": "minecraft:chest",
             "Count:3": 1,
@@ -13020,97 +13145,6 @@
         "3:10": {
           "id:3": 2403,
           "x:3": 96,
-          "y:3": 0,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        }
-      }
-    },
-    "28:10": {
-      "lineID:3": 28,
-      "order:3": 28,
-      "properties:10": {
-        "betterquesting:10": {
-          "name:8": "Cap. 29 · Vida en la aldea",
-          "desc:8": "§6Vida en la aldea§r · MCA (Minecraft Comes Alive)\n\nLos aldeanos dejan de ser muñecos: hablan, trabajan, tienen familia y te podés casar.\n\nHablales seguido para subir la amistad: con amistad alta aceptan pedidos y, con un anillo, casamiento.\n\nIdeal para jugar tranquilo entre expediciones.",
-          "icon:10": {
-            "id:8": "mca:engagement_ring",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "visibility:8": "NORMAL",
-          "bg_image:8": "",
-          "bg_size:3": 256
-        }
-      },
-      "quests:9": {
-        "0:10": {
-          "id:3": 2502,
-          "x:3": 0,
-          "y:3": 0,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        }
-      }
-    },
-    "29:10": {
-      "lineID:3": 29,
-      "order:3": 29,
-      "properties:10": {
-        "betterquesting:10": {
-          "name:8": "Cap. 30 · Desafíos legendarios",
-          "desc:8": "§6Desafíos legendarios§r\n\nLos combates más difíciles del servidor:\n · La trilogía de jefes finales: §ePrimordial Malevolence§r (Betweenlands), §eFire Boss§r (Elemental Dimensions) y §eChaos Guardian§r (Draconic Evolution).\n · El Wither tres veces.\n\n§cVayan en grupo y con el mejor equipo que tengan.§r",
-          "icon:10": {
-            "id:8": "minecraft:diamond_sword",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "visibility:8": "NORMAL",
-          "bg_image:8": "",
-          "bg_size:3": 256
-        }
-      },
-      "quests:9": {
-        "0:10": {
-          "id:3": 2600,
-          "x:3": 0,
-          "y:3": 0,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        },
-        "1:10": {
-          "id:3": 2601,
-          "x:3": 48,
-          "y:3": 0,
-          "sizeX:3": 24,
-          "sizeY:3": 24
-        }
-      }
-    },
-    "30:10": {
-      "lineID:3": 30,
-      "order:3": 30,
-      "properties:10": {
-        "betterquesting:10": {
-          "name:8": "Cap. 31 · La última expedición",
-          "desc:8": "§6La última expedición§r\n\nEl cierre del libro: recorriste todas las dimensiones y venciste a los jefes finales.\n\nEs opcional y no bloquea nada. Como premio te llevás el título de §6Leyenda de ArreMods§r.",
-          "icon:10": {
-            "id:8": "minecraft:dragon_egg",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "visibility:8": "NORMAL",
-          "bg_image:8": "",
-          "bg_size:3": 256
-        }
-      },
-      "quests:9": {
-        "0:10": {
-          "id:3": 2700,
-          "x:3": 0,
           "y:3": 0,
           "sizeX:3": 24,
           "sizeY:3": 24

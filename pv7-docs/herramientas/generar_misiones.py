@@ -8,7 +8,7 @@ Fuentes: pv7-docs/01..05 y datos leídos de los JAR, configs y world/level.dat (
 Los datos del libro se verificaron en los JAR y configs del servidor (ver pv7-docs/07_libro_de_misiones_v3.md).
 La v1 (solo capítulos 1-5, sin compactar) está en generar_misiones_v1.py.
 """
-import json, sys
+import json, re, sys
 
 WILD = 32767  # comodín de variante
 
@@ -125,12 +125,14 @@ DESCRIPCIONES = {
    "§7Los biomas de Tropicraft y Betweenlands no están en el mundo normal: tienen su propia dimensión.§r",
 5: "§6Tu primera base.§r Reclamá el terreno, ordená tus cosas y empezá a cultivar.\n\n"
    "§eMods de este capítulo:§r\n"
-   " · §6FTB Utilities§r: reclamo de chunks (nadie puede romper tu base) y §e/sethome§r / §e/home§r.\n"
+   " · §6FTB Utilities§r: reclamo de chunks con §e/chunks claim§r (nadie puede romper tu base) y §e/sethome§r / §e/home§r.\n"
    " · §6Backpacks§r, §6Iron Backpacks§r y las bolsas del §6Camping Mod§r: más espacio para llevar.\n"
    " · §6Storage Drawers§r: cajones que guardan muchísimo de un solo objeto; con el controlador se unen todos.\n"
    " · §6Chest Transporter§r: levanta un cofre lleno para mudarlo.\n"
    " · §6Water Strainer§r: filtra agua y junta palos, arcilla, arena y grava.\n\n"
-   "Al terminar este capítulo, elegís tu rama: dimensiones, magia y tecnología, o combate.",
+   "Al terminar este capítulo elegís tu rama. En la lista de capítulos cada uno tiene su rama entre corchetes "
+   "(§fHistoria§r, §eEquipo§r, §6Recursos§r, §9Tecnología§r, §dMagia§r, §cCombate§r, §bExploración§r, §7Logros§r) "
+   "y dentro de cada rama van de más fácil a más difícil.",
 6: "§6The Betweenlands§r · dimensión 20\n\n"
    "Un pantano oscuro, enorme y con reglas propias. Es uno de los mods más grandes del servidor.\n\n"
    "§eCómo se entra:§r matá §eDruidas Oscuros§r en los altares druídicos de los pantanos del Overworld para juntar "
@@ -286,6 +288,33 @@ def chapter(name, desc, icon):
     num = int(name.split("Cap. ")[1].split(" ")[0])
     LINES.append((name, DESCRIPCIONES.get(num, desc), icon)); _line[0] = len(LINES) - 1
 
+# ---- ramas -------------------------------------------------------------------
+# La lista de capítulos se ordena por rama (en orden de avance) y, dentro de cada rama,
+# de más fácil a más difícil. BetterQuesting 3.5 no tiene carpetas: la rama va como prefijo del nombre.
+COLOR = {"Inicio": "§a", "Historia": "§f", "Equipo": "§e", "Recursos": "§6", "Tecnología": "§9",
+         "Magia": "§d", "Combate": "§c", "Exploración": "§b", "Logros": "§7"}
+# (número de capítulo original, rama, estrellas de dificultad 1-5), en el orden en que se muestran
+ORDEN = [
+    (1, "Inicio", 1),
+    (2, "Historia", 1), (3, "Historia", 1), (4, "Historia", 1), (5, "Historia", 1), (25, "Historia", 4), (31, "Historia", 5),
+    (19, "Equipo", 2), (15, "Equipo", 2),
+    (14, "Recursos", 1), (29, "Recursos", 1), (18, "Recursos", 3),
+    (16, "Tecnología", 2), (17, "Tecnología", 3), (12, "Tecnología", 4), (26, "Tecnología", 5),
+    (22, "Magia", 2), (11, "Magia", 3), (13, "Magia", 3),
+    (24, "Combate", 1), (20, "Combate", 2), (23, "Combate", 2), (21, "Combate", 3), (30, "Combate", 5),
+    (7, "Exploración", 2), (10, "Exploración", 2), (9, "Exploración", 3), (6, "Exploración", 3),
+    (8, "Exploración", 4), (27, "Exploración", 5),
+    (28, "Logros", 4),
+]
+
+def titulo(num):
+    return LINES[num - 1][0].split("· ", 1)[1]
+
+def ref_cap(m):
+    num = int(m.group(1))
+    rama = [r for c, r, e in ORDEN if c == num][0]
+    return "%s › %s" % (rama, titulo(num))
+
 def quest(qid, x, y, name, desc, icon, tasks, rewards=(), prereq=(), logic="AND", main=False):
     QUESTS.append((qid, _line[0], x, y, dict(name=name, desc=desc, icon=icon, tasks=list(tasks),
                    rewards=expandir_premios(rewards), prereq=list(prereq), task_logic=logic, main=main)))
@@ -315,7 +344,7 @@ quest(0, 0, 0, "Tu libro de aventuras",
       "§e5.§r Pelear contra otro jugador solo si los dos están de acuerdo.\n"
       "§e6.§r Nada de hacks, x-ray ni programas para sacar ventaja.\n"
       "§e7.§r Si una granja o una máquina hace lagear el servidor, se apaga o se achica.\n"
-      "§e8.§r Reclamá los chunks de tu base en el mapa de FTB Utilities: así nadie la puede romper sin querer. "
+      "§e8.§r Reclamá los chunks de tu base con §e/team create <nombre>§r y después §e/chunks claim§r (cap. 5): así nadie la puede romper sin querer. "
       "Si vas a construir cerca de otro, avisale antes.",
       item("questbook:itemquestbook"), [t_check()], [r_xp(1)], main=True)
 quest(2, 48, 0, "Este mundo no es vanilla",
@@ -344,7 +373,7 @@ quest(12, 48, -24, "Descansar (Camping Mod y Nightmares)",
       " · §6Saco:§r navaja arriba + 3 lanas.  §6Tienda:§r 5 lonas + 2 estacas.\n"
       " · Lona = cáñamo + navaja · Estaca = palo de hierro + navaja · Palo de hierro = 2 hierro en vertical.\n\n"
       "§cOjo:§r al dormir hay un §c5 %§r de chance de pesadilla. Dormí con equipo y vida llena." + V,
-      item("camping:sleeping_bag"), any_craft([item("camping:tent", 1, WILD), item("camping:sleeping_bag", 1, WILD)]),
+      item("camping:sleeping_bag"), any_craft([item("camping:tent", 1, 15), item("camping:sleeping_bag", 1, 0)]),
       [r_xp(3)], prereq=[10], logic="OR")
 quest(13, 48, 24, "La fogata",
       "§6Camp Fire:§r 1 tronco arriba, 3 en el medio y 3 palos abajo (se apaga en ~6 min).\n"
@@ -406,7 +435,7 @@ quest(32, 96, 0, "Cruzar rápido: puentes y portales",
 
 chapter("Cap. 5 · Tu primer asentamiento", "Territorio, mochilas, almacén y cultivos.", item("storagedrawers:basicdrawers"))
 quest(40, 0, 0, "Reclamá tu terreno",
-      "Con FTBUtilities reclamá al menos un chunk (mapa de reclamos, botón de FTB en el inventario). "
+      "Creá tu equipo con §e/team create <nombre>§r y reclamá al menos un chunk con §e/chunks claim§r. "
       "Usá §e/sethome§r y §e/home§r para volver a tu base.\n\n§7Los límites por jugador los fija el administrador.§r",
       item("minecraft:iron_door"), [t_check()], [], prereq=[0], main=True)
 quest(42, 48, -24, "Tu primera mochila",
@@ -414,7 +443,7 @@ quest(42, 48, -24, "Tu primera mochila",
       " · §6Iron Backpacks:§r 4 lanas + 4 cueros + cofre al centro.\n · §6Camping Mod:§r bolsa = 1 hilo + 5 cueros." + V,
       item("backpacks16840:backpack", dmg=3),
       any_craft([item("backpacks16840:backpack", 1, WILD), item("backpacks16840:backpack_pouch", 1, WILD),
-                 item("ironbackpacks:backpack", 1, WILD), item("camping:bag", 1, WILD)]),
+                 item("ironbackpacks:backpack", 1, WILD), item("camping:bag", 1, 0), item("camping:bag", 1, 1), item("camping:bag", 1, 2)]),
       [r_xp(3)], prereq=[40], logic="OR")
 quest(43, 48, 24, "Almacén ordenado",
       "§6Cajón 1×1 (Storage Drawers):§r 3 tablones arriba, cofre al centro, 3 tablones abajo. "
@@ -431,8 +460,8 @@ quest(45, 96, 24, "Tu primer cultivo",
                item("rustic:tomato"), item("rustic:chili_pepper")]),
       [r_xp(2)], prereq=[40], logic="OR")
 quest(47, 96, -24, "Elegí tu próxima rama",
-      "Tenés base, almacén y territorio. Desde acá todo está abierto: dimensiones (cap. 6-10), magia y tecnología "
-      "(cap. 11-19) y combate (cap. 20-25). Elegí.",
+      "Tenés base, almacén y territorio. Desde acá todo está abierto: elegí una rama "
+      "(Equipo, Recursos, Tecnología, Magia, Combate o Exploración).",
       item("minecraft:nether_star"), [t_check()],
       [r_xp(5), r_title("Aventurero de ArreMods", ["Completaste el Bloque I", "de la guía de aventuras."])],
       prereq=[40, 42, 43], main=True)
@@ -1012,17 +1041,29 @@ TEXTOS = {
     "y seguí la flecha. Cuando llegues, hacé un waypoint en JourneyMap y marcá la casilla.\n\n"
     "En el camino anotá en el mapa lo que veas: §ecuevas§r con minerales, §ealdeas§r para comerciar, "
     "§etemplos y estructuras§r con cofres. Muchas estructuras de mods también tienen botín.\n\n"
-    "§7Los biomas de Tropicraft y Betweenlands no están en el Overworld: viven en sus propias dimensiones (cap. 6 y 7).§r",
-40: "Para que nadie rompa tu base sin querer, §ereclamá los chunks§r donde está:\n"
-    " · Abrí el inventario y tocá el botón de §eFTB Utilities§r (arriba a la izquierda) → §eClaimed Chunks§r.\n"
-    " · En el mapa, hacé §eclic izquierdo§r sobre los cuadrados para reclamarlos (clic derecho los libera).\n\n"
+    "§7Los biomas de Tropicraft y Betweenlands no están en el Overworld: viven en sus propias dimensiones (rama §bExploración§r).§r",
+40: "Para que nadie rompa tu base sin querer, §ereclamá los chunks§r donde está. Se hace con comandos en el chat:\n\n"
+    "§e1.§r Creá tu equipo (una sola vez): §e/team create <nombre>§r\n"
+    "    §7Sin equipo no se puede reclamar: sale \"Can't modify this chunk!\".§r\n"
+    "§e2.§r Parate en tu base y escribí §e/chunks claim§r. Reclama el chunk donde estás (16×16 bloques).\n"
+    "§e3.§r Apretá §eF3 + G§r para ver los bordes de los chunks. Caminá y repetí §e/chunks claim§r en cada uno.\n\n"
+    "Otros comandos:\n"
+    " · §e/chunks unclaim§r libera el chunk donde estás.\n"
+    " · §e/chunks info§r dice de quién es el chunk.\n"
+    " · §e/team join <nombre>§r suma a un amigo a tu equipo.\n\n"
     "Además: §e/sethome§r guarda tu casa y §e/home§r te lleva de vuelta desde cualquier lado. Útil cuando te perdés o se hace de noche.\n\n"
     "§7La cantidad de chunks que podés reclamar la fija el administrador.§r",
 47: "Ya tenés base, almacén y territorio. Desde acá el libro se abre y podés seguir por donde quieras:\n"
-    " · §6Dimensiones§r (cap. 6 a 10): pantanos, trópicos, cinco mundos elementales, caza y cavernas.\n"
-    " · §6Magia y tecnología§r (cap. 11 a 19): estrellas, dragones, almas y alquimia.\n"
-    " · §6Combate§r (cap. 20 a 25): monstruos de la noche, depredadores, hombres lobo y jefes.\n\n"
-    "§eConsejo:§r si es tu primera vez con mods, empezá por §eCavern§r (cap. 10) o §eTropicraft§r (cap. 7): son los más fáciles.",
+    " · §fHistoria§r: el camino principal, de la madera a los jefes del Nether y del End.\n"
+    " · §eEquipo§r: hornos mejores, almacén ender y herramientas armadas pieza por pieza.\n"
+    " · §6Recursos§r: cultivos, alquimia, aldeas y semillas de minerales.\n"
+    " · §9Tecnología§r: máquinas, almacenamiento digital y dragones.\n"
+    " · §dMagia§r: licantropía, estrellas y almas.\n"
+    " · §cCombate§r: defensas, monstruos de la noche, depredadores y jefes.\n"
+    " · §bExploración§r: trópicos, cavernas, caza, pantanos y cinco mundos elementales.\n"
+    " · §7Logros§r: para coleccionistas.\n\n"
+    "Las ramas están en orden de avance y cada una va de más fácil a más difícil (las estrellas de la descripción lo marcan).\n"
+    "§eConsejo:§r antes de viajar a otra dimensión, armate en §eEquipo§r y §9Tecnología§r. La más fácil para empezar es §eTropicraft§r.",
 
 # --- Cap. 6 · The Betweenlands ---
 600: "La Betweenlands se abre con el §eTalismán del Pantano§r. Cómo conseguirlo:\n"
@@ -1556,7 +1597,7 @@ ICONOS = {
 def build():
     qdb = {}
     for n, (qid, line, x, y, q) in enumerate(QUESTS):
-        desc = TEXTOS.get(qid, q["desc"])
+        desc = re.sub(r"cap\. (\d+)", ref_cap, TEXTOS.get(qid, q["desc"]))
         icon = item(ICONOS[qid][0], 1, ICONOS[qid][1]) if qid in ICONOS else q["icon"]
         props = {"name:8": q["name"], "desc:8": desc, "icon:10": icon,
                  "isMain:1": 1 if q["main"] else 0, "taskLogic:8": q["task_logic"], "questLogic:8": "AND",
@@ -1567,11 +1608,17 @@ def build():
         qdb["%d:10" % n] = {"questID:3": qid, "preRequisites:11": q["prereq"],
                             "properties:10": {"betterquesting:10": props}, "tasks:9": tasks, "rewards:9": rewards}
     qlines = {}
-    for li, (name, desc, icon) in enumerate(LINES):
+    assert sorted(c for c, r, e in ORDEN) == list(range(1, len(LINES) + 1)), "ORDEN incompleto"
+    for orden, (num, rama, estrellas) in enumerate(ORDEN):
+        li = num - 1
+        _, desc, icon = LINES[li]
+        name = "%s[%s]§r %s" % (COLOR[rama], rama, titulo(num))
+        desc = ("%s%s§r · Dificultad: §6%s§8%s§r\n\n" % (COLOR[rama], rama, "★" * estrellas, "★" * (5 - estrellas))
+                + re.sub(r"cap\. (\d+)", ref_cap, desc))
         entries = {}
         for k, (qid, line, x, y, q) in enumerate([e for e in QUESTS if e[1] == li]):
             entries["%d:10" % k] = {"id:3": qid, "x:3": x, "y:3": y, "sizeX:3": 24, "sizeY:3": 24}
-        qlines["%d:10" % li] = {"lineID:3": li, "order:3": li,
+        qlines["%d:10" % orden] = {"lineID:3": orden, "order:3": orden,
                                 "properties:10": {"betterquesting:10": {"name:8": name, "desc:8": desc, "icon:10": icon,
                                                                          "visibility:8": "NORMAL", "bg_image:8": "", "bg_size:3": 256}},
                                 "quests:9": entries}
